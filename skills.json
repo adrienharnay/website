@@ -1,0 +1,170 @@
+[
+  {
+    "short": ["Semantic HTML", "Accessibility"],
+    "long": {
+      "title": "HTML",
+      "text": "I know semantic HTML, and always leverage native features so that your website works flawlessly on all supported browsers. Accessibility is always one of my top priorities."
+    }
+  },
+  {
+    "short": ["CSS / SCSS / CSS-in-JS", "Flexbox"],
+    "long": {
+      "title": "CSS",
+      "text": "CSS is a strong tool, and if you know how to use it right your end users will greatly appreciate the apps you're building. Maintainability is also a concern, that's why I strive to write the most maintainable CSS code so that future iterations won't be a nightmare."
+    }
+  },
+  {
+    "short": ["JavaScript", "TypeScript"],
+    "long": {
+      "title": "JavaScript & TypeScript",
+      "text": "I know JavaScript like the back of my hand and am very proficient with it. Today, I mostly use TypeScript as I think it delivers more value in terms of code maintenance and ratio of bugs. I have migrated large codebases from JavaScript to TypeScript, and can also focus on critical parts of a codebase so you get the more bang for your buck."
+    }
+  },
+  {
+    "short": ["Web performance", "SEO"],
+    "long": {
+      "title": "Web performance & SEO",
+      "text": "I have led projects focused on Web performance and SEO, and have a lot of experience on the matter. If your apps suffer from a performance problem, I can audit them and implement solutions to improve Time To Interactive and help you set up a performance budget that will track the performance of your apps over time. I am also be able to fix the most common SEO problems and give you tips on your SEO strategy."
+    }
+  },
+  {
+    "short": ["React"],
+    "long": {
+      "title": "React",
+      "text": "I have shipped several React apps to production, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, Gatsby, create-react-app), and different use cases (authentication, routing, forms, ...)."
+    }
+  },
+  {
+    "short": ["React Native"],
+    "long": {
+      "title": "React Native",
+      "text": "I have shipped several React Native apps to the stores, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, expo), and different use cases (authentication, routing, forms, ...)."
+    }
+  },
+  {
+    "short": ["Redux", "Apollo GraphQL"],
+    "long": {
+      "title": "Network & state management",
+      "text": "I have consumed a lot of different REST APIs throughout the years, and have built apps with Redux as a state management solution. I have also worked with Apollo and GraphQL for over a year, at first by writing a Gateway over a REST API, then by consuming a native GraphQL API. I am quite familiar with the internals of the Apollo codebase."
+    }
+  },
+  {
+    "short": ["Design systems"],
+    "long": {
+      "title": "Design systems",
+      "text": "Design systems are in my opinion one of the tools that bring the more value to an organization. I have been in charge of a design system for over a year, and can help you implement one in your organization. Whether you're working with React and need to support different browsers, or React Native and need to support different OS versions, I can implement a design system that will run on all platforms and your productivity will increase tenfold."
+    }
+  },
+  {
+    "short": ["Components libraries"],
+    "long": {
+      "title": "Component libraries",
+      "text": "Documenting components is important when you need several developers or several teams to know how a set of components are working. I have worked with tools such as Storybook and Playroom, and can implement a component library for your teams."
+    }
+  },
+  {
+    "short": ["CMS"],
+    "long": {
+      "title": "CMS",
+      "text": "I have been in charge of implementing several CMS for blogs and public websites, using SaaS or open source solutions (Strapi, Contentful, ...)."
+    }
+  },
+  {
+    "short": ["Server side rendering"],
+    "long": {
+      "title": "Server side rendering (SSR)",
+      "text": "I have implemented several custom server side rendering solutions, and also know how to work with tools such as Next & Gatsby."
+    }
+  },
+  {
+    "short": ["State machines"],
+    "long": {
+      "title": "State machines",
+      "text": "When working on complex or critical workflows, state machines can add extra safety by forbidding impossible states. I have worked with state machines several times, using tools such as xstate."
+    }
+  },
+  {
+    "short": ["Internationalization"],
+    "long": {
+      "title": "Internationalization (i18n)",
+      "text": "It is quite common to need an app to be available in different countries or languages. I know how to manage an app available in different languages, how to setup a translation service, and how to make sure you app will work in all the countries and timezones you target."
+    }
+  },
+  {
+    "short": ["A/B testing / Feature-flagging"],
+    "long": {
+      "title": "A/B testing & feature-flagging",
+      "text": "A/B testing can help you improve your product based on the decisions of your user. Feature-flagging allows you to provide some features only to the users that will really need them. I know how to implement both solutions, and how to make them fit in the architecture of your apps."
+    }
+  },
+  {
+    "short": ["Analytics"],
+    "long": {
+      "title": "Analytics",
+      "text": "I have implements analytics services such as Google Analytics, Facebook Pixel, Amplitude, and Google Tag Manager in several apps, and can quickly set you up on the solution you need."
+    }
+  },
+  {
+    "short": ["Bug tracking"],
+    "long": {
+      "title": "Bug tracking",
+      "text": "A strong bug-tracking pipeline can be the difference between releasing one a week and several times a day. I can set up this kind of pipeline in your organization and give you the confidence you need to iterate even faster."
+    }
+  },
+  {
+    "short": ["Generated documentation"],
+    "long": {
+      "title": "Generated documentation",
+      "text": "There will never be enough documentation, but few people like to write it. I know how to set up a generated documentation system so that your documentation can live right beside your code, and make it all accessible via a neat website."
+    }
+  },
+  {
+    "short": ["Package managers (yarn / npm)", "Monorepositories"],
+    "long": {
+      "title": "Monorepositories",
+      "text": "Monorepositories are all the rage right now, but they can cause nasty bugs if you don't know how to set them up properly. I have encountered countless bugs because of monorepositories, but keep using them extensively because once you know how to set them up properly they're a huge win."
+    }
+  },
+  {
+    "short": ["Webpack / Rollup / Parcel", "Babel"],
+    "long": {
+      "title": "Bundling",
+      "text": "I use Webpack to bundle most of my apps, and Webpack configs don't scare me one bit. I know how to set up parallel builds, different builds for your server, your client, and new browsers, how to write plugins and loaders that will fit your use cases, or how to optimize your build so that it becomes much faster."
+    }
+  },
+  {
+    "short": ["Eslint / Stylelint", "Prettier"],
+    "long": {
+      "title": "Linting",
+      "text": "A strong linting system can help avoid many bugs, and I have helped set up many. I can help your team gain confidence, or stop wasting time during PR reviews because of subjective stylistic choices."
+    }
+  },
+  {
+    "short": ["Jest", "Cypress"],
+    "long": {
+      "title": "Testing",
+      "text": "Tests are a must if you want to deploy on fridays with confidence (or any day, that is). From unit tests to end-to-end tests, I can help you implement a testing strategy that will be as smooth as possible for your dev and/or QA teams, and that will help you be sure critical code paths and user scenarios are always working."
+    }
+  },
+  {
+    "short": ["Docker", "Shell", "CircleCI", "Drone"],
+    "long": {
+      "title": "CI & CD",
+      "text": "I have implemented several pipelines that handle building and deploying the code to your platform of choice. From linting your code to deploying your app to your infrastructure, I ca set up an optimized workflow that will replace your manual deployments."
+    }
+  },
+  {
+    "short": ["AWS", "Netlify"],
+    "long": {
+      "title": "Hosting",
+      "text": "I have practiced hosting apps on several platforms, and I can set things up for your apps too."
+    }
+  },
+  {
+    "short": ["Express", "MongoGB", "Apollo Server", "GraphQL gateways"],
+    "long": {
+      "title": "Back-end",
+      "text": "I also know back-end technologies such as Express, MongoGB, and Apollo Server. I can set up a back-end for your MVP, or build a GraphQL gateway on top of your existing REST services to help you integrate Apollo Client in your front-end apps."
+    }
+  }
+]
