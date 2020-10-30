@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Adrien HARNAY's website",
+  "main": "index.js",
+  "repository": "https://github.com/adrienharnay/website.git",
+  "author": "Adrien HARNAY <adrien@harnay.me>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "prettier": "2.1.2"
+  }
+}
