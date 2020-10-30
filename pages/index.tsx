@@ -1,16 +1,19 @@
 import Head from 'next/head';
 import React, { FunctionComponent } from 'react';
 import Link from 'next/link';
+import MainLayout from '../components/layouts/main-layout/MainLayout';
 
 const HomePage: FunctionComponent = () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Adrien Harnay</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
-      <div>Home</div>
-      <Link href="/skills">To skills</Link>
+      <MainLayout>
+        <div>Home</div>
+        <Link href="/skills">To skills</Link>
+      </MainLayout>
     </>
   );
 };

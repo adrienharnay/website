@@ -1,0 +1,56 @@
+$small: small;
+$medium: medium;
+$big: big;
+$smallAndMedium: smallAndMedium;
+$mediumAndBig: mediumAndBig;
+
+@mixin breakpoint($point) {
+  $_break-small: 320px;
+  $_break-medium: 768px;
+  $_break-big: 1280px;
+
+  // 767px and less
+  @if $point == $small {
+    @media all and (max-width: $_break-medium - 0.5px) {
+      &:not(:root) {
+        @content;
+      }
+    }
+  }
+
+  // Between 768px and 1279px
+  @else if $point == $medium {
+    @media all and (min-width: $_break-medium) and (max-width: $_break-big - 0.5px) {
+      &:not(:root) {
+        @content;
+      }
+    }
+  }
+
+  // 1280px and more
+  @else if $point == $big {
+    @media all and (min-width: $_break-big) {
+      &:not(:root) {
+        @content;
+      }
+    }
+  }
+
+  // 1279px and less
+  @else if $point == $smallAndMedium {
+    @media all and (max-width: $_break-big - 0.5px) {
+      &:not(:root) {
+        @content;
+      }
+    }
+  }
+
+  // 768px and more
+  @else if $point == $mediumAndBig {
+    @media all and (min-width: $_break-medium) {
+      &:not(:root) {
+        @content;
+      }
+    }
+  }
+}
