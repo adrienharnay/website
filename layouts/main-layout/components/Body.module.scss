@@ -1,0 +1,32 @@
+@import 'styles/sizes';
+@import 'styles/breakpoints';
+
+.container {
+  @include breakpoint($small) {
+    padding: 10vw $contentPaddingLeftRight 4vw;
+  }
+
+  @include breakpoint($medium) {
+    padding: 6vw $contentPaddingLeftRight 4vw;
+  }
+
+  @include breakpoint($big) {
+    padding: 6vw 0 4vw;
+  }
+
+  margin: 0 auto;
+  max-width: $contentWidth;
+
+  &.showHeader {
+    @include breakpoint($small) {
+      margin-top: 5vw;
+    }
+
+    @include breakpoint($mediumAndBig) {
+      margin-top: -70px;
+    }
+
+    padding-top: 0;
+    position: relative;
+  }
+}

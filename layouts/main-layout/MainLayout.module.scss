@@ -1,0 +1,11 @@
+@import 'styles/sizes';
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .body {
+    flex: 1;
+  }
+}

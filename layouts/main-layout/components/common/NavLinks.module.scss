@@ -1,0 +1,22 @@
+@import 'styles/colors';
+@import 'styles/texts';
+
+.linkDiv {
+  padding: 10px 0;
+
+  &:not(:first-child) {
+    padding-left: 10px;
+  }
+
+  .link {
+    @include headerFooterFont();
+
+    color: $white;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
