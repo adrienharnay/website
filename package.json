@@ -36,6 +36,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint:ts": "tsc"
+    "lint:ts": "tsc --incremental"
   }
 }

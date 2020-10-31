@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
+import PostCard from '../components/post-card/PostCard';
 
 import MainLayout from '../layouts/main-layout/MainLayout';
-import PostCard from './home/components/PostCard';
 
 import { getSortedPostsData } from '../utils/posts';
 

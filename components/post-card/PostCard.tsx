@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, { FunctionComponent } from 'react';
 
-import { getSortedPostsData } from '../../../utils/posts';
+import { getSortedPostsData } from '../../utils/posts';
 
 import styles from './PostCard.module.scss';
 

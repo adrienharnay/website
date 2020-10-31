@@ -2,13 +2,9 @@
   "compilerOptions": {
     "module": "esnext",
     "moduleResolution": "node",
-    "lib": [
-      "es2019",
-      "dom"
-    ],
+    "lib": ["es2019", "dom"],
     "jsx": "preserve",
     "noEmit": true,
-    "incremental": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -24,12 +20,6 @@
     "target": "es5",
     "isolatedModules": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
