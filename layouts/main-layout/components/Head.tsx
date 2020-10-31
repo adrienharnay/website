@@ -19,7 +19,7 @@ const Head: FunctionComponent = () => (
 
     <link rel="icon" href="/favicon.png" />
 
-    <title>{SHORT_TITLE}</title>
+    <title key="title">{SHORT_TITLE}</title>
     <meta name="author" content={SHORT_TITLE} />
     <meta name="application-name" content={SHORT_TITLE} />
     <meta name="description" content={DESCRIPTION} />
@@ -29,18 +29,26 @@ const Head: FunctionComponent = () => (
     <meta property="og:type" content="website" />
     <meta property="og:url" content={URL} />
     <meta property="og:site_name" content={SHORT_TITLE} />
-    <meta property="og:title" content={SHORT_TITLE} />
-    <meta property="og:description" content={DESCRIPTION} />
-    <meta property="og:image" content={META_BANNER_URL} />
+    <meta property="og:title" content={SHORT_TITLE} key="og:title" />
+    <meta
+      property="og:description"
+      content={DESCRIPTION}
+      key="og:description"
+    />
+    <meta property="og:image" content={META_BANNER_URL} key="og:image" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="650" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="@AdrienHarnay" />
     <meta name="twitter:url" content={URL} />
-    <meta name="twitter:title" content={SHORT_TITLE} />
-    <meta name="twitter:description" content={DESCRIPTION} />
-    <meta name="twitter:image" content={META_BANNER_URL} />
+    <meta name="twitter:title" content={SHORT_TITLE} key="twitter:title" />
+    <meta
+      name="twitter:description"
+      content={DESCRIPTION}
+      key="twitter:description"
+    />
+    <meta name="twitter:image" content={META_BANNER_URL} key="twitter:image" />
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />

@@ -9,9 +9,17 @@ const MetaDescription: FunctionComponent<MetaDescriptionProps> = ({
   description,
 }) => (
   <Head>
-    <meta name="description" content={description} />
-    <meta property="og:description" content={description} />
-    <meta name="twitter:description" content={description} />
+    <meta name="description" content={description} key="description" />
+    <meta
+      property="og:description"
+      content={description}
+      key="og:description"
+    />
+    <meta
+      name="twitter:description"
+      content={description}
+      key="twitter:description"
+    />
   </Head>
 );
 
