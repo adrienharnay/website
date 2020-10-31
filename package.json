@@ -35,7 +35,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/generateSourceMap.js && next export",
+    "build": "next build && node scripts/generateSourceMap.js",
     "start": "next start",
     "modules:clean": "rm -rf node_modules",
     "cache:clean": "rm -rf .next/cache",
