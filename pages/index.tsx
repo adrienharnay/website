@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import React, { FunctionComponent } from 'react';
 
 import MainLayout from '../layouts/main-layout/MainLayout';
@@ -21,16 +20,11 @@ type HomePageProps = {
 
 const HomePage: FunctionComponent<HomePageProps> = ({ posts }) => {
   return (
-    <>
-      <Head>
-        <title>Adrien Harnay</title>
-      </Head>
-      <MainLayout showHeader>
-        {posts.map((post) => (
-          <PostCard key={post.id} post={post} />
-        ))}
-      </MainLayout>
-    </>
+    <MainLayout showHeader>
+      {posts.map((post) => (
+        <PostCard key={post.id} post={post} />
+      ))}
+    </MainLayout>
   );
 };
 

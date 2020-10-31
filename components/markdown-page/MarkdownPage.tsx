@@ -2,11 +2,15 @@ import React, { FunctionComponent } from 'react';
 import Image from 'next/image';
 
 import styles from './MarkdownPage.module.scss';
+import MetaTitle from '../meta/MetaTitle';
+import MetaDescription from '../meta/MetaDescription';
+import MetaImage from '../meta/MetaImage';
 
 type MarkdownPageProps = {
   date?: string;
   cover?: string;
   title: string;
+  excerpt: string;
   html: string;
 };
 
@@ -14,6 +18,7 @@ const MarkdownPage: FunctionComponent<MarkdownPageProps> = ({
   date,
   cover,
   title,
+  excerpt,
   html,
 }) => {
   const Date = date && <time className={styles.date}>{date}</time>;
@@ -25,15 +30,13 @@ const MarkdownPage: FunctionComponent<MarkdownPageProps> = ({
       <Image src={cover} width={1500} height={1000} />
     </div>
   );
-  // const MetaCover = cover && (
-  //   <MetaImage src={cover.childImageSharp.fluid.src} />
-  // );
+  const MetaCover = cover && <MetaImage src={cover} />;
 
   return (
     <div>
-      {/* <MetaTitle title={title} />
-  <MetaDescription description={excerpt} />
-  {MetaCover} */}
+      <MetaTitle title={title} />
+      <MetaDescription description={excerpt} />
+      {MetaCover}
       <header className={styles.header}>
         {Metadata}
         <h1 className={styles.title}>{title}</h1>

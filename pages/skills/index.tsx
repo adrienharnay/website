@@ -5,6 +5,7 @@ import MainLayout from '../../layouts/main-layout/MainLayout';
 const SkillsPage: FunctionComponent = () => {
   return (
     <>
+      {/* SEO */}
       <Head>
         <title>Skills</title>
       </Head>
