@@ -367,5 +367,31 @@
         transform: rotate(45deg);
       }
     }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      &:hover {
+        :global(.icon-link) {
+          visibility: visible;
+        }
+      }
+
+      > a {
+        box-shadow: none !important;
+      }
+    }
+
+    :global(.icon-link) {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin: 0 0 4px -20px;
+      visibility: hidden;
+      background: url('/images/pages/anchor.svg') no-repeat;
+    }
   }
 }
