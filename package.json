@@ -1,13 +1,14 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "Adrien HARNAY's website",
+  "description": "Adrien Harnay's website",
   "repository": "https://github.com/adrienharnay/website.git",
   "author": "Adrien HARNAY <adrien@harnay.me>",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "next": "10.0.0",
+    "normalize.css": "8.0.1",
     "postcss": "8.1.4",
     "prismjs": "1.22.0",
     "react": "17.0.1",
@@ -20,7 +21,6 @@
     "@types/react-dom": "16.9.9",
     "gray-matter": "4.0.2",
     "nextjs-sitemap-generator": "1.1.0",
-    "normalize.css": "8.0.1",
     "postcss-browser-reporter": "0.6.0",
     "postcss-preset-env": "6.7.0",
     "postcss-reporter": "7.0.1",
