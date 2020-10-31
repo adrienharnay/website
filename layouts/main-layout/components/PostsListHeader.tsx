@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import React, { FunctionComponent } from 'react';
 import Image from 'next/image';
 
@@ -43,12 +42,6 @@ const PostsListHeader: FunctionComponent = () => {
       </nav>
     </header>
   );
-};
-
-PostsListHeader.propTypes = {
-  tag: PropTypes.string.isRequired,
-  // eslint-disable-next-line react/forbid-prop-types
-  cover: PropTypes.object.isRequired,
 };
 
 export default PostsListHeader;

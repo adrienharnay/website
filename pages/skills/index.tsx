@@ -7,7 +7,6 @@ const SkillsPage: FunctionComponent = () => {
     <>
       <Head>
         <title>Skills</title>
-        <link rel="icon" href="/favicon.png" />
       </Head>
       <MainLayout>
         <div>Skills</div>

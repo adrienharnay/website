@@ -1,4 +1,24 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.vscode": true,
+    "**/.circleci": true,
+    "**/.drone": true,
+    "**/.terraform": true,
+    "**/.github": true,
+    "**/.cache": true,
+    "**/.next": true,
+    "**/coverage": true,
+    "**/keyrings": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/*.tsbuildinfo": true
+  }
 }
