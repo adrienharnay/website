@@ -1,3 +1,8 @@
+---
+title: 'About me'
+excerpt: 'Hey traveller! My name is Adrien, and this website is where I share my thoughts and progress throughout my journey as a developer.'
+---
+
 Hey traveller!
 
 My name is Adrien, and this website is where I share my thoughts and progress throughout my journey as a developer.

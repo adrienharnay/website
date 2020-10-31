@@ -1,10 +1,9 @@
 import React, { FunctionComponent } from 'react';
-import Head from 'next/head';
 
 import MainLayout from '../../layouts/main-layout/MainLayout';
-import { getAboutData } from '../../utils/about';
+import MarkdownPage from '../../components/markdown-page/MarkdownPage';
 
-import styles from '../[postId]/index.module.scss';
+import { getAboutData } from '../../utils/about';
 
 export const getStaticProps = async () => {
   const about = await getAboutData();
@@ -21,20 +20,9 @@ type AboutPageProps = {
 
 const AboutPage: FunctionComponent<AboutPageProps> = ({ about }) => {
   return (
-    <>
-      <Head>
-        <title>About</title>
-      </Head>
-      <MainLayout>
-        <section className={`${styles.content} ${styles.noImg}`}>
-          <div
-            className={styles.markdownContainer}
-            // eslint-disable-next-line react/no-danger
-            dangerouslySetInnerHTML={{ __html: about.html }}
-          />
-        </section>
-      </MainLayout>
-    </>
+    <MainLayout>
+      <MarkdownPage {...about} />
+    </MainLayout>
   );
 };
 

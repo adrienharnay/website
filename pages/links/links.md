@@ -1,3 +1,8 @@
+---
+title: 'Curated list of links'
+excerpt: 'I have gathered this list of links over the time, and it is made of resources I have found helpful or worth remembering.'
+---
+
 I have gathered this list of links over time, and it is made of resources I have found helpful or worth remembering.
 
 ## Tools
@@ -1083,7 +1088,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)
 - [When programming was no longer fun](https://dev.to/carlhembrough/programming-used-to-be-fun)
 - [Rituals of Shaming in the Software Industry](https://dev.to/pavsaund/rituals-of-shaming-in-the-software-industry)
-- [Office distractions could be costing your company more than $30k per high-performance employee each year](https://hackernoon.com/office-distractions-could-be-costing-your-company-more-than-30k-per-high-performance-employee-each-ba7e4f772d78)
+- [Office distractions could be costing your company more than \$30k per high-performance employee each year](https://hackernoon.com/office-distractions-could-be-costing-your-company-more-than-30k-per-high-performance-employee-each-ba7e4f772d78)
 - [The obligation of a software developer](https://dev.to/steliosvoskos/the-obligation-of-a-software-developer)
 - [How I Became a Better Programmer](http://jlongster.com/How-I-Became-Better-Programmer)
 - [What Makes A Senior Software Engineer](https://dev.to/klnusbaum/what-makes-a-senior-software-engineer)
@@ -1093,7 +1098,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Why Being Too Polite in Web Design Is a Bad Thing](http://ianfrostweather.com/web/why-being-too-polite-in-web-design-is-a-bad-thing/)
 - [Cheat to Win: Learn React with Copywork](https://daveceddia.com/learn-react-with-copywork/)
 - [AHA Programming](https://kentcdodds.com/blog/aha-programming)
-- [ooooops I guess we’re* full-stack developers now](https://full-stack.netlify.com/)
+- [ooooops I guess we’re\* full-stack developers now](https://full-stack.netlify.com/)
 - [How to get experience as a software engineer](https://kentcdodds.com/blog/how-to-get-experience-as-a-software-engineer)
 
 ### Leadership / Teaching
@@ -1110,7 +1115,7 @@ I have gathered this list of links over time, and it is made of resources I have
 ### Management
 
 - [How do you manage underperforming team members?](https://mobile.twitter.com/jamonholmgren/status/1153435334299885569) - Twitter thread
-- [The CEO of $48 billion Shopify says long hours aren't necessary for success: 'I'm home at 5:30pm every evening'](https://www.businessinsider.fr/us/shopify-ceo-success-long-hours-40-hour-week-2019-12)
+- [The CEO of \$48 billion Shopify says long hours aren't necessary for success: 'I'm home at 5:30pm every evening'](https://www.businessinsider.fr/us/shopify-ceo-success-long-hours-40-hour-week-2019-12)
 
 ### OSS
 

@@ -10,6 +10,11 @@ import slug from 'remark-slug';
 // @ts-expect-error
 import headings from 'remark-autolink-headings';
 
+type AboutMetadata = {
+  title: string;
+  excerpt: string;
+};
+
 export const getAboutData = async () => {
   const fullPath = path.join(process.cwd(), 'pages/about/about.md');
   const fileContents = fs.readFileSync(fullPath, 'utf8');
@@ -26,5 +31,6 @@ export const getAboutData = async () => {
 
   return {
     html: content,
+    ...(matterResult.data as AboutMetadata),
   };
 };

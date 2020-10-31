@@ -1,10 +1,9 @@
 import React, { FunctionComponent } from 'react';
-import Head from 'next/head';
 
 import MainLayout from '../../layouts/main-layout/MainLayout';
-import { getLinksData } from '../../utils/links';
+import MarkdownPage from '../../components/markdown-page/MarkdownPage';
 
-import styles from '../[postId]/index.module.scss';
+import { getLinksData } from '../../utils/links';
 
 export const getStaticProps = async () => {
   const links = await getLinksData();
@@ -21,20 +20,9 @@ type LinksPageProps = {
 
 const LinksPage: FunctionComponent<LinksPageProps> = ({ links }) => {
   return (
-    <>
-      <Head>
-        <title>Links</title>
-      </Head>
-      <MainLayout>
-        <section className={`${styles.content} ${styles.noImg}`}>
-          <div
-            className={styles.markdownContainer}
-            // eslint-disable-next-line react/no-danger
-            dangerouslySetInnerHTML={{ __html: links.html }}
-          />
-        </section>
-      </MainLayout>
-    </>
+    <MainLayout>
+      <MarkdownPage {...links} />
+    </MainLayout>
   );
 };
 
