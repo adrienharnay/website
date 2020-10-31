@@ -2,8 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
 
+import MainLayout from 'layouts/main-layout/MainLayout';
+
 import styles from './index.module.scss';
-import MainLayout from '../../layouts/main-layout/MainLayout';
 
 const NotFoundPage = () => (
   <MainLayout>

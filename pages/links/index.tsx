@@ -1,9 +1,10 @@
 import React, { FunctionComponent } from 'react';
 
-import MainLayout from '../../layouts/main-layout/MainLayout';
-import MarkdownPage from '../../components/markdown-page/MarkdownPage';
+import MainLayout from 'layouts/main-layout/MainLayout';
 
-import { getLinksData } from '../../utils/links';
+import MarkdownPage from 'components/markdown-page/MarkdownPage';
+
+import { getLinksData } from 'utils/links';
 
 export const getStaticProps = async () => {
   const links = await getLinksData();

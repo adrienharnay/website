@@ -1,10 +1,11 @@
 import React, { FunctionComponent } from 'react';
 import Image from 'next/image';
 
+import MetaTitle from 'components/meta/MetaTitle';
+import MetaDescription from 'components/meta/MetaDescription';
+import MetaImage from 'components/meta/MetaImage';
+
 import styles from './MarkdownPage.module.scss';
-import MetaTitle from '../meta/MetaTitle';
-import MetaDescription from '../meta/MetaDescription';
-import MetaImage from '../meta/MetaImage';
 
 type MarkdownPageProps = {
   date?: string;

@@ -1,9 +1,10 @@
 import React, { FunctionComponent } from 'react';
 
-import MainLayout from '../../layouts/main-layout/MainLayout';
-import MarkdownPage from '../../components/markdown-page/MarkdownPage';
+import MainLayout from 'layouts/main-layout/MainLayout';
 
-import { getAllPostsIds, getPostData } from '../../utils/posts';
+import MarkdownPage from 'components/markdown-page/MarkdownPage';
+
+import { getAllPostsIds, getPostData } from 'utils/posts';
 
 export const getStaticPaths = async () => {
   const paths = getAllPostsIds();
