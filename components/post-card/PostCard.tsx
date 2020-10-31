@@ -15,7 +15,12 @@ const PostCard: FunctionComponent<PostCardProps> = ({ post }) => (
     <Link href={post.id}>
       <a className={styles.linkContainer}>
         <div className={styles.imgBlock}>
-          <Image src={post.cover} width={1500} height={1000} />
+          <Image
+            src={post.cover}
+            width={1500}
+            height={1000}
+            alt={post.cover.split('/').slice(-1)[0].split('.')[0]}
+          />
         </div>
         <div className={styles.contentBlock}>
           <h2 className={styles.title}>{post.title}</h2>

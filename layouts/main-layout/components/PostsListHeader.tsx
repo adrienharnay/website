@@ -23,7 +23,7 @@ const PostsListHeader: FunctionComponent = () => {
           height={1779}
           className={styles.cover}
           priority
-          alt="cover"
+          alt="sky full of stars"
           // TODO: Fix the image proportions when this PR will have landed:
           // https://github.com/vercel/next.js/pull/18562
           unoptimized

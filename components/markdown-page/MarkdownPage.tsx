@@ -27,7 +27,12 @@ const MarkdownPage: FunctionComponent<MarkdownPageProps> = ({
   );
   const Cover = cover && (
     <div className={styles.coverContainer}>
-      <Image src={cover} width={1500} height={1000} />
+      <Image
+        src={cover}
+        width={1500}
+        height={1000}
+        alt={cover.split('/').slice(-1)[0].split('.')[0]}
+      />
     </div>
   );
   const MetaCover = cover && <MetaImage src={cover} />;
