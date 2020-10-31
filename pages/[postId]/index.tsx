@@ -8,7 +8,6 @@ import styles from './index.module.scss';
 
 export const getStaticPaths = async () => {
   const paths = getAllPostsIds();
-  console.log(paths);
 
   return {
     paths: paths.map((path) => ({
