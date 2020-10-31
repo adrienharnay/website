@@ -1,0 +1,11 @@
+.container {
+  text-align: center;
+
+  .imgContainer {
+    margin-bottom: 32px;
+
+    > * {
+      margin: 0 auto;
+    }
+  }
+}
