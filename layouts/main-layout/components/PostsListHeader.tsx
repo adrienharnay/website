@@ -24,6 +24,9 @@ const PostsListHeader: FunctionComponent = () => {
           className={styles.cover}
           priority
           alt="cover"
+          // TODO: Fix the image proportions when this PR will have landed:
+          // https://github.com/vercel/next.js/pull/18562
+          unoptimized
         />
       </div>
       <div className={styles.content}>

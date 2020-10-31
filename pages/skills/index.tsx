@@ -10,7 +10,7 @@ const SkillsPage: FunctionComponent = () => {
         <title>Skills</title>
       </Head>
       <MainLayout>
-        <div>Skills</div>
+        <div>WIP</div>
       </MainLayout>
     </>
   );
