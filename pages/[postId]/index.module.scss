@@ -319,6 +319,11 @@
       }
     }
 
+    :global(.remark-highlight) {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+
     code {
       padding: 0 5px 2px;
       font-size: 0.8em;
@@ -331,14 +336,11 @@
     pre {
       max-width: 100%;
       overflow-x: auto;
-      margin: 1.5em 0 3em;
-      padding: 20px;
       border: darken($darkgrey, 10%) 1px solid;
-      color: $whitegrey;
       font-size: 1.4rem;
       line-height: 1.5em;
       background: darken($darkgrey, 3%);
-      border-radius: 5px;
+      margin: 0 !important;
     }
 
     pre code {
