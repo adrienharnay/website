@@ -1,0 +1,369 @@
+@import 'styles/colors';
+@import 'styles/texts';
+@import 'styles/breakpoints';
+
+.header {
+  text-align: center;
+  margin: 0 5vw 3vw;
+
+  .metadata {
+    @include breakpoint($small) {
+      font-size: 1.2rem;
+      line-height: 1.3em;
+    }
+
+    @include breakpoint($mediumAndBig) {
+      font-size: 1.4rem;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $midgrey;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    .date {
+      color: $blue;
+    }
+
+    .separator {
+      margin: 0 6px 1px;
+    }
+  }
+
+  .title {
+    @include breakpoint($small) {
+      font-size: 2.9rem;
+    }
+
+    margin: 0;
+    color: darken($darkgrey, 5%);
+  }
+}
+
+.coverContainer {
+  @include breakpoint($small) {
+    height: 350px;
+    margin: 0 -4vw 4vw;
+
+    > * > * > * {
+      border-radius: 0;
+    }
+  }
+
+  @include breakpoint($medium) {
+    height: 500px;
+    margin: 0 -4vw -100px;
+
+    > * > * > * {
+      border-radius: 0;
+    }
+  }
+
+  @include breakpoint($big) {
+    height: 800px;
+    margin: 0 -10vw -165px;
+
+    > * > * > * {
+      border-radius: 5px;
+    }
+  }
+
+  > * > * > * {
+    background: $lightgrey center center;
+    background-size: cover;
+  }
+}
+
+.content {
+  @include breakpoint($small) {
+    padding: 0 7vw;
+  }
+
+  @include breakpoint($medium) {
+    padding: 5vw 7vw 0;
+  }
+
+  @include breakpoint($big) {
+    padding: 70px 100px 0;
+  }
+
+  position: relative;
+  min-height: 230px;
+  margin: 0 auto;
+  background: $white;
+
+  &.noImg {
+    padding-top: 0;
+  }
+
+  &:not(.noImg) {
+    @include breakpoint($mediumAndBig) {
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        top: 15px;
+        z-index: -1;
+        display: block;
+        width: 20px;
+        height: 200px;
+        background: rgba(39, 44, 49, 0.15);
+        filter: blur(5px);
+      }
+
+      &::before {
+        left: -5px;
+        transform: rotate(-5deg);
+      }
+
+      &::after {
+        right: -5px;
+        transform: rotate(5deg);
+      }
+    }
+
+    .markdownContainer {
+      & > p:first-child {
+        font-size: 1.25em;
+        line-height: 1.5em;
+      }
+    }
+  }
+
+  .markdownContainer {
+    @include breakpoint($small) {
+      font-size: 1.8rem;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 2.6rem;
+      }
+
+      h3 {
+        font-size: 2.3rem;
+      }
+
+      h4 {
+        font-size: 2rem;
+      }
+    }
+
+    @include breakpoint($mediumAndBig) {
+      font-size: 2rem;
+
+      h1 {
+        font-size: 4rem;
+      }
+
+      h2 {
+        font-size: 3.6rem;
+      }
+
+      h3 {
+        font-size: 2.8rem;
+      }
+
+      h4 {
+        font-size: 2.3rem;
+      }
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 920px;
+    font-family: $readingFont;
+    line-height: 1.5em;
+    word-break: break-word;
+
+    :global(.gatsby-highlight) {
+      width: 100%;
+      margin-bottom: 1em;
+
+      & + p > a:only-child[href^='https://github.com/']
+      {
+        display: block;
+        width: fit-content;
+        margin: -1em auto 0;
+        text-align: center;
+        font-size: 80%;
+      }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: -0.5em 0 0.5em 0;
+      padding-top: 0.5em;
+      font-weight: 700;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: $titleFont;
+      color: darken($darkgrey, 5%);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    ol,
+    dl,
+    blockquote {
+      min-width: 100%;
+    }
+
+    blockquote,
+    dl,
+    ol,
+    p,
+    ul {
+      margin: 0 0 1em;
+    }
+
+    li {
+      word-break: break-word;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    a {
+      &:not(:global(.anchor)) {
+        color: $black;
+        box-shadow: $blue 0 -1px 0 inset;
+      }
+
+      &:global(.anchor) {
+        path {
+          fill: $blue;
+        }
+      }
+
+      &:hover {
+        color: $blue;
+        text-decoration: none;
+      }
+    }
+
+    strong,
+    em {
+      color: darken($darkgrey, 5%);
+    }
+
+    small {
+      display: inline-block;
+      line-height: 1.6em;
+    }
+
+    li:first-child {
+      margin-top: 0;
+    }
+
+    img,
+    video {
+      @include breakpoint($small) {
+        width: 100%;
+      }
+
+      display: block;
+      max-width: $medium;
+      margin: 1.5em auto;
+    }
+
+    table {
+      font-family: $titleFont;
+    }
+
+    img + br + small {
+      display: block;
+      margin-top: -3em;
+      margin-bottom: 1.5em;
+    }
+
+    iframe {
+      margin: 0 auto;
+    }
+
+    blockquote {
+      margin: 0 0 1.5em;
+      padding: 0 1.5em;
+      border-left: $blue 3px solid;
+
+      p {
+        margin: 0 0 1em 0;
+        color: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-style: italic;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    code {
+      padding: 0 5px 2px;
+      font-size: 0.8em;
+      line-height: 1em;
+      font-weight: 400 !important;
+      background: $whitegrey;
+      border-radius: 3px;
+    }
+
+    pre {
+      max-width: 100%;
+      overflow-x: auto;
+      margin: 1.5em 0 3em;
+      padding: 20px;
+      border: darken($darkgrey, 10%) 1px solid;
+      color: $whitegrey;
+      font-size: 1.4rem;
+      line-height: 1.5em;
+      background: darken($darkgrey, 3%);
+      border-radius: 5px;
+    }
+
+    pre code {
+      padding: 0;
+      font-size: inherit;
+      line-height: inherit;
+      background: transparent;
+    }
+
+    hr {
+      margin: 4vw 0;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        display: block;
+        width: 1px;
+        height: 30px;
+        margin-left: -10px;
+        background: lighten($lightgrey, 10%);
+        box-shadow: $white 0 0 0 5px;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
