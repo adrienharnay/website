@@ -1,0 +1,23 @@
+@import 'src/styles/colors';
+@import 'src/styles/texts';
+
+$imgHeight: 24px;
+
+.socialMediumLink {
+  cursor: pointer;
+  display: inline-block;
+
+  &:not(:first-child) {
+    margin-left: 15px;
+  }
+
+  .icon {
+    @include headerFooterFont();
+
+    color: $white;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

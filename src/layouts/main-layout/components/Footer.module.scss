@@ -1,0 +1,21 @@
+@import 'src/styles/colors';
+@import 'src/styles/texts';
+@import 'src/styles/sizes';
+
+.container {
+  background-color: $themeColor;
+  color: $white;
+  padding: 20px $contentPaddingLeftRight 40px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: $contentWidth;
+    margin: auto;
+
+    .copyright {
+      @include headerFooterFont();
+    }
+  }
+}

@@ -39,7 +39,7 @@
     "start": "next start",
     "modules:clean": "rm -rf node_modules",
     "cache:clean": "rm -rf .next/cache",
-    "build:clean": "rm -rf .next && rm public/sitemap.xml",
+    "build:clean": "rm -rf .next && rm -rf out && rm public/sitemap.xml",
     "lint:ts": "tsc --incremental"
   }
 }
