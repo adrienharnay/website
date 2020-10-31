@@ -6,7 +6,7 @@ const SHORT_TITLE = 'Adrien Harnay';
 const DESCRIPTION =
   'Front-end developer working with React / React Native. Passionate about technology. Drummer.';
 const KEYWORDS =
-  'adrien, harnay, blog, react, native, react-native, ssr, server, side, rendering, graphql, apollo, webpack';
+  'adrien, harnay, blog, website, react, native, react-native, ssr, server, side, rendering, graphql, apollo, webpack';
 const VIEWPORT = 'width=device-width, initial-scale=1';
 const META_BANNER_URL = '/meta-banner.jpg';
 
