@@ -19,6 +19,7 @@
     "@types/react": "16.9.55",
     "@types/react-dom": "16.9.9",
     "gray-matter": "4.0.2",
+    "nextjs-sitemap-generator": "1.1.0",
     "normalize.css": "8.0.1",
     "postcss-browser-reporter": "0.6.0",
     "postcss-preset-env": "6.7.0",
@@ -34,8 +35,11 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/generateSourceMap.js",
     "start": "next start",
+    "modules:clean": "rm -rf node_modules",
+    "cache:clean": "rm -rf .next/cache",
+    "build:clean": "rm -rf .next && rm public/sitemap.xml",
     "lint:ts": "tsc --incremental"
   }
 }
