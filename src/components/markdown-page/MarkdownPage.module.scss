@@ -19,17 +19,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $midgrey;
+    color: $blue;
     font-weight: 600;
     text-transform: uppercase;
-
-    .date {
-      color: $blue;
-    }
-
-    .separator {
-      margin: 0 6px 1px;
-    }
   }
 
   .title {

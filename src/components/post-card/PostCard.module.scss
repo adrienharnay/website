@@ -95,7 +95,23 @@
           font-size: 2.6rem;
         }
 
-        margin: 0 0 0.5em;
+        margin-top: 1.1em;
+      }
+
+      .date {
+        @include breakpoint($small) {
+          font-size: 1.2rem;
+          line-height: 1.3em;
+        }
+
+        @include breakpoint($mediumAndBig) {
+          font-size: 1.4rem;
+        }
+
+        color: $blue;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: -0.5em 0 0.5em;
       }
 
       .excerpt {
