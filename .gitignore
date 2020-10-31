@@ -32,3 +32,6 @@ yarn-error.log*
 tsconfig.tsbuildinfo
 
 public/sitemap.xml
+public/sw.js
+public/sw.js.map
+public/workbox*

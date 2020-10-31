@@ -19,6 +19,7 @@
     "@types/react": "16.9.55",
     "@types/react-dom": "16.9.9",
     "gray-matter": "4.0.2",
+    "next-pwa": "3.1.5",
     "nextjs-sitemap-generator": "1.1.0",
     "normalize.css": "8.0.1",
     "postcss-browser-reporter": "0.6.0",
