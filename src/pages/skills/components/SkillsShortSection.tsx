@@ -33,7 +33,7 @@ const SkillsList: FunctionComponent<SkillsListProps> = ({ skills }) => {
                 <div className={styles.icon}>
                   <Image src={skill.icon} width={26} height={26} />
                 </div>
-                {skill}
+                {skill.name}
               </li>
             ))}
           </a>
