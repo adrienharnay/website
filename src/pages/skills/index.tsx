@@ -3,6 +3,8 @@ import Head from 'next/head';
 
 import MainLayout from 'src/layouts/main-layout/MainLayout';
 
+import BioSection from './components/BioSection';
+
 const SkillsPage: FunctionComponent = () => {
   return (
     <>
@@ -11,7 +13,7 @@ const SkillsPage: FunctionComponent = () => {
         <title>Skills</title>
       </Head>
       <MainLayout>
-        <div>WIP</div>
+        <BioSection />
       </MainLayout>
     </>
   );

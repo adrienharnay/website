@@ -1,0 +1,60 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/breakpoints.scss';
+
+.bioPictureContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+
+  @include breakpoint($small) {
+    flex-direction: column;
+  }
+
+  .pictureContainer {
+    flex: 0;
+    margin-right: 32px;
+
+    .picture {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+
+  .bioContainer {
+    flex: 1;
+  }
+
+  .name {
+    font-size: 2.5em;
+    margin-bottom: 16px;
+    line-height: 1em;
+
+    .separator {
+      @include breakpoint($smallAndMedium) {
+        display: none;
+      }
+    }
+
+    .breakline {
+      @include breakpoint($big) {
+        display: none;
+      }
+    }
+
+    .jobTitle {
+      color: $blue;
+    }
+  }
+
+  .bio {
+    white-space: pre-line;
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+}
+
+.plugContainer {
+  white-space: pre-line;
+  font-size: 1.3em;
+}
