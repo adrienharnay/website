@@ -19,4 +19,4 @@ I have been [playing drums](https://www.youtube.com/channel/UCVb5uS6xt5xzG0cojt3
 
 I love practicing all kinds of sports, but particularly enjoy hiking, cycling, boxing, tennis, and yoga.
 
-If you want to get in touch with me, message me on [Twitter](https://twitter.com/AdrienHarnay?lang=fr) or [LinkedIn](https://www.linkedin.com/in/adrien-harnay/), or send me an [email](mailto:adrien@harnay.me)!
+If you want to get in touch with me, message me on [Twitter](https://twitter.com/AdrienHarnay) or [LinkedIn](https://www.linkedin.com/in/adrien-harnay/), or send me an [email](mailto:adrien@harnay.me)!

@@ -1,0 +1,231 @@
+[
+  {
+    "skills": [
+      { "name": "Semantic HTML", "icon": "/images/pages/skills/html.png" },
+      {
+        "name": "Accessibility",
+        "icon": "/images/pages/skills/accessibility.png"
+      }
+    ],
+    "title": "HTML",
+    "text": "I know semantic HTML, and always leverage native features so that your website <b>works flawlessly on all supported browsers</b>. Accessibility is always one of my top priorities."
+  },
+  {
+    "skills": [
+      {
+        "name": "CSS / SCSS / CSS-in-JS",
+        "icon": "/images/pages/skills/css.png"
+      },
+      { "name": "Flexbox", "icon": "/images/pages/skills/flexbox.png" }
+    ],
+    "title": "CSS",
+    "text": "When working with CSS, I optimize for <b>great user experience</b> and maintainability, so that developers who come after me can <b>iterate quickly</b> as the features need to evolve."
+  },
+  {
+    "skills": [
+      { "name": "JavaScript", "icon": "/images/pages/skills/javascript.png" },
+      { "name": "TypeScript", "icon": "/images/pages/skills/typescript.png" }
+    ],
+    "title": "JavaScript & TypeScript",
+    "text": "I know JavaScript like the back of my hand and am very proficient with it. Today, I mostly use TypeScript as I think it delivers <b>more value in terms of code maintenance and ratio of bugs</b>. I have <b>migrated large codebases from JavaScript to TypeScript</b>, and can also focus on critical parts of a codebase so you get the more bang for your buck."
+  },
+  {
+    "skills": [
+      {
+        "name": "Web performance",
+        "icon": "/images/pages/skills/performance.png"
+      },
+      { "name": "SEO", "icon": "/images/pages/skills/seo.png" }
+    ],
+    "title": "Web performance & SEO",
+    "text": "I have led projects focused on Web performance and SEO, and have a lot of experience on the matter. If your apps suffer from a performance problem, I can audit them and implement solutions to <b>improve Time To Interactive</b> and help you set up a <b>performance budget</b> that will track the performance of your apps over time. I am also be able to <b>fix the most common SEO problems</b> and give you tips on your SEO strategy."
+  },
+  {
+    "skills": [{ "name": "React", "icon": "/images/pages/skills/react.png" }],
+    "title": "React",
+    "text": "I have shipped several React apps to production, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, <b>Next</b>, <b>Gatsby</b>, create-react-app), and different use cases (authentication, routing, forms, ...)."
+  },
+  {
+    "skills": [
+      {
+        "name": "React Native",
+        "icon": "/images/pages/skills/react-native.png"
+      }
+    ],
+    "title": "React Native",
+    "text": "I have shipped several React Native apps to the stores, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, <b>Expo</b>), and different use cases (authentication, routing, forms, ...)."
+  },
+  {
+    "skills": [
+      { "name": "Redux", "icon": "/images/pages/skills/redux.png" },
+      { "name": "Apollo GraphQL", "icon": "/images/pages/skills/apollo.png" }
+    ],
+    "title": "Network & state management",
+    "text": "I have consumed a lot of different REST APIs throughout the years, and have built apps with <b>Redux as a state management solution</b>. I have also worked with Apollo GraphQL for over a year, at first by writing a <b>gateway over a REST API</b>, then by consuming a <b>native GraphQL API</b>. I am quite familiar with the internals of the Apollo codebase."
+  },
+  {
+    "skills": [
+      {
+        "name": "Design systems",
+        "icon": "/images/pages/skills/design-systems.png"
+      }
+    ],
+    "title": "Design systems",
+    "text": "Design systems are in my opinion one of the tools that <b>bring the more value to an organization</b>. I have been in charge of a design system for over a year, and can help you implement one in your organization. It will also be <b>compatible with all your different browsers and OS using the same API</b>, and your productivity will increase tenfold."
+  },
+  {
+    "skills": [
+      {
+        "name": "Components libraries",
+        "icon": "/images/pages/skills/component-libraries.png"
+      }
+    ],
+    "title": "Component libraries",
+    "text": "Documenting components is important when you need several developers or several teams to know how a set of components are working. I have worked with tools such as <b>Storybook and Playroom</b>, and can implement a component library for your organization."
+  },
+  {
+    "skills": [{ "name": "CMS", "icon": "/images/pages/skills/cms.png" }],
+    "title": "CMS",
+    "text": "CMS are great to offload work from your developers team, and to <b>give ownership to the right teams</b>. I have been in charge of implementing several CMS for blogs and public websites, and I know <b>multiple SaaS and open source solutions</b> (Strapi, Contentful, ...)."
+  },
+  {
+    "skills": [
+      {
+        "name": "Server side rendering",
+        "icon": "/images/pages/skills/server-side-rendering.png"
+      }
+    ],
+    "title": "Server side rendering (SSR)",
+    "text": "I have implemented several <b>custom server side rendering solutions</b>, and have also worked with tools such as <b>Next & Gatsby</b>."
+  },
+  {
+    "skills": [
+      {
+        "name": "State machines",
+        "icon": "/images/pages/skills/state-machines.png"
+      }
+    ],
+    "title": "State machines",
+    "text": "When working on <b>complex or critical workflows</b>, state machines can add <b>extra safety</b> by forbidding impossible states. I have worked with state machines several times, using tools such as xstate."
+  },
+  {
+    "skills": [
+      {
+        "name": "Internationalization",
+        "icon": "/images/pages/skills/internationalization.png"
+      }
+    ],
+    "title": "Internationalization (i18n)",
+    "text": "It is quite common to need an app to be available in different countries and languages. I know how to <b>manage an app available in different languages</b>, how to <b>setup a translation service</b>, and how to make sure you app <b>works in all the countries and timezones you target</b>."
+  },
+  {
+    "skills": [
+      {
+        "name": "A/B testing / Feature-flagging",
+        "icon": "/images/pages/skills/feature-flagging.png"
+      }
+    ],
+    "title": "A/B testing & feature-flagging",
+    "text": "A/B testing can help you <b>improve your product based on the decisions of your user</b>. Feature-flagging allows you to provide some features only to a subset of your users, and to have control over <b>what and when you are releasing</b>. I know how to implement both solutions, and how to make them fit in the architecture of your apps."
+  },
+  {
+    "skills": [
+      { "name": "Analytics", "icon": "/images/pages/skills/analytics.png" }
+    ],
+    "title": "Analytics",
+    "text": "I have implemented analytics services such as <b>Google Analytics, Facebook Pixel, Amplitude, and Google Tag Manager</b> in several apps, and can quickly set you up on the solution you need."
+  },
+  {
+    "skills": [
+      {
+        "name": "Bug tracking",
+        "icon": "/images/pages/skills/bug-tracking.png"
+      }
+    ],
+    "title": "Bug tracking",
+    "text": "A strong bug-tracking pipeline can be the <b>difference between releasing once a week and several times a day</b>. I can set up this kind of pipeline in your organization and <b>give you the confidence you need to iterate even faster</b>."
+  },
+  {
+    "skills": [
+      {
+        "name": "Generated documentation",
+        "icon": "/images/pages/skills/generated-documentation.png"
+      }
+    ],
+    "title": "Generated documentation",
+    "text": "There will never be enough documentation, but few people like to write it. I know how to set up a <b>generated documentation system</b> so that <b>your documentation can live right beside your code</b>, and make it all accessible via a neat website."
+  },
+  {
+    "skills": [
+      {
+        "name": "Package managers (yarn / npm)",
+        "icon": "/images/pages/skills/package-managers.png"
+      },
+      {
+        "name": "Monorepositories",
+        "icon": "/images/pages/skills/monorepositories.png"
+      }
+    ],
+    "title": "Monorepositories",
+    "text": "Monorepositories are all the rage right now, but they <b>can cause nasty bugs</b> if you don't know how to set them up properly. I have encountered countless bugs because of monorepositories, but keep using them extensively because <b>once you know how to set them up properly they're a huge win</b>."
+  },
+  {
+    "skills": [
+      {
+        "name": "Webpack / Rollup / Parcel",
+        "icon": "/images/pages/skills/webpack.png"
+      },
+      { "name": "Babel", "icon": "/images/pages/skills/babel.png" }
+    ],
+    "title": "Bundling",
+    "text": "I use Webpack to bundle most of my apps, and Webpack configs don't scare me one bit. I know how to set up <b>parallel builds</b>, <b>different builds for your server, your client, and latest browsers</b>, how to <b>write plugins and loaders</b> that will fit your use cases, or how to <b>optimize your builds so they become blazing fast</b>."
+  },
+  {
+    "skills": [
+      {
+        "name": "Eslint / Stylelint",
+        "icon": "/images/pages/skills/eslint.png"
+      },
+      { "name": "Prettier", "icon": "/images/pages/skills/prettier.png" }
+    ],
+    "title": "Linting",
+    "text": "A strong linting system can <b>help avoid many bugs</b>, and I have set up many different over the years. It is now the first thing that I do when starting a new work project, and I can <b>help your team gain confidence</b> and <b>stop wasting time during PR reviews</b>."
+  },
+  {
+    "skills": [
+      { "name": "Jest", "icon": "/images/pages/skills/jest.png" },
+      { "name": "Cypress", "icon": "/images/pages/skills/cypress.png" }
+    ],
+    "title": "Testing",
+    "text": "Tests are a must if you want to <b>deploy on fridays with confidence</b> (or any day, that is). <b>From unit tests to end-to-end tests</b>, I can help you implement a testing strategy that will be as smooth as possible for your dev and/or QA teams, and that will help you <b>make sure critical code paths and user scenarios are always working</b>."
+  },
+  {
+    "skills": [
+      { "name": "Docker", "icon": "/images/pages/skills/docker.png" },
+      { "name": "Shell", "icon": "/images/pages/skills/shell.png" },
+      { "name": "CircleCI", "icon": "/images/pages/skills/circleci.png" },
+      { "name": "Drone", "icon": "/images/pages/skills/drone.png" }
+    ],
+    "title": "CI & CD",
+    "text": "I have implemented several pipelines that handle <b>building and deploying the code to your platform of choice</b>. From linting your code to deploying your app to your infrastructure, I can <b>set up an optimized workflow that will replace your manual deployments</b>."
+  },
+  {
+    "skills": [
+      { "name": "AWS", "icon": "/images/pages/skills/aws.png" },
+      { "name": "Vercel", "icon": "/images/pages/skills/vercel.png" },
+      { "name": "Netlify", "icon": "/images/pages/skills/netlify.png" }
+    ],
+    "title": "Hosting",
+    "text": "I have practiced hosting apps on several platforms, and I can <b>help you choose which platform is best suited for your project</b>. I can also help you <b>optimize the release process of your project on your platform of choice</b>."
+  },
+  {
+    "skills": [
+      { "name": "Express", "icon": "/images/pages/skills/express.png" },
+      { "name": "MongoGB", "icon": "/images/pages/skills/mongodb.png" },
+      { "name": "Apollo Server", "icon": "/images/pages/skills/apollo.png" },
+      { "name": "GraphQL gateways", "icon": "/images/pages/skills/graphql.png" }
+    ],
+    "title": "Back-end",
+    "text": "I know back-end technologies such as <b>Express, MongoGB, and Apollo Server</b>. I can set up a back-end for your MVP, or <b>build a GraphQL gateway</b> on top of your existing REST services to help you <b>integrate Apollo Client in your front-end apps</b>."
+  }
+]

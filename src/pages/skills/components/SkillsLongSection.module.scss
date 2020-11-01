@@ -1,0 +1,71 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/breakpoints.scss';
+
+.title {
+  margin: 0 0 0.5em 0;
+  font-size: 5rem;
+  font-weight: 700;
+
+  @include breakpoint($small) {
+    font-size: 2.2rem;
+  }
+}
+
+.skillGroupsContainer {
+  margin: -16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  > * {
+    margin: 16px;
+    box-sizing: border-box;
+  }
+}
+
+.skillGroupCard {
+  background-color: $white;
+  border: 1px solid $whitegrey;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 16px;
+  width: 450px;
+
+  @include breakpoint($smallAndMedium) {
+    width: 300px;
+  }
+
+  &.focused {
+    box-shadow: 0px 6px 12px $blue;
+
+    .skillGroupTitle {
+      color: $blue;
+    }
+  }
+
+  .skillGroupHead {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .skillGroupTitle {
+      margin-right: 16px;
+    }
+
+    .skillGroupLogos {
+      display: flex;
+      margin: -4px;
+
+      > * {
+        margin: 4px;
+      }
+    }
+  }
+
+  .skillGroupText {
+    text-align: justify;
+  }
+}

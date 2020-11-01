@@ -1,0 +1,9 @@
+@import 'src/styles/breakpoints.scss';
+
+.container {
+  font-size: 1.3em;
+
+  @include breakpoint($small) {
+    font-size: 1.2em;
+  }
+}
