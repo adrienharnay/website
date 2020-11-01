@@ -31,7 +31,11 @@ const SkillsList: FunctionComponent<SkillsListProps> = ({ skills }) => {
             {skillGroup.skills.map((skill) => (
               <li key={skill.name}>
                 <div className={styles.icon}>
-                  <Image src={skill.icon} width={26} height={26} />
+                  <Image
+                    src={skill.icon || '/images/pages/skills/html.png'}
+                    width={26}
+                    height={26}
+                  />
                 </div>
                 {skill.name}
               </li>

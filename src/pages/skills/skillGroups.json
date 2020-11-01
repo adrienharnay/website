@@ -64,47 +64,84 @@
     "text": "I have consumed a lot of different REST APIs throughout the years, and have built apps with <b>Redux as a state management solution</b>. I have also worked with Apollo GraphQL for over a year, at first by writing a <b>gateway over a REST API</b>, then by consuming a <b>native GraphQL API</b>. I am quite familiar with the internals of the Apollo codebase."
   },
   {
-    "skills": [{ "name": "Design systems", "icon": "" }],
+    "skills": [
+      {
+        "name": "Design systems",
+        "icon": "/images/pages/skills/design-systems.png"
+      }
+    ],
     "title": "Design systems",
     "text": "Design systems are in my opinion one of the tools that <b>bring the more value to an organization</b>. I have been in charge of a design system for over a year, and can help you implement one in your organization. It will also be <b>compatible with all your different browsers and OS using the same API</b>, and your productivity will increase tenfold."
   },
   {
-    "skills": [{ "name": "Components libraries", "icon": "" }],
+    "skills": [
+      {
+        "name": "Components libraries",
+        "icon": "/images/pages/skills/component-libraries.png"
+      }
+    ],
     "title": "Component libraries",
     "text": "Documenting components is important when you need several developers or several teams to know how a set of components are working. I have worked with tools such as <b>Storybook and Playroom</b>, and can implement a component library for your organization."
   },
   {
-    "skills": [{ "name": "CMS", "icon": "" }],
+    "skills": [{ "name": "CMS", "icon": "/images/pages/skills/cms.png" }],
     "title": "CMS",
     "text": "CMS are great to offload work from your developers team, and to <b>give ownership to the right teams</b>. I have been in charge of implementing several CMS for blogs and public websites, and I know <b>multiple SaaS and open source solutions</b> (Strapi, Contentful, ...)."
   },
   {
-    "skills": [{ "name": "Server side rendering", "icon": "" }],
+    "skills": [
+      {
+        "name": "Server side rendering",
+        "icon": "/images/pages/skills/server-side-rendering.png"
+      }
+    ],
     "title": "Server side rendering (SSR)",
     "text": "I have implemented several <b>custom server side rendering solutions</b>, and have also worked with tools such as <b>Next & Gatsby</b>."
   },
   {
-    "skills": [{ "name": "State machines", "icon": "" }],
+    "skills": [
+      {
+        "name": "State machines",
+        "icon": "/images/pages/skills/state-machines.png"
+      }
+    ],
     "title": "State machines",
     "text": "When working on <b>complex or critical workflows</b>, state machines can add <b>extra safety</b> by forbidding impossible states. I have worked with state machines several times, using tools such as xstate."
   },
   {
-    "skills": [{ "name": "Internationalization", "icon": "" }],
+    "skills": [
+      {
+        "name": "Internationalization",
+        "icon": "/images/pages/skills/internationalization.png"
+      }
+    ],
     "title": "Internationalization (i18n)",
     "text": "It is quite common to need an app to be available in different countries and languages. I know how to <b>manage an app available in different languages</b>, how to <b>setup a translation service</b>, and how to make sure you app <b>works in all the countries and timezones you target</b>."
   },
   {
-    "skills": [{ "name": "A/B testing / Feature-flagging", "icon": "" }],
+    "skills": [
+      {
+        "name": "A/B testing / Feature-flagging",
+        "icon": "/images/pages/skills/feature-flagging.png"
+      }
+    ],
     "title": "A/B testing & feature-flagging",
     "text": "A/B testing can help you <b>improve your product based on the decisions of your user</b>. Feature-flagging allows you to provide some features only to a subset of your users, and to have control over <b>what and when you are releasing</b>. I know how to implement both solutions, and how to make them fit in the architecture of your apps."
   },
   {
-    "skills": [{ "name": "Analytics", "icon": "" }],
+    "skills": [
+      { "name": "Analytics", "icon": "/images/pages/skills/analytics.png" }
+    ],
     "title": "Analytics",
     "text": "I have implemented analytics services such as <b>Google Analytics, Facebook Pixel, Amplitude, and Google Tag Manager</b> in several apps, and can quickly set you up on the solution you need."
   },
   {
-    "skills": [{ "name": "Bug tracking", "icon": "" }],
+    "skills": [
+      {
+        "name": "Bug tracking",
+        "icon": "/images/pages/skills/bug-tracking.png"
+      }
+    ],
     "title": "Bug tracking",
     "text": "A strong bug-tracking pipeline can be the <b>difference between releasing once a week and several times a day</b>. I can set up this kind of pipeline in your organization and <b>give you the confidence you need to iterate even faster</b>."
   },
