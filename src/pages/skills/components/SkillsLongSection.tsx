@@ -51,7 +51,6 @@ const SkillsLongSection: FunctionComponent = () => {
   useEffect(() => {
     if (hash) {
       const target = document.getElementById(`card-${hash}`);
-      console.log(hash, target);
 
       if (target) {
         smoothScrollIntoView(target, {
