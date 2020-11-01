@@ -45,7 +45,7 @@
     "short": ["Redux", "Apollo GraphQL"],
     "long": {
       "title": "Network & state management",
-      "text": "I have consumed a lot of different REST APIs throughout the years, and have built apps with <b>Redux as a state management solution</b>. I have also worked with Apollo GraphQL for over a year, at first by writing a <b>Gateway over a REST API</b>, then by consuming a <b>native GraphQL API</b>. I am quite familiar with the internals of the Apollo codebase."
+      "text": "I have consumed a lot of different REST APIs throughout the years, and have built apps with <b>Redux as a state management solution</b>. I have also worked with Apollo GraphQL for over a year, at first by writing a <b>gateway over a REST API</b>, then by consuming a <b>native GraphQL API</b>. I am quite familiar with the internals of the Apollo codebase."
     }
   },
   {
