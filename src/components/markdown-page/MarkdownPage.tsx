@@ -40,7 +40,7 @@ const MarkdownPage: FunctionComponent<MarkdownPageProps> = ({
 
   return (
     <div>
-      <MetaTitle title={title} />
+      <MetaTitle title={`${title} • Adrien Harnay`} />
       <MetaDescription description={excerpt} />
       {MetaCover}
       <header className={styles.header}>
