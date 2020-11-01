@@ -5383,6 +5383,11 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+qs@6.9.4:
+  version "6.9.4"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
+  integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
+
 qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
@@ -5431,6 +5436,11 @@ react-dom@17.0.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.1"
+
+react-ga@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.2.0.tgz#a8ea91e8e681f49d30afcee72d71fc5c71b67d57"
+  integrity sha512-YHHG5QIzRdDToB9ST1/BrGQhLZPzkrNjoeTu3SZLgwdqzeA9F2XOStuOGXAp1ak/SAo9pyR1Uo/hY0C5wZwfqA==
 
 react-is@16.13.1, react-is@^16.8.1:
   version "16.13.1"
