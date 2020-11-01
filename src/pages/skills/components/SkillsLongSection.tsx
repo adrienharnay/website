@@ -1,4 +1,5 @@
 import React, { FunctionComponent, useEffect } from 'react';
+import Image from 'next/image';
 import smoothScrollIntoView from 'smooth-scroll-into-view-if-needed';
 
 import skillGroups from '../skillGroups.json';
@@ -22,7 +23,19 @@ const SkillGroupCard: FunctionComponent<SkillGroupCardProps> = ({
         hash === encodeURIComponent(skillGroup.title) ? styles.focused : ''
       }`}
     >
-      <div className={styles.skillGroupTitle}>{skillGroup.title}</div>
+      <div className={styles.skillGroupHead}>
+        <div className={styles.skillGroupTitle}>{skillGroup.title}</div>
+        <div className={styles.skillGroupLogos}>
+          {skillGroup.skills.map((skill) => (
+            <Image
+              key={skill.name}
+              src={skill.icon || '/images/pages/skills/html.png'}
+              width={26}
+              height={26}
+            />
+          ))}
+        </div>
+      </div>
       <div
         className={styles.skillGroupText}
         dangerouslySetInnerHTML={{ __html: skillGroup.text }}
