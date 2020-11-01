@@ -24,6 +24,11 @@ const PostCard: FunctionComponent<PostCardProps> = ({ post }) => (
         </div>
         <div className={styles.contentBlock}>
           <h2 className={styles.title}>{post.title}</h2>
+          {post.date && (
+            <section className={styles.date}>
+              <time>{post.date}</time>
+            </section>
+          )}
           <section className={styles.excerpt}>
             <p className={styles.paragraph}>{post.excerpt}</p>
           </section>

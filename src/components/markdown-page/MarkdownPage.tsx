@@ -22,7 +22,7 @@ const MarkdownPage: FunctionComponent<MarkdownPageProps> = ({
   excerpt,
   html,
 }) => {
-  const Date = date && <time className={styles.date}>{date}</time>;
+  const Date = date && <time>{date}</time>;
   const Metadata = Date && (
     <section className={styles.metadata}>{Date}</section>
   );

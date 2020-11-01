@@ -19,17 +19,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $midgrey;
+    color: $blue;
     font-weight: 600;
     text-transform: uppercase;
-
-    .date {
-      color: $blue;
-    }
-
-    .separator {
-      margin: 0 6px 1px;
-    }
   }
 
   .title {
@@ -70,9 +62,21 @@
     }
   }
 
-  > * > * > * {
-    background: $lightgrey center center;
-    background-size: cover;
+  > * {
+    width: 100% !important;
+    height: 100% !important;
+
+    > * {
+      height: 100% !important;
+      padding-bottom: 0 !important;
+      > * {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        background: $lightgrey center center;
+        background-size: cover;
+      }
+    }
   }
 }
 

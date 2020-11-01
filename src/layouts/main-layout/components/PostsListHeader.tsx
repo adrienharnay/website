@@ -1,19 +1,13 @@
 import React, { FunctionComponent } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import NavLinks from './common/NavLinks';
 import SocialMediaIcons from './common/SocialMediaIcons';
 
 import styles from './PostsListHeader.module.scss';
 
-const HOME_TITLE = 'Adrien Harnay';
-const HOME_SUB_TILE =
-  'Front-end developer working with React / React Native.\nPassionate about technology. Drummer.';
-
 const PostsListHeader: FunctionComponent = () => {
-  const Title = HOME_TITLE;
-  const SubTitle = HOME_SUB_TILE;
-
   return (
     <header className={styles.container}>
       <div className={styles.coverContainer}>
@@ -30,8 +24,14 @@ const PostsListHeader: FunctionComponent = () => {
         />
       </div>
       <div className={styles.content}>
-        <h1 className={styles.title}>{Title}</h1>
-        <h2 className={styles.subTitle}>{SubTitle}</h2>
+        <h1 className={styles.title}>Adrien Harnay</h1>
+        <h2 className={styles.subTitle}>
+          <div>Front-end developer working with React & React Native.</div>
+          <div>Passionate about technology. Drummer.</div>
+          <Link href="/skills">
+            <a className={styles.link}>Available for contract work.</a>
+          </Link>
+        </h2>
       </div>
       <nav className={styles.navContainer}>
         <div className={styles.nav}>
