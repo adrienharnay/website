@@ -62,9 +62,21 @@
     }
   }
 
-  > * > * > * {
-    background: $lightgrey center center;
-    background-size: cover;
+  > * {
+    width: 100% !important;
+    height: 100% !important;
+
+    > * {
+      height: 100% !important;
+      padding-bottom: 0 !important;
+      > * {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        background: $lightgrey center center;
+        background-size: cover;
+      }
+    }
   }
 }
 
