@@ -1,8 +1,53 @@
-import React from 'react';
+import React, { FunctionComponent, useEffect } from 'react';
+import smoothScrollIntoView from 'smooth-scroll-into-view-if-needed';
+
+import skillGroups from '../skills.json';
 
 import styles from './SkillsLongSection.module.scss';
 
-const SkillsLongSection = () => {
+type SkillGroupCardProps = {
+  skillGroup: typeof skillGroups[number]['long'];
+  hash: string;
+};
+
+const SkillGroupCard: FunctionComponent<SkillGroupCardProps> = ({
+  skillGroup,
+  hash,
+}) => {
+  return (
+    <div
+      id={`card-${encodeURIComponent(skillGroup.title)}`}
+      className={`${styles.skillGroupCard} ${
+        hash === encodeURIComponent(skillGroup.title) ? styles.focused : ''
+      }`}
+    >
+      <div className={styles.skillGroupTitle}>{skillGroup.title}</div>
+      <div
+        className={styles.skillGroupText}
+        dangerouslySetInnerHTML={{ __html: skillGroup.text }}
+      ></div>
+    </div>
+  );
+};
+
+const SkillsLongSection: FunctionComponent = () => {
+  const hash =
+    typeof window !== 'undefined' ? window.location.hash.replace('#', '') : '';
+
+  useEffect(() => {
+    if (hash) {
+      const target = document.getElementById(`card-${hash}`);
+      console.log(hash, target);
+
+      if (target) {
+        smoothScrollIntoView(target, {
+          behavior: 'smooth',
+          block: 'start',
+        });
+      }
+    }
+  }, [hash]);
+
   return (
     <section>
       <h2 className={styles.title}>In depth</h2>
@@ -14,6 +59,15 @@ const SkillsLongSection = () => {
           to my area of expertise when working on professional projects.
         </em>
       </p>
+      <div className={styles.skillGroupsContainer}>
+        {skillGroups.map((skillGroup) => (
+          <SkillGroupCard
+            key={skillGroup.long.title}
+            skillGroup={skillGroup.long}
+            hash={hash}
+          />
+        ))}
+      </div>
     </section>
   );
 };

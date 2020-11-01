@@ -23,7 +23,7 @@ const SkillsList: FunctionComponent<SkillsListProps> = ({ skills }) => {
     <ul>
       {skills.map((skillGroup) => (
         <Link
-          href={`/skills#${skillGroup.long.title}`}
+          href={`/skills#${encodeURIComponent(skillGroup.long.title)}`}
           key={skillGroup.long.title}
         >
           <a className={styles.skillGroup}>

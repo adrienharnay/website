@@ -1,3 +1,4 @@
+@import 'src/styles/colors.scss';
 @import 'src/styles/breakpoints.scss';
 
 .title {
@@ -7,5 +8,44 @@
 
   @include breakpoint($small) {
     font-size: 2.2rem;
+  }
+}
+
+.skillGroupsContainer {
+  margin: -16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  > * {
+    margin: 16px;
+    box-sizing: border-box;
+  }
+}
+
+.skillGroupCard {
+  background-color: $white;
+  border: 1px solid $whitegrey;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 16px;
+  width: 450px;
+
+  &.focused {
+    box-shadow: 0px 6px 12px $blue;
+
+    .skillGroupTitle {
+      color: $blue;
+    }
+  }
+
+  .skillGroupTitle {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  .skillGroupText {
+    text-align: justify;
   }
 }
