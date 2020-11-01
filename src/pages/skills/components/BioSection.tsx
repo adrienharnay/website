@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import styles from './BioSection.module.scss';
 import SocialLinks from './SocialLinks';
@@ -11,7 +10,7 @@ const BioSection: FunctionComponent = () => {
       <div className={styles.bioPictureContainer}>
         <div className={styles.pictureContainer}>
           <Image
-            src="/images/pages/adrien.jpg"
+            src="/images/pages/skills/adrien.jpg"
             width={220}
             height={220}
             alt="Adrien Harnay"

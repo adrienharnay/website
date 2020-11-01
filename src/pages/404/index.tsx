@@ -11,7 +11,7 @@ const NotFoundPage = () => (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image
-          src="/images/pages/stranger-things.gif"
+          src="/images/pages/404/stranger-things.gif"
           width={480}
           height={236}
           alt="mike found pudding"

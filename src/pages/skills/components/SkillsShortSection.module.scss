@@ -26,12 +26,22 @@
       text-decoration: none;
       font-size: 1.1em;
 
+      li {
+        list-style: none;
+        position: relative;
+      }
+
       &:hover {
         text-decoration: none;
 
         li {
           color: $blue;
         }
+      }
+
+      .icon {
+        position: absolute;
+        left: -26px;
       }
     }
   }

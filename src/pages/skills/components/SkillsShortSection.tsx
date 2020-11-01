@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import skillGroups from '../skills.json';
 
@@ -28,7 +29,16 @@ const SkillsList: FunctionComponent<SkillsListProps> = ({ skills }) => {
         >
           <a className={styles.skillGroup}>
             {skillGroup.short.map((skill) => (
-              <li key={skill}>{skill}</li>
+              <li key={skill}>
+                <div className={styles.icon}>
+                  <Image
+                    src={skill.}
+                    width={26}
+                    height={26}
+                  />
+                </div>
+                {skill}
+              </li>
             ))}
           </a>
         </Link>
