@@ -2,14 +2,14 @@ import React, { FunctionComponent } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import skillGroups from '../skills.json';
+import skillGroups from '../skillGroups.json';
 
 import styles from './SkillsShortSection.module.scss';
 
-const flatSkills = skillGroups.flatMap((skillGroup) => skillGroup.short);
+const flatSkills = skillGroups.flatMap((skillGroup) => skillGroup.skills);
 const middleSkill = flatSkills[Math.ceil(flatSkills.length / 2)];
 const middleSkillGroupIndex = skillGroups.findIndex((skillGroup) =>
-  skillGroup.short.find((skill) => skill === middleSkill),
+  skillGroup.skills.find((skill) => skill === middleSkill),
 );
 
 const firstHalfSkills = skillGroups.slice(0, middleSkillGroupIndex);
@@ -24,18 +24,14 @@ const SkillsList: FunctionComponent<SkillsListProps> = ({ skills }) => {
     <ul>
       {skills.map((skillGroup) => (
         <Link
-          href={`/skills#${encodeURIComponent(skillGroup.long.title)}`}
-          key={skillGroup.long.title}
+          href={`/skills#${encodeURIComponent(skillGroup.title)}`}
+          key={skillGroup.title}
         >
           <a className={styles.skillGroup}>
-            {skillGroup.short.map((skill) => (
-              <li key={skill}>
+            {skillGroup.skills.map((skill) => (
+              <li key={skill.name}>
                 <div className={styles.icon}>
-                  <Image
-                    src={skill.}
-                    width={26}
-                    height={26}
-                  />
+                  <Image src={skill.icon} width={26} height={26} />
                 </div>
                 {skill}
               </li>

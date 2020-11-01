@@ -1,13 +1,13 @@
 import React, { FunctionComponent, useEffect } from 'react';
 import smoothScrollIntoView from 'smooth-scroll-into-view-if-needed';
 
-import skillGroups from '../skills.json';
+import skillGroups from '../skillGroups.json';
 
 import styles from './SkillsLongSection.module.scss';
 import SocialLinks from './SocialLinks';
 
 type SkillGroupCardProps = {
-  skillGroup: typeof skillGroups[number]['long'];
+  skillGroup: typeof skillGroups[number];
   hash: string;
 };
 
@@ -63,8 +63,8 @@ const SkillsLongSection: FunctionComponent = () => {
       <div className={styles.skillGroupsContainer}>
         {skillGroups.map((skillGroup) => (
           <SkillGroupCard
-            key={skillGroup.long.title}
-            skillGroup={skillGroup.long}
+            key={skillGroup.title}
+            skillGroup={skillGroup}
             hash={hash}
           />
         ))}
