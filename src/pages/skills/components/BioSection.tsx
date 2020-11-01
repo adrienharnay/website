@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from './BioSection.module.scss';
+import SocialLinks from './SocialLinks';
 
 const BioSection: FunctionComponent = () => {
   return (
@@ -46,11 +47,8 @@ const BioSection: FunctionComponent = () => {
             and implementation;
           </li>
         </ul>
-        Please reach out to me via{' '}
-        <Link href="mailto:adrien@harnay.me">email</Link>,{' '}
-        <Link href="https://twitter.com/AdrienHarnay">Twitter</Link>, or{' '}
-        <Link href="https://www.linkedin.com/in/adrien-harnay/">LinkedIn</Link>.
       </div>
+      <SocialLinks />
     </section>
   );
 };

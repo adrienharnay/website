@@ -4,6 +4,7 @@ import smoothScrollIntoView from 'smooth-scroll-into-view-if-needed';
 import skillGroups from '../skills.json';
 
 import styles from './SkillsLongSection.module.scss';
+import SocialLinks from './SocialLinks';
 
 type SkillGroupCardProps = {
   skillGroup: typeof skillGroups[number]['long'];
@@ -68,6 +69,8 @@ const SkillsLongSection: FunctionComponent = () => {
           />
         ))}
       </div>
+      <br />
+      <SocialLinks />
     </section>
   );
 };
