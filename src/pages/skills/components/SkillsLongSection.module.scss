@@ -1,0 +1,11 @@
+@import 'src/styles/breakpoints.scss';
+
+.title {
+  margin: 0 0 0.5em 0;
+  font-size: 5rem;
+  font-weight: 700;
+
+  @include breakpoint($small) {
+    font-size: 2.2rem;
+  }
+}
