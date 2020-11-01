@@ -31,7 +31,7 @@
     "short": ["React"],
     "long": {
       "title": "React",
-      "text": "I have shipped several React apps to production, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, Gatsby, create-react-app), and different use cases (authentication, routing, forms, ...)."
+      "text": "I have shipped several React apps to production, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, Next, Gatsby, create-react-app), and different use cases (authentication, routing, forms, ...)."
     }
   },
   {
