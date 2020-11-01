@@ -12,7 +12,14 @@
 
   .pictureContainer {
     flex: 0;
-    margin-right: 32px;
+
+    @include breakpoint($small) {
+      margin-bottom: 16px;
+    }
+
+    @include breakpoint($mediumAndBig) {
+      margin-right: 32px;
+    }
 
     .picture {
       width: 50px;
@@ -29,6 +36,10 @@
     font-size: 2.5em;
     margin-bottom: 16px;
     line-height: 1em;
+
+    @include breakpoint($small) {
+      font-size: 2em;
+    }
 
     .separator {
       @include breakpoint($smallAndMedium) {
@@ -51,10 +62,26 @@
     white-space: pre-line;
     font-size: 1.2em;
     line-height: 1.4em;
+
+    @include breakpoint($small) {
+      font-size: 1.1em;
+    }
   }
 }
 
 .plugContainer {
   white-space: pre-line;
   font-size: 1.3em;
+
+  @include breakpoint($small) {
+    font-size: 1.2em;
+  }
+
+  .prestations {
+    margin-bottom: 1em;
+
+    > li {
+      margin: 0.3em 0;
+    }
+  }
 }
