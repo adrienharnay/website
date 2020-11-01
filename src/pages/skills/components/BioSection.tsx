@@ -36,16 +36,15 @@ const BioSection: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.plugContainer}>
-        I am available for contract work. If you need:
-        <ul className={styles.prestations}>
-          <li>a MVP for your start-up;</li>
-          <li>a new product for your organization;</li>
-          <li>a new feature on your product;</li>
-          <li>
-            a formation on a new concept or technology with concrete examples
-            and implementation;
-          </li>
-        </ul>
+        I am available for contract work.
+        <div className={styles.prestations}>
+          <div>MVP for your start-up</div>
+          <div>New product for your organization</div>
+          <div>New feature on your product</div>
+          <div>
+            Introduction of a new technology or library to your organization
+          </div>
+        </div>
       </div>
       <SocialLinks />
     </section>
