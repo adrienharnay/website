@@ -29,9 +29,10 @@ const SkillGroupCard: FunctionComponent<SkillGroupCardProps> = ({
           {skillGroup.skills.map((skill) => (
             <Image
               key={skill.name}
-              src={skill.icon || '/images/pages/skills/html.png'}
+              src={skill.icon}
               width={26}
               height={26}
+              alt={skill.icon.split('/').slice(-1)[0].split('.')[0]}
             />
           ))}
         </div>

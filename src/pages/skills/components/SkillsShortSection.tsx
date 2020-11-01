@@ -32,9 +32,10 @@ const SkillsList: FunctionComponent<SkillsListProps> = ({ skills }) => {
               <li key={skill.name}>
                 <div className={styles.icon}>
                   <Image
-                    src={skill.icon || '/images/pages/skills/html.png'}
+                    src={skill.icon}
                     width={26}
                     height={26}
+                    alt={skill.icon.split('/').slice(-1)[0].split('.')[0]}
                   />
                 </div>
                 {skill.name}
