@@ -154,7 +154,7 @@
     }
   },
   {
-    "short": ["AWS", "Netlify"],
+    "short": ["AWS", "Vercel", "Netlify"],
     "long": {
       "title": "Hosting",
       "text": "I have practiced hosting apps on several platforms, and I can set things up for your apps too."
