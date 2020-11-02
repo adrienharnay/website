@@ -18,6 +18,23 @@
     background: rgba(0, 0, 0, 0.1);
   }
 
+  .imageContainer {
+    .veil {
+      position: absolute;
+      background-color: $black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.1;
+    }
+
+    img {
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
   .content {
     @include breakpoint($small) {
       padding: 14vw 4vw;

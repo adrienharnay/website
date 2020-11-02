@@ -35,6 +35,13 @@
 }
 
 .coverContainer {
+  position: relative;
+
+  img {
+    object-fit: cover;
+    object-position: center center;
+  }
+
   @include breakpoint($small) {
     height: 350px;
     margin: 0 -4vw 4vw;
@@ -61,8 +68,6 @@
       border-radius: 5px;
     }
   }
-
-  position: relative;
 }
 
 .content {

@@ -10,13 +10,16 @@ import styles from './PostsListHeader.module.scss';
 const PostsListHeader: FunctionComponent = () => {
   return (
     <header className={styles.container}>
-      <Image
-        src="/images/layouts/main-layout-cover.jpg"
-        alt="sky full of stars"
-        priority
-        layout="fill"
-        quality={100}
-      />
+      <div className={styles.imageContainer}>
+        <Image
+          src="/images/layouts/main-layout-cover.jpg"
+          alt="sky full of stars"
+          priority
+          quality={85}
+          layout="fill"
+        />
+        <div className={styles.veil} />
+      </div>
       <div className={styles.content}>
         <h1 className={styles.title}>Adrien Harnay</h1>
         <h2 className={styles.subTitle}>

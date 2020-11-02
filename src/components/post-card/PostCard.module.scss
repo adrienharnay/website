@@ -41,6 +41,11 @@
     .imgBlock {
       flex: 1;
       position: relative;
+
+      img {
+        object-fit: cover;
+        object-position: center center;
+      }
     }
 
     .contentBlock {

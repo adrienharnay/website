@@ -33,7 +33,6 @@ const MarkdownPage: FunctionComponent<MarkdownPageProps> = ({
         alt={cover.split('/').slice(-1)[0].split('.')[0]}
         priority
         layout="fill"
-        quality={100}
       />
     </div>
   );
