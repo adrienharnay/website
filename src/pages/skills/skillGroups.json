@@ -1,5 +1,28 @@
 [
   {
+    "skills": [{ "name": "React", "icon": "/images/pages/skills/react.png" }],
+    "title": "React",
+    "text": "I have shipped several React apps to production, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, <b>Next</b>, <b>Gatsby</b>, create-react-app), and different use cases (authentication, routing, forms, ...)."
+  },
+  {
+    "skills": [
+      {
+        "name": "React Native",
+        "icon": "/images/pages/skills/react-native.png"
+      }
+    ],
+    "title": "React Native",
+    "text": "I have shipped several React Native apps to the stores, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, <b>Expo</b>), and different use cases (authentication, routing, forms, ...)."
+  },
+  {
+    "skills": [
+      { "name": "JavaScript", "icon": "/images/pages/skills/javascript.png" },
+      { "name": "TypeScript", "icon": "/images/pages/skills/typescript.png" }
+    ],
+    "title": "JavaScript & TypeScript",
+    "text": "I know JavaScript like the back of my hand and am very proficient with it. Today, I mostly use TypeScript as I think it delivers <b>more value in terms of code maintenance and ratio of bugs</b>. I have <b>migrated large codebases from JavaScript to TypeScript</b>, and can also focus on critical parts of a codebase so you get the more bang for your buck."
+  },
+  {
     "skills": [
       { "name": "Semantic HTML", "icon": "/images/pages/skills/html.png" },
       {
@@ -23,45 +46,31 @@
   },
   {
     "skills": [
-      { "name": "JavaScript", "icon": "/images/pages/skills/javascript.png" },
-      { "name": "TypeScript", "icon": "/images/pages/skills/typescript.png" }
-    ],
-    "title": "JavaScript & TypeScript",
-    "text": "I know JavaScript like the back of my hand and am very proficient with it. Today, I mostly use TypeScript as I think it delivers <b>more value in terms of code maintenance and ratio of bugs</b>. I have <b>migrated large codebases from JavaScript to TypeScript</b>, and can also focus on critical parts of a codebase so you get the more bang for your buck."
-  },
-  {
-    "skills": [
-      {
-        "name": "Web performance",
-        "icon": "/images/pages/skills/performance.png"
-      },
-      { "name": "SEO", "icon": "/images/pages/skills/seo.png" }
-    ],
-    "title": "Web performance & SEO",
-    "text": "I have led projects focused on Web performance and SEO, and have a lot of experience on the matter. If your apps suffer from a performance problem, I can audit them and implement solutions to <b>improve Time To Interactive</b> and help you set up a <b>performance budget</b> that will track the performance of your apps over time. I am also be able to <b>fix the most common SEO problems</b> and give you tips on your SEO strategy."
-  },
-  {
-    "skills": [{ "name": "React", "icon": "/images/pages/skills/react.png" }],
-    "title": "React",
-    "text": "I have shipped several React apps to production, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, <b>Next</b>, <b>Gatsby</b>, create-react-app), and different use cases (authentication, routing, forms, ...)."
-  },
-  {
-    "skills": [
-      {
-        "name": "React Native",
-        "icon": "/images/pages/skills/react-native.png"
-      }
-    ],
-    "title": "React Native",
-    "text": "I have shipped several React Native apps to the stores, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, <b>Expo</b>), and different use cases (authentication, routing, forms, ...)."
-  },
-  {
-    "skills": [
       { "name": "Redux", "icon": "/images/pages/skills/redux.png" },
       { "name": "Apollo GraphQL", "icon": "/images/pages/skills/apollo.png" }
     ],
     "title": "Network & state management",
     "text": "I have consumed a lot of different REST APIs throughout the years, and have built apps with <b>Redux as a state management solution</b>. I have also worked with Apollo GraphQL for over a year, at first by writing a <b>gateway over a REST API</b>, then by consuming a <b>native GraphQL API</b>. I am quite familiar with the internals of the Apollo codebase."
+  },
+  {
+    "skills": [
+      {
+        "name": "Server side rendering",
+        "icon": "/images/pages/skills/server-side-rendering.png"
+      }
+    ],
+    "title": "Server side rendering (SSR)",
+    "text": "I have implemented several <b>custom server side rendering solutions</b>, and have also worked with tools such as <b>Next & Gatsby</b>."
+  },
+  {
+    "skills": [
+      {
+        "name": "State machines",
+        "icon": "/images/pages/skills/state-machines.png"
+      }
+    ],
+    "title": "State machines",
+    "text": "When working on <b>complex or critical workflows</b>, state machines can add <b>extra safety</b> by forbidding impossible states. I have worked with state machines several times, using tools such as xstate."
   },
   {
     "skills": [
@@ -91,22 +100,13 @@
   {
     "skills": [
       {
-        "name": "Server side rendering",
-        "icon": "/images/pages/skills/server-side-rendering.png"
-      }
+        "name": "Web performance",
+        "icon": "/images/pages/skills/performance.png"
+      },
+      { "name": "SEO", "icon": "/images/pages/skills/seo.png" }
     ],
-    "title": "Server side rendering (SSR)",
-    "text": "I have implemented several <b>custom server side rendering solutions</b>, and have also worked with tools such as <b>Next & Gatsby</b>."
-  },
-  {
-    "skills": [
-      {
-        "name": "State machines",
-        "icon": "/images/pages/skills/state-machines.png"
-      }
-    ],
-    "title": "State machines",
-    "text": "When working on <b>complex or critical workflows</b>, state machines can add <b>extra safety</b> by forbidding impossible states. I have worked with state machines several times, using tools such as xstate."
+    "title": "Web performance & SEO",
+    "text": "I have led projects focused on Web performance and SEO, and have a lot of experience on the matter. If your apps suffer from a performance problem, I can audit them and implement solutions to <b>improve Time To Interactive</b> and help you set up a <b>performance budget</b> that will track the performance of your apps over time. I am also be able to <b>fix the most common SEO problems</b> and give you tips on your SEO strategy."
   },
   {
     "skills": [
