@@ -17,8 +17,7 @@ const PostCard: FunctionComponent<PostCardProps> = ({ post }) => (
         <div className={styles.imgBlock}>
           <Image
             src={post.cover}
-            width={1500}
-            height={1000}
+            layout="fill"
             alt={post.cover.split('/').slice(-1)[0].split('.')[0]}
           />
         </div>

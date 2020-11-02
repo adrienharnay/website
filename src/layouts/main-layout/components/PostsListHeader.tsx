@@ -10,18 +10,15 @@ import styles from './PostsListHeader.module.scss';
 const PostsListHeader: FunctionComponent = () => {
   return (
     <header className={styles.container}>
-      <div className={styles.coverContainer}>
+      <div className={styles.imageContainer}>
         <Image
           src="/images/layouts/main-layout-cover.jpg"
-          width={2738}
-          height={1779}
-          className={styles.cover}
-          priority
           alt="sky full of stars"
-          // TODO: Fix the image proportions when this PR will have landed:
-          // https://github.com/vercel/next.js/pull/18562
-          unoptimized
+          priority
+          quality={85}
+          layout="fill"
         />
+        <div className={styles.veil} />
       </div>
       <div className={styles.content}>
         <h1 className={styles.title}>Adrien Harnay</h1>

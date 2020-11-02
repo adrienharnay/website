@@ -30,9 +30,9 @@ const MarkdownPage: FunctionComponent<MarkdownPageProps> = ({
     <div className={styles.coverContainer}>
       <Image
         src={cover}
-        width={1500}
-        height={1000}
         alt={cover.split('/').slice(-1)[0].split('.')[0]}
+        priority
+        layout="fill"
       />
     </div>
   );

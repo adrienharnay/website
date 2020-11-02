@@ -15,7 +15,11 @@ One of the most important things to me when I browse the web is the way images l
 
 [gatsby-image](https://www.gatsbyjs.com/plugins/gatsby-image/) does the same, and actually I love it so much I wrote a webpack loader so that I could use it on any project ([@brigad/ideal-image-loader](https://github.com/Brigad/ideal-image-loader)). Next.js also has an [image component](https://nextjs.org/docs/api-reference/next/image) since v10, which is the latest version to date.
 
-I have tried migrating to the new component, but either the images ended up blurry on the screen, or were not optimized (600kb vs 200kb for my hero picture, Next.js VS Gatsby). Also, there is no progressive loading as there is with gatsby-image. I know it is still a work in progress with pending PRs, so I will wait to see if the Next.js can be improved or if I need to use gatsby-image.
+I have tried migrating to the new component, <strike>but either the images ended up blurry on the screen, or were not optimized (600kb vs 200kb for my hero picture, Next.js VS Gatsby).</strike>
+
+Edit: I have used the new `layout` prop, and it is working great! I have also set the `images.deviceSizes` property in `next.configs.js`. You can read my PR on upgrading to the new `layout` prop [here](https://github.com/adrienharnay/website/pull/5/files).
+
+One downside though, next/image doesn't have the same progressive loading feature as gatsby-image.
 
 # Static assets
 
