@@ -30,6 +30,7 @@
     "react-ga": "3.2.0",
     "remark": "13.0.0",
     "remark-autolink-headings": "6.0.1",
+    "remark-behead": "2.3.3",
     "remark-html": "13.0.1",
     "remark-prism": "1.1.17",
     "remark-slug": "6.0.0",
