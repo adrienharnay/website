@@ -13,14 +13,12 @@ const PostsListHeader: FunctionComponent = () => {
       <div className={styles.coverContainer}>
         <Image
           src="/images/layouts/main-layout-cover.jpg"
+          priority
+          layout="responsive"
           width={2738}
           height={1779}
           className={styles.cover}
-          priority
           alt="sky full of stars"
-          // TODO: Fix the image proportions when this PR will have landed:
-          // https://github.com/vercel/next.js/pull/18562
-          unoptimized
         />
       </div>
       <div className={styles.content}>
