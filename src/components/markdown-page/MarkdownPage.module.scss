@@ -39,7 +39,7 @@
     height: 350px;
     margin: 0 -4vw 4vw;
 
-    > * > * > * {
+    img {
       border-radius: 0;
     }
   }
@@ -48,7 +48,7 @@
     height: 500px;
     margin: 0 -4vw -100px;
 
-    > * > * > * {
+    img {
       border-radius: 0;
     }
   }
@@ -57,27 +57,12 @@
     height: 800px;
     margin: 0 -10vw -165px;
 
-    > * > * > * {
+    img {
       border-radius: 5px;
     }
   }
 
-  > * {
-    width: 100% !important;
-    height: 100% !important;
-
-    > * {
-      height: 100% !important;
-      padding-bottom: 0 !important;
-      > * {
-        height: 100%;
-        object-fit: cover;
-        object-position: center center;
-        background: $lightgrey center center;
-        background-size: cover;
-      }
-    }
-  }
+  position: relative;
 }
 
 .content {

@@ -18,25 +18,6 @@
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .coverContainer > * {
-    position: absolute !important;
-    z-index: -1;
-    margin: -12px 0 !important;
-    width: 100%;
-    height: 100%;
-
-    > * {
-      padding-bottom: 0 !important;
-      width: 100%;
-      height: 100%;
-
-      > * {
-        object-fit: cover;
-        object-position: center center;
-      }
-    }
-  }
-
   .content {
     @include breakpoint($small) {
       padding: 14vw 4vw;
