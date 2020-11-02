@@ -46,6 +46,24 @@
         object-fit: cover;
         object-position: center center;
       }
+
+      @include breakpoint($small) {
+        height: 200px;
+        border-radius: 5px 5px 0 0;
+
+        img {
+          border-radius: 5px 5px 0 0;
+          height: 100%;
+        }
+      }
+
+      @include breakpoint($mediumAndBig) {
+        border-radius: 5px 0 0 5px;
+
+        img {
+          border-radius: 5px 0 0 5px;
+        }
+      }
     }
 
     .contentBlock {
