@@ -12,7 +12,7 @@ const PostsListHeader: FunctionComponent = () => {
     <header className={styles.container}>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/layouts/main-layout-cover.jpg"
+          src="https://images.unsplash.com/photo-1532562066470-f6f5f6d47924?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
           alt="sky full of stars"
           priority
           quality={85}
