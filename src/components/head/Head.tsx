@@ -4,7 +4,7 @@ import NextHead from 'next/head';
 const URL = 'https://adrien.harnay.me';
 const SHORT_TITLE = 'Adrien Harnay';
 const DESCRIPTION =
-  'Front-end developer working with React / React Native. Passionate about technology. Drummer.';
+  'Front-end developer working with React / React Native. Passionate about technology. Drummer. Available for contract work.';
 const KEYWORDS =
   'adrien, harnay, blog, website, react, native, react-native, ssr, server, side, rendering, graphql, apollo, webpack';
 const VIEWPORT = 'width=device-width, initial-scale=1';
