@@ -17,7 +17,7 @@ One of the most important things to me when I browse the web is the way images l
 
 I have tried migrating to the new component, <strike>but either the images ended up blurry on the screen, or were not optimized (600kb vs 200kb for my hero picture, Next.js VS Gatsby).</strike>
 
-Edit: I have used the new `layout` prop, and it is working great! I have also set the `images.deviceSizes` property in `next.configs.js`. You can read my PR on upgrading to the new `layout` prop [here](https://github.com/adrienharnay/website/pull/5/files).
+Edit: I have used the new `layout` prop, and it is working great! I have also set the `images.deviceSizes` property in `next.config.js`. You can read my PR on upgrading to the new `layout` prop [here](https://github.com/adrienharnay/website/pull/5/files).
 
 One downside though, next/image doesn't have the same progressive loading feature as gatsby-image.
 
