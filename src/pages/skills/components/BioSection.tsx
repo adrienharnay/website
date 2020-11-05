@@ -13,6 +13,7 @@ const BioSection: FunctionComponent = () => {
             src="/images/pages/skills/adrien.jpg"
             width={220}
             height={220}
+            layout="fixed"
             alt="Adrien Harnay"
             className={styles.picture}
           />
