@@ -46,12 +46,12 @@ const BioSection: FunctionComponent = () => {
           </div>
           <div>
             <div>
-              <b>New project</b> for your organization
+              <b>New feature</b> on your product
             </div>
           </div>
           <div>
             <div>
-              <b>New feature</b> on your product
+              <b>New project</b> for your organization
             </div>
           </div>
           <div>

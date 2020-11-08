@@ -24,10 +24,9 @@
   },
   {
     "skills": [
-      { "name": "Semantic HTML", "icon": "/images/pages/skills/html.png" },
       {
-        "name": "Accessibility",
-        "icon": "/images/pages/skills/accessibility.png"
+        "name": "Semantic HTML / Accessibility",
+        "icon": "/images/pages/skills/html.png"
       }
     ],
     "title": "HTML",
@@ -39,10 +38,13 @@
         "name": "CSS / SCSS / CSS-in-JS",
         "icon": "/images/pages/skills/css.png"
       },
-      { "name": "Flexbox", "icon": "/images/pages/skills/flexbox.png" }
+      {
+        "name": "Responsive design",
+        "icon": "/images/pages/skills/responsive-design.png"
+      }
     ],
     "title": "CSS",
-    "text": "When working with CSS, I optimize for <b>great user experience</b> and maintainability, so that developers who come after me can <b>iterate quickly</b> as the features need to evolve."
+    "text": "When working with CSS, I optimize for <b>great user experience</b> and maintainability, so that developers who come after me can <b>iterate quickly</b> as the features need to evolve. I have a lot of experience with <b>responsive design</b>."
   },
   {
     "skills": [
