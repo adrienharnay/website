@@ -55,7 +55,7 @@
   {
     "skills": [
       {
-        "name": "Server side rendering",
+        "name": "Server side rendering / Next / Gatsby",
         "icon": "/images/pages/skills/server-side-rendering.png"
       }
     ],
@@ -174,8 +174,7 @@
       {
         "name": "Webpack / Rollup / Parcel",
         "icon": "/images/pages/skills/webpack.png"
-      },
-      { "name": "Babel", "icon": "/images/pages/skills/babel.png" }
+      }
     ],
     "title": "Bundling",
     "text": "I use Webpack to bundle most of my apps, and Webpack configs don't scare me one bit. I know how to set up <b>parallel builds</b>, <b>different builds for your server, your client, and latest browsers</b>, how to <b>write plugins and loaders</b> that will fit your use cases, or how to <b>optimize your builds so they become blazing fast</b>."
@@ -183,10 +182,9 @@
   {
     "skills": [
       {
-        "name": "Eslint / Stylelint",
+        "name": "Eslint / Stylelint / Prettier",
         "icon": "/images/pages/skills/eslint.png"
-      },
-      { "name": "Prettier", "icon": "/images/pages/skills/prettier.png" }
+      }
     ],
     "title": "Linting",
     "text": "A strong linting system can <b>help avoid many bugs</b>, and I have set up many different over the years. It is now the first thing that I do when starting a new work project, and I can <b>help your team gain confidence</b> and <b>stop wasting time during PR reviews</b>."
@@ -203,8 +201,10 @@
     "skills": [
       { "name": "Docker", "icon": "/images/pages/skills/docker.png" },
       { "name": "Shell", "icon": "/images/pages/skills/shell.png" },
-      { "name": "CircleCI", "icon": "/images/pages/skills/circleci.png" },
-      { "name": "Drone", "icon": "/images/pages/skills/drone.png" }
+      {
+        "name": "CI / CD (CircleCI / Drone)",
+        "icon": "/images/pages/skills/circleci.png"
+      }
     ],
     "title": "CI & CD",
     "text": "I have implemented several pipelines that handle <b>building and deploying the code to your platform of choice</b>. From linting your code to deploying your app to your infrastructure, I can <b>set up an optimized workflow that will replace your manual deployments</b>."
@@ -212,8 +212,7 @@
   {
     "skills": [
       { "name": "AWS", "icon": "/images/pages/skills/aws.png" },
-      { "name": "Vercel", "icon": "/images/pages/skills/vercel.png" },
-      { "name": "Netlify", "icon": "/images/pages/skills/netlify.png" }
+      { "name": "Vercel / Netlify", "icon": "/images/pages/skills/vercel.png" }
     ],
     "title": "Hosting",
     "text": "I have practiced hosting apps on several platforms, and I can <b>help you choose which platform is best suited for your project</b>. I can also help you <b>optimize the release process of your project on your platform of choice</b>."
