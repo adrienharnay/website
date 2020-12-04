@@ -7,9 +7,10 @@ I have gathered this list of links over time, and it is made of resources I have
 
 ## Tools
 
-### Images, fonts, assets
+### Images, videos, fonts, assets
 
 - [Unsplash](https://unsplash.com/) - Collection of beautiful, high resolution, free (and free of rights) images
+- [Coverr](https://coverr.co/) - Beautiful Free Stock Video Footage
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code
 - [Fontstorage](https://fontstorage.com/) - Collection of free fonts for your websites
 - [Terminalizer](https://github.com/faressoft/terminalizer) - Record your terminal and generate animated gif images
@@ -50,6 +51,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [How HTTPS Works](https://howhttps.works/)
 - [How DNS works](https://howdns.works/)
 - [KeyCastr](https://github.com/keycastr/keycastr) - An open-source keystroke visualizer
+- [Operator Lookup](https://www.joshwcomeau.com/operator-lookup/) - Enter a JavaScript operator to learn more about it
 
 ## Git / Github
 
@@ -503,7 +505,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Relay](https://github.com/facebook/relay) - Relay is a JavaScript framework for building data-driven React applications
 - [Exploring Relay Modern](https://dev-blog.apollodata.com/exploring-relay-modern-276f5965f827)
 
-### Apollo
+### Apollo (client)
 
 #### Documentation / News 📚
 
@@ -554,6 +556,14 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Apollo-codegen](https://github.com/apollographql/apollo-codegen) - Generate API code or type annotations based on a GraphQL schema and query documents
 - [Apollo-tracing](https://github.com/apollographql/apollo-tracing-js) - A GraphQL extension for performance tracing
 - [Yaba-social](https://github.com/allpwrfulroot/yaba-social) - Yet Another Boilerplate App showing off react-navigation and the excellent new tools from Apollo
+
+### Apollo (server)
+
+#### Concepts / Articles 💡
+
+- [Caching Strategies in a Federated GraphQL Architecture](https://www.apollographql.com/blog/caching-strategies-in-a-federated-graphql-architecture/)
+- [Schema Services: Transitioning Towards a Federated Architecture](https://www.apollographql.com/blog/schema-services-transitioning-towards-a-federated-graphql-architecture/)
+- [How Netflix Scales its API with GraphQL Federation (Part 1)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-1-ae3557c187e2)
 
 ## Test frameworks
 
@@ -1065,6 +1075,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [How things "look" in a user interface isn't just aesthetic](https://mobile.twitter.com/lukew/status/1159142972836872193?s=21) - Twitter thread
 - [The Evolution of Material Design’s Text Fields](https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03)
 - [Margin considered harmful](https://mxstbr.com/thoughts/margin)
+- [Chasing the Pixel-Perfect Dream](https://www.joshwcomeau.com/css/pixel-perfection/)
 
 ### Design Systems
 
