@@ -325,7 +325,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [React-content-loader](https://github.com/danilowoz/react-content-loader) - SVG component to create placeholder loading, like Facebook cards loading
 - [React-table](https://github.com/react-tools/react-table) - A lightweight, fast and extendable datagrid for React
 - [React-chaos](https://github.com/jchiatt/react-chaos) - Chaos Engineering for your React apps
-- [SWR](https://swr.now.sh/) - React Hooks for Remote Data Fetching
+- [SWR](https://swr.vercel.app/) - React Hooks library for data fetching
 
 ### Hooks
 
@@ -379,6 +379,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [React-native-sideswipe](https://github.com/kkemple/react-native-sideswipe) - Simple React Native carousel with sensible defaults
 - [React-native-testing-library](https://github.com/callstack/react-native-testing-library) - Simple React Native testing utilities helping you write better tests with less effort
 - [React-native-fast-image](https://github.com/DylanVann/react-native-fast-image) - FastImage, performant React Native image component
+- [Swr-react-native](https://github.com/nandorojo/swr-react-native) - React Native/React Navigation compatibility for Vercel's useSWR hook
 
 ## Native Mobile Development
 
@@ -493,6 +494,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [GraphQL Nexus](https://nexus.js.org/) - Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
 - [GraphQL Code Generator](https://graphql-code-generator.com/) - Generate code from your GraphQL schema with a single function call
 - [Gest](https://github.com/mfix22/gest) - A sensible GraphQL testing tool - test your GraphQL schema locally and in the cloud
+- [graphql-request](https://github.com/prisma-labs/graphql-request) - Minimal GraphQL client supporting Node and browsers for scripts or simple apps
 
 ### Relay vs Apollo
 
@@ -564,6 +566,8 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Caching Strategies in a Federated GraphQL Architecture](https://www.apollographql.com/blog/caching-strategies-in-a-federated-graphql-architecture/)
 - [Schema Services: Transitioning Towards a Federated Architecture](https://www.apollographql.com/blog/schema-services-transitioning-towards-a-federated-graphql-architecture/)
 - [How Netflix Scales its API with GraphQL Federation (Part 1)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-1-ae3557c187e2)
+- [How Netflix Scales its API with GraphQL Federation (Part 2)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-2-bbe71aaec44a)
+- [Securing Your GraphQL API from Malicious Queries](https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b/)
 
 ## Test frameworks
 
@@ -775,10 +779,13 @@ I have gathered this list of links over time, and it is made of resources I have
 #### Concepts / Articles 💡
 
 - [Lessons Learned Building in Next.js](https://medium.com/@diamondgfx/nextjs-lessons-learned-part-1-a5a8d442450f)
+- [Using Feature Flags in Next.js](https://medium.com/frontend-digest/using-feature-flags-in-next-js-c5c8d0795a2)
 
 #### Related tools 🛠️
 
+- [Code elimination preview](https://next-code-elimination.now.sh/) - Understand what parts of your Next.js code will be trimmed before being sent to the client
 - [Create-react-next-app](https://github.com/segmentio/create-next-app) - Create Next.js apps in one command
+- [happykit/flags](https://github.com/happykit/flags) - Feature Flags for Next.js
 
 ## Electron
 
@@ -806,9 +813,11 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Netlify docs](https://www.netlify.com/docs/)
 - [10 Netlify features to surprise and delight](https://medium.com/netlify/10-netlify-features-to-surprise-and-delight-225e846b7b21)
 
-### Now
+### Vercel
 
-- [Now docs](https://zeit.co/now)
+- [Vercel docs](https://vercel.com/home)
+- [Firebase vs. Vercel](https://medium.com/better-programming/firebase-vs-vercel-aka-zeit-now-2020-7f5ab18d865f)
+- [Enable Suspect Commits, Unminify JS, and Track Releases with Vercel and Sentry](https://blog.sentry.io/2020/08/04/enable-suspect-commits-unminify-js-and-track-releases-with-vercel-and-sentry)
 
 ## Design tools
 
@@ -1054,6 +1063,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Building resilient frontend architecture — Monica Lent](https://www.youtube.com/watch?v=brMZLmZ1HR0)
 - [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/)
 - [Why users care about how you write code](https://kentcdodds.com/blog/why-users-care-about-how-you-write-code?ck_subscriber_id=363853129)
+- [Uber migration from Objective C to Swift](https://mobile.twitter.com/stantwinb/status/1336890442768547845?s=12) (Twitter thread)
 
 ### Product insights
 
@@ -1076,6 +1086,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [The Evolution of Material Design’s Text Fields](https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03)
 - [Margin considered harmful](https://mxstbr.com/thoughts/margin)
 - [Chasing the Pixel-Perfect Dream](https://www.joshwcomeau.com/css/pixel-perfection/)
+- [How to Report Errors in Forms: 10 Design Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/)
 
 ### Design Systems
 
