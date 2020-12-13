@@ -1,7 +1,12 @@
 module.exports = {
-  plugins: [
-    'postcss-preset-env',
-    'postcss-reporter',
-    'postcss-browser-reporter',
-  ],
+  plugins: {
+    'postcss-flexbugs-fixes': {},
+    'postcss-preset-env': {
+      autoprefixer: {
+        flexbox: 'no-2009',
+      },
+    },
+    'postcss-reporter': {},
+    'postcss-browser-reporter': {},
+  },
 };
