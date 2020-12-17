@@ -12,8 +12,6 @@ const META_BANNER_URL = '/meta-banner.jpg';
 
 const Head: FunctionComponent = () => (
   <NextHead>
-    <html lang="en" />
-
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 

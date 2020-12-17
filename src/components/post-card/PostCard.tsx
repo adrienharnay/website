@@ -12,7 +12,7 @@ type PostCardProps = {
 
 const PostCard: FunctionComponent<PostCardProps> = ({ post }) => (
   <article className={styles.container}>
-    <Link href={post.id}>
+    <Link href={`/${post.id}`}>
       <a className={styles.linkContainer}>
         <div className={styles.imgBlock}>
           <Image
