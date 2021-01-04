@@ -782,7 +782,6 @@ I have gathered this list of links over time, and it is made of resources I have
 ### Frameworks
 
 - [Gatsby.js](https://github.com/gatsbyjs/gatsby) - Blazing fast static site generator for React
-- [Next.js](https://github.com/zeit/next.js) - Framework for server-rendered React apps
 - [Razzle](https://github.com/jaredpalmer/razzle) - Create server-rendered universal JavaScript applications with no configuration
 - [React-server](https://github.com/redfin/react-server) - Blazing fast page load and seamless navigation
 - [After.js](https://github.com/jaredpalmer/after.js) - Next.js-like framework for server-rendered React apps built with React Router 4
@@ -818,7 +817,6 @@ I have gathered this list of links over time, and it is made of resources I have
 #### Documentation / News 📚
 
 - [Learning Next.js to build server rendered JS web apps with React](https://nextjs.org/learn/)
-- [Next.js 7](https://nextjs.org/blog/next-7)
 
 #### Concepts / Articles 💡
 
@@ -829,7 +827,8 @@ I have gathered this list of links over time, and it is made of resources I have
 
 - [Code elimination preview](https://next-code-elimination.now.sh/) - Understand what parts of your Next.js code will be trimmed before being sent to the client
 - [Create-react-next-app](https://github.com/segmentio/create-next-app) - Create Next.js apps in one command
-- [happykit/flags](https://github.com/happykit/flags) - Feature Flags for Next.js
+- [Happykit/flags](https://github.com/happykit/flags) - Feature Flags for Next.js
+- [Nookies](https://github.com/maticzav/nookies) - A set of cookie helpers for Next.js
 
 ## Electron
 
