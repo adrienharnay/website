@@ -43,6 +43,10 @@ I have gathered this list of links over time, and it is made of resources I have
 - [VSCode Themes](https://vscodethemes.com/)
 - [Demoboard: a live editor with every package on NPM](https://frontarm.com/articles/announcing-demoboard/)
 
+### Visual editors
+
+- [Visly](https://visly.app/blogposts/visly--build-react-components-visually) - Build React components visually
+
 ### Others
 
 - [Transfer.sh](https://transfer.sh/) - Easy file sharing from the command line
@@ -558,6 +562,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Apollo-codegen](https://github.com/apollographql/apollo-codegen) - Generate API code or type annotations based on a GraphQL schema and query documents
 - [Apollo-tracing](https://github.com/apollographql/apollo-tracing-js) - A GraphQL extension for performance tracing
 - [Yaba-social](https://github.com/allpwrfulroot/yaba-social) - Yet Another Boilerplate App showing off react-navigation and the excellent new tools from Apollo
+- [Next-apollo](https://github.com/adamsoffer/next-apollo) - React higher-order component for integrating Apollo Client with Next.js
 
 ### Apollo (server)
 
@@ -568,6 +573,45 @@ I have gathered this list of links over time, and it is made of resources I have
 - [How Netflix Scales its API with GraphQL Federation (Part 1)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-1-ae3557c187e2)
 - [How Netflix Scales its API with GraphQL Federation (Part 2)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-2-bbe71aaec44a)
 - [Securing Your GraphQL API from Malicious Queries](https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b/)
+
+## No-code frameworks & SaaS
+
+### AWS Amplify
+
+#### Documentation / News 📚
+
+- [AWS Amplify docs](https://docs.amplify.aws/)
+- [AWS Amplify Sandbox](https://sandbox.amplifyapp.com/getting-started)
+
+#### Concepts / Articles 💡
+
+- [How to Design Almost Any Backend and Deploy It to AWS with No Code](https://www.freecodecamp.org/news/design-and-deploy-backend-with-amplify-sandbox/)
+- [Introducing the AWS Amplify Admin UI: Create an Application Backend in Clicks](https://welearncode.com/intro-amplify-admin-ui/)
+- [Next.js-amplify-workshop](https://github.com/dabit3/next.js-amplify-workshop)
+- [Nextjs-aws-dynamodb](https://github.com/leerob/nextjs-aws-dynamodb)
+
+#### Useful libraries 💾
+
+- [AWS Amplify SDK](https://github.com/aws-amplify/amplify-js)
+
+### Google Firebase
+
+#### Documentation / News 📚
+
+- [Google Firebase docs](https://firebase.google.com/docs)
+
+#### Concepts / Articles 💡
+
+- [Authenticated server-side rendering with Next.js and Firebase](https://colinhacks.com/essays/nextjs-firebase-authentication)
+- [Next-firebase-ssr](https://github.com/colinhacks/next-firebase-ssr)
+
+#### Useful libraries 💾
+
+- [Google Firebase SDK](https://github.com/firebase/firebase-js-sdk)
+
+### Magic
+
+- [Magic - Auth simplified](https://magic.link/) - One SDK for passwordless, WebAuthn, and social login - fully customizable
 
 ## Test frameworks
 
