@@ -71,6 +71,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Running Yarn offline](https://yarnpkg.com/blog/2016/11/24/offline-mirror/)
 - [Yarn-deduplicate](https://github.com/atlassian/yarn-deduplicate) - Cleans up yarn.lock by removing duplicates
 - [Welcome to JS Dependency Hell](https://medium.com/swlh/welcome-to-dependency-hell-754a896f0440)
+- [Creating a Monorepo with Lerna & Yarn Workspaces](https://leerob.io/blog/monorepo-lerna-yarn-workspaces)
 
 ### npm
 
@@ -785,6 +786,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Razzle](https://github.com/jaredpalmer/razzle) - Create server-rendered universal JavaScript applications with no configuration
 - [React-server](https://github.com/redfin/react-server) - Blazing fast page load and seamless navigation
 - [After.js](https://github.com/jaredpalmer/after.js) - Next.js-like framework for server-rendered React apps built with React Router 4
+- [Next.js vs. Gatsby vs. Create React App](https://leerob.io/blog/nextjs-gatsby-create-react-app)
 
 ### Gatsby.js
 
@@ -822,6 +824,13 @@ I have gathered this list of links over time, and it is made of resources I have
 
 - [Lessons Learned Building in Next.js](https://medium.com/@diamondgfx/nextjs-lessons-learned-part-1-a5a8d442450f)
 - [Using Feature Flags in Next.js](https://medium.com/frontend-digest/using-feature-flags-in-next-js-c5c8d0795a2)
+- [Using Mapbox with Next.js (Instead of Google Maps)](https://leerob.io/blog/using-mapbox-with-next-js)
+- [Things I've Learned Building Next.js Apps](https://leerob.io/blog/things-ive-learned-building-nextjs-apps)
+- [Configuring Sentry for Next.js Apps](https://leerob.io/blog/configuring-sentry-for-nextjs-apps)
+- [Going Serverless with Next.js and Firebase](https://leerob.io/blog/nextjs-firebase-serverless)
+- [Static Sites with Next.js 9.3 and Prisma](https://leerob.io/blog/next-prisma)
+- [Which Back End Should I Use As A Front-End Developer?](https://leerob.io/blog/backend)
+- [Authentication Patterns for Next.js](https://leerob.io/blog/nextjs-authentication)
 
 #### Related tools 🛠️
 
@@ -1130,6 +1139,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Margin considered harmful](https://mxstbr.com/thoughts/margin)
 - [Chasing the Pixel-Perfect Dream](https://www.joshwcomeau.com/css/pixel-perfection/)
 - [How to Report Errors in Forms: 10 Design Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/)
+- [How Stripe Designs Beautiful Websites](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
 
 ### Design Systems
 
@@ -1147,6 +1157,7 @@ I have gathered this list of links over time, and it is made of resources I have
 - [Design System Playground](https://design-system-playground.netlify.com/)
 - [ReactiveConf 2019 - Mark Dalgleish: Rethinking Design Practices](https://www.youtube.com/watch?feature=youtu.be&v=jnV1u67_yVg)
 - [Braid design system](https://github.com/seek-oss/braid-design-system) - Themeable design system for the SEEK Group
+- [Everything I Know About Style Guides, Design Systems, and Component Libraries](https://leerob.io/blog/style-guides-component-libraries-design-systems)
 
 ### Being a developer
 
@@ -1240,7 +1251,7 @@ I have gathered this list of links over time, and it is made of resources I have
 
 - [How to Get Rich (without getting lucky)](https://mobile.twitter.com/naval/status/1002103360646823936) - Twitter thread
 
-## Job hunting / Freelance (mainly for french people)
+## Job hunting / Freelance platforms (mainly for French people)
 
 - [Stack Overflow: Calculate your salary](https://stackoverflow.com/jobs/salary)
 - [Crème de la crème](https://cremedelacreme.io/)
@@ -1254,6 +1265,10 @@ I have gathered this list of links over time, and it is made of resources I have
 - [JobTeaser](https://epitech.jobteaser.com/fr/users/sign_in?back_to_after_login=%2Ffr)
 - [How I Find Six Figure Remote Software Developer Jobs](https://dev.to/colinmtech/how-i-find-six-figure-remote-software-developer-jobs-23jd)
 - [We Work Remotely](https://weworkremotely.com/)
+
+## Freelance advice
+
+- [Pricing Freelance Projects](https://www.tomhirst.com/pricing-freelance-projects/)
 
 ## Personal achievements
 
