@@ -15,7 +15,7 @@ I have gathered this list of links over time, and it is made of resources I have
     - [IDEs]()
     - [Visual editors]()
     - [Others]()
-    - [Git / Github]
+    - [Git / Github]()
 - [Package managers]()
     - [Yarn]()
     - [npm]()
