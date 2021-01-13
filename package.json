@@ -41,7 +41,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/generateSourceMap.js",
+    "build": "next build && node scripts/generateSitemap.js",
     "start": "next start",
     "modules:clean": "rm -rf node_modules",
     "cache:clean": "rm -rf .next/cache",
