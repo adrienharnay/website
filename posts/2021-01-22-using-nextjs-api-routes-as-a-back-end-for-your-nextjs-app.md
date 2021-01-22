@@ -26,7 +26,9 @@ At the end of the test, I will outline relevant differences between all the solu
 
 # Next.js API Routes
 
-[Next.js API routes](https://nextjs.org/docs/api-routes/introduction) are a built-in feature of Next.js. On top of serving your content, your server can also be used as a REST API! Let's try it out.
+[Next.js API routes](https://nextjs.org/docs/api-routes/introduction) are a built-in feature of Next.js. On top of serving your content, your server can also be used as a REST API!
+
+This feature is particularly useful if you need to build a simple back-end, to add features to an existing API, or to consume libraries which are not available on the browser.
 
 ## Prior configuration
 
