@@ -36,7 +36,7 @@ Since the feature is built into Next.js, we don't need any account or configurat
 
 ## Integration
 
-One great upside of Next.js API Routes is that they are Just JavaScript™️! You don't have to learn a specific syntax and can be proficient instantly if you know Express (and particularly the `req` and `req` objects).
+One great upside of Next.js API Routes is that they are Just JavaScript™️! You don't have to learn a specific syntax and can be proficient instantly if you know Express (and particularly the `req` and `res` objects).
 
 Next.js API routes do not support GraphQL, but as this solution is only meant to be a reference for our future tests, this won't be a problem.
 
