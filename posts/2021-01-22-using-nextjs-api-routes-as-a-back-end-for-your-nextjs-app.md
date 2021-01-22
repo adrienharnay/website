@@ -47,6 +47,29 @@ Here are the steps to implement a REST API using Next.js API Routes:
 - Implement logic as you would in a regular Express app (examples [here](https://github.com/adrienharnay/cocktails-app-nextjs-api-routes/blob/master/src/pages/api/cocktails/index.api.ts))
 - Call the routes you have created in your React code, pointing to `/api/[requestName]` (example [here](https://github.com/adrienharnay/cocktails-app-nextjs-api-routes/blob/master/src/pages/index/js/CocktailsPage.tsx#L27-L41))
 
+Example:
+```js
+import { readFileSync } from "fs";
+import path from "path";
+
+export default function handler(req, res) {
+  if (req.method !== "GET") {
+    res.status(404).send("Not found");
+    return;
+  }
+
+  const cocktails = JSON.parse(
+    readFileSync(
+      path.resolve("data/cocktails.json"), {
+        encoding: "utf-8",
+      }
+    )
+  );
+
+  res.status(200).json({ cocktails });
+}
+```
+
 And that's it! No need to host your back-end, it will be hosted on the same server as your front-end!
 
 ## Next steps
