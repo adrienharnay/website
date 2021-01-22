@@ -1,6 +1,6 @@
 ---
 date: '2021-01-22'
-title: 'Using Next.js API Routes'
+title: 'Using Next.js API Routes as a back-end for your Next.js app'
 excerpt: 'In my previous post, I explained how I migrated my blog to Next.js. Today, I wanted to explore Next.js API Routes and how they can help us build a back-end for our front-end application.'
 cover: '/images/posts/nextjs-routes.jpg'
 ---
