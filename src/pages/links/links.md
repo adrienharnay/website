@@ -1083,6 +1083,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Improving third-party web performance at The Telegraph](https://medium.com/the-telegraph-engineering/improving-third-party-web-performance-at-the-telegraph-a0a1000be5)
 - [Extract critical CSS](https://web.dev/extract-critical-css?authuser=1)
 - [Trim the Fat From Your Bundles Using Webpack Analyzer & React Lazy/Suspense](https://www.wix.engineering/post/trim-the-fat-from-your-bundles-using-webpack-analyzer-react-lazy-suspense)
+- [The Fastest Google Fonts](https://csswizardry.com/2020/05/the-fastest-google-fonts/)
 
 #### Input / Throughput
 
@@ -1111,6 +1112,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Making Instagram.com faster: Part 3 - cache first](https://instagram-engineering.com/making-instagram-com-faster-part-3-cache-first-6f3f130b9669)
 - [Making Instagram.com faster: Part 4 - code size and execution optimizations](https://instagram-engineering.com/making-instagram-com-faster-code-size-and-execution-optimizations-part-4-57668be796a8)
 - [Google Metrics](https://web.dev/metrics/) - Measure and optimize performance and user experience
+- [Estimator.dev](https://estimator.dev/) - Find out how much turning on modern JS could save
 
 #### Performance accessibility
 
@@ -1271,6 +1273,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/)
 - [Why users care about how you write code](https://kentcdodds.com/blog/why-users-care-about-how-you-write-code?ck_subscriber_id=363853129)
 - [Uber migration from Objective C to Swift](https://mobile.twitter.com/stantwinb/status/1336890442768547845?s=12) (Twitter thread)
+- [The joy of deleting code](https://www.rockandnull.com/joy-of-deleting-code/)
 
 ### Product insights
 
