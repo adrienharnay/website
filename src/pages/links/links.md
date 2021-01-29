@@ -12,6 +12,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Shell](#shell)
   - [Git / Github](#git--github)
   - [Package managers](#package-managers)
+  - [General programming](#general-programming)
 
 - [Programming languages](#programming-languages)
 
@@ -23,14 +24,16 @@ Everytime I find a new resource and think I might need it in the future, it gets
     - [HTML accessibility](#html-accessibility)
   - [CSS](#css)
     - [Vanilla](#vanilla)
-    - [SCSS](#scss)
-    - [CSS Modules](#css-modules)
-    - [CSS-in-JS](#css-in-js)
-    - [JS-in-CSS (because why not)](#js-in-css-because-why-not)
     - [Flexbox](#flexbox)
     - [Grid](#grid)
     - [Animations](#animations)
     - [Cool demos](#cool-demos)
+    - [SCSS](#scss)
+    - [CSS Modules](#css-modules)
+    - [CSS-in-JS](#css-in-js)
+    - [JS-in-CSS (because why not)](#js-in-css-because-why-not)
+    - [Other CSS frameworks](#other-css-frameworks)
+    - [Common CSS bugs](#common-css-bugs)
 
 - [Frameworks](#frameworks)
 
@@ -172,6 +175,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Npkill](https://github.com/voidcosmos/npkill) - List any node_modules directories in your system, as well as the space they take up. You can then select which ones you want to erase to free up space
 - [Npm semver calculator](https://semver.npmjs.com/)
 
+### General programming
+
+- [Naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) - Comprehensive language-agnostic guidelines on variables naming
+
 ## Programming languages
 
 ### Javascript
@@ -280,6 +287,31 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [CSS hack to show elements depth on a page](https://dev.to/gajus/my-favorite-css-hack-32g3)
 - [Overflow In CSS](https://ishadeed.com/article/overflow-css/)
 
+#### Flexbox
+
+- [Flexbox Zombies](https://mastery.games/p/flexbox-zombies) - Free course on flexboxes
+- [Test CSS Flexbox Rules](http://flexbox.help/)
+
+#### Grid
+
+- [Grid critters](http://www.gridcritters.com/) - Free course on grid
+- [CSS Grid Layout Interface](https://www.layoutit.com/grid)
+
+#### Animations
+
+- [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
+- [How to create fancy revealing animations with these simple CSS tricks](https://hackernoon.com/how-to-create-fancy-revealing-animations-with-these-simple-css-tricks-5b34614ae69a)
+- [Lottie](https://airbnb.design/lottie/)
+- [Lottie Files](https://www.lottiefiles.com/) - An online community to find, test, and share striking animations
+- [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9)
+
+#### Cool demos
+
+- [Moving letters](http://tobiasahlin.com/moving-letters/)
+- [Single element CSS spinners](https://projects.lukehaas.me/css-loaders/)
+- [30 Seconds of CSS](https://atomiks.github.io/30-seconds-of-css/)
+- [Responsive animated progress bar to donut](https://codepen.io/ainalem/details/zJeyxo/)
+
 #### SCSS
 
 - [Advanced SCSS, or, 16 cool things you may not have known your stylesheets could do](https://gist.github.com/jareware/4738651)
@@ -305,30 +337,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-native-css-modules](https://github.com/kristerkari/react-native-css-modules) - Use CSS modules in React Native
 - [React-native-sass-transformer](https://github.com/kristerkari/react-native-sass-transformer) - Load Sass files to react native style objects
 
-#### Flexbox
+#### Other CSS frameworks
 
-- [Flexbox Zombies](https://mastery.games/p/flexbox-zombies) - Free course on flexboxes
-- [Test CSS Flexbox Rules](http://flexbox.help/)
+- [Why Tailwind Isn't for Me](https://dev.to/jaredcwhite/why-tailwind-isn-t-for-me-5c90)
 
-#### Grid
+#### Common CSS bugs
 
-- [Grid critters](http://www.gridcritters.com/) - Free course on grid
-- [CSS Grid Layout Interface](https://www.layoutit.com/grid)
-
-#### Animations
-
-- [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
-- [How to create fancy revealing animations with these simple CSS tricks](https://hackernoon.com/how-to-create-fancy-revealing-animations-with-these-simple-css-tricks-5b34614ae69a)
-- [Lottie](https://airbnb.design/lottie/)
-- [Lottie Files](https://www.lottiefiles.com/) - An online community to find, test, and share striking animations
-- [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9)
-
-#### Cool demos
-
-- [Moving letters](http://tobiasahlin.com/moving-letters/)
-- [Single element CSS spinners](https://projects.lukehaas.me/css-loaders/)
-- [30 Seconds of CSS](https://atomiks.github.io/30-seconds-of-css/)
-- [Responsive animated progress bar to donut](https://codepen.io/ainalem/details/zJeyxo/)
+- [Internet Explorer Hacks](https://medium.com/codeart-mk/internet-explorer-hacks-796200e5741c)
 
 ## Frameworks
 
@@ -1174,6 +1189,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Emoji-as-a-service](https://emoji.veryfunparty.com/) - Service that returns a high-res, predictable emoji image for a given URL
 - [Image Color Picker](https://image-color.com/) - Find your perfect color palette by uploading an image you like
 - [Coolors](https://coolors.co/) - Create the perfect palette or get inspired by thousands of beautiful color schemes
+- [Remove.bg](https://www.remove.bg) - Remove image background
+- [Unscreen](https://www.unscreen.com/) - Remove video background
 
 ### Productivity
 
@@ -1278,6 +1295,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Chasing the Pixel-Perfect Dream](https://www.joshwcomeau.com/css/pixel-perfection/)
 - [How to Report Errors in Forms: 10 Design Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/)
 - [How Stripe Designs Beautiful Websites](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
+- [How To Write Great Microcopy](https://theproductperson.substack.com/p/-how-to-write-great-microcopy)
+- [How to Negotiate & Persuade](https://theproductperson.substack.com/p/-how-to-negotiate-and-persuade)
 
 ### Being a developer
 
@@ -1332,6 +1351,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Proximate vs Root Causes: Why You Should Keep Digging to Find the Answer](https://www.farnamstreetblog.com/2017/05/proximate-vs-root-causes/)
 - [How To Work With Developers - A Guide for Non-Developers](https://dev.to/kttravers/how-to-work-with-developers---a-guide-for-non-developers-35hk)
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)
+- [Beyond best intentions](https://thoughtbot.com/blog/beyond-best-intentions)
 
 ### Writing articles
 
