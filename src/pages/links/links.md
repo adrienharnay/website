@@ -566,6 +566,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Create-react-next-app](https://github.com/segmentio/create-next-app) - Create Next.js apps in one command
 - [Happykit/flags](https://github.com/happykit/flags) - Feature Flags for Next.js
 - [Nookies](https://github.com/maticzav/nookies) - A set of cookie helpers for Next.js
+- [Next-stripe](https://github.com/ynnoj/next-stripe) - Simplified server-side Stripe workflows in Next.js
 
 ### Electron
 
@@ -663,6 +664,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [DocQL](https://docql.io/) - Beautiful documentation & guides for your GraphQL APIs
 - [GraphQL Nexus](https://nexus.js.org/) - Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
 - [GraphQL Code Generator](https://graphql-code-generator.com/) - Generate code from your GraphQL schema with a single function call
+- [GraphCDN](https://graphcdn.io/) - The fastest way to cache GraphQL
 
 ### Apollo client
 
@@ -1113,6 +1115,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Making Instagram.com faster: Part 4 - code size and execution optimizations](https://instagram-engineering.com/making-instagram-com-faster-code-size-and-execution-optimizations-part-4-57668be796a8)
 - [Google Metrics](https://web.dev/metrics/) - Measure and optimize performance and user experience
 - [Estimator.dev](https://estimator.dev/) - Find out how much turning on modern JS could save
+- [How We Improved SmashingMag Performance](https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/)
+- [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
 
 #### Performance accessibility
 
@@ -1300,6 +1304,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How Stripe Designs Beautiful Websites](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
 - [How To Write Great Microcopy](https://theproductperson.substack.com/p/-how-to-write-great-microcopy)
 - [How to Negotiate & Persuade](https://theproductperson.substack.com/p/-how-to-negotiate-and-persuade)
+- [Why I'm losing faith in UX](https://creativegood.com/blog/21/losing-faith-in-ux.html)
 
 ### Being a developer
 
