@@ -207,6 +207,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Awesome one-liners you might find useful while coding](https://mobile.twitter.com/coderitual/status/1112297299307384833)
 - [Applying a timeout to your promises](https://italonascimento.github.io/applying-a-timeout-to-your-promises/)
 - [Is postMessage slow?](https://dassur.ma/things/is-postmessage-slow/)
+- [Listify a JavaScript array](https://kentcdodds.com/blog/listify-a-java-script-array?ck_subscriber_id=363853129)
 
 #### Related tools 🛠️
 
@@ -451,6 +452,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-table](https://github.com/react-tools/react-table) - A lightweight, fast and extendable datagrid for React
 - [React-chaos](https://github.com/jchiatt/react-chaos) - Chaos Engineering for your React apps
 - [SWR](https://swr.vercel.app/) - React Hooks library for data fetching
+- [Remotion](https://www.remotion.dev/) - Create motion graphics in React
 
 #### Hooks
 
@@ -490,6 +492,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The New React Native Architecture Explained](https://formidable.com/blog/2019/react-codegen-part-1/)
 - [React Native Performance: Do and Don't](https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a)
 - [React Native is the Future of Mobile at Shopify](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify)
+- [Stack Navigator Transitions | React Navigation 5](https://www.youtube.com/watch?v=PvjV96CNPqM) - YouTube video
 
 #### Related tools 🛠️
 
@@ -505,6 +508,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-native-testing-library](https://github.com/callstack/react-native-testing-library) - Simple React Native testing utilities helping you write better tests with less effort
 - [React-native-fast-image](https://github.com/DylanVann/react-native-fast-image) - FastImage, performant React Native image component
 - [Swr-react-native](https://github.com/nandorojo/swr-react-native) - React Native/React Navigation compatibility for Vercel's useSWR hook
+- [React-native-quick-base64](https://github.com/craftzdog/react-native-quick-base64) - A fast base64 module for React Native
 
 ### Native Mobile Development
 
@@ -559,6 +563,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Static Sites with Next.js 9.3 and Prisma](https://leerob.io/blog/next-prisma)
 - [Which Back End Should I Use As A Front-End Developer?](https://leerob.io/blog/backend)
 - [Authentication Patterns for Next.js](https://leerob.io/blog/nextjs-authentication)
+- [10 Next.js Tips You Might Not Know](https://vercel.com/blog/10-next-js-tips-you-might-not-know)
+- [Building Forms with Next.js](https://nextjs.org/blog/forms)
 
 #### Related tools 🛠️
 
@@ -938,6 +944,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Others
 
 - [Playroom](https://github.com/seek-oss/playroom) - Design with JSX, powered by your own component library
+- [a11y-color-tokens](https://github.com/5t3ph/a11y-color-tokens) - Generate accessible UI colors from your base color tokens
 
 ### Documentation generators
 
@@ -979,6 +986,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ReactiveConf 2019 - Mark Dalgleish: Rethinking Design Practices](https://www.youtube.com/watch?feature=youtu.be&v=jnV1u67_yVg)
 - [Braid design system](https://github.com/seek-oss/braid-design-system) - Themeable design system for the SEEK Group
 - [Everything I Know About Style Guides, Design Systems, and Component Libraries](https://leerob.io/blog/style-guides-component-libraries-design-systems)
+- [Design Systems France](https://www.designsystems.fr/liste-des-designs-systems-francais) - Liste des Design Systems français
 
 ### State machines
 
@@ -1323,6 +1331,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [AHA Programming](https://kentcdodds.com/blog/aha-programming)
 - [ooooops I guess we’re\* full-stack developers now](https://full-stack.netlify.com/)
 - [How to get experience as a software engineer](https://kentcdodds.com/blog/how-to-get-experience-as-a-software-engineer)
+- [To the brain, reading computer code is not the same as reading language](https://css-tricks.com/to-the-brain-reading-computer-code-is-not-the-same-as-reading-language/)
+- [A Front End Developer is Aware](https://css-tricks.com/front-end-developer-aware/)
 
 ### Leadership / Teaching
 
@@ -1339,6 +1349,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [How do you manage underperforming team members?](https://mobile.twitter.com/jamonholmgren/status/1153435334299885569) - Twitter thread
 - [The CEO of \$48 billion Shopify says long hours aren't necessary for success: 'I'm home at 5:30pm every evening'](https://www.businessinsider.fr/us/shopify-ceo-success-long-hours-40-hour-week-2019-12)
+- - [The epistemology of software quality](https://increment.com/teams/the-epistemology-of-software-quality/)
 
 ### OSS
 
@@ -1351,6 +1362,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Tips for a successful switch to a standing desk](https://dev.to/jerodsanto/tips-for-a-successful-switch-to-a-standing-desk-4p8o)
 - [Taking the Pain Out of Video Conferences](https://shift.infinite.red/taking-the-pain-out-of-video-conferences-7b7abe822b36?gi=8368d504d7fd)
 - [The Basecamp Guide to Internal Communication](https://basecamp.com/guides/how-we-communicate)
+- [Spotify says it's letting employees work from anywhere, while still paying San Francisco and New York salaries](https://www.businessinsider.com/spotify-unveils-new-remote-work-option-for-all-employees-2021-2?r=US&IR=T)
 
 ### Communicating
 
@@ -1385,6 +1397,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [How NOT to succeed in your 45-minute coding interview](https://dev.to/fahimulhaq/how-not-to-succeed-in-your-45-minute-coding-interview)
 - [React Interview Questions](https://dev.to/tylermcginnis/react-interview-questions)
+- [Hiring without whiteboards](https://github.com/poteto/hiring-without-whiteboards) - Companies that don't have a broken hiring process
 
 ### Resumes
 
