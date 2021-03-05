@@ -75,9 +75,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [SaaS useful to front-end developers](#saas-useful-to-front-end-developers)
 
-  - [No code back-end providers](#no-code-back-end-providers)
+  - [BaaS (Back-end as a service)](#baas-back-end-as-a-service)
     - [AWS Amplify](#aws-amplify)
     - [Google Firebase](#google-firebase)
+    - [Supabase](#supabase)
 
 - [Hosting providers](#hosting-providers)
 
@@ -873,7 +874,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ## SaaS useful to front-end developers
 
-### No code back-end providers
+### BaaS (Back-end as a service)
 
 #### AWS Amplify
 
@@ -907,6 +908,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ##### Useful libraries 💾
 
 - [Google Firebase SDK](https://github.com/firebase/firebase-js-sdk)
+
+#### Supabase
+
+##### Concepts / Articles
+
+- [Firebase vs. Supabase: Which is better?](https://blog.logrocket.com/firebase-vs-supabase-which-is-better/)
 
 ### Others
 
@@ -1094,6 +1101,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Extract critical CSS](https://web.dev/extract-critical-css?authuser=1)
 - [Trim the Fat From Your Bundles Using Webpack Analyzer & React Lazy/Suspense](https://www.wix.engineering/post/trim-the-fat-from-your-bundles-using-webpack-analyzer-react-lazy-suspense)
 - [The Fastest Google Fonts](https://csswizardry.com/2020/05/the-fastest-google-fonts/)
+- [AVIF and WebP encoding quality settings](https://www.industrialempathy.com/posts/avif-webp-quality-settings/)
+- [Time for Next-Gen Codecs to Dethrone JPEG](https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg)
 
 #### Input / Throughput
 
@@ -1286,6 +1295,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Why users care about how you write code](https://kentcdodds.com/blog/why-users-care-about-how-you-write-code?ck_subscriber_id=363853129)
 - [Uber migration from Objective C to Swift](https://mobile.twitter.com/stantwinb/status/1336890442768547845?s=12) (Twitter thread)
 - [The joy of deleting code](https://www.rockandnull.com/joy-of-deleting-code/)
+- [WTF is JAMstack](https://jamstack.wtf/)
 
 ### Product insights
 
