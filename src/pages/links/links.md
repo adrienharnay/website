@@ -209,6 +209,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Applying a timeout to your promises](https://italonascimento.github.io/applying-a-timeout-to-your-promises/)
 - [Is postMessage slow?](https://dassur.ma/things/is-postmessage-slow/)
 - [Listify a JavaScript array](https://kentcdodds.com/blog/listify-a-java-script-array?ck_subscriber_id=363853129)
+- [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
 
 #### Related tools 🛠️
 
@@ -288,6 +289,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [4 reasons your z-index isn’t working (and how to fix it)](https://medium.freecodecamp.org/4-reasons-your-z-index-isnt-working-and-how-to-fix-it-coder-coder-6bc05f103e6c)
 - [CSS hack to show elements depth on a page](https://dev.to/gajus/my-favorite-css-hack-32g3)
 - [Overflow In CSS](https://ishadeed.com/article/overflow-css/)
+- [What the heck, z-index??](https://www.joshwcomeau.com/css/stacking-contexts/)
+- [Diving into the ::before and ::after Pseudo-Elements](https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/)
+- [Avoiding jagged edges on gradients](https://medium.com/pixel-and-ink/avoiding-jagged-edges-on-gradients-f485cc7401f5)
 
 #### Flexbox
 
@@ -405,6 +409,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Initializing focus state in React: you might be doing it wrong](https://exogen.github.io/blog/focus-state/)
 - [The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
 - [Stop using client-side route redirects](https://kentcdodds.com/blog/stop-using-client-side-route-redirects?ck_subscriber_id=363853129)
+- [What is React: A Visual Introduction For Beginners](https://learnreact.design/posts/what-is-react)
+- [Everything About React Server Components](https://vercel.com/blog/everything-about-react-server-components)
 
 #### Related tools 🛠️
 
@@ -499,8 +505,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Create-react-native-app](https://github.com/react-community/create-react-native-app) - Create a React Native app on any OS with no build config
 - [Open-sourcing Sonar, a new extensible debugging tool](https://code.facebook.com/posts/1461914677288302/open-sourcing-sonar-a-new-extensible-debugging-tool/)
-- [Sonar](https://github.com/facebook/Sonar) - A desktop debugging platform for mobile developers
+- [Flipper](https://fbflipper.com/) - Extensible mobile app debugger
 - [RN diff purge](https://pvinis.github.io/purge-web/) - Upgrade your React Native apps (and get diffs between versions)
+- [App Icon Generator](https://appicon.co/)
 
 #### Useful libraries 💾
 
@@ -1039,6 +1046,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [The Illusion of Speed](https://paulbakaus.com/tutorials/performance/the-illusion-of-speed/)
 - [Designing for the Appearance of Speed](https://medium.com/mobify-design-team/designing-for-the-appearance-of-speed-aaabc7f568c2)
+- [Speed is the killer feature](https://bdickason.com/posts/speed-is-the-killer-feature/)
 
 #### Network
 
