@@ -20,9 +20,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Typescript](#typescript)
   - [Reason](#reason)
   - [HTML](#html)
+
     - [Semantics](#semantics)
     - [HTML accessibility](#html-accessibility)
+
   - [CSS](#css)
+
     - [Vanilla](#vanilla)
     - [Flexbox](#flexbox)
     - [Grid](#grid)
@@ -58,38 +61,49 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Code quality](#code-quality)
 
   - [Linters](#linters)
+
     - [Eslint](#eslint)
+
   - [Test frameworks](#test-frameworks)
+
     - [Jest](#jest)
     - [Cypress](#cypress)
 
 - [Bundling](#bundling)
 
   - [Bundlers](#bundlers)
+
     - [Webpack](#webpack)
     - [Rollup](#rollup)
     - [Parcel](#parcel)
+
   - [Transpilers and optimizers](#transpilers-and-optimizers)
+
     - [Babel](#babel)
     - [Prepack](#prepack)
-
-- [SaaS useful to front-end developers](#saas-useful-to-front-end-developers)
-
-  - [BaaS (Back-end as a service)](#baas-back-end-as-a-service)
-    - [AWS Amplify](#aws-amplify)
-    - [Google Firebase](#google-firebase)
-    - [Supabase](#supabase)
 
 - [Hosting providers](#hosting-providers)
 
   - [Netlify](#netlify)
   - [Vercel](#vercel)
 
+- [Continuous development platforms](#continuous-development-platforms)
+
+- [SaaS useful to front-end developers](#saas-useful-to-front-end-developers)
+
+  - [BaaS (Back-end as a service)](#baas-back-end-as-a-service)
+
+    - [AWS Amplify](#aws-amplify)
+    - [Google Firebase](#google-firebase)
+    - [Supabase](#supabase)
+
 - [Website generators](#website-generators)
 
   - [Styleguide generators](#styleguide-generators)
+
     - [Styleguidist](#styleguidist)
     - [Storybook](#storybook)
+
   - [Documentation generators](#documentation-generators)
   - [Presentation generators](#presentation-generators)
 
@@ -98,15 +112,19 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Design systems](#design-systems)
   - [State machines](#state-machines)
   - [Server Side Rendering](#server-side-rendering)
+
     - [SSR Boilerplates](#ssr-boilerplates)
     - [SSR Frameworks](#ssr-frameworks)
+
   - [Performance](#performance)
+
     - [Illusion of speed](#illusion-of-speed)
     - [Network](#network)
     - [Input / Throughput](#input--throughput)
     - [Performance accessibility](#performance-accessibility)
     - [Progressive Web Apps](#progressive-web-apps)
     - [Performance benchmarks](#performance-benchmarks-)
+
   - [SEO](#seo)
   - [Security](#security)
 
@@ -117,9 +135,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Mock APIs](#mock-apis)
   - [Regex testers](#regex-testers)
   - [IDEs](#ides)
+
     - [Visual Studio Code](#visual-studio-code)
     - [Online IDEs](#online-ides)
+
   - [Design tools](#design-tools)
+
     - [Sketch](#sketch)
     - [Framer X](#framer-x)
 
@@ -140,6 +161,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Resumes](#resumes)
   - [Startups](#startups)
   - [Freelance](#freelance)
+
     - [Freelance advice](#freelance-advice)
     - [Job hunting / Freelancing (mainly for French people)](#job-hunting--freelance-platforms-mainly-for-french-people)
 
@@ -180,6 +202,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) - Comprehensive language-agnostic guidelines on variables naming
 
+### Web development
+
+- [Eruda](https://eruda.liriliri.io/) - Console for Mobile Browsers
+
 ## Programming languages
 
 ### Javascript
@@ -210,6 +236,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Is postMessage slow?](https://dassur.ma/things/is-postmessage-slow/)
 - [Listify a JavaScript array](https://kentcdodds.com/blog/listify-a-java-script-array?ck_subscriber_id=363853129)
 - [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
+- [Flavio Copes JavaScript tutorials](https://flaviocopes.com/tags/js/)
 
 #### Related tools 🛠️
 
@@ -500,6 +527,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React Native Performance: Do and Don't](https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a)
 - [React Native is the Future of Mobile at Shopify](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify)
 - [Stack Navigator Transitions | React Navigation 5](https://www.youtube.com/watch?v=PvjV96CNPqM) - YouTube video
+- [Setup your React Native splash screen in 15 minutes](https://blog.bam.tech/developer-news/set-up-your-react-native-splash-screen-in-15-minutes)
 
 #### Related tools 🛠️
 
@@ -517,6 +545,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-native-fast-image](https://github.com/DylanVann/react-native-fast-image) - FastImage, performant React Native image component
 - [Swr-react-native](https://github.com/nandorojo/swr-react-native) - React Native/React Navigation compatibility for Vercel's useSWR hook
 - [React-native-quick-base64](https://github.com/craftzdog/react-native-quick-base64) - A fast base64 module for React Native
+- [React-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) - A performant interactive bottom sheet with fully configurable options
 
 ### Native Mobile Development
 
@@ -879,6 +908,30 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [A Gentle Introduction to Prepack (Part 1)](https://gist.github.com/gaearon/d85dccba72b809f56a9553972e5c33c4)
 
+## Hosting providers
+
+### Netlify
+
+- [Netlify docs](https://www.netlify.com/docs/)
+- [10 Netlify features to surprise and delight](https://medium.com/netlify/10-netlify-features-to-surprise-and-delight-225e846b7b21)
+- [Incremental Static Regeneration: Its Benefits and Its Flaws](https://www.netlify.com/blog/2021/03/08/incremental-static-regeneration-its-benefits-and-its-flaws/)
+
+### Vercel
+
+- [Vercel docs](https://vercel.com/home)
+- [Firebase vs. Vercel](https://medium.com/better-programming/firebase-vs-vercel-aka-zeit-now-2020-7f5ab18d865f)
+- [Enable Suspect Commits, Unminify JS, and Track Releases with Vercel and Sentry](https://blog.sentry.io/2020/08/04/enable-suspect-commits-unminify-js-and-track-releases-with-vercel-and-sentry)
+
+### Others
+
+- [Fleek](https://fleek.co/)
+
+## Continuous development platforms
+
+- [CircleCI](https://circleci.com/)
+- [Drone](https://www.drone.io/)
+- [BuildKite](https://buildkite.com/)
+
 ## SaaS useful to front-end developers
 
 ### BaaS (Back-end as a service)
@@ -927,19 +980,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Magic
 
 - [Magic - Auth simplified](https://magic.link/) - One SDK for passwordless, WebAuthn, and social login - fully customizable
-
-## Hosting providers
-
-### Netlify
-
-- [Netlify docs](https://www.netlify.com/docs/)
-- [10 Netlify features to surprise and delight](https://medium.com/netlify/10-netlify-features-to-surprise-and-delight-225e846b7b21)
-
-### Vercel
-
-- [Vercel docs](https://vercel.com/home)
-- [Firebase vs. Vercel](https://medium.com/better-programming/firebase-vs-vercel-aka-zeit-now-2020-7f5ab18d865f)
-- [Enable Suspect Commits, Unminify JS, and Track Releases with Vercel and Sentry](https://blog.sentry.io/2020/08/04/enable-suspect-commits-unminify-js-and-track-releases-with-vercel-and-sentry)
+- [Insights](https://getinsights.io/) - Privacy-Focused Analytics Platform For Developers
 
 ## Website generators
 
@@ -1110,6 +1151,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Trim the Fat From Your Bundles Using Webpack Analyzer & React Lazy/Suspense](https://www.wix.engineering/post/trim-the-fat-from-your-bundles-using-webpack-analyzer-react-lazy-suspense)
 - [The Fastest Google Fonts](https://csswizardry.com/2020/05/the-fastest-google-fonts/)
 - [AVIF and WebP encoding quality settings](https://www.industrialempathy.com/posts/avif-webp-quality-settings/)
+- [AVIF has landed](https://jakearchibald.com/2020/avif-has-landed/)
 - [Time for Next-Gen Codecs to Dethrone JPEG](https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg)
 
 #### Input / Throughput
@@ -1304,6 +1346,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Uber migration from Objective C to Swift](https://mobile.twitter.com/stantwinb/status/1336890442768547845?s=12) (Twitter thread)
 - [The joy of deleting code](https://www.rockandnull.com/joy-of-deleting-code/)
 - [WTF is JAMstack](https://jamstack.wtf/)
+- [The Case for Lower Code](https://aspittel.hashnode.dev/the-case-for-lower-code)
+- [No Code VS Low Code. What’s the Difference? It. Doesn't. Matter.](https://www.freecodecamp.org/news/no-code-vs-low-code-defined/)
 
 ### Product insights
 
@@ -1351,6 +1395,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to get experience as a software engineer](https://kentcdodds.com/blog/how-to-get-experience-as-a-software-engineer)
 - [To the brain, reading computer code is not the same as reading language](https://css-tricks.com/to-the-brain-reading-computer-code-is-not-the-same-as-reading-language/)
 - [A Front End Developer is Aware](https://css-tricks.com/front-end-developer-aware/)
+- [Know your "One Job" and do it first](https://charity.wtf/2021/03/07/know-your-one-job-and-do-it-first/)
 
 ### Leadership / Teaching
 
@@ -1367,7 +1412,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [How do you manage underperforming team members?](https://mobile.twitter.com/jamonholmgren/status/1153435334299885569) - Twitter thread
 - [The CEO of \$48 billion Shopify says long hours aren't necessary for success: 'I'm home at 5:30pm every evening'](https://www.businessinsider.fr/us/shopify-ceo-success-long-hours-40-hour-week-2019-12)
-- - [The epistemology of software quality](https://increment.com/teams/the-epistemology-of-software-quality/)
+- [The epistemology of software quality](https://increment.com/teams/the-epistemology-of-software-quality/)
+- [The Evolution of Trust](https://ncase.me/trust/) - Game on trust theory
 
 ### OSS
 
@@ -1384,7 +1430,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Communicating
 
-- [Active Listening: The Master Key to Effective Communication](https://www.farnamstreetblog.com/2017/07/active-listening/?utm_content=buffer1e37d&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [Active Listening: The Master Key to Effective Communication](https://www.farnamstreetblog.com/2017/07/active-listening/)
 - [The Work Required To Have An Opinion](https://www.farnamstreetblog.com/2013/04/the-work-required-to-have-an-opinion/)
 - [Proximate vs Root Causes: Why You Should Keep Digging to Find the Answer](https://www.farnamstreetblog.com/2017/05/proximate-vs-root-causes/)
 - [How To Work With Developers - A Guide for Non-Developers](https://dev.to/kttravers/how-to-work-with-developers---a-guide-for-non-developers-35hk)
