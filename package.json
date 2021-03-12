@@ -27,8 +27,6 @@
     "postcss-reporter": "7.0.2",
     "prettier": "2.2.1",
     "prismjs": "1.23.0",
-    "qs": "6.9.6",
-    "react-ga": "3.3.0",
     "remark": "13.0.0",
     "remark-autolink-headings": "6.0.1",
     "remark-behead": "2.3.3",

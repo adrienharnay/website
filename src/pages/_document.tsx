@@ -9,6 +9,17 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {process.env.NODE_ENV === 'production' && (
+            <>
+              <script src="https://getinsights.io/js/insights.js"></script>
+              <script
+                dangerouslySetInnerHTML={{
+                  __html:
+                    'insights.init("zML99JhMRR7_qeqN");insights.trackPages();',
+                }}
+              />
+            </>
+          )}
         </body>
       </Html>
     );
