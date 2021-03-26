@@ -237,6 +237,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Listify a JavaScript array](https://kentcdodds.com/blog/listify-a-java-script-array?ck_subscriber_id=363853129)
 - [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
 - [Flavio Copes JavaScript tutorials](https://flaviocopes.com/tags/js/)
+- [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 
 #### Related tools 🛠️
 
@@ -272,6 +273,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [TypeScript and Babel 7](https://blogs.msdn.microsoft.com/typescript/2018/08/27/typescript-and-babel-7/)
 - [New ESLint / TypeScript Configuration](https://calendee.com/2019/04/12/new-eslint-typescript-configuration/)
 - [The unknown Type in TypeScript](https://mariusschulz.com/blog/the-unknown-type-in-typescript)
+- [How to write a React Component in TypeScript](https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript)
 
 #### Related tools 🛠️
 
@@ -319,6 +321,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What the heck, z-index??](https://www.joshwcomeau.com/css/stacking-contexts/)
 - [Diving into the ::before and ::after Pseudo-Elements](https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/)
 - [Avoiding jagged edges on gradients](https://medium.com/pixel-and-ink/avoiding-jagged-edges-on-gradients-f485cc7401f5)
+- [Did You Know About the :has CSS Selector?](https://css-tricks.com/did-you-know-about-the-has-css-selector/)
 
 #### Flexbox
 
@@ -344,6 +347,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Single element CSS spinners](https://projects.lukehaas.me/css-loaders/)
 - [30 Seconds of CSS](https://atomiks.github.io/30-seconds-of-css/)
 - [Responsive animated progress bar to donut](https://codepen.io/ainalem/details/zJeyxo/)
+- [CSS Stripes Generator](https://stripesgenerator.com/)
+- [CSS Gradient](https://cssgradient.io/)
+- [Keyframes](https://keyframes.app/) - Dead simple visual tools to help you generate CSS for your projects
+- [CSS Accordion Slider Generator](https://accordionslider.com/)
 
 #### SCSS
 
@@ -528,14 +535,15 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React Native is the Future of Mobile at Shopify](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify)
 - [Stack Navigator Transitions | React Navigation 5](https://www.youtube.com/watch?v=PvjV96CNPqM) - YouTube video
 - [Setup your React Native splash screen in 15 minutes](https://blog.bam.tech/developer-news/set-up-your-react-native-splash-screen-in-15-minutes)
+- [How I improved my React Native app 50x faster](https://blog.inkdrop.info/how-i-improved-my-react-native-app-50x-faster-13d566061e84)
 
 #### Related tools 🛠️
 
 - [Create-react-native-app](https://github.com/react-community/create-react-native-app) - Create a React Native app on any OS with no build config
-- [Open-sourcing Sonar, a new extensible debugging tool](https://code.facebook.com/posts/1461914677288302/open-sourcing-sonar-a-new-extensible-debugging-tool/)
 - [Flipper](https://fbflipper.com/) - Extensible mobile app debugger
 - [RN diff purge](https://pvinis.github.io/purge-web/) - Upgrade your React Native apps (and get diffs between versions)
 - [App Icon Generator](https://appicon.co/)
+- [React Native Upgrade Helper](https://react-native-community.github.io/upgrade-helper/)
 
 #### Useful libraries 💾
 
@@ -546,6 +554,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Swr-react-native](https://github.com/nandorojo/swr-react-native) - React Native/React Navigation compatibility for Vercel's useSWR hook
 - [React-native-quick-base64](https://github.com/craftzdog/react-native-quick-base64) - A fast base64 module for React Native
 - [React-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) - A performant interactive bottom sheet with fully configurable options
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - React Native's Animated library reimplemented
+- [Moti](https://moti.fyi/) - Moti is the universal animation package for React Native
 
 ### Native Mobile Development
 
@@ -1184,6 +1194,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Estimator.dev](https://estimator.dev/) - Find out how much turning on modern JS could save
 - [How We Improved SmashingMag Performance](https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/)
 - [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
+- [The Best Font Loading Strategies and How to Execute Them](https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/)
+- [Improve Page Rendering Speed Using Only CSS](https://blog.bitsrc.io/improve-page-rendering-speed-using-only-css-a61667a16b2)
 
 #### Performance accessibility
 
