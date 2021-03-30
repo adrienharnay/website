@@ -197,6 +197,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Path-package](https://github.com/ds300/patch-package) - Fix broken node modules with no fuss
 - [Npkill](https://github.com/voidcosmos/npkill) - List any node_modules directories in your system, as well as the space they take up. You can then select which ones you want to erase to free up space
 - [Npm semver calculator](https://semver.npmjs.com/)
+- [Visualization of npm dependencies](https://npm.anvaka.com/#/)
 
 ### General programming
 
@@ -494,6 +495,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-chaos](https://github.com/jchiatt/react-chaos) - Chaos Engineering for your React apps
 - [SWR](https://swr.vercel.app/) - React Hooks library for data fetching
 - [Remotion](https://www.remotion.dev/) - Create motion graphics in React
+- [Vocab](https://github.com/seek-oss/vocab) - Strongly typed internationalization framework for React
 
 #### Hooks
 
@@ -536,6 +538,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Stack Navigator Transitions | React Navigation 5](https://www.youtube.com/watch?v=PvjV96CNPqM) - YouTube video
 - [Setup your React Native splash screen in 15 minutes](https://blog.bam.tech/developer-news/set-up-your-react-native-splash-screen-in-15-minutes)
 - [How I improved my React Native app 50x faster](https://blog.inkdrop.info/how-i-improved-my-react-native-app-50x-faster-13d566061e84)
+- [ELI5: Yoga - Cross-Platform Layout Engine](https://developers.facebook.com/blog/post/2021/02/01/eli5-yoga-cross-platform-layout-engine/)
 
 #### Related tools 🛠️
 
@@ -556,6 +559,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) - A performant interactive bottom sheet with fully configurable options
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - React Native's Animated library reimplemented
 - [Moti](https://moti.fyi/) - Moti is the universal animation package for React Native
+- [React-native-portal](https://github.com/gorhom/react-native-portal) - A simplified portal implementation for ⭕️ React Native & Web ⭕️
 
 ### Native Mobile Development
 
@@ -620,6 +624,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Happykit/flags](https://github.com/happykit/flags) - Feature Flags for Next.js
 - [Nookies](https://github.com/maticzav/nookies) - A set of cookie helpers for Next.js
 - [Next-stripe](https://github.com/ynnoj/next-stripe) - Simplified server-side Stripe workflows in Next.js
+- [Next Sentry](https://github.com/vercel/next.js/tree/canary/examples/with-sentry) - Example showing how to use Sentry to catch & report errors on both client + server side
 
 ### Electron
 
@@ -1228,6 +1233,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Website Speed Test Image Analysis Tool](https://webspeedtest.cloudinary.com/)
 - [Page Weight by Imgx](https://pageweight.imgix.com/)
 - [Custom site performance reports with the CrUX Dashboard](https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard)
+- [Lightest.app](https://lightest.app/) - Visualize web performance against competitors
 
 ### SEO
 
@@ -1426,6 +1432,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The CEO of \$48 billion Shopify says long hours aren't necessary for success: 'I'm home at 5:30pm every evening'](https://www.businessinsider.fr/us/shopify-ceo-success-long-hours-40-hour-week-2019-12)
 - [The epistemology of software quality](https://increment.com/teams/the-epistemology-of-software-quality/)
 - [The Evolution of Trust](https://ncase.me/trust/) - Game on trust theory
+- [The Nakazawa Management Starter Pack](https://cpojer.net/posts/the-nakazawa-management-starter-pack)
 
 ### OSS
 
