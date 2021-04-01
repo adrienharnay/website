@@ -51,9 +51,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Next.js](#nextjs)
   - [Electron](#electron)
 
-- [Data layers](#data-layers)
+- [State management libraries](#state-management-libraries)
 
   - [Redux](#redux)
+  - [Recoil](#recoil)
   - [GraphQL](#graphql)
   - [Apollo client](#apollo-client)
   - [Apollo server](#apollo-server)
@@ -159,6 +160,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Job interviews](#job-interviews)
   - [Coding interviews](#coding-interviews)
   - [Resumes](#resumes)
+  - [Compensation](#compensation)
   - [Startups](#startups)
   - [Freelance](#freelance)
 
@@ -239,6 +241,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
 - [Flavio Copes JavaScript tutorials](https://flaviocopes.com/tags/js/)
 - [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
+- [JavaScript Closures](https://kentcdodds.com/blog/javascript-closures)
+- [What the fork is a closure](https://whatthefork.is/closure)
 
 #### Related tools 🛠️
 
@@ -275,6 +279,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [New ESLint / TypeScript Configuration](https://calendee.com/2019/04/12/new-eslint-typescript-configuration/)
 - [The unknown Type in TypeScript](https://mariusschulz.com/blog/the-unknown-type-in-typescript)
 - [How to write a React Component in TypeScript](https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript)
+- [Understanding TypeScript Generics](https://seanbarry.dev/posts/understanding-typescript-generics)
 
 #### Related tools 🛠️
 
@@ -631,7 +636,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [From React to an Electron app ready for production](https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3)
 - [Building Electron Apps with Next.js](https://leo.im/2017/electron-next)
 
-## Data layers
+## State management libraries
+
+- [React State Management Libraries and How to Choose](https://daveceddia.com/react-state-management/)
 
 ### Redux
 
@@ -662,6 +669,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Introducing Redux Offline: Offline-First Architecture for Progressive Web Applications and React](https://hackernoon.com/introducing-redux-offline-offline-first-architecture-for-progressive-web-applications-and-react-68c5167ecfe0)
 - [Introducing Redux VCR](https://medium.com/@joshuawcomeau/introducing-redux-vcr-cad57b37540a)
 - [Redux-bug-reporter](https://github.com/dtschust/redux-bug-reporter) - A bug reporter and bug playback tool for redux
+
+### Recoil
+
+#### Documentation / News 📚
+
+- [Recoil](https://recoiljs.org/)
 
 ### GraphQL
 
@@ -796,6 +809,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ##### Useful libraries 💾
 
 - [Eslint-plugin-import-helpers](https://github.com/Tibfib/eslint-plugin-import-helpers) - ESLint plugin to help with imports
+- [Eslint-plugin-clean-regex](https://github.com/RunDevelopment/eslint-plugin-clean-regex) - ESLint plugin for writing better regular expressions
 
 ### Test frameworks
 
@@ -816,6 +830,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [So you think you don’t need unit tests? Think again](https://mobile.twitter.com/frontstuff_io/status/1050809148751925250) - Twitter thread
 - [Data-driven Unit Tests with Jest](https://dev.to/flyingdot/data-driven-unit-tests-with-jest-26bh)
 - [How to add testing to an existing project](https://kentcdodds.com/blog/how-to-add-testing-to-an-existing-project)
+- [Make Your Jest Tests up to 20% Faster by Changing a Single Setting](https://ivantanev.com/make-jest-faster/)
 
 ##### Useful libraries 💾
 
@@ -1481,10 +1496,15 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How NOT to succeed in your 45-minute coding interview](https://dev.to/fahimulhaq/how-not-to-succeed-in-your-45-minute-coding-interview)
 - [React Interview Questions](https://dev.to/tylermcginnis/react-interview-questions)
 - [Hiring without whiteboards](https://github.com/poteto/hiring-without-whiteboards) - Companies that don't have a broken hiring process
+- [Senior Interviews != Three Junior Interviews in a Trench Coat](https://laurieontech.com/posts/senior-interviews/)
 
 ### Resumes
 
 - [Intermediate to senior dev resume](https://dev.to/mozoobear/intermediate-to-senior-dev-resume-3bh)
+
+### Compensation
+
+- [Whimsical Guide to Compensation](https://whimsical.com/blog/guide-to-compensation)
 
 ### Startups
 
@@ -1500,6 +1520,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ### Freelance advice
 
 - [Pricing Freelance Projects](https://www.tomhirst.com/pricing-freelance-projects/)
+- [How to price yourself $$$ as a freelance developer](https://www.youtube.com/watch?app=desktop&v=_jcyDfqy-f0&feature=youtu.be) - YouTube video
 
 ### Job hunting / Freelance platforms (mainly for French people)
 
