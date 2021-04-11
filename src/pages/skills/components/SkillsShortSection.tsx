@@ -54,7 +54,7 @@ const SkillsShortSection = () => {
       <h1>Skills</h1>
       <p>
         <em>
-          You can click on each group of skills to know more about my
+          You can click on each group of skills to learn more about my
           experience.
         </em>
       </p>

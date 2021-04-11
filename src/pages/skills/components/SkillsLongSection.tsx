@@ -69,8 +69,8 @@ const SkillsLongSection: FunctionComponent = () => {
         <em>
           Each skill listed here has been used in a professional setting, for
           several years for the vast majority. I like to try new things on side
-          projects so that I can later on introduce them in my work, but I stick
-          to my area of expertise when working on professional projects.
+          projects to stay ahead of the curve, but I stick to my area of
+          expertise when working on professional projects.
         </em>
       </p>
       <div className={styles.skillGroupsContainer}>

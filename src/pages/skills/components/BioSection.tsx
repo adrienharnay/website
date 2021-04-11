@@ -30,14 +30,18 @@ const BioSection: FunctionComponent = () => {
             <br />
             <b>Lead Front-End Engineer</b> for 3 years and a half
             <br />
-            <br />I have faced countless challenges while working on several
-            different products, and I keep learning everyday. What I enjoy most
-            is helping others grow as developers.
+            <br />
+            Throughout my career, I have worked on many projects and faced
+            various challenges. Today, I want to{' '}
+            <b>
+              share my expertise with you and help your company get a head start
+            </b>
+            .
           </div>
         </div>
       </div>
       <div className={styles.plugContainer}>
-        I am available for contract work.
+        <b>I am available for contract work.</b>
         <div className={styles.prestations}>
           <div>
             <div>
@@ -56,7 +60,7 @@ const BioSection: FunctionComponent = () => {
           </div>
           <div>
             <div>
-              <b>Mentor your team</b> through a technology change
+              <b>Mentor your team</b> through a migration
             </div>
           </div>
         </div>

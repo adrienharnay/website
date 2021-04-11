@@ -12,7 +12,7 @@
       }
     ],
     "title": "React Native",
-    "text": "I have shipped several React Native apps to the stores, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, <b>Expo</b>), and different use cases (authentication, routing, forms, ...)."
+    "text": "I have worked on several React Native apps, and have experience with different syntaxes (hooks, classes), different build chains (vanilla apps, <b>Expo</b>), and different use cases (authentication, routing, forms, animations, ...)."
   },
   {
     "skills": [
@@ -20,7 +20,7 @@
       { "name": "TypeScript", "icon": "/images/pages/skills/typescript.png" }
     ],
     "title": "JavaScript & TypeScript",
-    "text": "I know JavaScript like the back of my hand and am very proficient with it. Today, I mostly use TypeScript as I think it delivers <b>more value in terms of code maintenance and ratio of bugs</b>. I have <b>migrated large codebases from JavaScript to TypeScript</b>, and can also focus on critical parts of a codebase so you get the more bang for your buck."
+    "text": "I know JavaScript like the back of my hand and am very proficient with it. Today, I mostly use TypeScript as I think it delivers <b>more value in terms of code maintenance and ratio of bugs</b>. I have <b>migrated large codebases from JavaScript to TypeScript</b>, and can help your team write sensible TypeScript code."
   },
   {
     "skills": [
@@ -30,7 +30,7 @@
       }
     ],
     "title": "HTML",
-    "text": "I know semantic HTML, and always leverage native features so that your website <b>works flawlessly on all supported browsers</b>. Accessibility is always one of my top priorities."
+    "text": "I know semantic HTML, and always leverage native features so that your website <b>works flawlessly on all supported browsers</b>. Accessibility is always one of my top priorities. I also have <b>extensive experience with SEO</b> and will be able to meet the needs of your business."
   },
   {
     "skills": [
@@ -52,7 +52,7 @@
       { "name": "Apollo GraphQL", "icon": "/images/pages/skills/apollo.png" }
     ],
     "title": "Network & state management",
-    "text": "I have consumed a lot of different REST APIs throughout the years, and have built apps with <b>Redux as a state management solution</b>. I have also worked with Apollo GraphQL for over a year, at first by writing a <b>gateway over a REST API</b>, then by consuming a <b>native GraphQL API</b>. I am quite familiar with the internals of the Apollo codebase."
+    "text": "I have a lot of experience with REST APIs, and have built apps with <b>Redux as a state management solution</b>. I have also worked with Apollo GraphQL for two years, at first by writing <b>gateways over REST APIs</b>, then by consuming a <b>native GraphQL API</b>. I am quite familiar with the internals of the Apollo codebase."
   },
   {
     "skills": [
@@ -72,7 +72,7 @@
       }
     ],
     "title": "State machines",
-    "text": "When working on <b>complex or critical workflows</b>, state machines can add <b>extra safety</b> by forbidding impossible states. I have worked with state machines several times, using tools such as xstate."
+    "text": "When working on <b>business critical workflows</b>, state machines can add <b>extra safety</b> by forbidding impossible states. I have worked with state machines several times, using tools such as xstate."
   },
   {
     "skills": [
@@ -82,7 +82,7 @@
       }
     ],
     "title": "Design systems",
-    "text": "Design systems are in my opinion one of the tools that <b>bring the more value to an organization</b>. I have been in charge of a design system for over a year, and can help you implement one in your organization. It will also be <b>compatible with all your different browsers and OS using the same API</b>, and your productivity will increase tenfold."
+    "text": "Design systems are in my opinion one of the tools that <b>bring the more value to an organization</b>. I have been in charge of a design system for over a year, and can help you implement one in your organization. It will also be <b>compatible with all your different browsers and OS using the same API</b>, and your team's <b>productivity will increase tenfold</b>."
   },
   {
     "skills": [
@@ -108,7 +108,7 @@
       { "name": "SEO", "icon": "/images/pages/skills/seo.png" }
     ],
     "title": "Web performance & SEO",
-    "text": "I have led projects focused on Web performance and SEO, and have a lot of experience on the matter. If your apps suffer from a performance problem, I can audit them and implement solutions to <b>improve Time To Interactive</b> and help you set up a <b>performance budget</b> that will track the performance of your apps over time. I am also be able to <b>fix the most common SEO problems</b> and give you tips on your SEO strategy."
+    "text": "I have led projects focused on Web performance and SEO, and have a lot of experience on the matter. If your apps suffer from a performance problem, I can audit them and implement solutions to <b>improve Time To Interactive</b> and help you set up a <b>performance budget</b> that will track the performance of your apps over time. I am also able to <b>fix the most common SEO problems</b> and give you tips on your SEO strategy."
   },
   {
     "skills": [
@@ -128,7 +128,7 @@
       }
     ],
     "title": "A/B testing & feature-flagging",
-    "text": "A/B testing can help you <b>improve your product based on the decisions of your user</b>. Feature-flagging allows you to provide some features only to a subset of your users, and to have control over <b>what and when you are releasing</b>. I know how to implement both solutions, and how to make them fit in the architecture of your apps."
+    "text": "A/B testing can help you <b>improve your product based on the decisions of your user</b>. Feature-flagging allows you to provide some features to a subset of your users only, and to have control over <b>what and when you are releasing</b>. I know how to implement both solutions, and how to make them fit in the architecture of your apps."
   },
   {
     "skills": [
@@ -169,7 +169,7 @@
       }
     ],
     "title": "Monorepositories",
-    "text": "Monorepositories are all the rage right now, but they <b>can cause nasty bugs</b> if you don't know how to set them up properly. I have encountered countless bugs because of monorepositories, but keep using them extensively because <b>once you know how to set them up properly they're a huge win</b>."
+    "text": "Monorepositories are all the rage right now, but they <b>can cause nasty bugs</b> if you don't know how to set them up properly. I have encountered a lot of bugs because of monorepositories, and now know how to set them up properly <b>so that your services interact well together</b>."
   },
   {
     "skills": [
