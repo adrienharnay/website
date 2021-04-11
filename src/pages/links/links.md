@@ -237,12 +237,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Awesome one-liners you might find useful while coding](https://mobile.twitter.com/coderitual/status/1112297299307384833)
 - [Applying a timeout to your promises](https://italonascimento.github.io/applying-a-timeout-to-your-promises/)
 - [Is postMessage slow?](https://dassur.ma/things/is-postmessage-slow/)
-- [Listify a JavaScript array](https://kentcdodds.com/blog/listify-a-java-script-array?ck_subscriber_id=363853129)
+- [Listify a JavaScript array](https://kentcdodds.com/blog/listify-a-java-script-array)
 - [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
 - [Flavio Copes JavaScript tutorials](https://flaviocopes.com/tags/js/)
 - [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 - [JavaScript Closures](https://kentcdodds.com/blog/javascript-closures)
 - [What the fork is a closure](https://whatthefork.is/closure)
+- [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
 
 #### Related tools 🛠️
 
@@ -448,7 +449,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Don't call a React function component](https://kentcdodds.com/blog/dont-call-a-react-function-component)
 - [Initializing focus state in React: you might be doing it wrong](https://exogen.github.io/blog/focus-state/)
 - [The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
-- [Stop using client-side route redirects](https://kentcdodds.com/blog/stop-using-client-side-route-redirects?ck_subscriber_id=363853129)
+- [Stop using client-side route redirects](https://kentcdodds.com/blog/stop-using-client-side-route-redirects)
 - [What is React: A Visual Introduction For Beginners](https://learnreact.design/posts/what-is-react)
 - [Everything About React Server Components](https://vercel.com/blog/everything-about-react-server-components)
 
@@ -501,6 +502,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [SWR](https://swr.vercel.app/) - React Hooks library for data fetching
 - [Remotion](https://www.remotion.dev/) - Create motion graphics in React
 - [Vocab](https://github.com/seek-oss/vocab) - Strongly typed internationalization framework for React
+- [React-hook-form](https://react-hook-form.com/) - Performant, flexible and extensible forms with easy-to-use validation
 
 #### Hooks
 
@@ -552,6 +554,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [RN diff purge](https://pvinis.github.io/purge-web/) - Upgrade your React Native apps (and get diffs between versions)
 - [App Icon Generator](https://appicon.co/)
 - [React Native Upgrade Helper](https://react-native-community.github.io/upgrade-helper/)
+- [Android-capture](https://github.com/ds300/android-capture) - Capture video and screenshots from Android devices and emulators
 
 #### Useful libraries 💾
 
@@ -565,6 +568,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - React Native's Animated library reimplemented
 - [Moti](https://moti.fyi/) - Moti is the universal animation package for React Native
 - [React-native-portal](https://github.com/gorhom/react-native-portal) - A simplified portal implementation for ⭕️ React Native & Web ⭕️
+- [RNUI](https://wix.github.io/react-native-ui-lib/) - UI Toolset & Components Library for React Native
 
 ### Native Mobile Development
 
@@ -658,7 +662,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Scaling your Redux App with ducks](https://medium.freecodecamp.org/scaling-your-redux-app-with-ducks-6115955638be)
 - [Redux vs. The React Context API](https://daveceddia.com/context-api-vs-redux/)
 - [Goodbye Redux](https://hackernoon.com/goodbye-redux-26e6a27b3a0b)
-- [Escaping Redux pitfalls in React Native world]https://blog.swmansion.com/escaping-redux-pitfalls-in-react-native-world-e151c008c97a)
+- [Escaping Redux pitfalls in React Native world](https://blog.swmansion.com/escaping-redux-pitfalls-in-react-native-world-e151c008c97a)
 - [Using Redux DevTools in production](https://medium.com/@zalmoxis/using-redux-devtools-in-production-4c5b56c5600f#.oznhybgta)
 
 #### Useful libraries 💾
@@ -681,6 +685,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Documentation / News 📚
 
 - [GraphQL docs](http://graphql.org/learn/)
+- [Apollo Odyssey](https://odyssey.apollographql.com/) - Learn GraphQL with Apollo
 
 #### Concepts / Articles 💡
 
@@ -1056,28 +1061,43 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Design Systems
 
+#### Concepts / Articles 💡
+
 - [Living Design System](https://medium.com/salesforce-ux/living-design-system-3ab1f2280ef7)
 - [Design tokens for dummies](https://uxdesign.cc/design-tokens-for-dummies-8acebf010d71)
 - [Tokens in Design Systems](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421)
 - [What is a Design System?](https://medium.muz.li/what-is-a-design-system-1e43d19e7696)
 - [Welcome to Design Systems](https://www.designsystems.com/)
-- [Zeroheight](https://zeroheight.com/) - Document your design system, together
-- [Awesome-design-systems](https://github.com/alexpate/awesome-design-systems) - A collection of awesome design systems
 - [Accessibility, a powerful design tool](https://slack.design/accessibility-a-powerful-design-tool-22f5e6d46278)
 - [Design System in Figma](https://designcode.io/design-system-in-figma)
-- [Introducing Base Web, Uber’s New Design System for Building Websites in React](https://eng.uber.com/introducing-base-web/)
 - [Everything you need to know about Design Systems](https://medium.com/ideas-by-idean/everything-you-need-to-know-about-design-systems-f6e82982be27)
-- [Design System Playground](https://design-system-playground.netlify.com/)
 - [ReactiveConf 2019 - Mark Dalgleish: Rethinking Design Practices](https://www.youtube.com/watch?feature=youtu.be&v=jnV1u67_yVg)
-- [Braid design system](https://github.com/seek-oss/braid-design-system) - Themeable design system for the SEEK Group
 - [Everything I Know About Style Guides, Design Systems, and Component Libraries](https://leerob.io/blog/style-guides-component-libraries-design-systems)
+
+#### Useful libraries 💾
+
+- [Zeroheight](https://zeroheight.com/) - Document your design system, together
+- [Design System Playground](https://design-system-playground.netlify.com/)
+
+#### Design Systems in the wild 🌈
+
 - [Design Systems France](https://www.designsystems.fr/liste-des-designs-systems-francais) - Liste des Design Systems français
+- [Awesome-design-systems](https://github.com/alexpate/awesome-design-systems) - A collection of awesome design systems
+- [Introducing Base Web, Uber’s New Design System for Building Websites in React](https://eng.uber.com/introducing-base-web/)
+- [Braid design system](https://github.com/seek-oss/braid-design-system) - Themeable design system for the SEEK Group
 
 ### State machines
 
+#### Concepts / Articles 💡
+
 - [Welcome to the world of Statecharts](https://statecharts.github.io/)
-- [Implementing a simple state machine library in JavaScript](https://kentcdodds.com/blog/implementing-a-simple-state-machine-library-in-javascript?ck_subscriber_id=363853129)
+- [Implementing a simple state machine library in JavaScript](https://kentcdodds.com/blog/implementing-a-simple-state-machine-library-in-javascript)
 - [The FaceTime Bug and the Dangers of Implicit State Machines](https://medium.com/@DavidKPiano/the-facetime-bug-and-the-dangers-of-implicit-state-machines-a5f0f61bdaa2)
+
+#### Useful libraries 💾
+
+- [XState](https://github.com/davidkpiano/xstate) - State machines and statecharts for the modern web
+- [XState catalogue](https://xstate-catalogue.com/) - Collection of professionally designed state machines you can drop into your projects
 
 ### Server Side Rendering
 
@@ -1297,6 +1317,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Coolors](https://coolors.co/) - Create the perfect palette or get inspired by thousands of beautiful color schemes
 - [Remove.bg](https://www.remove.bg) - Remove image background
 - [Unscreen](https://www.unscreen.com/) - Remove video background
+- [Material Icons](https://fonts.google.com/icons) - Free (and free of right) icons from Google
 
 ### Productivity
 
@@ -1307,6 +1328,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Reqres](https://reqres.in/) - A hosted REST-API ready to respond to your AJAX requests.
 - [Mocky](https://www.mocky.io/) - Easily test your REST-powered web services with an HTTP responses generator
+- [Kanye.rest](https://kanye.rest/) - A free REST API for random Kanye West quotes (Kanye as a Service)
 
 ### Regex testers
 
@@ -1347,11 +1369,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ### Others
 
 - [Transfer.sh](https://transfer.sh/) - Easy file sharing from the command line
+- [Snapdrop](https://snapdrop.net/) - Like Airdrop, but on the web
+- [Wormhole](https://wormhole.app/) - Simple, private file sharing
 - [IFTTT](https://ifttt.com/) - Applets linked to the services you love
 - [ConferCal](https://www.confercal.com/calendars/code) - A conference calendar for developers and other people in tech
+- [KeyCastr](https://github.com/keycastr/keycastr) - An open-source keystroke visualizer
+- [Codetour](https://github.com/microsoft/codetour) - VS Code extension that allows you to record and playback guided tours of codebases, directly within the editor
 - [How HTTPS Works](https://howhttps.works/)
 - [How DNS works](https://howdns.works/)
-- [KeyCastr](https://github.com/keycastr/keycastr) - An open-source keystroke visualizer
 
 ## Developer insights
 
@@ -1375,7 +1400,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Inversion of Control](https://kentcdodds.com/blog/inversion-of-control)
 - [Building resilient frontend architecture — Monica Lent](https://www.youtube.com/watch?v=brMZLmZ1HR0)
 - [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/)
-- [Why users care about how you write code](https://kentcdodds.com/blog/why-users-care-about-how-you-write-code?ck_subscriber_id=363853129)
+- [Why users care about how you write code](https://kentcdodds.com/blog/why-users-care-about-how-you-write-code)
 - [Uber migration from Objective C to Swift](https://mobile.twitter.com/stantwinb/status/1336890442768547845?s=12) (Twitter thread)
 - [The joy of deleting code](https://www.rockandnull.com/joy-of-deleting-code/)
 - [WTF is JAMstack](https://jamstack.wtf/)
