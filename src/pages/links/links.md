@@ -59,6 +59,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Apollo client](#apollo-client)
   - [Apollo server](#apollo-server)
 
+- [Animations libraries](#animations-libraries)
+
+  - [D3.js](#d3js)
+  - [React-spring](#react-spring)
+  - [React-native-reanimated](#react-native-reanimated)
+
 - [Code quality](#code-quality)
 
   - [Linters](#linters)
@@ -329,6 +335,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Diving into the ::before and ::after Pseudo-Elements](https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/)
 - [Avoiding jagged edges on gradients](https://medium.com/pixel-and-ink/avoiding-jagged-edges-on-gradients-f485cc7401f5)
 - [Did You Know About the :has CSS Selector?](https://css-tricks.com/did-you-know-about-the-has-css-selector/)
+- [The Just in Case Mindset in CSS](https://ishadeed.com/article/the-just-in-case-mindset-css/)
 
 #### Flexbox
 
@@ -358,6 +365,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [CSS Gradient](https://cssgradient.io/)
 - [Keyframes](https://keyframes.app/) - Dead simple visual tools to help you generate CSS for your projects
 - [CSS Accordion Slider Generator](https://accordionslider.com/)
+- [Cube Life](https://codepen.io/vasighm/full/QWdvrKb) - The game of life on a cube
 
 #### SCSS
 
@@ -397,6 +405,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ### NodeJS
 
 - [Node best practices](https://github.com/i0natan/nodebestpractices) - The largest Node.JS best practices list. Curated from the top ranked articles and always updated
+- [Super Simple Start to ESModules in Node.js](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-node-js)
 
 ### React
 
@@ -546,6 +555,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Setup your React Native splash screen in 15 minutes](https://blog.bam.tech/developer-news/set-up-your-react-native-splash-screen-in-15-minutes)
 - [How I improved my React Native app 50x faster](https://blog.inkdrop.info/how-i-improved-my-react-native-app-50x-faster-13d566061e84)
 - [ELI5: Yoga - Cross-Platform Layout Engine](https://developers.facebook.com/blog/post/2021/02/01/eli5-yoga-cross-platform-layout-engine/)
+- [Best Build Platforms for React Native Apps in 2021](https://javascript.plainenglish.io/best-build-platforms-for-react-native-apps-in-2021-24c511451bac)
 
 #### Related tools 🛠️
 
@@ -565,8 +575,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Swr-react-native](https://github.com/nandorojo/swr-react-native) - React Native/React Navigation compatibility for Vercel's useSWR hook
 - [React-native-quick-base64](https://github.com/craftzdog/react-native-quick-base64) - A fast base64 module for React Native
 - [React-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) - A performant interactive bottom sheet with fully configurable options
-- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - React Native's Animated library reimplemented
-- [Moti](https://moti.fyi/) - Moti is the universal animation package for React Native
 - [React-native-portal](https://github.com/gorhom/react-native-portal) - A simplified portal implementation for ⭕️ React Native & Web ⭕️
 - [RNUI](https://wix.github.io/react-native-ui-lib/) - UI Toolset & Components Library for React Native
 
@@ -805,6 +813,35 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How Netflix Scales its API with GraphQL Federation (Part 2)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-2-bbe71aaec44a)
 - [Securing Your GraphQL API from Malicious Queries](https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b/)
 
+## Animations libraries
+
+### D3.js
+
+#### Documentation / News 📚
+
+- [D3.js documentation](https://d3js.org/)
+
+#### Concepts / Articles 💡
+
+- [How to learn D3.js](https://wattenberger.com/blog/d3)
+- [React + D3.js](https://wattenberger.com/blog/react-and-d3)
+
+### React-spring
+
+#### Documentation / News 📚
+
+- [React-spring documentation](https://www.react-spring.io/)
+
+### React-native-reanimated
+
+#### Documentation / News 📚
+
+- [React-native-reanimated documentation](https://docs.swmansion.com/react-native-reanimated/)
+
+#### Useful libraries 💾
+
+- [Moti](https://moti.fyi/) - Moti is the universal animation package for React Native (based on react-native-reanimated)
+
 ## Code quality
 
 ### Linters
@@ -851,6 +888,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Cypress](https://www.cypress.io/) - Fast, easy and reliable testing for anything that runs in a browser
 - [We're officially out of beta!](https://www.cypress.io/blog/2018/09/20/cypress-is-officially-out-of-beta/)
 - [Visual testing for Cypress](https://go.percy.io/visual-testing/cypress)
+- [Introducing the Cypress Component Test Runner– new in 7.0.0](https://cypress.io/blog/2021/04/06/introducing-the-cypress-component-test-runner)
 
 #### Others
 
@@ -923,6 +961,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [ParcelJS: How simple really is it?](https://itnext.io/parceljs-how-simple-really-is-it-679a4feba69d?gi=12888863d7c7)
 - [Switching to Parcel from Webpack](https://logrocket.com/blog/switching-to-parcel-from-webpack/)
+
+#### Others
+
+- [Comparing the New Generation of Build Tools](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)
 
 ### Transpilers and optimizers
 
@@ -1433,6 +1475,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How To Write Great Microcopy](https://theproductperson.substack.com/p/-how-to-write-great-microcopy)
 - [How to Negotiate & Persuade](https://theproductperson.substack.com/p/-how-to-negotiate-and-persuade)
 - [Why I'm losing faith in UX](https://creativegood.com/blog/21/losing-faith-in-ux.html)
+- [Launch an app that people actually want to use](https://shift.infinite.red/launch-an-app-that-people-actually-want-to-use-fb4a5d9d8a76)
 
 ### Being a developer
 
