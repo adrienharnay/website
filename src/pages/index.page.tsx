@@ -14,7 +14,7 @@ const availableForContractWorkPost: ReturnType<
   date: '',
   title: "I'm available for contract work!",
   excerpt:
-    "Do you need to build a MVP for your start-up? Or a new feature for your product but your teams don't have the time? Do you need to implement a new solution and want someone with experience to do it and/or teach your team? Reach out to me!",
+    "Do you need to build a MVP for your start-up? A new project critical to your organization? Do you an app for your business but don't know where to start? Reach out to me!",
 };
 
 export const getStaticProps = async () => {
