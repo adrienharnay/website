@@ -65,12 +65,12 @@ const SkillsLongSection: FunctionComponent = () => {
   return (
     <section>
       <h2 className={styles.title}>In depth</h2>
-      <p>
+      <p className={styles.subTitle}>
         <em>
-          Each skill listed here has been used in a professional setting, for
-          several years for the vast majority. I like to try new things on side
-          projects to stay ahead of the curve, but I stick to my area of
-          expertise when working on professional projects.
+          Each skill listed here has been used in a professional setting.
+          <br />I like to try new things on side projects to keep learning and
+          stay ahead of the curve, but I stick to my area of expertise when
+          working on professional projects.
         </em>
       </p>
       <div className={styles.skillGroupsContainer}>

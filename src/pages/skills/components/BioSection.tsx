@@ -25,10 +25,10 @@ const BioSection: FunctionComponent = () => {
             <span className={styles.jobTitle}>Lead Front-End Engineer</span>
           </div>
           <div className={styles.bio}>
-            6 years experience as a <b>JavaScript developer</b>
-            <br />5 years experience with <b>React and React Native</b>
+            6 years as a <b>JavaScript developer</b>
+            <br />5 years with <b>React and React Native</b>
             <br />
-            <b>Lead Front-End Engineer</b> for 3 years and a half
+            <b>Lead Front-End Engineer</b> for 3,5 years
             <br />
             <br />
             Throughout my career, I have worked on many projects and faced

@@ -53,10 +53,7 @@ const SkillsShortSection = () => {
     <section>
       <h1>Skills</h1>
       <p>
-        <em>
-          You can click on each group of skills to learn more about my
-          experience.
-        </em>
+        <em>You can click on each skill to learn more about my experience.</em>
       </p>
       <div className={styles.skillsList}>
         <div className={styles.skillsSection}>
