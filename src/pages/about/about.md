@@ -15,7 +15,7 @@ I am available for contract work, and you can see my skills [here](/skills) or c
 
 Mentoring and supporting collegues and fellow developers is also something I love and enjoy doing on a daily basis. Don't hesitate to come at me with any question you would have!
 
-I have been [playing drums](https://www.youtube.com/channel/UCVb5uS6xt5xzG0cojt3Yf1A?view_as=subscriber) for 5 years and particularly like discovering new artists and types of music.
+I have been [playing drums](https://www.youtube.com/channel/UCVb5uS6xt5xzG0cojt3Yf1A?view_as=subscriber) for 7 years and particularly like discovering new artists and types of music.
 
 I love practicing all kinds of sports, but particularly enjoy hiking, cycling, boxing, tennis, and yoga.
 
