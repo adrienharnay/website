@@ -251,6 +251,11 @@
     li {
       word-break: break-word;
 
+      ul {
+        padding: 0.5em;
+        min-width: calc(100% - 1em);
+      }
+
       p {
         margin: 0;
       }
