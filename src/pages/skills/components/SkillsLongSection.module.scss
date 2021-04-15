@@ -21,7 +21,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
-  @media all and (max-width: 767.5px) {
+  @include breakpoint($small) {
     justify-content: center;
   }
 

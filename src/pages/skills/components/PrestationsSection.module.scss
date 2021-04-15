@@ -1,0 +1,64 @@
+@import 'src/styles/breakpoints.scss';
+
+.title {
+  margin: 0 0 0.5em 0;
+  font-size: 5rem;
+  font-weight: 700;
+
+  @include breakpoint($small) {
+    font-size: 2.2rem;
+  }
+}
+
+.prestation {
+  &:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  .prestationHeader {
+    @include breakpoint($small) {
+      flex-wrap: wrap;
+
+      > *:first-child {
+        margin-bottom: 16px;
+      }
+    }
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+    .prestationTitle {
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+
+    .skills {
+      margin-top: -8px;
+      margin-left: -8px;
+
+      > * {
+        margin-top: 8px !important;
+        margin-left: 8px !important;
+      }
+    }
+  }
+
+  .prestationDescription {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    margin-bottom: 0;
+
+    li {
+      list-style: none;
+      position: relative;
+
+      .icon {
+        position: absolute;
+        left: -20px;
+      }
+    }
+  }
+}

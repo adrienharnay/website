@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Web app",
+    "description": "You need a <b>static website</b> or a <b>dynamic app for your users</b> (or a mix of both)?<br />I have worked with product and back-end engineers for most of my career, and will have <b>no problem commnicating with your teams</b>.<br />I can also handle all the roles if you need me to: <b>UI, UX, front-end, back-end, and infrastructure</b>.",
+    "features": [
+      "Great <b>user experience</b> (even for people who are not tech-savvy)",
+      "Great <b>performance</b> and <b>SEO</b>",
+      "Beautiful on <b>mobile, tablet, and desktop</b>",
+      "<b>Type safe and clean code</b>, easy to iterate over",
+      "<b>Fullstack</b> or only <b>front-end</b>",
+      "<b>Design system</b> to make all your products fit your brand"
+    ],
+    "skills": [
+      "/images/pages/skills/react.png",
+      "/images/pages/skills/typescript.png",
+      "/images/pages/skills/html.png",
+      "/images/pages/skills/css.png",
+      "/images/pages/skills/responsive-design.png",
+      "/images/pages/skills/server-side-rendering.png",
+      "/images/pages/skills/performance.png",
+      "/images/pages/skills/seo.png"
+    ]
+  }
+]
