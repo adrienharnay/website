@@ -1,7 +1,7 @@
 [
   {
-    "title": "Web app",
-    "description": "You need a <b>static website</b> or a <b>dynamic app for your users</b> (or a mix of both)?<br />I have worked with product and back-end engineers for most of my career, and will have <b>no problem commnicating with your teams</b>.<br />I can also handle all the roles if you need me to: <b>UI, UX, front-end, back-end, and infrastructure</b>.",
+    "title": "Web application",
+    "description": "Do you need a <b>static website</b> or a <b>dynamic app for your users</b> (or a mix of both)?<br />I have worked with product and back-end engineers for most of my career, and will have <b>no problem commnicating with your teams</b>.<br />I can also handle all the roles if you need me to: <b>UI, UX, front-end, back-end, and infrastructure</b>.",
     "features": [
       "Great <b>user experience</b> (even for people who are not tech-savvy)",
       "Great <b>performance</b> and <b>SEO</b>",
@@ -19,6 +19,26 @@
       "/images/pages/skills/server-side-rendering.png",
       "/images/pages/skills/performance.png",
       "/images/pages/skills/seo.png"
+    ]
+  },
+  {
+    "title": "Mobile application",
+    "description": "Do you need a mobile application to launch your project?<br />Or you already have a website but now you need <b>native animations, push notifications, audio recording, geolocation</b>?<br />I have worked on several mobile applications, and am ready to help you <b>improve the experience of your users</b>.",
+    "features": [
+      "Great <b>user experience</b> (even for people who are not tech-savvy)",
+      "<b>Fluid</b> and <b>beautiful</b>",
+      "Great to use on <b>iOS and Android</b>",
+      "<b>Type safe and clean code</b>, easy to iterate over",
+      "<b>Fullstack</b> or only <b>front-end</b>",
+      "<b>Design system</b> to make all your products fit your brand"
+    ],
+    "skills": [
+      "/images/pages/skills/react-native.png",
+      "/images/pages/skills/typescript.png",
+      "/images/pages/skills/ios.png",
+      "/images/pages/skills/android.png",
+      "/images/pages/skills/responsive-design.png",
+      "/images/pages/skills/performance.png"
     ]
   }
 ]
