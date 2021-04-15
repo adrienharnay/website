@@ -54,23 +54,41 @@
     margin-bottom: 16px;
   }
 
-  ul {
-    margin-bottom: 0;
+  .featuresSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    li {
-      list-style: none;
-      position: relative;
+    @include breakpoint($small) {
+      flex-wrap: wrap;
 
-      .icon {
-        position: absolute;
-        left: -20px;
+      > *:not(:first-child) {
+        display: flex;
+        justify-content: center;
+
+        a {
+          display: block;
+          margin-top: 16px;
+        }
+      }
+    }
+
+    > * {
+      flex-grow: 1;
+    }
+
+    ul {
+      margin-bottom: 0;
+
+      li {
+        list-style: none;
+        position: relative;
+
+        .icon {
+          position: absolute;
+          left: -20px;
+        }
       }
     }
   }
-}
-
-.buttonDiv {
-  display: flex;
-  justify-content: center;
-  margin: 24px 0;
 }

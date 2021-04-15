@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React, { Fragment, FunctionComponent } from 'react';
+import React, { FunctionComponent } from 'react';
 
 import prestations from '../prestations.json';
 import ContactMeGradientButton from './ContactMeGradientButton';
@@ -11,32 +11,27 @@ const PrestationsSection: FunctionComponent = () => {
     <section>
       <h2 className={styles.title}>Most common prestations</h2>
       <div>
-        {prestations.map((prestation, index) => (
-          <Fragment key={prestation.title}>
-            {!!index && (
-              <div className={styles.buttonDiv}>
-                <ContactMeGradientButton />
+        {prestations.map((prestation) => (
+          <div key={prestation.title} className={styles.prestation}>
+            <div className={styles.prestationHeader}>
+              <div className={styles.prestationTitle}>{prestation.title}</div>
+              <div className={styles.skills}>
+                {prestation.skills.map((skill) => (
+                  <Image
+                    key={skill}
+                    src={skill}
+                    width={26}
+                    height={26}
+                    alt={skill.split('/').slice(-1)[0].split('.')[0]}
+                  />
+                ))}
               </div>
-            )}
-            <div className={styles.prestation}>
-              <div className={styles.prestationHeader}>
-                <div className={styles.prestationTitle}>{prestation.title}</div>
-                <div className={styles.skills}>
-                  {prestation.skills.map((skill) => (
-                    <Image
-                      key={skill}
-                      src={skill}
-                      width={26}
-                      height={26}
-                      alt={skill.split('/').slice(-1)[0].split('.')[0]}
-                    />
-                  ))}
-                </div>
-              </div>
-              <div
-                className={styles.prestationDescription}
-                dangerouslySetInnerHTML={{ __html: prestation.description }}
-              />
+            </div>
+            <div
+              className={styles.prestationDescription}
+              dangerouslySetInnerHTML={{ __html: prestation.description }}
+            />
+            <div className={styles.featuresSection}>
               <ul>
                 {prestation.features.map((feature) => (
                   <li key={feature}>
@@ -52,8 +47,11 @@ const PrestationsSection: FunctionComponent = () => {
                   </li>
                 ))}
               </ul>
+              <div>
+                <ContactMeGradientButton />
+              </div>
             </div>
-          </Fragment>
+          </div>
         ))}
       </div>
     </section>
