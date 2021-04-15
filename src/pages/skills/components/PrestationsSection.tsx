@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React, { FunctionComponent } from 'react';
 
 import prestations from '../prestations.json';
+import ContactMeGradientButton from './ContactMeGradientButton';
 
 import styles from './PrestationsSection.module.scss';
 
@@ -9,7 +10,6 @@ const PrestationsSection: FunctionComponent = () => {
   return (
     <section>
       <h2 className={styles.title}>Most common prestations</h2>
-
       <div>
         {prestations.map((prestation) => (
           <div key={prestation.title} className={styles.prestation}>
@@ -31,21 +31,26 @@ const PrestationsSection: FunctionComponent = () => {
               className={styles.prestationDescription}
               dangerouslySetInnerHTML={{ __html: prestation.description }}
             />
-            <ul>
-              {prestation.features.map((feature) => (
-                <li key={feature}>
-                  <div className={styles.icon}>
-                    <Image
-                      src="/images/pages/skills/check-mark.svg"
-                      width={18}
-                      height={13}
-                      alt="check-mark"
-                    />
-                  </div>
-                  <div dangerouslySetInnerHTML={{ __html: feature }} />
-                </li>
-              ))}
-            </ul>
+            <div className={styles.featuresSection}>
+              <ul>
+                {prestation.features.map((feature) => (
+                  <li key={feature}>
+                    <div className={styles.icon}>
+                      <Image
+                        src="/images/pages/skills/check-mark.svg"
+                        width={18}
+                        height={13}
+                        alt="check-mark"
+                      />
+                    </div>
+                    <div dangerouslySetInnerHTML={{ __html: feature }} />
+                  </li>
+                ))}
+              </ul>
+              <div>
+                <ContactMeGradientButton />
+              </div>
+            </div>
           </div>
         ))}
       </div>
