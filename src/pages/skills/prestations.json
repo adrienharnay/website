@@ -40,5 +40,26 @@
       "/images/pages/skills/responsive-design.png",
       "/images/pages/skills/performance.png"
     ]
+  },
+  {
+    "title": "Technical migration",
+    "description": "Do you need to <b>migrate from your current tech stack</b> to React and/or React Native?<br />I have extensive experience with <b>TypeScript, React, and React Native</b> architectures. I have also worked with <b>GraphQL</b> a lot.<br />On top of the technical stuff, I will mentor your team through the migration with <b>workshops and documentation</b>.",
+    "features": [
+      "Know how to build <b>resilient architectures</b>",
+      "Have experience with <b>front-end, back-end, and architecture</b>",
+      "<b>Type safe and clean code</b>, easy to iterate over",
+      "<b>Workshops</b> to get your team up to speed",
+      "Detailed <b>documentation</b> on best practices and <b>tutorials</b>",
+      "<b>Code reviews</b> and <b>mentoring</b>"
+    ],
+    "skills": [
+      "/images/pages/skills/react.png",
+      "/images/pages/skills/react-native.png",
+      "/images/pages/skills/typescript.png",
+      "/images/pages/skills/server-side-rendering.png",
+      "/images/pages/skills/performance.png",
+      "/images/pages/skills/seo.png",
+      "/images/pages/skills/generated-documentation.png"
+    ]
   }
 ]

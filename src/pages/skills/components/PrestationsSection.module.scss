@@ -7,6 +7,7 @@
 
   @include breakpoint($small) {
     font-size: 2.2rem;
+    margin-bottom: 24px;
   }
 }
 
@@ -32,6 +33,10 @@
     .prestationTitle {
       font-size: 1.8em;
       font-weight: bold;
+
+      @include breakpoint($small) {
+        font-size: 1.3em;
+      }
     }
 
     .skills {
