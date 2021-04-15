@@ -1,0 +1,94 @@
+@import 'src/styles/breakpoints.scss';
+
+.title {
+  margin: 0 0 0.5em 0;
+  font-size: 5rem;
+  font-weight: 700;
+
+  @include breakpoint($small) {
+    font-size: 2.2rem;
+    margin-bottom: 24px;
+  }
+}
+
+.prestation {
+  &:not(:first-child) {
+    margin-top: 32px;
+  }
+
+  .prestationHeader {
+    @include breakpoint($small) {
+      flex-wrap: wrap;
+
+      > *:first-child {
+        margin-bottom: 16px;
+      }
+    }
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+    .prestationTitle {
+      font-size: 1.8em;
+      font-weight: bold;
+      margin-right: 16px;
+
+      @include breakpoint($small) {
+        font-size: 1.3em;
+      }
+    }
+
+    .skills {
+      margin-top: -8px;
+      margin-left: -8px;
+
+      > * {
+        margin-top: 8px !important;
+        margin-left: 8px !important;
+      }
+    }
+  }
+
+  .prestationDescription {
+    margin-bottom: 16px;
+  }
+
+  .featuresSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include breakpoint($small) {
+      flex-wrap: wrap;
+
+      > *:not(:first-child) {
+        display: flex;
+        justify-content: center;
+
+        a {
+          display: block;
+          margin-top: 16px;
+        }
+      }
+    }
+
+    > * {
+      flex-grow: 1;
+    }
+
+    ul {
+      margin-bottom: 0;
+
+      li {
+        list-style: none;
+        position: relative;
+
+        .icon {
+          position: absolute;
+          left: -20px;
+        }
+      }
+    }
+  }
+}
