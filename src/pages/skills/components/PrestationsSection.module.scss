@@ -26,13 +26,13 @@
     }
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
 
     .prestationTitle {
       font-size: 1.8em;
       font-weight: bold;
+      margin-right: 16px;
 
       @include breakpoint($small) {
         font-size: 1.3em;
