@@ -42,7 +42,7 @@ const BioSection: FunctionComponent = () => {
       </div>
       <div className={styles.plugContainer}>
         <b>I am available for contract work.</b>
-        <div className={styles.prestations}>
+        <div className={styles.services}>
           <div>
             <div>
               <b>MVP</b> for your start-up

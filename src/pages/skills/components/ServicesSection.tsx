@@ -1,22 +1,22 @@
 import Image from 'next/image';
 import React, { FunctionComponent } from 'react';
 
-import prestations from '../prestations.json';
+import services from '../services.json';
 import ContactMeGradientButton from './ContactMeGradientButton';
 
-import styles from './PrestationsSection.module.scss';
+import styles from './ServicesSection.module.scss';
 
-const PrestationsSection: FunctionComponent = () => {
+const ServicesSection: FunctionComponent = () => {
   return (
     <section>
-      <h2 className={styles.title}>Most common prestations</h2>
+      <h2 className={styles.title}>Most common services</h2>
       <div>
-        {prestations.map((prestation) => (
-          <div key={prestation.title} className={styles.prestation}>
-            <div className={styles.prestationHeader}>
-              <div className={styles.prestationTitle}>{prestation.title}</div>
+        {services.map((service) => (
+          <div key={service.title} className={styles.service}>
+            <div className={styles.serviceHeader}>
+              <div className={styles.serviceTitle}>{service.title}</div>
               <div className={styles.skills}>
-                {prestation.skills.map((skill) => (
+                {service.skills.map((skill) => (
                   <Image
                     key={skill}
                     src={skill}
@@ -28,12 +28,12 @@ const PrestationsSection: FunctionComponent = () => {
               </div>
             </div>
             <div
-              className={styles.prestationDescription}
-              dangerouslySetInnerHTML={{ __html: prestation.description }}
+              className={styles.serviceDescription}
+              dangerouslySetInnerHTML={{ __html: service.description }}
             />
             <div className={styles.featuresSection}>
               <ul>
-                {prestation.features.map((feature) => (
+                {service.features.map((feature) => (
                   <li key={feature}>
                     <div className={styles.icon}>
                       <Image
@@ -58,4 +58,4 @@ const PrestationsSection: FunctionComponent = () => {
   );
 };
 
-export default PrestationsSection;
+export default ServicesSection;

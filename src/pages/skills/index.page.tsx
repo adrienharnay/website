@@ -10,7 +10,7 @@ import styles from './index.module.scss';
 import MetaTitle from 'src/components/meta/MetaTitle';
 import MetaDescription from 'src/components/meta/MetaDescription';
 import MetaImage from 'src/components/meta/MetaImage';
-import PrestationsSection from './components/PrestationsSection';
+import ServicesSection from './components/ServicesSection';
 
 const SkillsPage: FunctionComponent = () => {
   return (
@@ -21,7 +21,7 @@ const SkillsPage: FunctionComponent = () => {
       <MainLayout>
         <div className={styles.container}>
           <BioSection />
-          <PrestationsSection />
+          <ServicesSection />
           <SkillsShortSection />
           <SkillsLongSection />
         </div>
