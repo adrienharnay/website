@@ -1,9 +1,9 @@
 ---
 title: 'Curated list of links'
-excerpt: 'I have gathered this list of links over the time, and it is made of resources I have found helpful or worth remembering.'
+excerpt: 'I have gathered this list of links over the time, made of resources I have found helpful or worth remembering.'
 ---
 
-Everytime I find a new resource and think I might need it in the future, it gets added to this list. Maybe it can help you as much as it helps me.
+Everytime I find a new resource and think I might need it in the future, it gets added to this list. I hope it can help you as much as it helps me.
 
 ## Table of content
 
@@ -30,6 +30,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
     - [Flexbox](#flexbox)
     - [Grid](#grid)
     - [Animations](#animations)
+    - [Data visualization](#data-visualization)
     - [Cool demos](#cool-demos)
     - [SCSS](#scss)
     - [CSS Modules](#css-modules)
@@ -58,6 +59,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [GraphQL](#graphql)
   - [Apollo client](#apollo-client)
   - [Apollo server](#apollo-server)
+  - [SWR](#swr)
 
 - [Animations libraries](#animations-libraries)
 
@@ -150,6 +152,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
     - [Sketch](#sketch)
     - [Framer X](#framer-x)
+
+  - [Presentation tools](#presentation-tools)
 
 - [Developer insights](#developer-insights)
 
@@ -263,10 +267,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete
 - [Quicklink](https://github.com/GoogleChromeLabs/quicklink) - Faster subsequent page-loads by prefetching in-viewport links during idle time
 - [FBT](https://facebookincubator.github.io/fbt/) - An internationalization framework by Facebook
-- [Date-fns](https://github.com/date-fns/date-fns) - Modern JavaScript date utility library
+- [Date-fns](https://github.com/date-fns/date-fns) - Modern date utility library
 - [Date-fns-tz](https://github.com/marnusw/date-fns-tz) - Complementary library for date-fns v2 adding IANA time zone support
 - [PullToRefresh.js](https://www.boxfactura.com/pulltorefresh.js/) - A small, but powerful Javascript library crafted to power your webapp's pull to refresh feature
 - [Exponential-backoff](https://github.com/coveooss/exponential-backoff) - A utility that allows retrying a function with an exponential delay between attempts
+- [party.js](https://partyjs.yiliansource.dev/) - A JavaScript library to brighten up your user's site experience with visual effects!
 
 ### Typescript
 
@@ -287,6 +292,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The unknown Type in TypeScript](https://mariusschulz.com/blog/the-unknown-type-in-typescript)
 - [How to write a React Component in TypeScript](https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript)
 - [Understanding TypeScript Generics](https://seanbarry.dev/posts/understanding-typescript-generics)
+
+#### Migration stories 📖
+
+- [DevTools architecture refresh: migrating DevTools to TypeScript](https://developer.chrome.com/blog/migrating-to-typescript/)
+- [Slow and Steady: Converting Sentry’s Entire Frontend to TypeScript](https://blog.sentry.io/2021/04/12/slow-and-steady-converting-sentrys-entire-frontend-to-typescript)
 
 #### Related tools 🛠️
 
@@ -354,6 +364,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Lottie](https://airbnb.design/lottie/)
 - [Lottie Files](https://www.lottiefiles.com/) - An online community to find, test, and share striking animations
 - [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9)
+- [An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)
+- [A whimsical twist on hover transitions](https://www.joshwcomeau.com/react/boop/)
+
+#### Data visualization
+
+- [Charts.css](https://chartscss.org/) - CSS data visualization framework
 
 #### Cool demos
 
@@ -366,6 +382,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Keyframes](https://keyframes.app/) - Dead simple visual tools to help you generate CSS for your projects
 - [CSS Accordion Slider Generator](https://accordionslider.com/)
 - [Cube Life](https://codepen.io/vasighm/full/QWdvrKb) - The game of life on a cube
+- [ui.wtf](https://uiw.tf/)
 
 #### SCSS
 
@@ -461,6 +478,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Stop using client-side route redirects](https://kentcdodds.com/blog/stop-using-client-side-route-redirects)
 - [What is React: A Visual Introduction For Beginners](https://learnreact.design/posts/what-is-react)
 - [Everything About React Server Components](https://vercel.com/blog/everything-about-react-server-components)
+- [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
 
 #### Related tools 🛠️
 
@@ -508,7 +526,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-content-loader](https://github.com/danilowoz/react-content-loader) - SVG component to create placeholder loading, like Facebook cards loading
 - [React-table](https://github.com/react-tools/react-table) - A lightweight, fast and extendable datagrid for React
 - [React-chaos](https://github.com/jchiatt/react-chaos) - Chaos Engineering for your React apps
-- [SWR](https://swr.vercel.app/) - React Hooks library for data fetching
 - [Remotion](https://www.remotion.dev/) - Create motion graphics in React
 - [Vocab](https://github.com/seek-oss/vocab) - Strongly typed internationalization framework for React
 - [React-hook-form](https://react-hook-form.com/) - Performant, flexible and extensible forms with easy-to-use validation
@@ -556,6 +573,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How I improved my React Native app 50x faster](https://blog.inkdrop.info/how-i-improved-my-react-native-app-50x-faster-13d566061e84)
 - [ELI5: Yoga - Cross-Platform Layout Engine](https://developers.facebook.com/blog/post/2021/02/01/eli5-yoga-cross-platform-layout-engine/)
 - [Best Build Platforms for React Native Apps in 2021](https://javascript.plainenglish.io/best-build-platforms-for-react-native-apps-in-2021-24c511451bac)
+- [Bringing Hermes to iOS in React Native 0.64](https://callstack.com/blog/bringing-hermes-to-ios-in-react-native/)
+- [Hermes Performance on iOS](https://callstack.com/blog/hermes-performance-on-ios/)
+- [Navigating Xcode for React Native Developers (with a web background)](https://medium.com/react-native-school/navigating-xcode-for-react-native-developers-with-a-web-background-a1ee4d6ae4a8)
 
 #### Related tools 🛠️
 
@@ -570,13 +590,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Babel-plugin-functional-hmr](https://github.com/bvic23/babel-plugin-functional-hmr) - Babel plugin enables HMR for functional components in React Native
 - [React-native-sideswipe](https://github.com/kkemple/react-native-sideswipe) - Simple React Native carousel with sensible defaults
-- [React-native-testing-library](https://github.com/callstack/react-native-testing-library) - Simple React Native testing utilities helping you write better tests with less effort
 - [React-native-fast-image](https://github.com/DylanVann/react-native-fast-image) - FastImage, performant React Native image component
 - [Swr-react-native](https://github.com/nandorojo/swr-react-native) - React Native/React Navigation compatibility for Vercel's useSWR hook
 - [React-native-quick-base64](https://github.com/craftzdog/react-native-quick-base64) - A fast base64 module for React Native
 - [React-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) - A performant interactive bottom sheet with fully configurable options
 - [React-native-portal](https://github.com/gorhom/react-native-portal) - A simplified portal implementation for ⭕️ React Native & Web ⭕️
 - [RNUI](https://wix.github.io/react-native-ui-lib/) - UI Toolset & Components Library for React Native
+- [Ignite](https://github.com/infinitered/ignite) - Infinite Red's cutting edge React Native project boilerplate, along with a CLI, component/model generators, and more!
+- [Recylerlistview](https://github.com/Flipkart/recyclerlistview) - High performance listview for React Native and web!
 
 ### Native Mobile Development
 
@@ -633,6 +654,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Authentication Patterns for Next.js](https://leerob.io/blog/nextjs-authentication)
 - [10 Next.js Tips You Might Not Know](https://vercel.com/blog/10-next-js-tips-you-might-not-know)
 - [Building Forms with Next.js](https://nextjs.org/blog/forms)
+- [Thread on security headers and Next.js](https://twitter.com/leeerob/status/1381605537742254082?s=20) - Here's how to take your Next.js site to an A
+- [Refreshing Server-Side Props](https://www.joshwcomeau.com/nextjs/refreshing-server-side-props/)
 
 #### Related tools 🛠️
 
@@ -813,6 +836,16 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How Netflix Scales its API with GraphQL Federation (Part 2)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-2-bbe71aaec44a)
 - [Securing Your GraphQL API from Malicious Queries](https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b/)
 
+### SWR
+
+#### Documentation / News 📚
+
+- [SWR docs](https://swr.vercel.app/) - React Hooks library for data fetching
+
+#### Useful libraries 💾
+
+- [Swr-sync-storage](https://github.com/sergiodxa/swr-sync-storage) - Synchronize SWR cache with localStorage or sessionStorage to get offline cache
+
 ## Animations libraries
 
 ### D3.js
@@ -889,6 +922,20 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [We're officially out of beta!](https://www.cypress.io/blog/2018/09/20/cypress-is-officially-out-of-beta/)
 - [Visual testing for Cypress](https://go.percy.io/visual-testing/cypress)
 - [Introducing the Cypress Component Test Runner– new in 7.0.0](https://cypress.io/blog/2021/04/06/introducing-the-cypress-component-test-runner)
+
+#### React-testing-library
+
+##### Documentation / News 📚
+
+- [React Testing Library docs](https://testing-library.com/docs/react-testing-library/intro/)
+
+##### Concepts / Articles 💡
+
+- [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
+
+##### Useful libraries 💾
+
+- [React-native-testing-library](https://github.com/callstack/react-native-testing-library) - Simple React Native testing utilities helping you write better tests with less effort
 
 #### Others
 
@@ -992,6 +1039,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Netlify docs](https://www.netlify.com/docs/)
 - [10 Netlify features to surprise and delight](https://medium.com/netlify/10-netlify-features-to-surprise-and-delight-225e846b7b21)
 - [Incremental Static Regeneration: Its Benefits and Its Flaws](https://www.netlify.com/blog/2021/03/08/incremental-static-regeneration-its-benefits-and-its-flaws/)
+- [Distributed Persistent Rendering (DPR)](https://github.com/jamstack/jamstack.org/discussions/549) - RFC
+- [Faster builds for large sites on Netlify with On-demand Builders: Now in early access](https://www.netlify.com/blog/2021/04/14/faster-builds-for-large-sites-on-netlify-with-on-demand-builders-now-in-early-access/)
 
 ### Vercel
 
@@ -1052,6 +1101,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Firebase vs. Supabase: Which is better?](https://blog.logrocket.com/firebase-vs-supabase-which-is-better/)
 
+#### Others
+
+- [@databases](https://www.atdatabases.org/) - Query SQL Databases using Node.js and TypeScript
+
 ### Others
 
 #### Magic
@@ -1083,6 +1136,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [GitBook](https://www.gitbook.com/) - Documentation your users will love!
 - [Docz](https://www.docz.site/) - It has never been so easy to document your things!
 - [React-docgen](https://github.com/reactjs/react-docgen) - A CLI and toolbox to extract information from React component files for documentation generation purposes
+- [Nextra](https://nextra.vercel.app/) - Nextra is a Next.js based static site generator. 0 lines of code needed.
 
 ### Presentation generators
 
@@ -1245,6 +1299,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [AVIF and WebP encoding quality settings](https://www.industrialempathy.com/posts/avif-webp-quality-settings/)
 - [AVIF has landed](https://jakearchibald.com/2020/avif-has-landed/)
 - [Time for Next-Gen Codecs to Dethrone JPEG](https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg)
+- [How to Convince Your Boss to Care About Speed](https://calibreapp.com/blog/convince-your-boss-about-performance)
 
 #### Input / Throughput
 
@@ -1408,15 +1463,20 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ColorBox by Lyft Design](https://www.colorbox.io/)
 - [Visly](https://visly.app/blogposts/visly--build-react-components-visually) - Build React components visually
 
+### Presentation tools
+
+- [Kap](https://getkap.co/) - Capture your screen
+- [KeyCastr](https://github.com/keycastr/keycastr) - An open-source keystroke visualizer
+- [Codetour](https://github.com/microsoft/codetour) - VS Code extension that allows you to record and playback guided tours of codebases, directly within the editor
+
 ### Others
 
+- [Flycut](https://github.com/TermiT/Flycut) - Clean and simple clipboard manager for developers
 - [Transfer.sh](https://transfer.sh/) - Easy file sharing from the command line
 - [Snapdrop](https://snapdrop.net/) - Like Airdrop, but on the web
 - [Wormhole](https://wormhole.app/) - Simple, private file sharing
 - [IFTTT](https://ifttt.com/) - Applets linked to the services you love
 - [ConferCal](https://www.confercal.com/calendars/code) - A conference calendar for developers and other people in tech
-- [KeyCastr](https://github.com/keycastr/keycastr) - An open-source keystroke visualizer
-- [Codetour](https://github.com/microsoft/codetour) - VS Code extension that allows you to record and playback guided tours of codebases, directly within the editor
 - [How HTTPS Works](https://howhttps.works/)
 - [How DNS works](https://howdns.works/)
 
@@ -1497,6 +1557,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [To the brain, reading computer code is not the same as reading language](https://css-tricks.com/to-the-brain-reading-computer-code-is-not-the-same-as-reading-language/)
 - [A Front End Developer is Aware](https://css-tricks.com/front-end-developer-aware/)
 - [Know your "One Job" and do it first](https://charity.wtf/2021/03/07/know-your-one-job-and-do-it-first/)
+- [Specializing in Being a Generalist](https://ashfurrow.com/blog/specializing-in-being-a-generalist/)
 
 ### Leadership / Teaching
 
@@ -1516,6 +1577,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The epistemology of software quality](https://increment.com/teams/the-epistemology-of-software-quality/)
 - [The Evolution of Trust](https://ncase.me/trust/) - Game on trust theory
 - [The Nakazawa Management Starter Pack](https://cpojer.net/posts/the-nakazawa-management-starter-pack)
+- [If Your Boss Could Do Your Job, You’re More Likely to Be Happy at Work](https://hbr.org/2016/12/if-your-boss-could-do-your-job-youre-more-likely-to-be-happy-at-work)
+- [The Importance of Career Laddering](https://css-tricks.com/the-importance-of-career-laddering/)
+- [Career Ladders](https://career-ladders.dev/) - A sample of career ladders [Sarah Drasner uses for her] organization, open sourced for anyone
 
 ### OSS
 
@@ -1529,6 +1593,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Taking the Pain Out of Video Conferences](https://shift.infinite.red/taking-the-pain-out-of-video-conferences-7b7abe822b36?gi=8368d504d7fd)
 - [The Basecamp Guide to Internal Communication](https://basecamp.com/guides/how-we-communicate)
 - [Spotify says it's letting employees work from anywhere, while still paying San Francisco and New York salaries](https://www.businessinsider.com/spotify-unveils-new-remote-work-option-for-all-employees-2021-2?r=US&IR=T)
+- [Inclusion in a Distributed World](https://cpojer.net/posts/inclusion-in-a-distributed-world)
 
 ### Communicating
 
@@ -1604,6 +1669,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [JobTeaser](https://epitech.jobteaser.com/fr/users/sign_in?back_to_after_login=%2Ffr)
 - [How I Find Six Figure Remote Software Developer Jobs](https://dev.to/colinmtech/how-i-find-six-figure-remote-software-developer-jobs-23jd)
 - [We Work Remotely](https://weworkremotely.com/)
+- [Relocate.me](https://relocate.me/) - Job relocation made easy. Find tech jobs w/ relocation packages
 
 ## Personal achievements
 
