@@ -61,5 +61,24 @@
       "/images/pages/skills/seo.png",
       "/images/pages/skills/generated-documentation.png"
     ]
+  },
+  {
+    "title": "Design system and component library",
+    "description": "Do you want a <b>unified language between your product and technical teams</b>?<br />I can <b>increase the velocity of your developers</b> with a component library tailored to your brand.<br />It will also be <b>usable on web, iOS, and Android</b>.",
+    "features": [
+      "<b>UX and product-oriented</b> developer",
+      "Know how to build <b>sensible and scalable components</b>",
+      "Same API for the <b>web, iOS, and Android</b>",
+      "<b>Prototyping tool</b> for your product team",
+      "<b>Sandboxing tool</b> for your developers team"
+    ],
+    "skills": [
+      "/images/pages/skills/react.png",
+      "/images/pages/skills/react-native.png",
+      "/images/pages/skills/typescript.png",
+      "/images/pages/skills/responsive-design.png",
+      "/images/pages/skills/design-systems.png",
+      "/images/pages/skills/component-libraries.png"
+    ]
   }
 ]
