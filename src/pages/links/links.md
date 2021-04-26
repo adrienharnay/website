@@ -106,6 +106,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
     - [Google Firebase](#google-firebase)
     - [Supabase](#supabase)
 
+- [CMS](#cms)
+
+  - [Strapi](#strapi)
+
 - [Website generators](#website-generators)
 
   - [Styleguide generators](#styleguide-generators)
@@ -254,6 +258,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [JavaScript Closures](https://kentcdodds.com/blog/javascript-closures)
 - [What the fork is a closure](https://whatthefork.is/closure)
 - [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
+- [Working With Strings in Modern JavaScript](https://www.baseclass.io/guides/string-handling-modern-js)
 
 #### Related tools 🛠️
 
@@ -346,6 +351,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Avoiding jagged edges on gradients](https://medium.com/pixel-and-ink/avoiding-jagged-edges-on-gradients-f485cc7401f5)
 - [Did You Know About the :has CSS Selector?](https://css-tricks.com/did-you-know-about-the-has-css-selector/)
 - [The Just in Case Mindset in CSS](https://ishadeed.com/article/the-just-in-case-mindset-css/)
+- [Sticky Headers: 5 Ways to Make Them Better](https://www.nngroup.com/articles/sticky-headers/)
 
 #### Flexbox
 
@@ -479,6 +485,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What is React: A Visual Introduction For Beginners](https://learnreact.design/posts/what-is-react)
 - [Everything About React Server Components](https://vercel.com/blog/everything-about-react-server-components)
 - [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
+- [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
+- [Why I Love React by Kent C. Dodds](https://epicreact.dev/why-i-love-react/)
 
 #### Related tools 🛠️
 
@@ -656,6 +664,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Building Forms with Next.js](https://nextjs.org/blog/forms)
 - [Thread on security headers and Next.js](https://twitter.com/leeerob/status/1381605537742254082?s=20) - Here's how to take your Next.js site to an A
 - [Refreshing Server-Side Props](https://www.joshwcomeau.com/nextjs/refreshing-server-side-props/)
+- [A Complete Guide To Incremental Static Regeneration (ISR) With Next.js](https://www.smashingmagazine.com/2021/04/incremental-static-regeneration-nextjs/)
 
 #### Related tools 🛠️
 
@@ -756,6 +765,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Handling GraphQL errors like a champ with unions and interfaces](https://blog.logrocket.com/handling-graphql-errors-like-a-champ-with-unions-and-interfaces/)
 - [GraphQL in 2020: What's next?](https://productionreadygraphql.com/graphql-2020/)
 - [gqless or gqlful?](https://medium.com/@__xuorig__/gqless-or-gqlful-ec36fe588a4b)
+- [GraphQL Weekly](https://www.graphqlweekly.com/) - A weekly newsletter of the best news, articles and projects about GraphQL
 
 #### Useful libraries 💾
 
@@ -1097,7 +1107,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Supabase
 
-##### Concepts / Articles
+##### Concepts / Articles 💡
 
 - [Firebase vs. Supabase: Which is better?](https://blog.logrocket.com/firebase-vs-supabase-which-is-better/)
 
@@ -1111,6 +1121,15 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Magic - Auth simplified](https://magic.link/) - One SDK for passwordless, WebAuthn, and social login - fully customizable
 - [Insights](https://getinsights.io/) - Privacy-Focused Analytics Platform For Developers
+
+## CMS
+
+### Strapi
+
+#### Documentation / News 📚
+
+- [Strapi docs](https://strapi.io/)
+- [Announcing Strapi v3.6 with Internationalization](https://strapi.io/blog/announcing-content-internationalization-v3-6)
 
 ## Website generators
 
@@ -1420,6 +1439,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [A Soft Murmur](http://asoftmurmur.com/) - Ambient sounds to wash away distraction
 - [Quick terminal tip](https://dev.to/voter101/quick-terminal-tip-1can)
+- [Linear](https://linear.app/) - The issue tracking tool you'll enjoy using
+- [Raycast](https://raycast.com/) - Raycast lets you control your tools with a few keystrokes
 
 ### Mock APIs
 
