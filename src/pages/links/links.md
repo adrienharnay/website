@@ -277,6 +277,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [PullToRefresh.js](https://www.boxfactura.com/pulltorefresh.js/) - A small, but powerful Javascript library crafted to power your webapp's pull to refresh feature
 - [Exponential-backoff](https://github.com/coveooss/exponential-backoff) - A utility that allows retrying a function with an exponential delay between attempts
 - [party.js](https://partyjs.yiliansource.dev/) - A JavaScript library to brighten up your user's site experience with visual effects!
+- [WinBox.js](https://github.com/nextapps-de/winbox) - Professional HTML5 window manager for the web
 
 ### Typescript
 
@@ -297,6 +298,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The unknown Type in TypeScript](https://mariusschulz.com/blog/the-unknown-type-in-typescript)
 - [How to write a React Component in TypeScript](https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript)
 - [Understanding TypeScript Generics](https://seanbarry.dev/posts/understanding-typescript-generics)
+- [Starting a TypeScript Project in 2021](https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/)
 
 #### Migration stories 📖
 
@@ -487,6 +489,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
 - [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
 - [Why I Love React by Kent C. Dodds](https://epicreact.dev/why-i-love-react/)
+- [React hook flow diagram](https://github.com/donavon/hook-flow/blob/master/hook-flow.pdf)
 
 #### Related tools 🛠️
 
@@ -1117,10 +1120,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Others
 
-#### Magic
-
 - [Magic - Auth simplified](https://magic.link/) - One SDK for passwordless, WebAuthn, and social login - fully customizable
 - [Insights](https://getinsights.io/) - Privacy-Focused Analytics Platform For Developers
+- [Cusdis](https://cusdis.com/) - Lightweight, privacy-first, open-source comment system
 
 ## CMS
 
@@ -1385,6 +1387,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Page Weight by Imgx](https://pageweight.imgix.com/)
 - [Custom site performance reports with the CrUX Dashboard](https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard)
 - [Lightest.app](https://lightest.app/) - Visualize web performance against competitors
+- [How Core Web Vitals Will Impact Google Rankings in 2021](https://vercel.com/blog/core-web-vitals)
 
 ### SEO
 
