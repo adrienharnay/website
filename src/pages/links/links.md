@@ -215,6 +215,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Npkill](https://github.com/voidcosmos/npkill) - List any node_modules directories in your system, as well as the space they take up. You can then select which ones you want to erase to free up space
 - [Npm semver calculator](https://semver.npmjs.com/)
 - [Visualization of npm dependencies](https://npm.anvaka.com/#/)
+- [pkg](https://github.com/vercel/pkg) - Package your Node.js project into an executable
+- [Bundlephobia](https://bundlephobia.com/) - Find the cost of adding a npm package to your bundle
+- [Packagephobia](https://packagephobia.com/) - Find the cost of adding a new dev dependency to your project
 
 ### General programming
 
@@ -355,6 +358,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Did You Know About the :has CSS Selector?](https://css-tricks.com/did-you-know-about-the-has-css-selector/)
 - [The Just in Case Mindset in CSS](https://ishadeed.com/article/the-just-in-case-mindset-css/)
 - [Sticky Headers: 5 Ways to Make Them Better](https://www.nngroup.com/articles/sticky-headers/)
+- [Thoughts on CSS frameworks and stylized component libraries](https://www.joshwcomeau.com/newsletter-issues/012/#thoughts-on-css-frameworks-and-stylized-component-libraries) - From Josh Comeau's newsletter
 
 #### Flexbox
 
@@ -413,6 +417,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Announcing Emotion 10!](https://medium.com/emotion-js/announcing-emotion-10-f1a4b17b8ccd)
 - [Linaria](https://github.com/callstack/linaria) - Zero-runtime CSS in JS library
 - [Treat](https://seek-oss.github.io/treat/) - Themeable, statically extracted CSS‑in‑JS with near‑zero runtime
+- [vanilla-extract](https://github.com/seek-oss/vanilla-extract) - Zero-runtime Stylesheets-in-TypeScript
+- [Sprinkles](https://github.com/seek-oss/vanilla-extract/tree/master/packages/sprinkles) - Zero-runtime atomic CSS framework for vanilla-extract
 
 #### JS-in-CSS (because why not)
 
