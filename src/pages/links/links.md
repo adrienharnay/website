@@ -207,6 +207,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Yarn-deduplicate](https://github.com/atlassian/yarn-deduplicate) - Cleans up yarn.lock by removing duplicates
 - [Welcome to JS Dependency Hell](https://medium.com/swlh/welcome-to-dependency-hell-754a896f0440)
 - [Creating a Monorepo with Lerna & Yarn Workspaces](https://leerob.io/blog/monorepo-lerna-yarn-workspaces)
+- [Yarn Lock Changes](https://github.com/Simek/yarn-lock-changes) - Creates a comment inside Pull Request with the human-readable summary of changes to the Yarn lock file
 
 #### Tools
 
@@ -391,6 +392,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [CSS Accordion Slider Generator](https://accordionslider.com/)
 - [Cube Life](https://codepen.io/vasighm/full/QWdvrKb) - The game of life on a cube
 - [ui.wtf](https://uiw.tf/)
+- [The Hero Generator](https://hero-generator.netlify.app/) - Hero cover generator
 
 #### SCSS
 
@@ -431,6 +433,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Node best practices](https://github.com/i0natan/nodebestpractices) - The largest Node.JS best practices list. Curated from the top ranked articles and always updated
 - [Super Simple Start to ESModules in Node.js](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-node-js)
+- [fnm](https://github.com/Schniz/fnm) - Fast and simple Node.js version manager, built in Rust
 
 ### React
 
@@ -1169,8 +1172,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Spectacle-image-slide](https://github.com/FezVrasta/spectacle-image-slide)
 - [Presentations With Spectacle — How I Modularize My Deck](https://hackernoon.com/presentations-with-spectacle-how-i-modularize-my-deck-775c082cef08)
 
-#### Mdx-deck
+#### Others
 
+- [MDX](https://mdxjs.com/) - Markdown for the component era
 - [Mdx-deck docs](https://github.com/jxnblk/mdx-deck)
 - [Code-surfer](https://github.com/pomber/code-surfer) - React component for scrolling, zooming and highlighting code
 
@@ -1398,6 +1402,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ContentKing Academy](https://www.contentkingapp.com/academy/)
 - [The Definitive Guide To SEO In 2019](https://backlinko.com/seo-this-year)
 - [SEO component for structured data](https://mobile.twitter.com/signalnerve/status/1098691569362849799)
+- [The End of AMP](https://www.lafoo.com/the-end-of-amp/)
 
 #### SEO benchmarks 💯
 
@@ -1437,6 +1442,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Remove.bg](https://www.remove.bg) - Remove image background
 - [Unscreen](https://www.unscreen.com/) - Remove video background
 - [Material Icons](https://fonts.google.com/icons) - Free (and free of right) icons from Google
+- [Iconic](https://iconic.app/) - Free, “do wtf you want with” pixel-perfect icons
+- [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) - Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos
 
 ### Productivity
 
@@ -1532,6 +1539,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [WTF is JAMstack](https://jamstack.wtf/)
 - [The Case for Lower Code](https://aspittel.hashnode.dev/the-case-for-lower-code)
 - [No Code VS Low Code. What’s the Difference? It. Doesn't. Matter.](https://www.freecodecamp.org/news/no-code-vs-low-code-defined/)
+- [How we ship code faster and safer with feature flags](https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags/) - From the GitHub blog
 
 ### Product insights
 
