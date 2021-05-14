@@ -16,8 +16,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Programming languages](#programming-languages)
 
-  - [Javascript](#javascript)
-  - [Typescript](#typescript)
+  - [JavaScript](#javascript)
+  - [TypeScript](#typescript)
   - [Reason](#reason)
   - [HTML](#html)
 
@@ -229,23 +229,23 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ## Programming languages
 
-### Javascript
+### JavaScript
 
 #### Documentation / News 📚
 
-- [Mozilla re-introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+- [Mozilla re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 - [EcmaScript 6 Features](http://es6-features.org/)
 - [Does it mutate?](https://doesitmutate.xyz/)
 - [Asynchronous JS Cheatsheet](https://frontarm.com/async-cheatsheet.pdf)
 
 #### Concepts / Articles 💡
 
-- [Javascript Without Loops](https://jrsinclair.com/articles/2017/javascript-without-loops/)
+- [JavaScript Without Loops](https://jrsinclair.com/articles/2017/javascript-without-loops/)
 - [A Beginner’s Guide to Currying in Functional JavaScript](https://www.sitepoint.com/currying-in-functional-javascript/)
 - [How I rediscovered my love for JavaScript after throwing 90% of it in the trash](https://hackernoon.com/how-i-rediscovered-my-love-for-javascript-after-throwing-90-of-it-in-the-trash-f1baed075d1b)
 - [ES6: Default Arguments](https://remysharp.com/2017/10/25/es6-default-arguments)
 - [Taming the asynchronous beast with ES7](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html)
-- [AirBnB Javascript styleguide](https://github.com/airbnb/javascript)
+- [AirBnB JavaScript styleguide](https://github.com/airbnb/javascript)
 - [The increasing nature of frontend complexity](https://blog.logrocket.com/the-increasing-nature-of-frontend-complexity-b73c784c09ae)
 - [Contrarian idea: JS doesn't move too fast](https://mobile.twitter.com/dceddia/status/1036807827547930624) - Twitter thread
 - [Property order is predictable in JavaScript objects since ES2015](https://www.stefanjudis.com/today-i-learned/property-order-is-predictable-in-javascript-objects-since-es2015/)
@@ -263,6 +263,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What the fork is a closure](https://whatthefork.is/closure)
 - [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
 - [Working With Strings in Modern JavaScript](https://www.baseclass.io/guides/string-handling-modern-js)
+- [How To Use Vibration API In Your Website](https://blog.bibekkakati.me/how-to-use-vibration-api-in-your-website)
 
 #### Related tools 🛠️
 
@@ -278,18 +279,19 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [FBT](https://facebookincubator.github.io/fbt/) - An internationalization framework by Facebook
 - [Date-fns](https://github.com/date-fns/date-fns) - Modern date utility library
 - [Date-fns-tz](https://github.com/marnusw/date-fns-tz) - Complementary library for date-fns v2 adding IANA time zone support
-- [PullToRefresh.js](https://www.boxfactura.com/pulltorefresh.js/) - A small, but powerful Javascript library crafted to power your webapp's pull to refresh feature
+- [PullToRefresh.js](https://www.boxfactura.com/pulltorefresh.js/) - A small, but powerful JavaScript library crafted to power your webapp's pull to refresh feature
 - [Exponential-backoff](https://github.com/coveooss/exponential-backoff) - A utility that allows retrying a function with an exponential delay between attempts
 - [party.js](https://partyjs.yiliansource.dev/) - A JavaScript library to brighten up your user's site experience with visual effects!
 - [WinBox.js](https://github.com/nextapps-de/winbox) - Professional HTML5 window manager for the web
+- [Zx](https://github.com/google/zx) - A tool for writing better scripts
 
-### Typescript
+### TypeScript
 
 #### Documentation / News 📚
 
-- [Typescript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html)
-- [Typescript Evolution](https://mariusschulz.com/blog/series/typescript-evolution)
-- [Typescript Deep Dive](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
+- [TypeScript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+- [TypeScript Evolution](https://mariusschulz.com/blog/series/typescript-evolution)
+- [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
 - [React-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet) - A cheatsheet for react users using typescript with react for the first (or nth!) time
 
 #### Concepts / Articles 💡
@@ -319,6 +321,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform) - Convert React JavaScript code to TypeScript with proper typing
 - [Typedoc](https://github.com/TypeStrong/typedoc) - Documentation generator for TypeScript projects
 - [Type-fest](https://github.com/sindresorhus/type-fest) - A collection of essential TypeScript types
+- [Flow2ts](https://github.com/microsoft/flow2dts) - Flow declarations to TypeScript declarations transpiler
 
 ### Reason
 
@@ -359,6 +362,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Just in Case Mindset in CSS](https://ishadeed.com/article/the-just-in-case-mindset-css/)
 - [Sticky Headers: 5 Ways to Make Them Better](https://www.nngroup.com/articles/sticky-headers/)
 - [Thoughts on CSS frameworks and stylized component libraries](https://www.joshwcomeau.com/newsletter-issues/012/#thoughts-on-css-frameworks-and-stylized-component-libraries) - From Josh Comeau's newsletter
+- [A Guide To Newly Supported, Modern CSS Pseudo-Class Selectors](https://www.smashingmagazine.com/2021/04/guide-supported-modern-css-pseudo-class-selectors/?ck_subscriber_id=1233693650)
+- [CSS Tips](https://markodenic.com/css-tips/) - CSS tips and tricks you won’t see in most of the tutorials
 
 #### Flexbox
 
@@ -417,7 +422,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Announcing Emotion 10!](https://medium.com/emotion-js/announcing-emotion-10-f1a4b17b8ccd)
 - [Linaria](https://github.com/callstack/linaria) - Zero-runtime CSS in JS library
 - [Treat](https://seek-oss.github.io/treat/) - Themeable, statically extracted CSS‑in‑JS with near‑zero runtime
-- [vanilla-extract](https://github.com/seek-oss/vanilla-extract) - Zero-runtime Stylesheets-in-TypeScript
+- [vanilla-extract](https://vanilla-extract.style/) - Zero-runtime Stylesheets-in-TypeScript
 - [Sprinkles](https://github.com/seek-oss/vanilla-extract/tree/master/packages/sprinkles) - Zero-runtime atomic CSS framework for vanilla-extract
 
 #### JS-in-CSS (because why not)
@@ -499,6 +504,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
 - [Why I Love React by Kent C. Dodds](https://epicreact.dev/why-i-love-react/)
 - [React hook flow diagram](https://github.com/donavon/hook-flow/blob/master/hook-flow.pdf)
+- [Memoization and React](https://epicreact.dev/memoization-and-react/)
 
 #### Related tools 🛠️
 
@@ -618,6 +624,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [RNUI](https://wix.github.io/react-native-ui-lib/) - UI Toolset & Components Library for React Native
 - [Ignite](https://github.com/infinitered/ignite) - Infinite Red's cutting edge React Native project boilerplate, along with a CLI, component/model generators, and more!
 - [Recylerlistview](https://github.com/Flipkart/recyclerlistview) - High performance listview for React Native and web!
+- [Stripe-react-native](https://github.com/stripe/stripe-react-native) - React Native library for Stripe
 
 ### Native Mobile Development
 
@@ -1442,6 +1449,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Fontstorage](https://fontstorage.com/) - Collection of free fonts for your websites
 - [Terminalizer](https://github.com/faressoft/terminalizer) - Record your terminal and generate animated gif images
 - [unDraw](https://undraw.co/) - Open-source illustrations for every project you can imagine and create
+- [DrawKit](https://www.drawkit.io/) - Beautiful, free illustrations. Updated weekly
 - [Emoji-as-a-service](https://emoji.veryfunparty.com/) - Service that returns a high-res, predictable emoji image for a given URL
 - [Image Color Picker](https://image-color.com/) - Find your perfect color palette by uploading an image you like
 - [Coolors](https://coolors.co/) - Create the perfect palette or get inspired by thousands of beautiful color schemes
@@ -1596,6 +1604,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [A Front End Developer is Aware](https://css-tricks.com/front-end-developer-aware/)
 - [Know your "One Job" and do it first](https://charity.wtf/2021/03/07/know-your-one-job-and-do-it-first/)
 - [Specializing in Being a Generalist](https://ashfurrow.com/blog/specializing-in-being-a-generalist/)
+- [How to Build a Career in Tech: Cassidy Williams (@cassidoo) Connects the Dots](https://www.youtube.com/watch?app=desktop&v=qsBfyUzZhTc) 🎥
 
 ### Leadership / Teaching
 
@@ -1618,6 +1627,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [If Your Boss Could Do Your Job, You’re More Likely to Be Happy at Work](https://hbr.org/2016/12/if-your-boss-could-do-your-job-youre-more-likely-to-be-happy-at-work)
 - [The Importance of Career Laddering](https://css-tricks.com/the-importance-of-career-laddering/)
 - [Career Ladders](https://career-ladders.dev/) - A sample of career ladders [Sarah Drasner uses for her] organization, open sourced for anyone
+- [Your Team is Not “Them”](https://css-tricks.com/your-team-is-not-them/)
 
 ### OSS
 
@@ -1641,6 +1651,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How To Work With Developers - A Guide for Non-Developers](https://dev.to/kttravers/how-to-work-with-developers---a-guide-for-non-developers-35hk)
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)
 - [Beyond best intentions](https://thoughtbot.com/blog/beyond-best-intentions)
+- [Manage Your Manager](https://boz.com/articles/managing-managers)
+- [The Art of the Awkward 1:1](https://medium.com/@mrabkin/the-art-of-the-awkward-1-1-f4e1dcbd1c5c)
+- [The P Rules](https://boz.com/articles/p-rules)
 
 ### Writing articles
 
@@ -1692,6 +1705,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Pricing Freelance Projects](https://www.tomhirst.com/pricing-freelance-projects/)
 - [How to price yourself $$$ as a freelance developer](https://www.youtube.com/watch?app=desktop&v=_jcyDfqy-f0&feature=youtu.be) - YouTube video
+- [Breaking Into Freelancing & Consulting as a Developer - How I made over $400,000 Per Year](https://www.youtube.com/watch?app=desktop&v=Nz4Ra1uSOAc) 🎥
 
 ### Job hunting / Freelance platforms (mainly for French people)
 
