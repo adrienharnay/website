@@ -134,6 +134,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
     - [Illusion of speed](#illusion-of-speed)
     - [Network](#network)
     - [Input / Throughput](#input--throughput)
+    - [Core Web Vitals](#core-web-vitals)
     - [Performance accessibility](#performance-accessibility)
     - [Progressive Web Apps](#progressive-web-apps)
     - [Performance benchmarks](#performance-benchmarks-)
@@ -164,7 +165,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Software insights](#software-insights)
   - [Product insights](#product-insights)
   - [Being a developer](#being-a-developer)
-  - [Leadership / Teaching](#leadership--teaching)
+  - [Leadership / Mentoring / Teaching](#leadership--mentoring--teaching)
   - [Management](#management)
   - [OSS](#oss)
   - [Remote working](#remote-working)
@@ -310,6 +311,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [DevTools architecture refresh: migrating DevTools to TypeScript](https://developer.chrome.com/blog/migrating-to-typescript/)
 - [Slow and Steady: Converting Sentry’s Entire Frontend to TypeScript](https://blog.sentry.io/2021/04/12/slow-and-steady-converting-sentrys-entire-frontend-to-typescript)
+- [The continual evolution of Airtable’s codebase: Migrating a million lines of code to TypeScript](https://medium.com/airtable-eng/the-continual-evolution-of-airtables-codebase-migrating-a-million-lines-of-code-to-typescript-612c008baf5c)
 
 #### Related tools 🛠️
 
@@ -364,6 +366,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Thoughts on CSS frameworks and stylized component libraries](https://www.joshwcomeau.com/newsletter-issues/012/#thoughts-on-css-frameworks-and-stylized-component-libraries) - From Josh Comeau's newsletter
 - [A Guide To Newly Supported, Modern CSS Pseudo-Class Selectors](https://www.smashingmagazine.com/2021/04/guide-supported-modern-css-pseudo-class-selectors/?ck_subscriber_id=1233693650)
 - [CSS Tips](https://markodenic.com/css-tips/) - CSS tips and tricks you won’t see in most of the tutorials
+- [Practical CSS Scroll Snapping](https://css-tricks.com/practical-css-scroll-snapping/)
 
 #### Flexbox
 
@@ -384,6 +387,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9)
 - [An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)
 - [A whimsical twist on hover transitions](https://www.joshwcomeau.com/react/boop/)
+- [Transition.css](https://github.com/argyleink/transition.css) - Drop-in CSS transitions
 
 #### Data visualization
 
@@ -581,7 +585,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Know React? Try React Native.](https://shift.infinite.red/know-react-try-react-native-48f459f36675)
 - [Awesome React Native](http://www.awesome-react-native.com/) - An awesome style list that curates the best React Native libraries, tools, tutorials, articles and more
-- [React Native at Airbnb](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c)
 - [Hunting JS memory leaks in React Native apps](https://blog.swmansion.com/hunting-js-memory-leaks-in-react-native-apps-bd73807d0fde?gi=84508c8ef0c7)
 - [Bridging React Native Back to its Roots](https://www.youtube.com/watch?v=aOWIJ4Mgb2k&amp=&feature=youtu.be) - Vincent Riemer (@vincentriemer) at @ReactEurope 2018
 - [Shipping React Native apps with Fastlane and Travis](https://dev.to/carloscuesta/shipping-react-native-apps-with-fastlane-and-travis-1aea)
@@ -593,7 +596,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to convince your boss to use React Native](http://frantic.im/how-to-convince-your-boss-to-use-react-native)
 - [The New React Native Architecture Explained](https://formidable.com/blog/2019/react-codegen-part-1/)
 - [React Native Performance: Do and Don't](https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a)
-- [React Native is the Future of Mobile at Shopify](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify)
 - [Stack Navigator Transitions | React Navigation 5](https://www.youtube.com/watch?v=PvjV96CNPqM) - YouTube video
 - [Setup your React Native splash screen in 15 minutes](https://blog.bam.tech/developer-news/set-up-your-react-native-splash-screen-in-15-minutes)
 - [How I improved my React Native app 50x faster](https://blog.inkdrop.info/how-i-improved-my-react-native-app-50x-faster-13d566061e84)
@@ -602,6 +604,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Bringing Hermes to iOS in React Native 0.64](https://callstack.com/blog/bringing-hermes-to-ios-in-react-native/)
 - [Hermes Performance on iOS](https://callstack.com/blog/hermes-performance-on-ios/)
 - [Navigating Xcode for React Native Developers (with a web background)](https://medium.com/react-native-school/navigating-xcode-for-react-native-developers-with-a-web-background-a1ee4d6ae4a8)
+
+#### Migration stories 📖
+
+- [React Native at Airbnb](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c)
+- [React Native is the Future of Mobile at Shopify](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify)
+- [Announcing Coinbase’s successful transition to React Native](https://blog.coinbase.com/announcing-coinbases-successful-transition-to-react-native-af4c591df971)
 
 #### Related tools 🛠️
 
@@ -1372,6 +1380,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Best Font Loading Strategies and How to Execute Them](https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/)
 - [Improve Page Rendering Speed Using Only CSS](https://blog.bitsrc.io/improve-page-rendering-speed-using-only-css-a61667a16b2)
 
+#### Core Web Vitals
+
+- [Google Web Vitals best practices for single-page apps](https://blog.logrocket.com/google-web-vitals-single-page-apps/)
+- [How Core Web Vitals Will Impact Google Rankings in 2021](https://vercel.com/blog/core-web-vitals)
+
 #### Performance accessibility
 
 - [Building the most inaccessible site possible with a perfect Lighthouse score](https://www.matuzo.at/blog/building-the-most-inaccessible-site-possible-with-a-perfect-lighthouse-score/)
@@ -1404,7 +1417,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Page Weight by Imgx](https://pageweight.imgix.com/)
 - [Custom site performance reports with the CrUX Dashboard](https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard)
 - [Lightest.app](https://lightest.app/) - Visualize web performance against competitors
-- [How Core Web Vitals Will Impact Google Rankings in 2021](https://vercel.com/blog/core-web-vitals)
 
 ### SEO
 
@@ -1554,6 +1566,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Case for Lower Code](https://aspittel.hashnode.dev/the-case-for-lower-code)
 - [No Code VS Low Code. What’s the Difference? It. Doesn't. Matter.](https://www.freecodecamp.org/news/no-code-vs-low-code-defined/)
 - [How we ship code faster and safer with feature flags](https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags/) - From the GitHub blog
+- [Notion's page load and navigation times just got faster](https://www.notion.so/blog/faster-page-load-navigation)
 
 ### Product insights
 
@@ -1582,6 +1595,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to Negotiate & Persuade](https://theproductperson.substack.com/p/-how-to-negotiate-and-persuade)
 - [Why I'm losing faith in UX](https://creativegood.com/blog/21/losing-faith-in-ux.html)
 - [Launch an app that people actually want to use](https://shift.infinite.red/launch-an-app-that-people-actually-want-to-use-fb4a5d9d8a76)
+- [Why You Should Include Your Developer In The Design Process](https://www.smashingmagazine.com/2014/11/why-you-should-include-your-developer-in-the-design-process/)
+- [How Frontend Developers Can Empower Designer’s Work](https://www.smashingmagazine.com/2019/10/frontend-developers-empower-designers-work/)
+- [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a)
 
 ### Being a developer
 
@@ -1606,7 +1622,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Specializing in Being a Generalist](https://ashfurrow.com/blog/specializing-in-being-a-generalist/)
 - [How to Build a Career in Tech: Cassidy Williams (@cassidoo) Connects the Dots](https://www.youtube.com/watch?app=desktop&v=qsBfyUzZhTc) 🎥
 
-### Leadership / Teaching
+### Leadership / Mentoring / Teaching
 
 - [11 Best Ways to Improve Your Emotional Intelligence](https://dev.to/lpasqualis/11-best-ways-to-improve-your-emotional-intelligence/)
 - [Onboarding New Developers](https://dev.to/codemouse92/onboarding-new-developers)
@@ -1616,6 +1632,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Managers and Seagulls](https://retrospective.co/seagulls/)
 - ["Solidifying what you learn"](https://dev.to/kentcdodds/solidifying-what-you-learn-lgi)
 - [How I Teach](https://kentcdodds.com/blog/how-i-teach)
+- [Why mentorship in tech is important](https://blog.logrocket.com/why-mentorship-is-important-in-tech/)
+- [Lessons from training teams to use React Native](https://blog.coinbase.com/lessons-from-training-teams-to-use-react-native-67ec78b9ab7a)
 
 ### Management
 
