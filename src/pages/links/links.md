@@ -64,6 +64,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Animations libraries](#animations-libraries)
 
   - [D3.js](#d3js)
+  - [Framer Motion](#framer-motion)
   - [React-spring](#react-spring)
   - [React-native-reanimated](#react-native-reanimated)
 
@@ -105,6 +106,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
     - [AWS Amplify](#aws-amplify)
     - [Google Firebase](#google-firebase)
     - [Supabase](#supabase)
+    - [Prisma](#prisma)
 
 - [CMS](#cms)
 
@@ -265,10 +267,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
 - [Working With Strings in Modern JavaScript](https://www.baseclass.io/guides/string-handling-modern-js)
 - [How To Use Vibration API In Your Website](https://blog.bibekkakati.me/how-to-use-vibration-api-in-your-website)
+- [Modern Javascript: Everything you missed over the last 10 years (ECMAScript 2020)](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
+- [9 single-statement JS algorithms for common data transformations](https://www.benmvp.com/blog/9-single-statement-javascript-algorithms-common-data-transformations/)
 
 #### Related tools 🛠️
 
 - [Operator Lookup](https://www.joshwcomeau.com/operator-lookup/) - Enter a JavaScript operator to learn more about it
+- [DOM Events](https://domevents.dev/) - Learn about the DOM Event system through exploration
 
 #### Useful libraries 💾
 
@@ -619,6 +624,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [App Icon Generator](https://appicon.co/)
 - [React Native Upgrade Helper](https://react-native-community.github.io/upgrade-helper/)
 - [Android-capture](https://github.com/ds300/android-capture) - Capture video and screenshots from Android devices and emulators
+- [Don't kill my app!](https://dontkillmyapp.com/) - Android manufacturers prefer battery life over proper functionality of your apps. See how you can fix it
 
 #### Useful libraries 💾
 
@@ -865,13 +871,20 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Apollo server
 
-#### Concepts / Articles 💡
+#### Documentation / News 📚
 
 - [Caching Strategies in a Federated GraphQL Architecture](https://www.apollographql.com/blog/caching-strategies-in-a-federated-graphql-architecture/)
 - [Schema Services: Transitioning Towards a Federated Architecture](https://www.apollographql.com/blog/schema-services-transitioning-towards-a-federated-graphql-architecture/)
 - [How Netflix Scales its API with GraphQL Federation (Part 1)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-1-ae3557c187e2)
 - [How Netflix Scales its API with GraphQL Federation (Part 2)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-2-bbe71aaec44a)
 - [Securing Your GraphQL API from Malicious Queries](https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b/)
+
+### Gqless
+
+#### Documentation / News 📚
+
+- [Gqless docs](https://gqless.com/)
+- [What's new in 2.0](https://gqless.com/intro/new-in-2) - Mutations, subscriptions, hooks, ...
 
 ### SWR
 
@@ -896,6 +909,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to learn D3.js](https://wattenberger.com/blog/d3)
 - [React + D3.js](https://wattenberger.com/blog/react-and-d3)
 
+### Framer Motion
+
+#### Concepts / Articles 💡
+
+- [Learn Framer Motion in 10 tweets](https://mobile.twitter.com/willjohnsonio/status/1396857844973064202?s=12)
+
 ### React-spring
 
 #### Documentation / News 📚
@@ -907,6 +926,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Documentation / News 📚
 
 - [React-native-reanimated documentation](https://docs.swmansion.com/react-native-reanimated/)
+- [Animations in React Native: Performance and Reason-about-ability with Reanimated 2](https://formidable.com/blog/2021/reanimated-two/)
 
 #### Useful libraries 💾
 
@@ -1137,6 +1157,16 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ##### Concepts / Articles 💡
 
 - [Firebase vs. Supabase: Which is better?](https://blog.logrocket.com/firebase-vs-supabase-which-is-better/)
+
+#### Prisma
+
+##### Documentation / News 📚
+
+- [Prisma docs](https://www.prisma.io/)
+
+##### Concepts / Articles 💡
+
+- [Productive Development With Prisma’s Zero-Cost Type Safety](https://dev.to/prisma/productive-development-with-prisma-s-zero-cost-type-safety-4od2)
 
 #### Others
 
@@ -1379,11 +1409,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
 - [The Best Font Loading Strategies and How to Execute Them](https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/)
 - [Improve Page Rendering Speed Using Only CSS](https://blog.bitsrc.io/improve-page-rendering-speed-using-only-css-a61667a16b2)
+- [Building a Faster Web Experience with the postTask Scheduler](https://medium.com/airbnb-engineering/building-a-faster-web-experience-with-the-posttask-scheduler-276b83454e91)
 
 #### Core Web Vitals
 
 - [Google Web Vitals best practices for single-page apps](https://blog.logrocket.com/google-web-vitals-single-page-apps/)
 - [How Core Web Vitals Will Impact Google Rankings in 2021](https://vercel.com/blog/core-web-vitals)
+- [How We Improved Our Core Web Vitals (Case Study)](https://www.smashingmagazine.com/2021/05/core-web-vitals-case-study/)
 
 #### Performance accessibility
 
@@ -1417,6 +1449,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Page Weight by Imgx](https://pageweight.imgix.com/)
 - [Custom site performance reports with the CrUX Dashboard](https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard)
 - [Lightest.app](https://lightest.app/) - Visualize web performance against competitors
+- [Sitespeed](https://www.sitespeed.io/)
+- [Instant Vitals](https://vitals.dev/) - Open source tools to track Web Vitals metrics in the field
 
 ### SEO
 
@@ -1621,6 +1655,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Know your "One Job" and do it first](https://charity.wtf/2021/03/07/know-your-one-job-and-do-it-first/)
 - [Specializing in Being a Generalist](https://ashfurrow.com/blog/specializing-in-being-a-generalist/)
 - [How to Build a Career in Tech: Cassidy Williams (@cassidoo) Connects the Dots](https://www.youtube.com/watch?app=desktop&v=qsBfyUzZhTc) 🎥
+- [The 80% Energy Principle](https://justinjackson.ca/the-principle-that-changed-my-life)
 
 ### Leadership / Mentoring / Teaching
 
