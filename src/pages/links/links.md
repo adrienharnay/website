@@ -589,6 +589,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Concepts / Articles 💡
 
 - [Know React? Try React Native.](https://shift.infinite.red/know-react-try-react-native-48f459f36675)
+- [Why Choose React Native?](https://formidable.com/blog/2021/choose-react-native/)
 - [Awesome React Native](http://www.awesome-react-native.com/) - An awesome style list that curates the best React Native libraries, tools, tutorials, articles and more
 - [Hunting JS memory leaks in React Native apps](https://blog.swmansion.com/hunting-js-memory-leaks-in-react-native-apps-bd73807d0fde?gi=84508c8ef0c7)
 - [Bridging React Native Back to its Roots](https://www.youtube.com/watch?v=aOWIJ4Mgb2k&amp=&feature=youtu.be) - Vincent Riemer (@vincentriemer) at @ReactEurope 2018
@@ -609,6 +610,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Bringing Hermes to iOS in React Native 0.64](https://callstack.com/blog/bringing-hermes-to-ios-in-react-native/)
 - [Hermes Performance on iOS](https://callstack.com/blog/hermes-performance-on-ios/)
 - [Navigating Xcode for React Native Developers (with a web background)](https://medium.com/react-native-school/navigating-xcode-for-react-native-developers-with-a-web-background-a1ee4d6ae4a8)
+- [Coinbase’s animated TabBar in React Native](https://blog.coinbase.com/coinbases-animated-tabbar-in-react-native-4b3fdd4473e)
+- [Optimizing React Native](https://blog.coinbase.com/optimizing-react-native-7e7bf7ac3a34)
+- [How Discord achieves native iOS performance with React Native](https://blog.discord.com/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502)
+- [React-native-mmkv](https://github.com/mrousavy/react-native-mmkv) - ⚡An extremely fast key/value storage library for React Native. ~30x faster than AsyncStorage!
 
 #### Migration stories 📖
 
@@ -702,11 +707,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Related tools 🛠️
 
 - [Code elimination preview](https://next-code-elimination.now.sh/) - Understand what parts of your Next.js code will be trimmed before being sent to the client
+
+#### Useful libraries 💾
+
 - [Create-react-next-app](https://github.com/segmentio/create-next-app) - Create Next.js apps in one command
 - [Happykit/flags](https://github.com/happykit/flags) - Feature Flags for Next.js
 - [Nookies](https://github.com/maticzav/nookies) - A set of cookie helpers for Next.js
 - [Next-stripe](https://github.com/ynnoj/next-stripe) - Simplified server-side Stripe workflows in Next.js
-- [Next Sentry](https://github.com/vercel/next.js/tree/canary/examples/with-sentry) - Example showing how to use Sentry to catch & report errors on both client + server side
+- [Next-optimized-images](https://github.com/cyrilwanner/next-optimized-images) - next-optimized-images automatically optimizes images used in next.js projects (jpeg, png, svg, webp and gif)
 
 ### Electron
 
@@ -950,6 +958,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ##### Documentation / News 📚
 
 - [Jest docs](https://facebook.github.io/jest/)
+- [Jest 27: New Defaults for Jest, 2021 edition](https://jestjs.io/blog/2021/05/25/jest-27)
 
 ##### Concepts / Articles 💡
 
@@ -1504,6 +1513,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Material Icons](https://fonts.google.com/icons) - Free (and free of right) icons from Google
 - [Iconic](https://iconic.app/) - Free, “do wtf you want with” pixel-perfect icons
 - [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) - Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos
+- [Boring avatars](https://boringavatars.com/) - Generates custom, SVG-based, round avatars from any username and color palette
 
 ### Productivity
 
@@ -1727,6 +1737,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Tech Screenings: Why The Interview Process Fails Candidates](https://dev.to/techevangelista/tech-screenings-why-the-interview-process-fails-candidates-hc3)
 - [Twitter thread on interview questions before joining a startup](https://mobile.twitter.com/jensenharris/status/988967889330819072)
 - [Salary negotiation thread](https://mobile.twitter.com/sehurlburt/status/1017631027395612672) - by Stephanie Hurlburt
+- [Getting a Gig: A Guide](https://github.com/cassidoo/getting-a-gig) - Guide for getting a gig as a tech student by Cassidy Williams
 
 ### Coding interviews
 
