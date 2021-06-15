@@ -50,6 +50,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
   - [Gatsby.js](#gatsbyjs)
   - [Next.js](#nextjs)
+  - [Astro](#astro)
   - [Electron](#electron)
 
 - [State management libraries](#state-management-libraries)
