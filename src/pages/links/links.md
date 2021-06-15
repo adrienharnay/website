@@ -291,6 +291,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [WinBox.js](https://github.com/nextapps-de/winbox) - Professional HTML5 window manager for the web
 - [Zx](https://github.com/google/zx) - A tool for writing better scripts
 
+#### Games 🎲
+
+- [Yare](https://yare.io/) - Real-Time Strategy game where you control your units by writing JavaScript code
+
 ### TypeScript
 
 #### Documentation / News 📚
@@ -326,9 +330,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Useful libraries 💾
 
 - [React-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform) - Convert React JavaScript code to TypeScript with proper typing
+- [Flow2ts](https://github.com/microsoft/flow2dts) - Flow declarations to TypeScript declarations transpiler
 - [Typedoc](https://github.com/TypeStrong/typedoc) - Documentation generator for TypeScript projects
 - [Type-fest](https://github.com/sindresorhus/type-fest) - A collection of essential TypeScript types
-- [Flow2ts](https://github.com/microsoft/flow2dts) - Flow declarations to TypeScript declarations transpiler
+- [Ts-pattern](https://github.com/gvergnaud/ts-pattern) - An exhaustive Pattern Matching library for TypeScript, with smart type inference
 
 ### Reason
 
@@ -372,10 +377,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [A Guide To Newly Supported, Modern CSS Pseudo-Class Selectors](https://www.smashingmagazine.com/2021/04/guide-supported-modern-css-pseudo-class-selectors/?ck_subscriber_id=1233693650)
 - [CSS Tips](https://markodenic.com/css-tips/) - CSS tips and tricks you won’t see in most of the tutorials
 - [Practical CSS Scroll Snapping](https://css-tricks.com/practical-css-scroll-snapping/)
+- [Easing Gradients](https://larsenwork.com/easing-gradients/)
 
 #### Flexbox
 
 - [Flexbox Zombies](https://mastery.games/p/flexbox-zombies) - Free course on flexboxes
+- [Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure) - Free course on flexboxes
 - [Test CSS Flexbox Rules](http://flexbox.help/)
 
 #### Grid
@@ -514,6 +521,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Why I Love React by Kent C. Dodds](https://epicreact.dev/why-i-love-react/)
 - [React hook flow diagram](https://github.com/donavon/hook-flow/blob/master/hook-flow.pdf)
 - [Memoization and React](https://epicreact.dev/memoization-and-react/)
+- [React 18 Alpha is out! Now what?](https://dev.to/cassidoo/react-18-alpha-is-out-now-what-2apj)
 
 #### Related tools 🛠️
 
@@ -715,6 +723,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Nookies](https://github.com/maticzav/nookies) - A set of cookie helpers for Next.js
 - [Next-stripe](https://github.com/ynnoj/next-stripe) - Simplified server-side Stripe workflows in Next.js
 - [Next-optimized-images](https://github.com/cyrilwanner/next-optimized-images) - next-optimized-images automatically optimizes images used in next.js projects (jpeg, png, svg, webp and gif)
+
+### Astro
+
+#### Documentation / News 📚
+
+- [Introduction article](https://astro.build/blog/introducing-astro)
+- [Astro docs](https://github.com/snowpackjs/astro)
 
 ### Electron
 
@@ -1237,6 +1252,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [MDX](https://mdxjs.com/) - Markdown for the component era
 - [Mdx-deck docs](https://github.com/jxnblk/mdx-deck)
 - [Code-surfer](https://github.com/pomber/code-surfer) - React component for scrolling, zooming and highlighting code
+- [Shiki-twoslash](https://shikijs.github.io/twoslash/) - You take some Shiki, add a hint of TypeScript compiler, and tada! incredible static code samples
 
 ## Advanced concepts
 
@@ -1578,6 +1594,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Wormhole](https://wormhole.app/) - Simple, private file sharing
 - [IFTTT](https://ifttt.com/) - Applets linked to the services you love
 - [ConferCal](https://www.confercal.com/calendars/code) - A conference calendar for developers and other people in tech
+- [jsonmatic](https://jsonmatic.com/) - Transform a CSV into a JSON
 - [How HTTPS Works](https://howhttps.works/)
 - [How DNS works](https://howdns.works/)
 
@@ -1611,6 +1628,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [No Code VS Low Code. What’s the Difference? It. Doesn't. Matter.](https://www.freecodecamp.org/news/no-code-vs-low-code-defined/)
 - [How we ship code faster and safer with feature flags](https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags/) - From the GitHub blog
 - [Notion's page load and navigation times just got faster](https://www.notion.so/blog/faster-page-load-navigation)
+- [Chaotic good](https://increment.com/reliability/chaos-engineering/)
 
 ### Product insights
 
