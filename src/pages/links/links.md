@@ -270,6 +270,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How To Use Vibration API In Your Website](https://blog.bibekkakati.me/how-to-use-vibration-api-in-your-website)
 - [Modern Javascript: Everything you missed over the last 10 years (ECMAScript 2020)](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
 - [9 single-statement JS algorithms for common data transformations](https://www.benmvp.com/blog/9-single-statement-javascript-algorithms-common-data-transformations/)
+- [Refactoring cascading conditionals in favor of readability](https://blog.logrocket.com/refactoring-cascading-conditionals-favor-readability/)
 
 #### Related tools 🛠️
 
@@ -523,6 +524,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React hook flow diagram](https://github.com/donavon/hook-flow/blob/master/hook-flow.pdf)
 - [Memoization and React](https://epicreact.dev/memoization-and-react/)
 - [React 18 Alpha is out! Now what?](https://dev.to/cassidoo/react-18-alpha-is-out-now-what-2apj)
+- [Not All Components Are Created Equal](https://formidable.com/blog/2021/react-components/)
 
 #### Related tools 🛠️
 
@@ -695,6 +697,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Documentation / News 📚
 
 - [Learning Next.js to build server rendered JS web apps with React](https://nextjs.org/learn/)
+- [Vercel raises $102M Series C for its front-end development platform](https://techcrunch.com/2021/06/23/vercel-raises-102m-series-c-for-its-next-js-based-front-end-development-platform/amp/?guccounter=1)
 
 #### Concepts / Articles 💡
 
@@ -823,6 +826,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [GraphQL in 2020: What's next?](https://productionreadygraphql.com/graphql-2020/)
 - [gqless or gqlful?](https://medium.com/@__xuorig__/gqless-or-gqlful-ec36fe588a4b)
 - [GraphQL Weekly](https://www.graphqlweekly.com/) - A weekly newsletter of the best news, articles and projects about GraphQL
+- [Try GraphQL](https://trygql.formidable.dev/) - Purpose-built Demo APIs for GraphQL
 
 #### Useful libraries 💾
 
@@ -1556,6 +1560,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [VSCode Themes](https://vscodethemes.com/)
+- [Snipsnap Templates](https://github.com/snipsnapdev/snipsnap/tree/master/templates) - Manage, share and use code templates with cloud UI and VS Code Extension
 
 #### Online IDEs
 
@@ -1598,6 +1603,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [jsonmatic](https://jsonmatic.com/) - Transform a CSV into a JSON
 - [How HTTPS Works](https://howhttps.works/)
 - [How DNS works](https://howdns.works/)
+- [OutFrontJS](https://github.com/paanSinghCoder/OutFrontJS) - Console for mobile browsers
 
 ## Developer insights
 
@@ -1685,6 +1691,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Specializing in Being a Generalist](https://ashfurrow.com/blog/specializing-in-being-a-generalist/)
 - [How to Build a Career in Tech: Cassidy Williams (@cassidoo) Connects the Dots](https://www.youtube.com/watch?app=desktop&v=qsBfyUzZhTc) 🎥
 - [The 80% Energy Principle](https://justinjackson.ca/the-principle-that-changed-my-life)
+- [The art of Frontend Engineering](https://www.narative.co/articles/the-art-of-frontend-engineering)
+- [Why Constraints Are Good for Innovation](https://hbr.org/2019/11/why-constraints-are-good-for-innovation)
 
 ### Leadership / Mentoring / Teaching
 
