@@ -271,6 +271,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Modern Javascript: Everything you missed over the last 10 years (ECMAScript 2020)](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
 - [9 single-statement JS algorithms for common data transformations](https://www.benmvp.com/blog/9-single-statement-javascript-algorithms-common-data-transformations/)
 - [Refactoring cascading conditionals in favor of readability](https://blog.logrocket.com/refactoring-cascading-conditionals-favor-readability/)
+- [Browsers decode images differently](https://bien.ee/image-decoding-differences-between-browsers/)
 
 #### Related tools 🛠️
 
@@ -292,6 +293,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [party.js](https://partyjs.yiliansource.dev/) - A JavaScript library to brighten up your user's site experience with visual effects!
 - [WinBox.js](https://github.com/nextapps-de/winbox) - Professional HTML5 window manager for the web
 - [Zx](https://github.com/google/zx) - A tool for writing better scripts
+- [Elementary](https://www.elementary.audio/) - Finally, write audio apps in JavaScript
 
 #### Games 🎲
 
@@ -575,6 +577,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Remotion](https://www.remotion.dev/) - Create motion graphics in React
 - [Vocab](https://github.com/seek-oss/vocab) - Strongly typed internationalization framework for React
 - [React-hook-form](https://react-hook-form.com/) - Performant, flexible and extensible forms with easy-to-use validation
+- [React-ux-form](https://github.com/swan-io/react-ux-form) - A simple, fast and opinionated form library for React & React Native focusing on UX
+- [React-gui](https://ixrvy.sse.codesandbox.io/docs/) - React GUI is designed as the foundation for React design systems and component libraries
 
 #### Hooks
 
@@ -1561,6 +1565,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [VSCode Themes](https://vscodethemes.com/)
 - [Snipsnap Templates](https://github.com/snipsnapdev/snipsnap/tree/master/templates) - Manage, share and use code templates with cloud UI and VS Code Extension
+- [GitHub Copilot](https://github.com/github/copilot-preview)
 
 #### Online IDEs
 
@@ -1693,6 +1698,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The 80% Energy Principle](https://justinjackson.ca/the-principle-that-changed-my-life)
 - [The art of Frontend Engineering](https://www.narative.co/articles/the-art-of-frontend-engineering)
 - [Why Constraints Are Good for Innovation](https://hbr.org/2019/11/why-constraints-are-good-for-innovation)
+- [Being Glue](https://noidea.dog/glue)
 
 ### Leadership / Mentoring / Teaching
 
@@ -1706,6 +1712,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How I Teach](https://kentcdodds.com/blog/how-i-teach)
 - [Why mentorship in tech is important](https://blog.logrocket.com/why-mentorship-is-important-in-tech/)
 - [Lessons from training teams to use React Native](https://blog.coinbase.com/lessons-from-training-teams-to-use-react-native-67ec78b9ab7a)
+- [Why it’s worth it to invest in internal docs](https://increment.com/documentation/why-investing-in-internal-docs-is-worth-it/)
 
 ### Management
 
