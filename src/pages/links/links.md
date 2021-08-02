@@ -168,6 +168,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Software insights](#software-insights)
   - [Product insights](#product-insights)
   - [Being a developer](#being-a-developer)
+  - [Being a Staff-Plus Engineer](#being-a-staff-plus-engineer)
   - [Leadership / Mentoring / Teaching](#leadership--mentoring--teaching)
   - [Management](#management)
   - [OSS](#oss)
@@ -719,6 +720,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Thread on security headers and Next.js](https://twitter.com/leeerob/status/1381605537742254082?s=20) - Here's how to take your Next.js site to an A
 - [Refreshing Server-Side Props](https://www.joshwcomeau.com/nextjs/refreshing-server-side-props/)
 - [A Complete Guide To Incremental Static Regeneration (ISR) With Next.js](https://www.smashingmagazine.com/2021/04/incremental-static-regeneration-nextjs/)
+- [ISR vs DPR: Big Words, Quick Explanation](https://www.smashingmagazine.com/2021/07/isr-dpr-explained/)
 
 #### Related tools 🛠️
 
@@ -847,6 +849,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [GraphQL Nexus](https://nexus.js.org/) - Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript
 - [GraphQL Code Generator](https://graphql-code-generator.com/) - Generate code from your GraphQL schema with a single function call
 - [GraphCDN](https://graphcdn.io/) - The fastest way to cache GraphQL
+- [Envelop](https://www.envelop.dev/) - The missing GraphQL plugin system
 
 ### Apollo client
 
@@ -1606,6 +1609,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [IFTTT](https://ifttt.com/) - Applets linked to the services you love
 - [ConferCal](https://www.confercal.com/calendars/code) - A conference calendar for developers and other people in tech
 - [jsonmatic](https://jsonmatic.com/) - Transform a CSV into a JSON
+- [FracturedJson](https://j-brooke.github.io/FracturedJson/) - A JSON formatter that produces human-readable but fairly compact output
 - [How HTTPS Works](https://howhttps.works/)
 - [How DNS works](https://howdns.works/)
 - [OutFrontJS](https://github.com/paanSinghCoder/OutFrontJS) - Console for mobile browsers
@@ -1672,6 +1676,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Why You Should Include Your Developer In The Design Process](https://www.smashingmagazine.com/2014/11/why-you-should-include-your-developer-in-the-design-process/)
 - [How Frontend Developers Can Empower Designer’s Work](https://www.smashingmagazine.com/2019/10/frontend-developers-empower-designers-work/)
 - [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a)
+- [Tiny Wins](https://joelcalifa.com/blog/tiny-wins/)
+- [Optimal Placement for Mobile Call to Action Buttons](https://uxmovement.com/mobile/optimal-placement-for-mobile-call-to-action-buttons/)
 
 ### Being a developer
 
@@ -1699,6 +1705,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The art of Frontend Engineering](https://www.narative.co/articles/the-art-of-frontend-engineering)
 - [Why Constraints Are Good for Innovation](https://hbr.org/2019/11/why-constraints-are-good-for-innovation)
 - [Being Glue](https://noidea.dog/glue)
+
+### Being a Staff-Plus Engineer
+
+- [Guides @StaffEng](https://staffeng.com/guides/) - Guides for reaching and succeeding at Staff-plus roles
+- [Stories @StaffEng](https://staffeng.com/stories/) - Folks who have shared their stories of reaching Staff-plus engineer roles
+- [Defining a Distinguished Engineer](https://blog.jessfraz.com/post/defining-a-distinguished-engineer/)
+- [Being a principal engineer at Skyscanner](https://medium.com/@SkyscannerEng/being-a-principal-engineer-at-skyscanner-1830dfa17d30)
+- [Not all engineering leaders are engineering managers](https://leaddev.com/hiring-onboarding-retention/not-all-engineering-leaders-are-engineering-managers)
 
 ### Leadership / Mentoring / Teaching
 
@@ -1820,6 +1834,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How I Find Six Figure Remote Software Developer Jobs](https://dev.to/colinmtech/how-i-find-six-figure-remote-software-developer-jobs-23jd)
 - [We Work Remotely](https://weworkremotely.com/)
 - [Relocate.me](https://relocate.me/) - Job relocation made easy. Find tech jobs w/ relocation packages
+- [TypeScript.careers](https://typescript.careers/) - Find a job writing TypeScript
 
 ## Personal achievements
 
