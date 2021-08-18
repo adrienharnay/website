@@ -580,6 +580,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-hook-form](https://react-hook-form.com/) - Performant, flexible and extensible forms with easy-to-use validation
 - [React-ux-form](https://github.com/swan-io/react-ux-form) - A simple, fast and opinionated form library for React & React Native focusing on UX
 - [React-gui](https://ixrvy.sse.codesandbox.io/docs/) - React GUI is designed as the foundation for React design systems and component libraries
+- [React-joyride](https://github.com/gilbarbara/react-joyride) - Create guided tours in your apps
 
 #### Hooks
 
@@ -721,6 +722,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Refreshing Server-Side Props](https://www.joshwcomeau.com/nextjs/refreshing-server-side-props/)
 - [A Complete Guide To Incremental Static Regeneration (ISR) With Next.js](https://www.smashingmagazine.com/2021/04/incremental-static-regeneration-nextjs/)
 - [ISR vs DPR: Big Words, Quick Explanation](https://www.smashingmagazine.com/2021/07/isr-dpr-explained/)
+- [How we reduced Next.js page size by 3.5x and achieved a 98 Lighthouse score](https://papyrus.dev/@PapyrusBlog/how-we-reduced-next.js-page-size-by-3.5x-and-achieved-a-98-lighthouse-score)
 
 #### Related tools 🛠️
 
@@ -1713,6 +1715,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Defining a Distinguished Engineer](https://blog.jessfraz.com/post/defining-a-distinguished-engineer/)
 - [Being a principal engineer at Skyscanner](https://medium.com/@SkyscannerEng/being-a-principal-engineer-at-skyscanner-1830dfa17d30)
 - [Not all engineering leaders are engineering managers](https://leaddev.com/hiring-onboarding-retention/not-all-engineering-leaders-are-engineering-managers)
+- [Staff Engineering](https://tychoish.com/post/staff-engineering/)
+- [More than Coding: What is Exploratory Work?](https://blog.bonnieeisenman.com/blog/senior-work/)
+- [What's a senior engineer's job?](https://jvns.ca/blog/senior-engineer/)
+- [What a Senior Staff Software Engineer Actually Does - Part 1: The Role and My Tasks](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-f3fc140d5f33)
+- [What a Senior Staff Software Engineer Actually Does - Part 2: The Mindset and Focus of the Role](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-d55308fcdd41)
 
 ### Leadership / Mentoring / Teaching
 
