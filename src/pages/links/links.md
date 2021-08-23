@@ -723,6 +723,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [A Complete Guide To Incremental Static Regeneration (ISR) With Next.js](https://www.smashingmagazine.com/2021/04/incremental-static-regeneration-nextjs/)
 - [ISR vs DPR: Big Words, Quick Explanation](https://www.smashingmagazine.com/2021/07/isr-dpr-explained/)
 - [How we reduced Next.js page size by 3.5x and achieved a 98 Lighthouse score](https://papyrus.dev/@PapyrusBlog/how-we-reduced-next.js-page-size-by-3.5x-and-achieved-a-98-lighthouse-score)
+- [Migrating a Blog to Next.js from Gatsby](https://blog.eyas.sh/2021/08/gatsby-to-next-js/)
+- [Using the Next.js Image Component with MDX](https://kylepfromer.com/blog/nextjs-image-component-blog)
 
 #### Related tools 🛠️
 
@@ -1647,6 +1649,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How we ship code faster and safer with feature flags](https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags/) - From the GitHub blog
 - [Notion's page load and navigation times just got faster](https://www.notion.so/blog/faster-page-load-navigation)
 - [Chaotic good](https://increment.com/reliability/chaos-engineering/)
+- [Computers can be understood](https://blog.nelhage.com/post/computers-can-be-understood/)
+- [Systems that defy detailed understanding](https://blog.nelhage.com/post/systems-that-defy-understanding/)
+- [Migrations: the sole scalable fix to tech debt](https://lethain.com/migrations/)
+- [What I learned from Software Engineering at Google](https://swizec.com/blog/what-i-learned-from-software-engineering-at-google/)
 
 ### Product insights
 
@@ -1720,6 +1726,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What's a senior engineer's job?](https://jvns.ca/blog/senior-engineer/)
 - [What a Senior Staff Software Engineer Actually Does - Part 1: The Role and My Tasks](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-f3fc140d5f33)
 - [What a Senior Staff Software Engineer Actually Does - Part 2: The Mindset and Focus of the Role](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-d55308fcdd41)
+- [On becoming a senior technical leader](https://blog.coinbase.com/on-becoming-a-senior-technical-leader-14106f1383b8)
 
 ### Leadership / Mentoring / Teaching
 
@@ -1734,6 +1741,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Why mentorship in tech is important](https://blog.logrocket.com/why-mentorship-is-important-in-tech/)
 - [Lessons from training teams to use React Native](https://blog.coinbase.com/lessons-from-training-teams-to-use-react-native-67ec78b9ab7a)
 - [Why it’s worth it to invest in internal docs](https://increment.com/documentation/why-investing-in-internal-docs-is-worth-it/)
+- [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/)
 
 ### Management
 
