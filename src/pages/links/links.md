@@ -1713,6 +1713,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The art of Frontend Engineering](https://www.narative.co/articles/the-art-of-frontend-engineering)
 - [Why Constraints Are Good for Innovation](https://hbr.org/2019/11/why-constraints-are-good-for-innovation)
 - [Being Glue](https://noidea.dog/glue)
+- [How I Became a Software Engineer (From Designer to Developer)](https://leerob.io/blog/career)
+- [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 
 ### Being a Staff-Plus Engineer
 
@@ -1728,6 +1730,15 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What a Senior Staff Software Engineer Actually Does - Part 2: The Mindset and Focus of the Role](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-d55308fcdd41)
 - [On becoming a senior technical leader](https://blog.coinbase.com/on-becoming-a-senior-technical-leader-14106f1383b8)
 
+### Technical decision making
+
+- [Technical Decision Making](https://copyconstruct.medium.com/technical-decision-making-9b2817c18da4)
+- [Technical Research and Preparation](https://keavy.com/work/technical-preparation/)
+- [Where to Start](https://keavy.com/work/where-to-start/)
+- [A practical guide to writing technical specs](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)
+- [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
+- [How to write a better technical design document](https://www.range.co/blog/better-tech-specs)
+
 ### Leadership / Mentoring / Teaching
 
 - [11 Best Ways to Improve Your Emotional Intelligence](https://dev.to/lpasqualis/11-best-ways-to-improve-your-emotional-intelligence/)
@@ -1742,6 +1753,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Lessons from training teams to use React Native](https://blog.coinbase.com/lessons-from-training-teams-to-use-react-native-67ec78b9ab7a)
 - [Why it’s worth it to invest in internal docs](https://increment.com/documentation/why-investing-in-internal-docs-is-worth-it/)
 - [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/)
+- [The Behind-the-scenes Work of Tech Leadership](https://blog.coleadership.com/behind-the-scenes-tech-leadership/)
 
 ### Management
 
@@ -1754,6 +1766,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Importance of Career Laddering](https://css-tricks.com/the-importance-of-career-laddering/)
 - [Career Ladders](https://career-ladders.dev/) - A sample of career ladders [Sarah Drasner uses for her] organization, open sourced for anyone
 - [Your Team is Not “Them”](https://css-tricks.com/your-team-is-not-them/)
+- [Understanding Project Management Will Improve Your Developer Job](https://blog.danielna.com/understanding-project-management-will-improve-your-developer-job/)
 
 ### OSS
 
