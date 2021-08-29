@@ -767,6 +767,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Nookies](https://github.com/maticzav/nookies) - A set of cookie helpers for Next.js
 - [Next-stripe](https://github.com/ynnoj/next-stripe) - Simplified server-side Stripe workflows in Next.js
 - [Next-optimized-images](https://github.com/cyrilwanner/next-optimized-images) - next-optimized-images automatically optimizes images used in next.js projects (jpeg, png, svg, webp and gif)
+- [Next-apollo](https://github.com/adamsoffer/next-apollo) - React higher-order component for integrating Apollo Client with Next.js
 
 ### Astro
 
@@ -832,12 +833,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Concepts / Articles 💡
 
-##### Pros / cons of GraphQL
-
-- [Why GraphQL: Advantages, Disadvantages & Alternatives](https://www.robinwieruch.de/why-graphql-advantages-disadvantages-alternatives/)
-
 ##### Comparisons between GraphQL and REST / other technologies
 
+- [Why GraphQL: Advantages, Disadvantages & Alternatives](https://www.robinwieruch.de/why-graphql-advantages-disadvantages-alternatives/)
 - [GraphQL vs REST: Caching](https://philsturgeon.uk/api/2017/01/26/graphql-vs-rest-caching/)
 - [Why not use a JSON DSL instead of GraphQL?](https://blog.hasura.io/why-not-use-a-json-dsl-instead-of-graphql-d29f20cc97d2)
 - [Is GraphQL Still Relevant in an HTTP2 World?](https://medium.com/@__xuorig__/is-graphql-still-relevant-in-an-http2-world-64964f207b8)
@@ -932,7 +930,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Concepts / Articles 💡
 
-- [React Native with Apollo— Part 1, Apollo Server](https://medium.com/react-native-training/react-native-with-apollo-server-and-client-part-1-efb7d15d2361)
+- [React Native with Apollo — Part 1, Apollo Server](https://medium.com/react-native-training/react-native-with-apollo-server-and-client-part-1-efb7d15d2361)
 - [React Native with Apollo — Part 2, Apollo Client](https://medium.com/react-native-training/react-native-with-apollo-part-2-apollo-client-8b4ad4915cf5#.wnfqtzsn6)
 - [Apollo Client - the stuff no-one ever told ya](http://slides.com/alexeykureev/apollo-stuff-no-one-told-ya-4#/)
 - [Why Apollo: Advantages, Disadvantages & Alternatives](https://www.robinwieruch.de/why-apollo-advantages-disadvantages-alternatives/)
@@ -943,16 +941,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Useful libraries 💾
 
-- [React-apollo](https://github.com/apollographql/react-apollo) - React higher-order component for Apollo Client
+- [Apollo-client](https://github.com/apollographql/apollo-client) - A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server
 - [Apollo Community Links](https://www.apollographql.com/docs/link/links/community.html)
-- [Apollo-link-state](https://github.com/apollographql/apollo-link-state) - Manage your application state with Apollo!
 - [Apollo-link-rest](https://github.com/apollographql/apollo-link-rest) - Use existing REST endpoints with GraphQL
 - [Apollo-cache-persist](https://github.com/apollographql/apollo-cache-persist) - Simple persistence for all Apollo Cache implementations
-- [Apollo-cache-control](https://github.com/apollographql/apollo-cache-control-js) - A GraphQL extension for cache control (for Node.js)
-- [Apollo-codegen](https://github.com/apollographql/apollo-codegen) - Generate API code or type annotations based on a GraphQL schema and query documents
-- [Apollo-tracing](https://github.com/apollographql/apollo-tracing-js) - A GraphQL extension for performance tracing
-- [Yaba-social](https://github.com/allpwrfulroot/yaba-social) - Yet Another Boilerplate App showing off react-navigation and the excellent new tools from Apollo
-- [Next-apollo](https://github.com/adamsoffer/next-apollo) - React higher-order component for integrating Apollo Client with Next.js
+- [Apollo-codegen](https://github.com/apollographql/apollo-tooling) - Generate API code or type annotations based on a GraphQL schema and query documents
 
 ### Apollo server
 
