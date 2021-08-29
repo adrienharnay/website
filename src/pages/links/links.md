@@ -26,10 +26,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
   - [CSS](#css)
 
-    - [Vanilla](#vanilla)
+    - [CSS base features](#css-base-features)
     - [Flexbox](#flexbox)
     - [Grid](#grid)
-    - [Animations](#animations)
+    - [Transitions / Animations](#transitions--animations)
     - [Data visualization](#data-visualization)
     - [Cool demos](#cool-demos)
     - [SCSS](#scss)
@@ -367,31 +367,32 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### CSS
 
-#### Vanilla
+#### CSS base features
 
 - [Pseudo-classes MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 - [Margin or padding?](https://hackernoon.com/margin-or-padding-f5252562313)
 - [Float labels with CSS](https://css-tricks.com/float-labels-css)
-- [Creating a Loading Placeholder with Sass](https://www.leejamesrobinson.com/blog/loading-placeholder-with-sass/)
-- ["last 2 versions" considered harmful](https://jamie.build/last-2-versions)
 - [Don’t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
-- [Managing Complex Waiting Experiences on Web UIs](https://medium.com/@fkadev/managing-complex-waiting-experiences-on-web-uis-29534d2d92a8)
-- [How to force restart any iOS device with just CSS?](https://mobile.twitter.com/pwnsdx/status/1040944750973595649) - Twitter thread
 - [Keys to maintainable CSS: Order](https://pyx.space/post/keys-to-maintainable-css-order)
 - [4 reasons your z-index isn’t working (and how to fix it)](https://medium.freecodecamp.org/4-reasons-your-z-index-isnt-working-and-how-to-fix-it-coder-coder-6bc05f103e6c)
-- [CSS hack to show elements depth on a page](https://dev.to/gajus/my-favorite-css-hack-32g3)
 - [Overflow In CSS](https://ishadeed.com/article/overflow-css/)
 - [What the heck, z-index??](https://www.joshwcomeau.com/css/stacking-contexts/)
 - [Diving into the ::before and ::after Pseudo-Elements](https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/)
-- [Avoiding jagged edges on gradients](https://medium.com/pixel-and-ink/avoiding-jagged-edges-on-gradients-f485cc7401f5)
 - [Did You Know About the :has CSS Selector?](https://css-tricks.com/did-you-know-about-the-has-css-selector/)
-- [The Just in Case Mindset in CSS](https://ishadeed.com/article/the-just-in-case-mindset-css/)
 - [Sticky Headers: 5 Ways to Make Them Better](https://www.nngroup.com/articles/sticky-headers/)
-- [Thoughts on CSS frameworks and stylized component libraries](https://www.joshwcomeau.com/newsletter-issues/012/#thoughts-on-css-frameworks-and-stylized-component-libraries) - From Josh Comeau's newsletter
 - [A Guide To Newly Supported, Modern CSS Pseudo-Class Selectors](https://www.smashingmagazine.com/2021/04/guide-supported-modern-css-pseudo-class-selectors/?ck_subscriber_id=1233693650)
 - [CSS Tips](https://markodenic.com/css-tips/) - CSS tips and tricks you won’t see in most of the tutorials
 - [Practical CSS Scroll Snapping](https://css-tricks.com/practical-css-scroll-snapping/)
 - [Easing Gradients](https://larsenwork.com/easing-gradients/)
+
+#### Others
+
+- ["last 2 versions" considered harmful](https://jamie.build/last-2-versions)
+- [How to force restart any iOS device with just CSS?](https://mobile.twitter.com/pwnsdx/status/1040944750973595649) - Twitter thread
+- [CSS hack to show elements depth on a page](https://dev.to/gajus/my-favorite-css-hack-32g3)
+- [Avoiding jagged edges on gradients](https://medium.com/pixel-and-ink/avoiding-jagged-edges-on-gradients-f485cc7401f5)
+- [The Just in Case Mindset in CSS](https://ishadeed.com/article/the-just-in-case-mindset-css/)
+- [Thoughts on CSS frameworks and stylized component libraries](https://www.joshwcomeau.com/newsletter-issues/012/#thoughts-on-css-frameworks-and-stylized-component-libraries) - From Josh Comeau's newsletter
 
 #### Flexbox
 
@@ -404,7 +405,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Grid critters](http://www.gridcritters.com/) - Free course on grid
 - [CSS Grid Layout Interface](https://www.layoutit.com/grid)
 
-#### Animations
+#### Transitions / animations
 
 - [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
 - [How to create fancy revealing animations with these simple CSS tricks](https://hackernoon.com/how-to-create-fancy-revealing-animations-with-these-simple-css-tricks-5b34614ae69a)
@@ -442,7 +443,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### CSS Modules
 
 - [CSS Modules](https://github.com/css-modules/css-modules)
-- [Article on CSS Modules](https://glenmaddern.com/articles/css-modules)
+- [CSS Modules - Welcome to the future](https://glenmaddern.com/articles/css-modules)
 
 #### CSS-in-JS
 
@@ -472,9 +473,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### NodeJS
 
+- [Node.js](https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine
 - [Node best practices](https://github.com/i0natan/nodebestpractices) - The largest Node.JS best practices list. Curated from the top ranked articles and always updated
 - [Super Simple Start to ESModules in Node.js](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-node-js)
 - [fnm](https://github.com/Schniz/fnm) - Fast and simple Node.js version manager, built in Rust
+
+### Deno
+
+- [Deno](https://deno.land/) - A secure runtime for JavaScript and TypeScript
 
 ### React
 
@@ -1668,6 +1674,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Migrations: the sole scalable fix to tech debt](https://lethain.com/migrations/)
 - [What I learned from Software Engineering at Google](https://swizec.com/blog/what-i-learned-from-software-engineering-at-google/)
 - [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
+- [Managing Complex Waiting Experiences on Web UIs](https://medium.com/@fkadev/managing-complex-waiting-experiences-on-web-uis-29534d2d92a8)
 
 ### Product insights
 
