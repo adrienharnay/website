@@ -19,22 +19,26 @@ import rehypeStringify from 'rehype-stringify';
 import { parse as parseYaml } from 'yaml';
 import { VFile } from 'vfile/lib';
 
+const preprocessRemarkRehype = () =>
+  unified()
+    .use(remarkParse)
+    .use(remarkBehead, { depth: 1 })
+    .use(remarkFrontmatter)
+    .use(remarkExtractFrontmatter, { yaml: parseYaml, name: 'frontmatter' })
+
+    .use(remarkRehype)
+    .use(rehypeSlug)
+    .use(rehypeAutolinkHeadings)
+    .use(rehypeDocument)
+    .use(rehypeFormat)
+    .use(rehypeStringify);
+
 export const getSyntaxHighlightedHTMLFromMarkdown = async (path: string) => {
   let processedContent: VFile | undefined;
 
   try {
-    processedContent = await unified()
-      .use(remarkParse)
-      .use(remarkBehead, { depth: 1 })
-      .use(remarkRehype)
-      .use(rehypeSlug)
-      .use(rehypeAutolinkHeadings)
-      .use(rehypeDocument)
-      .use(rehypeFormat)
-      .use(rehypeStringify)
+    processedContent = await preprocessRemarkRehype()
       .use(rehypePrism)
-      .use(remarkFrontmatter)
-      .use(remarkExtractFrontmatter, { yaml: parseYaml, name: 'frontmatter' })
       .process(readSync(path));
   } catch (error) {
     console.error(reporter(error as VFile));
@@ -50,21 +54,12 @@ export const getHTMLFromMarkdown = async (path: string) => {
   let processedContent;
 
   try {
-    processedContent = await unified()
-      .use(remarkParse)
-      .use(remarkBehead, { depth: 1 })
-      .use(remarkRehype)
-      .use(rehypeSlug)
-      .use(rehypeAutolinkHeadings)
-      .use(rehypeDocument)
-      .use(rehypeFormat)
-      .use(rehypeStringify)
-      .use(remarkFrontmatter)
-      .use(remarkExtractFrontmatter, { yaml: parseYaml, name: 'frontmatter' })
-      .process(readSync(path));
+    processedContent = await preprocessRemarkRehype().process(readSync(path));
   } catch (error) {
     console.error(reporter(error as VFile));
   }
+
+  console.log(processedContent);
 
   return {
     html: processedContent?.toString(),

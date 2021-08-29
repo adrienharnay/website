@@ -336,11 +336,6 @@
       }
     }
 
-    :global(.remark-highlight) {
-      width: 100%;
-      margin-bottom: 1em;
-    }
-
     code {
       padding: 0 5px 2px;
       font-size: 0.8em;
@@ -365,6 +360,11 @@
       font-size: inherit;
       line-height: inherit;
       background: transparent;
+    }
+
+    :global(pre[class*='language-']) {
+      width: 100%;
+      margin-bottom: 1em !important;
     }
 
     hr {
