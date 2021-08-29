@@ -28,5 +28,6 @@
     "**/dist": true,
     "**/node_modules": true,
     "**/*.tsbuildinfo": true
-  }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
