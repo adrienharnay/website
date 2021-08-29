@@ -358,7 +358,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Semantics
 
-- [html & css is hard](https://internetingishard.com/html-and-css/)
+- [HTML & CSS is hard](https://internetingishard.com/html-and-css/) - Course to learn HTML & CSS
 - [Understanding why Semantic HTML is important, as told by TypeScript](https://medium.com/@mandy.michael/understanding-why-semantic-html-is-important-as-told-by-typescript-bd71ad41e6c4)
 
 #### HTML accessibility
