@@ -199,11 +199,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [tldr pages](https://tldr.sh/) - Simplified and community-driven man pages
 - [Explainshell](https://explainshell.com/) - Write down a command-line to see the help text that matches each argument
+- [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) - VSCode extension
+- [Shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) - VSCode extension
 
 ### Git / Github
 
 - [Git flight rules](https://github.com/k88hudson/git-flight-rules) - Flight rules for git
-- [Tell Me When it Closes](https://tellmewhenitcloses.com/) - Get emailed when an issue or PR closes
+- [Tell Me When it Closes](https://tellmewhenitcloses.com/) - Get only 1 email when an issue or PR closes
 - [GitHub Contributions Chart Generator](https://github-contributions.now.sh/)
 - [8 Productivity Tips for GitHub](https://dev.to/_darrenburns/8-productivity-tips-for-github-44kn)
 
@@ -934,6 +936,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Documentation / News 📚
 
 - [SWR docs](https://swr.vercel.app/) - React Hooks library for data fetching
+- [Announcing SWR 1.0](https://swr.vercel.app/blog/swr-v1)
 
 #### Useful libraries 💾
 
