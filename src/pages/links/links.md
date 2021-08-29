@@ -169,8 +169,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Product insights](#product-insights)
   - [Being a developer](#being-a-developer)
   - [Being a Staff-Plus Engineer](#being-a-staff-plus-engineer)
+  - [Technical decision making](#technical-decision-making)
+  - [Engineering strategies](#engineering-strategies)
   - [Leadership / Mentoring / Teaching](#leadership--mentoring--teaching)
   - [Management](#management)
+  - [Career ladders](#career-ladders)
   - [OSS](#oss)
   - [Remote working](#remote-working)
   - [Communicating](#communicating)
@@ -602,6 +605,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [State of React Native 2018](https://facebook.github.io/react-native/blog/2018/06/14/state-of-react-native-2018)
 - [Open Source Roadmap](http://facebook.github.io/react-native/blog/2018/11/01/oss-roadmap)
 - [Hermes: An open source JavaScript engine optimized for mobile apps, starting with React Native](https://code.fb.com/android/hermes/)
+- [React Native's Many Platform Vision](https://reactnative.dev/blog/2021/08/26/many-platform-vision)
 
 #### Concepts / Articles 💡
 
@@ -1653,6 +1657,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Systems that defy detailed understanding](https://blog.nelhage.com/post/systems-that-defy-understanding/)
 - [Migrations: the sole scalable fix to tech debt](https://lethain.com/migrations/)
 - [What I learned from Software Engineering at Google](https://swizec.com/blog/what-i-learned-from-software-engineering-at-google/)
+- [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 
 ### Product insights
 
@@ -1738,6 +1743,15 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [A practical guide to writing technical specs](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
 - [How to write a better technical design document](https://www.range.co/blog/better-tech-specs)
+- [Stepping Stones not Milestones](https://medium.com/@jamesacowling/stepping-stones-not-milestones-e6be0073563f)
+
+### Engineering strategies
+
+- [On Drafting an Engineering Strategy](https://www.paperplanes.de/2020/1/31/on-drafting-an-engineering-strategy.html)
+- [Your first 90 days as CTO or VP Engineering](https://lethain.com/first-ninety-days-cto-vpe/)
+- [Delivering on an architecture strategy](https://blog.thepete.net/blog/2019/12/09/delivering-on-an-architecture-strategy/)
+- [The difficult teenage years: Setting tech strategy after a launch](https://medium.com/ft-product-technology/the-difficult-teenage-years-setting-tech-strategy-after-a-launch-7f42eb94a424)
+- [Run less software](https://www.intercom.com/blog/run-less-software/)
 
 ### Leadership / Mentoring / Teaching
 
@@ -1767,6 +1781,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Career Ladders](https://career-ladders.dev/) - A sample of career ladders [Sarah Drasner uses for her] organization, open sourced for anyone
 - [Your Team is Not “Them”](https://css-tricks.com/your-team-is-not-them/)
 - [Understanding Project Management Will Improve Your Developer Job](https://blog.danielna.com/understanding-project-management-will-improve-your-developer-job/)
+- [Mission Command: enabling autonomous software teams](https://blog.thepete.net/blog/2019/02/08/mission-command-enabling-autonomous-software-teams/)
+
+### Career ladders
+
+- [Rent the Runway career ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
+- [Kickstarter carrer ladder](https://gist.github.com/jamtur01/aef437a79fee5a9cefdc)
 
 ### OSS
 
@@ -1793,6 +1813,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Manage Your Manager](https://boz.com/articles/managing-managers)
 - [The Art of the Awkward 1:1](https://medium.com/@mrabkin/the-art-of-the-awkward-1-1-f4e1dcbd1c5c)
 - [The P Rules](https://boz.com/articles/p-rules)
+- [The four layers of communication in a functional team](https://qz.com/work/1468580/the-four-layers-of-communication-in-a-functional-team/)
 
 ### Writing articles
 
