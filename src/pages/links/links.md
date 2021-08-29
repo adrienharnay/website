@@ -168,6 +168,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
     - [Framer X](#framer-x)
 
   - [Presentation tools](#presentation-tools)
+  - [File sharing](#file-sharing)
 
 - [Developer insights](#developer-insights)
 
@@ -239,6 +240,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [How to Simulate Mobile Devices with Device Mode in Chrome](https://www.sitepoint.com/how-to-simulate-mobile-devices-with-device-mode-in-chrome/)
 - [Eruda](https://eruda.liriliri.io/) - Console for Mobile Browsers
+- [OutFrontJS](https://github.com/paanSinghCoder/OutFrontJS) - Console for mobile browsers
 
 ## Programming languages
 
@@ -1603,9 +1605,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ### Productivity
 
 - [A Soft Murmur](http://asoftmurmur.com/) - Ambient sounds to wash away distraction
-- [Quick terminal tip](https://dev.to/voter101/quick-terminal-tip-1can)
 - [Linear](https://linear.app/) - The issue tracking tool you'll enjoy using
-- [Raycast](https://raycast.com/) - Raycast lets you control your tools with a few keystrokes
+- [Airtable](https://www.airtable.com/) - Excel-like issue tracking tool
 
 ### Mock APIs
 
@@ -1657,19 +1658,21 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [KeyCastr](https://github.com/keycastr/keycastr) - An open-source keystroke visualizer
 - [Codetour](https://github.com/microsoft/codetour) - VS Code extension that allows you to record and playback guided tours of codebases, directly within the editor
 
-### Others
+### File sharing
 
-- [Flycut](https://github.com/TermiT/Flycut) - Clean and simple clipboard manager for developers
 - [Transfer.sh](https://transfer.sh/) - Easy file sharing from the command line
 - [Snapdrop](https://snapdrop.net/) - Like Airdrop, but on the web
 - [Wormhole](https://wormhole.app/) - Simple, private file sharing
+
+### Others
+
+- [How HTTPS Works](https://howhttps.works/)
+- [How DNS works](https://howdns.works/)
+- [Flycut](https://github.com/TermiT/Flycut) - Clean and simple clipboard manager for developers
 - [IFTTT](https://ifttt.com/) - Applets linked to the services you love
 - [ConferCal](https://www.confercal.com/calendars/code) - A conference calendar for developers and other people in tech
 - [jsonmatic](https://jsonmatic.com/) - Transform a CSV into a JSON
 - [FracturedJson](https://j-brooke.github.io/FracturedJson/) - A JSON formatter that produces human-readable but fairly compact output
-- [How HTTPS Works](https://howhttps.works/)
-- [How DNS works](https://howdns.works/)
-- [OutFrontJS](https://github.com/paanSinghCoder/OutFrontJS) - Console for mobile browsers
 
 ## Developer insights
 
