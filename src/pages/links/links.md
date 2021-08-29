@@ -1774,7 +1774,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How I Became a Software Engineer (From Designer to Developer)](https://leerob.io/blog/career)
 - [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 
-### Being a Staff-Plus Engineer
+### Being a staff-plus engineer
 
 - [Guides @StaffEng](https://staffeng.com/guides/) - Guides for reaching and succeeding at Staff-plus roles
 - [Stories @StaffEng](https://staffeng.com/stories/) - Folks who have shared their stories of reaching Staff-plus engineer roles
