@@ -315,20 +315,16 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Documentation / News 📚
 
-- [TypeScript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+- [TypeScript docs](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [TypeScript Evolution](https://mariusschulz.com/blog/series/typescript-evolution)
 - [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
-- [React-typescript-cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet) - A cheatsheet for react users using typescript with react for the first (or nth!) time
+- [TypeScript and Babel 7](https://blogs.msdn.microsoft.com/typescript/2018/08/27/typescript-and-babel-7/)
 
 #### Concepts / Articles 💡
 
-- [10++ TypeScript Pro tips/patterns with (or without) React](https://medium.com/@martin_hotell/10-typescript-pro-tips-patterns-with-or-without-react-5799488d6680)
 - [Understanding TypeScript’s type notation](http://2ality.com/2018/04/type-notation-typescript.html)
 - [The TypeScript Tax](https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b) - A Cost vs Benefit Analysis
-- [TypeScript and Babel 7](https://blogs.msdn.microsoft.com/typescript/2018/08/27/typescript-and-babel-7/)
-- [New ESLint / TypeScript Configuration](https://calendee.com/2019/04/12/new-eslint-typescript-configuration/)
 - [The unknown Type in TypeScript](https://mariusschulz.com/blog/the-unknown-type-in-typescript)
-- [How to write a React Component in TypeScript](https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript)
 - [Understanding TypeScript Generics](https://seanbarry.dev/posts/understanding-typescript-generics)
 - [Starting a TypeScript Project in 2021](https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/)
 
@@ -342,6 +338,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [TypeScript Playground](https://www.typescriptlang.org/play/)
 - [Type challenges](https://github.com/type-challenges/type-challenges)
+- [Typescript-cheatsheet](https://github.com/typescript-cheatsheets/utilities) - A list of typescript helper libraries
+- [New ESLint / TypeScript Configuration](https://calendee.com/2019/04/12/new-eslint-typescript-configuration/)
 
 #### Useful libraries 💾
 
@@ -353,7 +351,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Reason
 
-- [ReasonML docs](https://reasonml.github.io/docs/en/quickstart-javascript.html)
+- [ReasonML docs](https://reasonml.github.io/docs/en/installation)
 - [Reason React Playground](https://astrada.github.io/reason-react-playground/?reason=LYewJgrgNgpgBAcQE4xgFwJYDsDmcC8cA3gFBxyxpwDGIwADiFjFlYQEowCGAzk512poAdDzRc0MWDx4BhOo2asAFACJkqTLlUBKANxkK6OMC4BreIWUB9agAsMUMCiw6CAPmKHyw37QZMLGgANN5wLmAwSABccMo8UgBmbvieADwARhBoaEyeygJ8WAJComhI2DgAKiAAorDAQWoAElJQIACEum5pAPRZOXmGAL4GoyQkJWgAIgDyALKcwhFRNfUwjawA6hhodgCSYMppGuiVcL3uwXCq9CgAbhgwAO66ekA)
 
 ### HTML
@@ -496,6 +494,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Concepts / Articles 💡
 
 - [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
+- [Typescript-cheatsheets-react](https://github.com/typescript-cheatsheets/react) - Cheatsheets for experienced React developers getting started with TypeScript
 - [Why is setState async](https://github.com/facebook/react/issues/11527#issuecomment-360199710) - Github issue
 - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 - [React-bits](https://github.com/vasanthk/react-bits) - React patterns, techniques, tips and tricks
@@ -621,6 +620,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Know React? Try React Native.](https://shift.infinite.red/know-react-try-react-native-48f459f36675)
 - [Why Choose React Native?](https://formidable.com/blog/2021/choose-react-native/)
 - [Awesome React Native](http://www.awesome-react-native.com/) - An awesome style list that curates the best React Native libraries, tools, tutorials, articles and more
+- [Typescript-cheatsheets-react-native](https://github.com/typescript-cheatsheets/react-native) - Cheatsheets for experienced React Native developers getting started with TypeScript
 - [Hunting JS memory leaks in React Native apps](https://blog.swmansion.com/hunting-js-memory-leaks-in-react-native-apps-bd73807d0fde?gi=84508c8ef0c7)
 - [Bridging React Native Back to its Roots](https://www.youtube.com/watch?v=aOWIJ4Mgb2k&amp=&feature=youtu.be) - Vincent Riemer (@vincentriemer) at @ReactEurope 2018
 - [Shipping React Native apps with Fastlane and Travis](https://dev.to/carloscuesta/shipping-react-native-apps-with-fastlane-and-travis-1aea)
