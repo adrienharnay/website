@@ -241,45 +241,54 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Mozilla re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 - [EcmaScript 6 Features](http://es6-features.org/)
-- [Does it mutate?](https://doesitmutate.xyz/)
 - [Asynchronous JS Cheatsheet](https://frontarm.com/async-cheatsheet.pdf)
+- [Flavio Copes JavaScript tutorials](https://flaviocopes.com/tags/js/)
 
 #### Concepts / Articles 💡
 
+##### Functional / Declarative programming
+
+- [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
 - [JavaScript Without Loops](https://jrsinclair.com/articles/2017/javascript-without-loops/)
-- [A Beginner’s Guide to Currying in Functional JavaScript](https://www.sitepoint.com/currying-in-functional-javascript/)
 - [How I rediscovered my love for JavaScript after throwing 90% of it in the trash](https://hackernoon.com/how-i-rediscovered-my-love-for-javascript-after-throwing-90-of-it-in-the-trash-f1baed075d1b)
+
+##### JavaScript features
+
+- [Modern Javascript: Everything you missed over the last 10 years (ECMAScript 2020)](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
 - [ES6: Default Arguments](https://remysharp.com/2017/10/25/es6-default-arguments)
 - [Taming the asynchronous beast with ES7](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html)
-- [AirBnB JavaScript styleguide](https://github.com/airbnb/javascript)
-- [The increasing nature of frontend complexity](https://blog.logrocket.com/the-increasing-nature-of-frontend-complexity-b73c784c09ae)
-- [Contrarian idea: JS doesn't move too fast](https://mobile.twitter.com/dceddia/status/1036807827547930624) - Twitter thread
 - [Property order is predictable in JavaScript objects since ES2015](https://www.stefanjudis.com/today-i-learned/property-order-is-predictable-in-javascript-objects-since-es2015/)
-- [This year in JavaScript: 2018 in review and npm’s predictions for 2019](https://blog.npmjs.org/post/180868064080/this-year-in-javascript-2018-in-review-and-npms)
-- [You don't need MomentJS](https://github.com/you-dont-need/You-Dont-Need-Momentjs) - List of date-fns or native functions which you can use to replace moment.js + ESLint Plugin
-- [The shortest way to conditional insert properties into an object literal](https://dev.to/jfet97/the-shortest-way-to-conditional-insert-properties-into-an-object-literal-4ag7)
-- [Awesome one-liners you might find useful while coding](https://mobile.twitter.com/coderitual/status/1112297299307384833)
-- [Applying a timeout to your promises](https://italonascimento.github.io/applying-a-timeout-to-your-promises/)
-- [Is postMessage slow?](https://dassur.ma/things/is-postmessage-slow/)
-- [Listify a JavaScript array](https://kentcdodds.com/blog/listify-a-java-script-array)
-- [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
-- [Flavio Copes JavaScript tutorials](https://flaviocopes.com/tags/js/)
-- [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
-- [JavaScript Closures](https://kentcdodds.com/blog/javascript-closures)
-- [What the fork is a closure](https://whatthefork.is/closure)
-- [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
 - [Working With Strings in Modern JavaScript](https://www.baseclass.io/guides/string-handling-modern-js)
-- [How To Use Vibration API In Your Website](https://blog.bibekkakati.me/how-to-use-vibration-api-in-your-website)
-- [Modern Javascript: Everything you missed over the last 10 years (ECMAScript 2020)](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
+
+##### JavaScript patterns
+
+- [A Beginner’s Guide to Currying in Functional JavaScript](https://www.sitepoint.com/currying-in-functional-javascript/)
+- [Awesome one-liners you might find useful while coding](https://mobile.twitter.com/coderitual/status/1112297299307384833)
+- [The shortest way to conditional insert properties into an object literal](https://dev.to/jfet97/the-shortest-way-to-conditional-insert-properties-into-an-object-literal-4ag7)
+- [Applying a timeout to your promises](https://italonascimento.github.io/applying-a-timeout-to-your-promises/)
+- [Listify a JavaScript array](https://kentcdodds.com/blog/listify-a-java-script-array)
 - [9 single-statement JS algorithms for common data transformations](https://www.benmvp.com/blog/9-single-statement-javascript-algorithms-common-data-transformations/)
 - [Refactoring cascading conditionals in favor of readability](https://blog.logrocket.com/refactoring-cascading-conditionals-favor-readability/)
-- [Browsers decode images differently](https://bien.ee/image-decoding-differences-between-browsers/)
 - [Naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) - Comprehensive language-agnostic guidelines on variables naming
+
+##### Others
+
+- [The increasing nature of frontend complexity](https://blog.logrocket.com/the-increasing-nature-of-frontend-complexity-b73c784c09ae)
+- [Contrarian idea: JS doesn't move too fast](https://mobile.twitter.com/dceddia/status/1036807827547930624) - Twitter thread
+- [This year in JavaScript: 2018 in review and npm’s predictions for 2019](https://blog.npmjs.org/post/180868064080/this-year-in-javascript-2018-in-review-and-npms)
+- [You don't need MomentJS](https://github.com/you-dont-need/You-Dont-Need-Momentjs) - List of date-fns or native functions which you can use to replace moment.js + ESLint Plugin
+- [Is postMessage slow?](https://dassur.ma/things/is-postmessage-slow/)
+- [JavaScript Pass By Value Function Parameters](https://kentcdodds.com/blog/javascript-pass-by-value-function-parameters)
+- [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
+- [How To Use Vibration API In Your Website](https://blog.bibekkakati.me/how-to-use-vibration-api-in-your-website)
+- [Browsers decode images differently](https://bien.ee/image-decoding-differences-between-browsers/)
 
 #### Related tools 🛠️
 
 - [Operator Lookup](https://www.joshwcomeau.com/operator-lookup/) - Enter a JavaScript operator to learn more about it
 - [DOM Events](https://domevents.dev/) - Learn about the DOM Event system through exploration
+- [Does it mutate?](https://doesitmutate.xyz/) - Learn which functions of the language mutate and which do not
+- [Airbnb JavaScript styleguide](https://github.com/airbnb/javascript)
 
 #### Useful libraries 💾
 
@@ -486,6 +495,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Concepts / Articles 💡
 
+- [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 - [Why is setState async](https://github.com/facebook/react/issues/11527#issuecomment-360199710) - Github issue
 - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 - [React-bits](https://github.com/vasanthk/react-bits) - React patterns, techniques, tips and tricks
