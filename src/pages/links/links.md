@@ -246,12 +246,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Concepts / Articles 💡
 
-##### Functional / Declarative programming
-
-- [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
-- [JavaScript Without Loops](https://jrsinclair.com/articles/2017/javascript-without-loops/)
-- [How I rediscovered my love for JavaScript after throwing 90% of it in the trash](https://hackernoon.com/how-i-rediscovered-my-love-for-javascript-after-throwing-90-of-it-in-the-trash-f1baed075d1b)
-
 ##### JavaScript features
 
 - [Modern Javascript: Everything you missed over the last 10 years (ECMAScript 2020)](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
@@ -270,6 +264,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [9 single-statement JS algorithms for common data transformations](https://www.benmvp.com/blog/9-single-statement-javascript-algorithms-common-data-transformations/)
 - [Refactoring cascading conditionals in favor of readability](https://blog.logrocket.com/refactoring-cascading-conditionals-favor-readability/)
 - [Naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) - Comprehensive language-agnostic guidelines on variables naming
+
+##### Functional / Declarative programming
+
+- [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
+- [JavaScript Without Loops](https://jrsinclair.com/articles/2017/javascript-without-loops/)
+- [How I rediscovered my love for JavaScript after throwing 90% of it in the trash](https://hackernoon.com/how-i-rediscovered-my-love-for-javascript-after-throwing-90-of-it-in-the-trash-f1baed075d1b)
 
 ##### Others
 
@@ -491,7 +491,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Sneak Peek: Beyond React 16](https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html)
 - [Update on Async Rendering](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html)
 - [You Probably Don't Need Derived State](https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html)
-- [React Fire: Modernizing React DOM](https://github.com/facebook/react/issues/13525) - Github issue
 - [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [Versioning Policy](https://reactjs.org/docs/faq-versioning.html)
 - [React 16.x Roadmap](https://reactjs.org/blog/2018/11/27/react-16-roadmap.html)
@@ -499,49 +498,55 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Concepts / Articles 💡
 
+##### React features
+
 - [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 - [Typescript-cheatsheets-react](https://github.com/typescript-cheatsheets/react) - Cheatsheets for experienced React developers getting started with TypeScript
-- [Why is setState async](https://github.com/facebook/react/issues/11527#issuecomment-360199710) - Github issue
+
+##### React functional components & hooks
+
+- [React Stateless Functional Components: Nine Wins You Might Have Overlooked](https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc)
+- [Making Sense of React Hooks](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
+- [A Simple Intro to React Hooks](https://daveceddia.com/intro-to-hooks/)
+- [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)
+- [How to implement useState with useReducer](https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer)
+- [The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
+- [React hook flow diagram](https://github.com/donavon/hook-flow/blob/master/hook-flow.pdf)
+
+##### React patterns
+
 - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 - [React-bits](https://github.com/vasanthk/react-bits) - React patterns, techniques, tips and tricks
-- [Functional setState is the future of React](https://medium.freecodecamp.org/functional-setstate-is-the-future-of-react-374f30401b6b)
 - [Reusable State with Higher Order Components](https://daveceddia.com/extract-state-with-higher-order-components/)
-- [React Pattern: Extract Child Components to Avoid Binding](https://medium.freecodecamp.org/react-pattern-extract-child-components-to-avoid-binding-e3ad8310725e)
-- [The constructor is dead, long live the constructor!](https://hackernoon.com/the-constructor-is-dead-long-live-the-constructor-c10871bea599)
-- [React Stateless Functional Components: Nine Wins You Might Have Overlooked](https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc)
 - [Headless User Interface Components](https://medium.com/merrickchristensen/headless-user-interface-components-565b0c0f2e18)
 - [Using Composition and Render Props instead of Context API](https://medium.com/@barisozcetin/using-composition-and-render-props-instead-of-context-api-e431b1cbbc3b)
 - [The Suspense is Killing Redux](https://medium.com/@ryanflorence/the-suspense-is-killing-redux-e888f9692430)
 - [Avoiding unnecessary renders with React context](https://frontarm.com/articles/react-context-performance/)
 - [Guide To Async Components](https://github.com/stereobooster/guide-to-async-components)
 - [Lazy-loading components in React 16.6](https://blog.logrocket.com/lazy-loading-components-in-react-16-6-6cea535c0b52?gi=6cc88f71d9d9)
-- [Making Sense of React Hooks](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
-- [A Simple Intro to React Hooks](https://daveceddia.com/intro-to-hooks/)
 - [Lazy loading (and preloading) components in React 16.6](https://medium.com/@pomber/lazy-loading-and-preloading-components-in-react-16-6-804de091c82d)
-- [The React Handbook](https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795)
-- [The Fault in Our Tolerance: Accounting for Failures in React](https://aweary.dev/fault-tolerance-react/)
 - [How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively)
 - [How to optimize your context value](https://kentcdodds.com/blog/how-to-optimize-your-context-value)
 - [Authentication in React Applications](https://kentcdodds.com/blog/authentication-in-react-applications/)
-- [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)
 - [One simple trick to optimize React re-renders](https://kentcdodds.com/blog/optimize-react-re-renders)
-- [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
-- [How to implement useState with useReducer](https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer)
 - [Fix the slow render before you fix the re-render](https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render)
 - [State Colocation will make your React app faster](https://kentcdodds.com/blog/state-colocation-will-make-your-react-app-faster)
-- [Profile a React App for Performance](https://kentcdodds.com/blog/profile-a-react-app-for-performance)
 - [Don't Sync State. Derive It!](https://kentcdodds.com/blog/dont-sync-state-derive-it)
+- [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
+- [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
+
+##### Others
+
+- [What is React: A Visual Introduction For Beginners](https://learnreact.design/posts/what-is-react)
+- [The React Handbook](https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795)
+- [Profile a React App for Performance](https://kentcdodds.com/blog/profile-a-react-app-for-performance)
 - [How Concurrent React changes the game for data-heavy UI](https://medium.com/@winwardo/how-concurrent-react-changes-the-game-for-data-heavy-ui-a0f432655625)
 - [Don't call a React function component](https://kentcdodds.com/blog/dont-call-a-react-function-component)
 - [Initializing focus state in React: you might be doing it wrong](https://exogen.github.io/blog/focus-state/)
-- [The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
+- [The Fault in Our Tolerance: Accounting for Failures in React](https://aweary.dev/fault-tolerance-react/)
 - [Stop using client-side route redirects](https://kentcdodds.com/blog/stop-using-client-side-route-redirects)
-- [What is React: A Visual Introduction For Beginners](https://learnreact.design/posts/what-is-react)
 - [Everything About React Server Components](https://vercel.com/blog/everything-about-react-server-components)
-- [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
-- [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
 - [Why I Love React by Kent C. Dodds](https://epicreact.dev/why-i-love-react/)
-- [React hook flow diagram](https://github.com/donavon/hook-flow/blob/master/hook-flow.pdf)
 - [Memoization and React](https://epicreact.dev/memoization-and-react/)
 - [React 18 Alpha is out! Now what?](https://dev.to/cassidoo/react-18-alpha-is-out-now-what-2apj)
 - [Not All Components Are Created Equal](https://formidable.com/blog/2021/react-components/)
