@@ -498,7 +498,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Concepts / Articles 💡
 
-##### React features
+##### React prerequisites
 
 - [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 - [Typescript-cheatsheets-react](https://github.com/typescript-cheatsheets/react) - Cheatsheets for experienced React developers getting started with TypeScript
@@ -628,10 +628,22 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Concepts / Articles 💡
 
-- [Know React? Try React Native.](https://shift.infinite.red/know-react-try-react-native-48f459f36675)
+##### React Native prerequisites
+
 - [Why Choose React Native?](https://formidable.com/blog/2021/choose-react-native/)
-- [Awesome React Native](http://www.awesome-react-native.com/) - An awesome style list that curates the best React Native libraries, tools, tutorials, articles and more
+- [Know React? Try React Native.](https://shift.infinite.red/know-react-try-react-native-48f459f36675)
 - [Typescript-cheatsheets-react-native](https://github.com/typescript-cheatsheets/react-native) - Cheatsheets for experienced React Native developers getting started with TypeScript
+
+##### React Native patterns
+
+- [React Native Performance: Do and Don't](https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a)
+- [Setup your React Native splash screen in 15 minutes](https://blog.bam.tech/developer-news/set-up-your-react-native-splash-screen-in-15-minutes)
+- [How I improved my React Native app 50x faster](https://blog.inkdrop.info/how-i-improved-my-react-native-app-50x-faster-13d566061e84)
+- [ELI5: Yoga - Cross-Platform Layout Engine](https://developers.facebook.com/blog/post/2021/02/01/eli5-yoga-cross-platform-layout-engine/)
+
+##### Others
+
+- [Awesome React Native](http://www.awesome-react-native.com/) - An awesome style list that curates the best React Native libraries, tools, tutorials, articles and more
 - [Hunting JS memory leaks in React Native apps](https://blog.swmansion.com/hunting-js-memory-leaks-in-react-native-apps-bd73807d0fde?gi=84508c8ef0c7)
 - [Bridging React Native Back to its Roots](https://www.youtube.com/watch?v=aOWIJ4Mgb2k&amp=&feature=youtu.be) - Vincent Riemer (@vincentriemer) at @ReactEurope 2018
 - [Shipping React Native apps with Fastlane and Travis](https://dev.to/carloscuesta/shipping-react-native-apps-with-fastlane-and-travis-1aea)
@@ -642,11 +654,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [You can now use Expo APIs in any React Native app](https://blog.expo.io/you-can-now-use-expo-apis-in-any-react-native-app-7c3a93041331)
 - [How to convince your boss to use React Native](http://frantic.im/how-to-convince-your-boss-to-use-react-native)
 - [The New React Native Architecture Explained](https://formidable.com/blog/2019/react-codegen-part-1/)
-- [React Native Performance: Do and Don't](https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a)
-- [Stack Navigator Transitions | React Navigation 5](https://www.youtube.com/watch?v=PvjV96CNPqM) - YouTube video
-- [Setup your React Native splash screen in 15 minutes](https://blog.bam.tech/developer-news/set-up-your-react-native-splash-screen-in-15-minutes)
-- [How I improved my React Native app 50x faster](https://blog.inkdrop.info/how-i-improved-my-react-native-app-50x-faster-13d566061e84)
-- [ELI5: Yoga - Cross-Platform Layout Engine](https://developers.facebook.com/blog/post/2021/02/01/eli5-yoga-cross-platform-layout-engine/)
 - [Best Build Platforms for React Native Apps in 2021](https://javascript.plainenglish.io/best-build-platforms-for-react-native-apps-in-2021-24c511451bac)
 - [Bringing Hermes to iOS in React Native 0.64](https://callstack.com/blog/bringing-hermes-to-ios-in-react-native/)
 - [Hermes Performance on iOS](https://callstack.com/blog/hermes-performance-on-ios/)
@@ -654,7 +661,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Coinbase’s animated TabBar in React Native](https://blog.coinbase.com/coinbases-animated-tabbar-in-react-native-4b3fdd4473e)
 - [Optimizing React Native](https://blog.coinbase.com/optimizing-react-native-7e7bf7ac3a34)
 - [How Discord achieves native iOS performance with React Native](https://blog.discord.com/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502)
-- [React-native-mmkv](https://github.com/mrousavy/react-native-mmkv) - ⚡An extremely fast key/value storage library for React Native. ~30x faster than AsyncStorage!
 
 #### Migration stories 📖
 
@@ -674,7 +680,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Useful libraries 💾
 
-- [Babel-plugin-functional-hmr](https://github.com/bvic23/babel-plugin-functional-hmr) - Babel plugin enables HMR for functional components in React Native
 - [React-native-sideswipe](https://github.com/kkemple/react-native-sideswipe) - Simple React Native carousel with sensible defaults
 - [React-native-fast-image](https://github.com/DylanVann/react-native-fast-image) - FastImage, performant React Native image component
 - [Swr-react-native](https://github.com/nandorojo/swr-react-native) - React Native/React Navigation compatibility for Vercel's useSWR hook
@@ -685,6 +690,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Ignite](https://github.com/infinitered/ignite) - Infinite Red's cutting edge React Native project boilerplate, along with a CLI, component/model generators, and more!
 - [Recylerlistview](https://github.com/Flipkart/recyclerlistview) - High performance listview for React Native and web!
 - [Stripe-react-native](https://github.com/stripe/stripe-react-native) - React Native library for Stripe
+- [React-native-mmkv](https://github.com/mrousavy/react-native-mmkv) - ⚡An extremely fast key/value storage library for React Native. ~30x faster than AsyncStorage!
 
 ### Native Mobile Development
 
