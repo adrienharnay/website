@@ -136,11 +136,15 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Performance](#performance)
 
     - [Illusion of speed](#illusion-of-speed)
-    - [Network](#network)
-    - [Input / Throughput](#input--throughput)
+    - [Big picture performance](#big-picture-performance)
+    - [Network performance](#network-performance)
+    - [Images performance](#images-performance)
+    - [Fonts performance](#fonts-performance)
+    - [CSS performance](#css-performance)
+    - [JavaScript performance](#javascript-performance)
     - [Core Web Vitals](#core-web-vitals)
-    - [Performance accessibility](#performance-accessibility)
     - [Progressive Web Apps](#progressive-web-apps)
+    - [Performance case studies](#performance-case-studies)
     - [Performance benchmarks](#performance-benchmarks-)
 
   - [SEO](#seo)
@@ -232,6 +236,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Web development tools
 
+- [How to Simulate Mobile Devices with Device Mode in Chrome](https://www.sitepoint.com/how-to-simulate-mobile-devices-with-device-mode-in-chrome/)
 - [Eruda](https://eruda.liriliri.io/) - Console for Mobile Browsers
 
 ## Programming languages
@@ -1387,48 +1392,29 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Illusion of Speed](https://paulbakaus.com/tutorials/performance/the-illusion-of-speed/)
 - [Designing for the Appearance of Speed](https://medium.com/mobify-design-team/designing-for-the-appearance-of-speed-aaabc7f568c2)
 - [Speed is the killer feature](https://bdickason.com/posts/speed-is-the-killer-feature/)
+- [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
 
-#### Network
+#### Big picture performance
+
+- [Optimising the front end for the browser](https://dev.to/sanjsanj/optimising-the-front-end-for-thebrowser)
+- [The Cost Of JavaScript In 2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)
+- [Start Performance Budgeting](https://medium.com/@addyosmani/start-performance-budgeting-dabde04cf6a3)
+- [How to Convince Your Boss to Care About Speed](https://calibreapp.com/blog/convince-your-boss-about-performance)
+- [Can You Afford It?: Real-world Web Performance Budgets](https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/)
+
+#### Network performance
 
 - [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 - [The Critical Request](https://css-tricks.com/the-critical-request/)
-- [Performance Analysis Reference](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)
-- [How to Simulate Mobile Devices with Device Mode in Chrome](https://www.sitepoint.com/how-to-simulate-mobile-devices-with-device-mode-in-chrome/)
-- [Using the Paint Timing API](https://css-tricks.com/paint-timing-api/)
-- [Optimising the front end for the browser](https://dev.to/sanjsanj/optimising-the-front-end-for-thebrowser)
-- [Measuring web performance; it’s really quite simple](https://hackernoon.com/measuring-web-performance-its-really-quite-simple-adeda8f7f39e)
-- [Web fonts: when you need them, when you don’t](https://hackernoon.com/web-fonts-when-you-need-them-when-you-dont-a3b4b39fe0ae)
 - [HTTP/2 push is tougher than I thought](https://jakearchibald.com/2017/h2-push-tougher-than-i-thought/)
 - [Why you should be focusing on the 99th percentile when tracking request performance](https://spectrum.chat/thread/964ae5c3-1b82-47e9-b8b2-23ee7a5954e5)
-- [Measuring Wikipedia page load times](https://phabricator.wikimedia.org/phame/live/7/post/83/measuring_wikipedia_page_load_times/)
-- [Converting Images To WebP](https://www.smashingmagazine.com/2018/07/converting-images-to-webp/)
-- [The three browsers holding JavaScript back the most](https://mobile.twitter.com/jamiebuilds/status/1022568918949408768)
 - [Brotli Compression – How Much Will It Reduce Your Content?](https://paulcalvano.com/index.php/2018/07/25/brotli-compression-how-much-will-it-reduce-your-content/)
 - [Web performance basics](https://www.learnperf.com/)
-- [How Image Optimization Decreased my Website’s Page Weight by 62%](https://medium.freecodecamp.org/image-optimization-558d9f449e3)
 - [The Low Hanging Fruit of Web Performance](http://mediatemple.net/blog/tips/low-hanging-fruit-web-performance/)
-- [The Cost Of JavaScript In 2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)
 - [Fast By Default: Modern Loading Best Practices (Chrome Dev Summit 2017)](https://www.youtube.com/watch?feature=youtu.be&v=_srJ7eHS3IM)
-- [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
-- [Speed is now a landing page factor for Google Search and Ads](https://developers.google.com/web/updates/2018/07/search-ads-speed)
-- [10 things I learned making the fastest site in the world](https://hackernoon.com/10-things-i-learned-making-the-fastest-site-in-the-world-18a0e1cdf4a7)
 - [Idle Until Urgent](https://philipwalton.com/articles/idle-until-urgent/)
 - [Improving Client-Side Performance](https://tj.ie/improving-client-side-performance/)
-- [Automating image optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/automating-image-optimization/)
-- [State of the Web: Top Image Optimization Strategies](https://dev.to/dougsillars/state-of-the-web-top-image-optimization-strategies-k0e)
-- [Start Performance Budgeting](https://medium.com/@addyosmani/start-performance-budgeting-dabde04cf6a3)
-- [ImgBot](https://github.com/marketplace/imgbot)
-- [A Netflix Web Performance Case Study](https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9)
-- [CSS and Network Performance](https://csswizardry.com/2018/11/css-and-network-performance)
 - [Fast load times by web.dev](https://web.dev/fast)
-- [Reducing CSS bundle size 70% by cutting the class names and using scope isolation](https://medium.freecodecamp.org/reducing-css-bundle-size-70-by-cutting-the-class-names-and-using-scope-isolation-625440de600b)
-- [Your Choice of Image formats for Websites and Web Apps](https://medium.com/swlh/your-choice-of-image-formats-for-websites-and-web-apps-73856e15305f)
-- [How to Load Multiple Google Fonts in One URL Request](https://shellcreeper.com/how-to-load-multiple-google-font-in-one-url-request/)
-- [The Font Loading Checklist](https://www.zachleat.com/web/font-checklist/)
-- [ImageOptim](https://imageoptim.com/)
-- [Essential Image Optimization](https://images.guide/)
-- [Lazy Loading Images and Video](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
-- [The Complete Guide to Lazy Loading Images](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/)
 - [Load Scripts in Your React Bundle Asynchronously](http://blog.theodo.fr/2017/07/load-scripts-react-bundle-asynchronously-win-seo/)
 - [Loading Third-Party JavaScript](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/)
 - [Modern Asynchronous CSS Loading](https://www.filamentgroup.com/lab/async-css.html)
@@ -1437,30 +1423,57 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How we reduced our initial JS/CSS size by 67%](https://dev.to/goenning/how-we-reduced-our-initial-jscss-size-by-67-3ac0)
 - [Polyfill as needed with polyfill-service](https://blog.kentcdodds.com/polyfill-as-needed-with-polyfill-service-35f0ff306a26)
 - [An introduction to HTTP/2 for SEOs](https://www.distilled.net/resources/an-introduction-to-http2-for-seos/)
-- [Reduce JavaScript Payloads with Tree Shaking](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/)
-- [Reduce JavaScript Payloads with Code Splitting](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/)
 - [Brotli compression delivered from AWS](https://medium.com/@felice.geracitano/brotli-compression-delivered-from-aws-7be5b467c2e1)
 - [AWS CloudFront Compression using Lambda@Edge - where is brotli?!](https://medium.com/@kazaz.or/aws-cloudfront-compression-using-lambda-edge-where-is-brotli-6d296f41f784)
 - [To push, or not to push?!](https://noti.st/patrickhamann/y2sScd/to-push-or-not-to-push) - A journey of resource loading in the browser
-- [Can You Afford It?: Real-world Web Performance Budgets](https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/)
 - [Inline SVG... Cached](https://css-tricks.com/inline-svg-cached/)
+
+#### Images performance
+
+- [Converting Images To WebP](https://www.smashingmagazine.com/2018/07/converting-images-to-webp/)
+- [How Image Optimization Decreased my Website’s Page Weight by 62%](https://medium.freecodecamp.org/image-optimization-558d9f449e3)
+- [Optimize your images by web.dev](https://web.dev/fast/#optimize-your-images)
+- [State of the Web: Top Image Optimization Strategies](https://dev.to/dougsillars/state-of-the-web-top-image-optimization-strategies-k0e)
+- [Your Choice of Image formats for Websites and Web Apps](https://medium.com/swlh/your-choice-of-image-formats-for-websites-and-web-apps-73856e15305f)
+- [Essential Image Optimization](https://images.guide/)
+- [Lazy Loading Images and Video](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
+- [The Complete Guide to Lazy Loading Images](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/)
 - [Native image lazy-loading for the web!](https://addyosmani.com/blog/lazy-loading/)
-- [Improving third-party web performance at The Telegraph](https://medium.com/the-telegraph-engineering/improving-third-party-web-performance-at-the-telegraph-a0a1000be5)
-- [Extract critical CSS](https://web.dev/extract-critical-css?authuser=1)
-- [Trim the Fat From Your Bundles Using Webpack Analyzer & React Lazy/Suspense](https://www.wix.engineering/post/trim-the-fat-from-your-bundles-using-webpack-analyzer-react-lazy-suspense)
-- [The Fastest Google Fonts](https://csswizardry.com/2020/05/the-fastest-google-fonts/)
 - [AVIF and WebP encoding quality settings](https://www.industrialempathy.com/posts/avif-webp-quality-settings/)
 - [AVIF has landed](https://jakearchibald.com/2020/avif-has-landed/)
 - [Time for Next-Gen Codecs to Dethrone JPEG](https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg)
-- [How to Convince Your Boss to Care About Speed](https://calibreapp.com/blog/convince-your-boss-about-performance)
 
-#### Input / Throughput
+#### Fonts performance
 
+- [How to Load Multiple Google Fonts in One URL Request](https://shellcreeper.com/how-to-load-multiple-google-font-in-one-url-request/)
+- [The Font Loading Checklist](https://www.zachleat.com/web/font-checklist/)
+- [The Fastest Google Fonts](https://csswizardry.com/2020/05/the-fastest-google-fonts/)
+- [The Best Font Loading Strategies and How to Execute Them](https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/)
+
+#### CSS performance
+
+- [CSS and Network Performance](https://csswizardry.com/2018/11/css-and-network-performance)
+- [Reducing CSS bundle size 70% by cutting the class names and using scope isolation](https://medium.freecodecamp.org/reducing-css-bundle-size-70-by-cutting-the-class-names-and-using-scope-isolation-625440de600b)
+- [Extract critical CSS](https://web.dev/extract-critical-css?authuser=1)
+- [Improve Page Rendering Speed Using Only CSS](https://blog.bitsrc.io/improve-page-rendering-speed-using-only-css-a61667a16b2)
+
+#### JavaScript performance
+
+- [Using the Paint Timing API](https://css-tricks.com/paint-timing-api/)
+- [Reduce JavaScript Payloads with Tree Shaking](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/)
+- [Reduce JavaScript Payloads with Code Splitting](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/)
 - [Deploying ES2015+ Code in Production Today](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/)
 - [JavaScript Start-up Performance](https://medium.com/reloading/javascript-start-up-performance-69200f43b201)
+- [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/)
+- [Things that should not end up in production clientside code](https://mobile.twitter.com/henrikjoreteg/status/1032879748387459072) - Twitter thread
+- [Are long JavaScript tasks delaying your Time to Interactive?](https://web.dev/long-tasks-devtools/?authuser=1)
+- [Building a Faster Web Experience with the postTask Scheduler](https://medium.com/airbnb-engineering/building-a-faster-web-experience-with-the-posttask-scheduler-276b83454e91)
+
+#### React performance
+
+- [Trim the Fat From Your Bundles Using Webpack Analyzer & React Lazy/Suspense](https://www.wix.engineering/post/trim-the-fat-from-your-bundles-using-webpack-analyzer-react-lazy-suspense)
 - [Performance-tuning a React application](https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2)
 - [Infinite List and React](http://itsze.ro/blog/2017/04/09/infinite-list-and-react.html)
-- [Rearchitecting Airbnb’s Frontend](https://medium.com/airbnb-engineering/rearchitecting-airbnbs-frontend-5e213efc24d2)
 - [React is Slow, React is Fast: Optimizing React Apps in Practice](https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba)
 - [React at Light Speed](https://blog.vixlet.com/react-at-light-speed-78cd172a6411?gi=3765f3a19d80)
 - [Using Purecomponent To Prevent Wasted Renders In React](https://ashishchaudhary.in/using-purecomponent-to-prevent-wasted-renders-in-react)
@@ -1469,24 +1482,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Two Tips to Improve Performance by 30% With React and Webpack](http://engineering.teacherspayteachers.com/2017/08/16/two-tips-to-improve-performance-by-30-with-react-and-webpack.html)
 - [Introducing React Loadable](https://medium.com/@thejameskyle/react-loadable-2674c59de178)
 - [Perf-hoc](https://github.com/viktorbergehall/perf-hoc) - Visualize and detect unnecessary rendering and performance issues in React
-- [Performance tests between several styling libraries](http://necolas.github.io/react-native-web/benchmarks/)
-- [Deploying ES2015+ Code in Production Today](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/)
-- [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/)
-- [Things that should not end up in production clientside code](https://mobile.twitter.com/henrikjoreteg/status/1032879748387459072) - Twitter thread
-- [Twitter Lite and High Performance React Progressive Web Apps at Scale](https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3)
-- [React Performance Fixes on Airbnb Listing Pages](https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4)
 - [Progressive React](https://houssein.me/progressive-react) - Want to make your React site more performant? Here's a quick checklist
-- [Are long JavaScript tasks delaying your Time to Interactive?](https://web.dev/long-tasks-devtools/?authuser=1)
-- [Making Instagram.com faster: Part 1](https://instagram-engineering.com/making-instagram-com-faster-part-1-62cc0c327538)
-- [Making Instagram.com faster: Part 3 - cache first](https://instagram-engineering.com/making-instagram-com-faster-part-3-cache-first-6f3f130b9669)
-- [Making Instagram.com faster: Part 4 - code size and execution optimizations](https://instagram-engineering.com/making-instagram-com-faster-code-size-and-execution-optimizations-part-4-57668be796a8)
-- [Google Metrics](https://web.dev/metrics/) - Measure and optimize performance and user experience
-- [Estimator.dev](https://estimator.dev/) - Find out how much turning on modern JS could save
-- [How We Improved SmashingMag Performance](https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/)
-- [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
-- [The Best Font Loading Strategies and How to Execute Them](https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/)
-- [Improve Page Rendering Speed Using Only CSS](https://blog.bitsrc.io/improve-page-rendering-speed-using-only-css-a61667a16b2)
-- [Building a Faster Web Experience with the postTask Scheduler](https://medium.com/airbnb-engineering/building-a-faster-web-experience-with-the-posttask-scheduler-276b83454e91)
+- [Performance tests between several styling libraries](http://necolas.github.io/react-native-web/benchmarks/)
 
 #### Core Web Vitals
 
@@ -1494,17 +1491,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How Core Web Vitals Will Impact Google Rankings in 2021](https://vercel.com/blog/core-web-vitals)
 - [How We Improved Our Core Web Vitals (Case Study)](https://www.smashingmagazine.com/2021/05/core-web-vitals-case-study/)
 
-#### Performance accessibility
-
-- [Building the most inaccessible site possible with a perfect Lighthouse score](https://www.matuzo.at/blog/building-the-most-inaccessible-site-possible-with-a-perfect-lighthouse-score/)
-
 #### Progressive Web Apps
 
 - [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
 - [How to turn your website into a PWA](https://mxb.at/blog/how-to-turn-your-website-into-a-pwa/)
 - [Service Workers](https://flaviocopes.com/service-workers/)
-- [A React And Preact Progressive Web App Performance Case Study: Treebo](https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299)
-- [Twitter Lite and High Performance React Progressive Web Apps at Scale](https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3)
 - [Progressive Web App with Webpack](https://dev.to/remejuan/progressive-web-app-with-webpack-87p)
 - [Why Progressive Web Apps Should Be Your Business Choice Over a Native App](https://love2dev.com/pwa/progressive-web-app-vs-native/)
 - [Every website deserves a service worker](https://dev.to/bnevilleoneill/every-website-deserves-a-service-worker-3gbj?fbclid=IwAR2WfZnoVwgDX4yMcyOwzYWKzJsSj-LZkZdMawrWi8tPYclPmXsWbxkOSFI)
@@ -1512,9 +1503,32 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Workerize](https://github.com/developit/workerize) - Run a module in a Web Worker
 - [Workerize-loader](https://github.com/developit/workerize-loader) - Automatically move a module into a Web Worker (Webpack loader)
 
+#### Performance case studies
+
+- [Measuring Wikipedia page load times](https://phabricator.wikimedia.org/phame/live/7/post/83/measuring_wikipedia_page_load_times/)
+- [A Netflix Web Performance Case Study](https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9)
+- [Improving third-party web performance at The Telegraph](https://medium.com/the-telegraph-engineering/improving-third-party-web-performance-at-the-telegraph-a0a1000be5)
+- [Making Instagram.com faster: Part 1](https://instagram-engineering.com/making-instagram-com-faster-part-1-62cc0c327538)
+- [Making Instagram.com faster: Part 3 - cache first](https://instagram-engineering.com/making-instagram-com-faster-part-3-cache-first-6f3f130b9669)
+- [Making Instagram.com faster: Part 4 - code size and execution optimizations](https://instagram-engineering.com/making-instagram-com-faster-code-size-and-execution-optimizations-part-4-57668be796a8)
+- [Rearchitecting Airbnb’s Frontend](https://medium.com/airbnb-engineering/rearchitecting-airbnbs-frontend-5e213efc24d2)
+- [Twitter Lite and High Performance React Progressive Web Apps at Scale](https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3)
+- [React Performance Fixes on Airbnb Listing Pages](https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4)
+- [How We Improved SmashingMag Performance](https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/)
+- [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
+- [A React And Preact Progressive Web App Performance Case Study: Treebo](https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299)
+
+#### Related tools 🛠️
+
+- [ImageOptim](https://imageoptim.com/)
+- [ImgBot](https://github.com/marketplace/imgbot)
+
 #### Performance benchmarks 💯
 
 - [How To Think About Speed Tools](https://developers.google.com/web/fundamentals/performance/speed-tools/)
+- [Performance features reference](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)
+- [Google Metrics](https://web.dev/metrics/) - Measure and optimize performance and user experience
+- [Estimator.dev](https://estimator.dev/) - Find out how much turning on modern JS could save
 - [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 - [Lighthouse-ci](https://github.com/ebidel/lighthouse-ci) - Run Lighthouse in CI using Docker
@@ -1536,6 +1550,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Step Your Meta Game Up](https://dev.to/rpalo/step-your-meta-game-up)
 - [How To Use H1-H6 HTML Elements Properly](https://www.hobo-web.co.uk/headers/)
 - [ContentKing Academy](https://www.contentkingapp.com/academy/)
+- [Speed is now a landing page factor for Google Search and Ads](https://developers.google.com/web/updates/2018/07/search-ads-speed)
 - [The Definitive Guide To SEO In 2019](https://backlinko.com/seo-this-year)
 - [SEO component for structured data](https://mobile.twitter.com/signalnerve/status/1098691569362849799)
 - [The End of AMP](https://www.lafoo.com/the-end-of-amp/)
