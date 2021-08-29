@@ -142,6 +142,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
     - [Fonts performance](#fonts-performance)
     - [CSS performance](#css-performance)
     - [JavaScript performance](#javascript-performance)
+    - [React performance](#react-performance)
     - [Core Web Vitals](#core-web-vitals)
     - [Progressive Web Apps](#progressive-web-apps)
     - [Performance case studies](#performance-case-studies)
@@ -1563,13 +1564,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Security
 
+- [Security checklist](https://securitycheckli.st/) - Be safe on the internet
+
 #### Concepts / Articles 💡
 
 - [Please Stop Using Local Storage](https://dev.to/rdegges/please-stop-using-local-storage-1i04)
 - [Third party CSS is not safe](https://jakearchibald.com/2018/third-party-css-is-not-safe/)
 - [Here's Why Your Static Website Needs HTTPS](https://www.troyhunt.com/heres-why-your-static-website-needs-https/)
 - [ScottHelme.uk](https://scotthelme.co.uk/) - Blog about web security
-- [Security checklist](https://securitycheckli.st/) - Be safe on the internet
 - [Microsoft security chief: IE is not a browser, so stop using it as your default](https://www.zdnet.com/article/microsoft-security-chief-ie-is-not-a-browser-so-stop-using-it-as-your-default/)
 
 #### Security benchmarks 💯
