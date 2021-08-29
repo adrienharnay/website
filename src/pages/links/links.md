@@ -123,9 +123,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Documentation generators](#documentation-generators)
   - [Presentation generators](#presentation-generators)
 
+- [Design systems](#design-systems)
+
 - [Advanced concepts](#advanced-concepts)
 
-  - [Design systems](#design-systems)
   - [State machines](#state-machines)
   - [Server Side Rendering](#server-side-rendering)
 
@@ -1089,7 +1090,6 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Webpack docs](https://webpack.js.org/concepts/)
 - [Webpack 4: Code Splitting, chunk graph and the splitChunks optimization](https://medium.com/webpack/webpack-4-code-splitting-chunk-graph-and-the-splitchunks-optimization-be739a861366)
-- [link rel=”prefetch/preload” in webpack](https://medium.com/webpack/link-rel-prefetch-preload-in-webpack-51a52358f84c)
 
 ##### Concepts / Articles 💡
 
@@ -1098,11 +1098,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Keep webpack Fast: A Field Guide for Better Build Performance](https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance-f56a5995e8f1)
 - [Put Your Webpack Bundle On A Diet - Part 1](https://www.contentful.com/blog/2017/10/10/put-your-webpack-on-a-diet-part-1/)
 - [How to Fully Optimize Webpack 4 Tree Shaking](https://medium.com/@craigmiller160/how-to-fully-optimize-webpack-4-tree-shaking-405e1c76038)
-
-##### Related tools 🛠️
-
-- [BundlePhobia](https://bundlephobia.com/) - Find the cost of adding a npm package to your bundle
-- [PackagePhobia](https://github.com/styfle/packagephobia) - Find the cost of adding a new dependency to your project
+- [link rel=”prefetch/preload” in webpack](https://medium.com/webpack/link-rel-prefetch-preload-in-webpack-51a52358f84c)
 
 ##### Useful libraries 💾
 
@@ -1310,11 +1306,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Code-surfer](https://github.com/pomber/code-surfer) - React component for scrolling, zooming and highlighting code
 - [Shiki-twoslash](https://shikijs.github.io/twoslash/) - You take some Shiki, add a hint of TypeScript compiler, and tada! incredible static code samples
 
-## Advanced concepts
+## Design systems
 
-### Design Systems
-
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Living Design System](https://medium.com/salesforce-ux/living-design-system-3ab1f2280ef7)
 - [Design tokens for dummies](https://uxdesign.cc/design-tokens-for-dummies-8acebf010d71)
@@ -1327,17 +1321,19 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ReactiveConf 2019 - Mark Dalgleish: Rethinking Design Practices](https://www.youtube.com/watch?feature=youtu.be&v=jnV1u67_yVg)
 - [Everything I Know About Style Guides, Design Systems, and Component Libraries](https://leerob.io/blog/style-guides-component-libraries-design-systems)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Zeroheight](https://zeroheight.com/) - Document your design system, together
 - [Design System Playground](https://design-system-playground.netlify.com/)
 
-#### Design Systems in the wild 🌈
+### Design Systems in the wild 🌈
 
 - [Design Systems France](https://www.designsystems.fr/liste-des-designs-systems-francais) - Liste des Design Systems français
 - [Awesome-design-systems](https://github.com/alexpate/awesome-design-systems) - A collection of awesome design systems
 - [Introducing Base Web, Uber’s New Design System for Building Websites in React](https://eng.uber.com/introducing-base-web/)
 - [Braid design system](https://github.com/seek-oss/braid-design-system) - Themeable design system for the SEEK Group
+
+## Advanced concepts
 
 ### State machines
 
