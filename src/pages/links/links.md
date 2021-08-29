@@ -12,7 +12,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Shell](#shell)
   - [Git / Github](#git--github)
   - [Package managers](#package-managers)
-  - [General programming](#general-programming)
+  - [Web development tools](#web-development-tools)
 
 - [Programming languages](#programming-languages)
 
@@ -214,9 +214,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 #### Yarn
 
 - [Running Yarn offline](https://yarnpkg.com/blog/2016/11/24/offline-mirror/)
-- [Yarn-deduplicate](https://github.com/atlassian/yarn-deduplicate) - Cleans up yarn.lock by removing duplicates
 - [Welcome to JS Dependency Hell](https://medium.com/swlh/welcome-to-dependency-hell-754a896f0440)
 - [Creating a Monorepo with Lerna & Yarn Workspaces](https://leerob.io/blog/monorepo-lerna-yarn-workspaces)
+- [Yarn-deduplicate](https://github.com/atlassian/yarn-deduplicate) - Cleans up yarn.lock by removing duplicates
 - [Yarn Lock Changes](https://github.com/Simek/yarn-lock-changes) - Creates a comment inside Pull Request with the human-readable summary of changes to the Yarn lock file
 
 #### Tools
@@ -229,11 +229,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Bundlephobia](https://bundlephobia.com/) - Find the cost of adding a npm package to your bundle
 - [Packagephobia](https://packagephobia.com/) - Find the cost of adding a new dev dependency to your project
 
-### General programming
-
-- [Naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) - Comprehensive language-agnostic guidelines on variables naming
-
-### Web development
+### Web development tools
 
 - [Eruda](https://eruda.liriliri.io/) - Console for Mobile Browsers
 
@@ -278,6 +274,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [9 single-statement JS algorithms for common data transformations](https://www.benmvp.com/blog/9-single-statement-javascript-algorithms-common-data-transformations/)
 - [Refactoring cascading conditionals in favor of readability](https://blog.logrocket.com/refactoring-cascading-conditionals-favor-readability/)
 - [Browsers decode images differently](https://bien.ee/image-decoding-differences-between-browsers/)
+- [Naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) - Comprehensive language-agnostic guidelines on variables naming
 
 #### Related tools 🛠️
 
