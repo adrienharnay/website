@@ -706,16 +706,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Documentation / News 📚
 
-- [Gatsby.js docs](https://github.com/gatsbyjs/gatsby)
+- [Gatsby.js docs](https://www.gatsbyjs.com/docs)
 - [Why GraphQL for Gatsby 1.0](https://github.com/gatsbyjs/gatsby/issues/420) - Github issue
 - [Gatsby + Contentful + Netlify (and Algolia)](https://www.gatsbyjs.org/blog/2017-12-06-gatsby-plus-contentful-plus-netlify/)
 - [Announcing Gatsby 2.0.0](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/)
 - [Web Performance 102: Keeping Gatsby Sites Blazing Fast](https://www.gatsbyjs.org/blog/2019-10-03-gatsby-perf/)
 - [Beyond Static: Building Dynamic Apps with Gatsby](https://www.gatsbyjs.org/blog/2018-10-15-beyond-static-intro/)
 - [Gatsby for Apps](https://www.gatsbyjs.org/blog/2018-11-07-gatsby-for-apps/)
-- [Youfit uses Gatsby to increase lead generation by 60%](https://www.gatsbyjs.org/blog/2018-11-16-youfit-case-study/)
-- [How to Talk about Gatsby to Clients and Your Team](https://www.gatsbyjs.org/blog/2019-03-07-sell-gatsby-to-clients/)
-- [Gatsby: Why We Write](https://www.gatsbyjs.org/blog/2019-04-19-gatsby-why-we-write/)
 
 #### Concepts / Articles 💡
 
@@ -723,6 +720,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Practical Gatsby.js](https://blog.scottnonnenberg.com/practical-gatsby-js/)
 - [Using CSS Modules](https://github.com/gatsbyjs/gatsby/tree/master/examples/using-css-modules)
 - [Image Optimization Made Easy with Gatsby.js](https://medium.com/@kyle.robert.gill/ridiculously-easy-image-optimization-with-gatsby-js-59d48e15db6e)
+- [Youfit uses Gatsby to increase lead generation by 60%](https://www.gatsbyjs.org/blog/2018-11-16-youfit-case-study/)
+- [How to Talk about Gatsby to Clients and Your Team](https://www.gatsbyjs.org/blog/2019-03-07-sell-gatsby-to-clients/)
+- [Gatsby: Why We Write](https://www.gatsbyjs.org/blog/2019-04-19-gatsby-why-we-write/)
 
 #### Useful libraries 💾
 
@@ -788,8 +788,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Documentation / News 📚
 
-- [Redux docs](http://redux.js.org/docs/introduction/index.html)
-- [Getting Started with Redux - Course by @dan_abramov @eggheadio](https://egghead.io/series/getting-started-with-redux)
+- [Redux docs](https://redux.js.org/introduction/getting-started)
+- [Getting Started with Redux - Course by @dan_abramov @eggheadio](https://app.egghead.io/playlists/fundamentals-of-redux-course-from-dan-abramov-bd5cc867)
 - [Building React Applications with Idiomatic Redux - Course by @dan_abramov @eggheadio](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
 
 #### Concepts / Articles 💡
@@ -826,50 +826,65 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [GraphQL docs](http://graphql.org/learn/)
 - [Apollo Odyssey](https://odyssey.apollographql.com/) - Learn GraphQL with Apollo
+- [Principled GraphQL](https://principledgraphql.com/)
+- [Series of articles by Marc-André Giroux](https://medium.com/@__xuorig__)
+- [GraphQL Weekly](https://www.graphqlweekly.com/) - A weekly newsletter of the best news, articles and projects about GraphQL
 
 #### Concepts / Articles 💡
 
-- [Awesome-graphql](https://github.com/chentsulin/awesome-graphql) - Awesome list of GraphQL & Relay
-- [A Front-End Developer's Guide to GraphQL](https://css-tricks.com/front-end-developers-guide-graphql/)
-- [Adding GraphQL into Existing Express APIs](https://encryption.io/blog/adding-graphql-into-existing-express-apis/)
+##### Pros / cons of GraphQL
+
+- [Why GraphQL: Advantages, Disadvantages & Alternatives](https://www.robinwieruch.de/why-graphql-advantages-disadvantages-alternatives/)
+
+##### Comparisons between GraphQL and REST / other technologies
+
 - [GraphQL vs REST: Caching](https://philsturgeon.uk/api/2017/01/26/graphql-vs-rest-caching/)
 - [Why not use a JSON DSL instead of GraphQL?](https://blog.hasura.io/why-not-use-a-json-dsl-instead-of-graphql-d29f20cc97d2)
-- [Is GraphQL The Future?](http://artsy.github.io/blog/2018/05/08/is-graphql-the-future/)
-- [Reconciling GraphQL and Thrift at Airbnb](https://medium.com/airbnb-engineering/reconciling-graphql-and-thrift-at-airbnb-a97e8d290712)
-- [The GraphQL Stack](https://www.graphqlstack.com/) - Ecosystem links, layer by layer
-- [Why GraphQL: Advantages, Disadvantages & Alternatives](https://www.robinwieruch.de/why-graphql-advantages-disadvantages-alternatives/)
-- [GraphQL: A success story for PayPal Checkout](https://medium.com/paypal-engineering/graphql-a-success-story-for-paypal-checkout-3482f724fb53)
+- [Is GraphQL Still Relevant in an HTTP2 World?](https://medium.com/@__xuorig__/is-graphql-still-relevant-in-an-http2-world-64964f207b8)
+
+##### Type generation with GraphQL
+
+- [Generate Javascript static types from GraphQL: TypeScript and Flow](https://medium.com/graphql-mastery/generate-javascript-static-types-from-graphql-typescript-and-flow-4d28b46b8d13)
+
+##### Implementation examples
+
+- [Adding GraphQL into Existing Express APIs](https://encryption.io/blog/adding-graphql-into-existing-express-apis/)
 - [Building a GraphQL API by Example: Restaurant Reviews](https://medium.com/open-graphql/building-a-graphql-api-by-example-restaurant-reviews-acd80d60ec77)
-- [Lessons Learned Migrating APIs to GraphQL](https://mobile.twitter.com/swcarlosrj/status/1067288761585799169) - Twitter thread
+
+##### Others
+
+- [Awesome-graphql](https://github.com/chentsulin/awesome-graphql) - Awesome list of GraphQL & Relay
+- [A Front-End Developer's Guide to GraphQL](https://css-tricks.com/front-end-developers-guide-graphql/)
+- [Is GraphQL The Future?](http://artsy.github.io/blog/2018/05/08/is-graphql-the-future/)
 - [GraphQL Stitching 101](http://artsy.github.io/blog/2018/12/11/GraphQL-Stitching/)
 - [GraphQL Resolvers: Best Practices](https://medium.com/paypal-engineering/graphql-resolvers-best-practices-cd36fdbcef55)
-- [Our learnings from adopting GraphQL](https://medium.com/netflix-techblog/our-learnings-from-adopting-graphql-f099de39ae5f)
-- [Lessons Learned Migrating APIs to GraphQL](https://medium.com/open-graphql/lessons-learned-migrating-apis-to-graphql-8a015d08b163)
-- [Generate Javascript static types from GraphQL: TypeScript and Flow](https://medium.com/graphql-mastery/generate-javascript-static-types-from-graphql-typescript-and-flow-4d28b46b8d13)
-- [Series of articles by Marc-André Giroux](https://medium.com/@__xuorig__)
-- [Sofa — The best way to REST (is GraphQL)](https://medium.com/the-guild/sofa-the-best-way-to-rest-is-graphql-d9da6e8e7693)
 - [The Problems of "Schema-First" GraphQL Server Development](https://www.prisma.io/blog/the-problems-of-schema-first-graphql-development-x1mn4cb0tyl3)
-- [Principled GraphQL](https://principledgraphql.com/)
 - [The rise of GraphQL “Overambitious API gateways”](https://medium.com/@__xuorig__/the-rise-of-graphql-overambitious-api-gateways-2c6f054e80a1)
 - [The tension between data & use-case driven GraphQL APIs](https://medium.com/@__xuorig__/the-tension-between-data-use-case-driven-graphql-apis-8f982198653b)
-- [A year of large scale GraphQL - the biggest takeaways](https://dev.to/peternycander/a-year-of-large-scale-graphql-the-biggest-takeaways-3d5n)
 - [GraphQL & Caching: The Elephant in the Room](https://medium.com/@__xuorig__/graphql-caching-the-elephant-in-the-room-11a3df0c23ad)
 - [GraphQL API Design Pitfall ](https://mobile.twitter.com/__xuorig__/status/1146073879540064256) - Twitter thread
 - [The GraphQL Dataloader Pattern: Visualized](https://medium.com/@__xuorig__/the-graphql-dataloader-pattern-visualized-3064a00f319f)
-- [Is GraphQL Still Relevant in an HTTP2 World?](https://medium.com/@__xuorig__/is-graphql-still-relevant-in-an-http2-world-64964f207b8)
 - [How GraphQL can improve your development workflow](https://engineering.brigad.co/how-graphql-can-improve-your-development-workflow-d471f883778d)
 - [Why We Don’t See Many Public GraphQL APIs](https://medium.com/@__xuorig__/why-we-dont-see-many-public-graphql-apis-ad972bcb201e)
-- [Scaling GraphQL at PayPal](https://medium.com/paypal-engineering/scaling-graphql-at-paypal-b5b5ac098810)
 - [Why You Can't Select All Fields on a Type in GraphQL](https://productionreadygraphql.com/why-you-cant-select-all-fields-on-a-type-in-graphql/amp/)
-- [Hhow should we version GraphQL APIs?](https://productionreadygraphql.com/how-to-version-graphql/)
+- [How should we version GraphQL APIs?](https://productionreadygraphql.com/how-to-version-graphql/)
 - [Handling GraphQL errors like a champ with unions and interfaces](https://blog.logrocket.com/handling-graphql-errors-like-a-champ-with-unions-and-interfaces/)
 - [GraphQL in 2020: What's next?](https://productionreadygraphql.com/graphql-2020/)
 - [gqless or gqlful?](https://medium.com/@__xuorig__/gqless-or-gqlful-ec36fe588a4b)
-- [GraphQL Weekly](https://www.graphqlweekly.com/) - A weekly newsletter of the best news, articles and projects about GraphQL
-- [Try GraphQL](https://trygql.formidable.dev/) - Purpose-built Demo APIs for GraphQL
+
+#### Migration stories 📖
+
+- [Reconciling GraphQL and Thrift at Airbnb](https://medium.com/airbnb-engineering/reconciling-graphql-and-thrift-at-airbnb-a97e8d290712)
+- [GraphQL: A success story for PayPal Checkout](https://medium.com/paypal-engineering/graphql-a-success-story-for-paypal-checkout-3482f724fb53)
+- [Our learnings from adopting GraphQL](https://medium.com/netflix-techblog/our-learnings-from-adopting-graphql-f099de39ae5f)
+- [Lessons Learned Migrating APIs to GraphQL](https://medium.com/open-graphql/lessons-learned-migrating-apis-to-graphql-8a015d08b163)
+- [Lessons Learned Migrating APIs to GraphQL](https://mobile.twitter.com/swcarlosrj/status/1067288761585799169) - Twitter thread
+- [A year of large scale GraphQL - the biggest takeaways](https://dev.to/peternycander/a-year-of-large-scale-graphql-the-biggest-takeaways-3d5n)
+- [Scaling GraphQL at PayPal](https://medium.com/paypal-engineering/scaling-graphql-at-paypal-b5b5ac098810)
 
 #### Useful libraries 💾
 
+- [Sofa — The best way to REST (is GraphQL)](https://medium.com/the-guild/sofa-the-best-way-to-rest-is-graphql-d9da6e8e7693)
 - [Graphql-doctor](https://github.com/cap-collectif/graphql-doctor) - Prevent Breaking Changes in a GraphQL API with GitHub Checks
 - [Eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) - Check your GraphQL query strings against a schema
 - [Gest](https://github.com/mfix22/gest) - A sensible GraphQL testing tool - test your GraphQL schema locally and in the cloud
@@ -877,6 +892,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 #### Related tools 🛠️
 
+- [Try GraphQL](https://trygql.formidable.dev/) - Purpose-built Demo APIs for GraphQL
 - [GraphiQL](http://graphql.org/swapi-graphql/) - In-browser IDE for writing, validating, and testing GraphQL queries
 - [Introducing GraphQL for Visual Studio Code](https://www.prisma.io/blog/vscode-thieghu7shoo/)
 - [DocQL](https://docql.io/) - Beautiful documentation & guides for your GraphQL APIs
