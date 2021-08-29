@@ -1785,6 +1785,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Career ladders
 
+- [Progression.fyi](https://www.progression.fyi/)
 - [Rent the Runway career ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
 - [Kickstarter carrer ladder](https://gist.github.com/jamtur01/aef437a79fee5a9cefdc)
 
