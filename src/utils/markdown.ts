@@ -6,14 +6,12 @@ import remarkBehead from 'remark-behead';
 import remarkExtractFrontmatter from 'remark-extract-frontmatter';
 import remarkFrontmatter from 'remark-frontmatter';
 import remarkParse from 'remark-parse';
-// @ts-expect-error
-import remarkPrism from 'remark-prism';
 import remarkRehype from 'remark-rehype';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeDocument from 'rehype-document';
 import rehypeFormat from 'rehype-format';
 // @ts-expect-error (no types)
-import rehypePrism from '@mapbox/rehype-prism';
+import rehypeShiki from 'rehype-shiki';
 import rehypeSlug from 'rehype-slug';
 import rehypeStringify from 'rehype-stringify';
 import { parse as parseYaml } from 'yaml';
@@ -38,7 +36,7 @@ export const getSyntaxHighlightedHTMLFromMarkdown = async (path: string) => {
 
   try {
     processedContent = await preprocessRemarkRehype()
-      .use(rehypePrism)
+      .use(rehypeShiki, { theme: 'one-dark-pro' })
       .process(readSync(path));
   } catch (error) {
     console.error(reporter(error as VFile));
