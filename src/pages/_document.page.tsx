@@ -16,6 +16,7 @@ class MyDocument extends Document {
                 src="https://getinsights.io/js/insights.js"
               ></script>
               <script
+                defer
                 dangerouslySetInnerHTML={{
                   __html:
                     'insights.init("zML99JhMRR7_qeqN");insights.trackPages();',
