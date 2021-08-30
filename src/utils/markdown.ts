@@ -36,7 +36,7 @@ export const getSyntaxHighlightedHTMLFromMarkdown = async (path: string) => {
 
   try {
     processedContent = await preprocessRemarkRehype()
-      .use(rehypeShiki, { theme: 'one-dark-pro' })
+      .use(rehypeShiki)
       .process(readSync(path));
   } catch (error) {
     throw new Error(reporter(error as VFile));
