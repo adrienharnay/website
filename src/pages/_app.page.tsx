@@ -1,6 +1,5 @@
 import 'normalize.css';
 import 'src/styles/global.scss';
-import 'src/styles/prism.css';
 
 import React, { FunctionComponent } from 'react';
 import type { AppProps } from 'next/app';

@@ -46,13 +46,14 @@ export const getAllPostsIds = () => {
 
 export const getPostData = async (id: string) => {
   const fullPath = path.join(postsDirectory, `${id}.md`);
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-  const matterResult = matter(fileContents);
+  const { html, frontmatter } = await getSyntaxHighlightedHTMLFromMarkdown(
+    fullPath,
+  );
 
   return {
     id,
-    html: await getSyntaxHighlightedHTMLFromMarkdown(matterResult.content),
-    ...(matterResult.data as PostMetadata),
+    html,
+    ...(frontmatter as PostMetadata),
   };
 };

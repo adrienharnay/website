@@ -1,32 +1,64 @@
-import remark from 'remark';
-import html from 'remark-html';
+import { readSync } from 'to-vfile';
+import { reporter } from 'vfile-reporter';
+import { unified } from 'unified';
 // @ts-expect-error
-import prism from 'remark-prism';
-// @ts-expect-error
-import slug from 'remark-slug';
-// @ts-expect-error
-import headings from 'remark-autolink-headings';
-// @ts-expect-error
-import behead from 'remark-behead';
+import remarkBehead from 'remark-behead';
+import remarkExtractFrontmatter from 'remark-extract-frontmatter';
+import remarkFrontmatter from 'remark-frontmatter';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeDocument from 'rehype-document';
+import rehypeFormat from 'rehype-format';
+// @ts-expect-error (no types)
+import rehypeShiki from 'rehype-shiki';
+import rehypeSlug from 'rehype-slug';
+import rehypeStringify from 'rehype-stringify';
+import { parse as parseYaml } from 'yaml';
+import { VFile } from 'vfile/lib';
 
-export const getSyntaxHighlightedHTMLFromMarkdown = async (content: string) => {
-  const processedContent = await remark()
-    .use(slug)
-    .use(headings)
-    .use(behead, { depth: 1 })
-    .use(html)
-    .use(prism)
-    .process(content);
+const preprocessRemarkRehype = () =>
+  unified()
+    .use(remarkParse)
+    .use(remarkBehead, { depth: 1 })
+    .use(remarkFrontmatter)
+    .use(remarkExtractFrontmatter, { yaml: parseYaml, name: 'frontmatter' })
 
-  return processedContent.toString();
+    .use(remarkRehype)
+    .use(rehypeSlug)
+    .use(rehypeAutolinkHeadings)
+    .use(rehypeDocument)
+    .use(rehypeFormat)
+    .use(rehypeStringify);
+
+export const getSyntaxHighlightedHTMLFromMarkdown = async (path: string) => {
+  let processedContent: VFile | undefined;
+
+  try {
+    processedContent = await preprocessRemarkRehype()
+      .use(rehypeShiki)
+      .process(readSync(path));
+  } catch (error) {
+    throw new Error(reporter(error as VFile));
+  }
+
+  return {
+    html: processedContent.toString(),
+    frontmatter: processedContent.data?.frontmatter,
+  };
 };
 
-export const getHTMLFromMarkdown = async (content: string) => {
-  const processedContent = await remark()
-    .use(slug)
-    .use(headings)
-    .use(html)
-    .process(content);
+export const getHTMLFromMarkdown = async (path: string) => {
+  let processedContent;
 
-  return processedContent.toString();
+  try {
+    processedContent = await preprocessRemarkRehype().process(readSync(path));
+  } catch (error) {
+    throw new Error(reporter(error as VFile));
+  }
+
+  return {
+    html: processedContent.toString(),
+    frontmatter: processedContent.data?.frontmatter,
+  };
 };

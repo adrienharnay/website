@@ -6,12 +6,14 @@ import MainLayout from 'src/layouts/main-layout/MainLayout';
 
 import styles from './index.module.scss';
 
+import StrangerThingsGif from 'public/images/pages/404/stranger-things.gif';
+
 const NotFoundPage = () => (
   <MainLayout>
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image
-          src="/images/pages/404/stranger-things.gif"
+          src={StrangerThingsGif}
           width={480}
           height={236}
           alt="mike found pudding"

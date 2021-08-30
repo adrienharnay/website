@@ -4,13 +4,15 @@ import Image from 'next/image';
 import styles from './BioSection.module.scss';
 import SocialLinks from './SocialLinks';
 
+import AdrienImage from 'public/images/pages/skills/adrien.jpg';
+
 const BioSection: FunctionComponent = () => {
   return (
     <section>
       <div className={styles.bioPictureContainer}>
         <div className={styles.pictureContainer}>
           <Image
-            src="/images/pages/skills/adrien.jpg"
+            src={AdrienImage}
             width={220}
             height={220}
             layout="fixed"

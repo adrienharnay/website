@@ -336,11 +336,6 @@
       }
     }
 
-    :global(.remark-highlight) {
-      width: 100%;
-      margin-bottom: 1em;
-    }
-
     code {
       padding: 0 5px 2px;
       font-size: 0.8em;
@@ -351,13 +346,15 @@
     }
 
     pre {
+      width: 100%;
+      margin-bottom: 1em !important;
       max-width: 100%;
       overflow-x: auto;
-      border: darken($darkgrey, 10%) 1px solid;
       font-size: 1.4rem;
       line-height: 1.5em;
-      background: darken($darkgrey, 3%);
-      margin: 0 !important;
+      padding: 1em !important;
+      overflow: auto;
+      border-radius: 0.3em !important;
     }
 
     pre code {
