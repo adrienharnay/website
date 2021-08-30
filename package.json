@@ -34,6 +34,7 @@
     "remark-behead": "2.3.3",
     "remark-extract-frontmatter": "3.1.0",
     "remark-frontmatter": "4.0.0",
+    "remark-parse": "10.0.0",
     "remark-rehype": "9.0.0",
     "sass": "1.32.8",
     "smooth-scroll-into-view-if-needed": "1.1.32",

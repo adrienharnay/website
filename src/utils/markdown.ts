@@ -39,12 +39,12 @@ export const getSyntaxHighlightedHTMLFromMarkdown = async (path: string) => {
       .use(rehypeShiki, { theme: 'one-dark-pro' })
       .process(readSync(path));
   } catch (error) {
-    console.error(reporter(error as VFile));
+    throw new Error(reporter(error as VFile));
   }
 
   return {
-    html: processedContent?.toString(),
-    frontmatter: processedContent?.data?.frontmatter,
+    html: processedContent.toString(),
+    frontmatter: processedContent.data?.frontmatter,
   };
 };
 
@@ -54,13 +54,11 @@ export const getHTMLFromMarkdown = async (path: string) => {
   try {
     processedContent = await preprocessRemarkRehype().process(readSync(path));
   } catch (error) {
-    console.error(reporter(error as VFile));
+    throw new Error(reporter(error as VFile));
   }
 
-  console.log(processedContent);
-
   return {
-    html: processedContent?.toString(),
-    frontmatter: processedContent?.data?.frontmatter,
+    html: processedContent.toString(),
+    frontmatter: processedContent.data?.frontmatter,
   };
 };
