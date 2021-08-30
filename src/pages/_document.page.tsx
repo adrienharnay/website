@@ -19,7 +19,7 @@ class MyDocument extends Document {
                 defer
                 dangerouslySetInnerHTML={{
                   __html:
-                    'insights.init("zML99JhMRR7_qeqN");insights.trackPages();',
+                    'window.onload=function(){insights.init("zML99JhMRR7_qeqN");insights.trackPages();}',
                 }}
               />
             </>
