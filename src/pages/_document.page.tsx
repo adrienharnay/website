@@ -11,7 +11,10 @@ class MyDocument extends Document {
           <NextScript />
           {process.env.NODE_ENV === 'production' && (
             <>
-              <script src="https://getinsights.io/js/insights.js"></script>
+              <script
+                defer
+                src="https://getinsights.io/js/insights.js"
+              ></script>
               <script
                 dangerouslySetInnerHTML={{
                   __html:

@@ -17,6 +17,8 @@
     "@types/qs": "6.9.7",
     "@types/react": "17.0.19",
     "@types/react-dom": "17.0.9",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
     "gray-matter": "4.0.3",
     "nextjs-sitemap-generator": "1.3.1",
     "postcss": "8.3.6",
@@ -50,6 +52,8 @@
     "modules:clean": "rm -rf node_modules",
     "cache:clean": "rm -rf .next/cache",
     "build:clean": "rm -rf .next && rm -rf out && rm public/sitemap.xml",
-    "lint:ts": "tsc --incremental"
+    "lint": "yarn lint:ts && yarn lint:js",
+    "lint:ts": "tsc --incremental",
+    "lint:js": "next lint"
   }
 }
