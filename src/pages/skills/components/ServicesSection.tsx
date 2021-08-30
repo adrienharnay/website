@@ -6,6 +6,8 @@ import ContactMeGradientButton from './ContactMeGradientButton';
 
 import styles from './ServicesSection.module.scss';
 
+import CheckMarkIcon from 'public/images/pages/skills/check-mark.svg';
+
 const ServicesSection: FunctionComponent = () => {
   return (
     <section>
@@ -37,7 +39,7 @@ const ServicesSection: FunctionComponent = () => {
                   <li key={feature}>
                     <div className={styles.icon}>
                       <Image
-                        src="/images/pages/skills/check-mark.svg"
+                        src={CheckMarkIcon}
                         width={18}
                         height={13}
                         alt="check-mark"

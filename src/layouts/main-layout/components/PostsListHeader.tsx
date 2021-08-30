@@ -7,12 +7,14 @@ import SocialMediaIcons from './common/SocialMediaIcons';
 
 import styles from './PostsListHeader.module.scss';
 
+import MainLayoutCover from 'public/images/layouts/main-layout-cover.jpg';
+
 const PostsListHeader: FunctionComponent = () => {
   return (
     <header className={styles.container}>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/layouts/main-layout-cover.jpg"
+          src={MainLayoutCover}
           alt="sky full of stars"
           priority
           quality={85}
