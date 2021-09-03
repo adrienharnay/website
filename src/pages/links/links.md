@@ -5,7 +5,7 @@ excerpt: 'I have gathered this list of links over the time, made of resources I 
 
 Everytime I find a new resource and think I might need it in the future, it gets added to this list. I hope it can help you as much as it helps me.
 
-## Table of content
+# Table of content
 
 - [Developer toolbox](#developer-toolbox)
 
@@ -200,25 +200,25 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
   - [Talks](#talks)
 
-## Developer toolbox
+# Developer toolbox
 
-### Shell
+## Shell
 
 - [tldr pages](https://tldr.sh/) - Simplified and community-driven man pages
 - [Explainshell](https://explainshell.com/) - Write down a command-line to see the help text that matches each argument
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) - VSCode extension
 - [Shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) - VSCode extension
 
-### Git / Github
+## Git / Github
 
 - [Git flight rules](https://github.com/k88hudson/git-flight-rules) - Flight rules for git
 - [Tell Me When it Closes](https://tellmewhenitcloses.com/) - Get only 1 email when an issue or PR closes
 - [GitHub Contributions Chart Generator](https://github-contributions.now.sh/)
 - [8 Productivity Tips for GitHub](https://dev.to/_darrenburns/8-productivity-tips-for-github-44kn)
 
-### Package managers
+## Package managers
 
-#### Yarn
+### Yarn
 
 - [Running Yarn offline](https://yarnpkg.com/blog/2016/11/24/offline-mirror/)
 - [Welcome to JS Dependency Hell](https://medium.com/swlh/welcome-to-dependency-hell-754a896f0440)
@@ -226,7 +226,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Yarn-deduplicate](https://github.com/atlassian/yarn-deduplicate) - Cleans up yarn.lock by removing duplicates
 - [Yarn Lock Changes](https://github.com/Simek/yarn-lock-changes) - Creates a comment inside Pull Request with the human-readable summary of changes to the Yarn lock file
 
-#### Tools
+### Tools
 
 - [Path-package](https://github.com/ds300/patch-package) - Fix broken node modules with no fuss
 - [Npkill](https://github.com/voidcosmos/npkill) - List any node_modules directories in your system, as well as the space they take up. You can then select which ones you want to erase to free up space
@@ -236,26 +236,26 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Bundlephobia](https://bundlephobia.com/) - Find the cost of adding a npm package to your bundle
 - [Packagephobia](https://packagephobia.com/) - Find the cost of adding a new dev dependency to your project
 
-### Web development tools
+## Web development tools
 
 - [How to Simulate Mobile Devices with Device Mode in Chrome](https://www.sitepoint.com/how-to-simulate-mobile-devices-with-device-mode-in-chrome/)
 - [Eruda](https://eruda.liriliri.io/) - Console for Mobile Browsers
 - [OutFrontJS](https://github.com/paanSinghCoder/OutFrontJS) - Console for mobile browsers
 
-## Programming languages
+# Programming languages
 
-### JavaScript
+## JavaScript
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Mozilla re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 - [EcmaScript 6 Features](http://es6-features.org/)
 - [Asynchronous JS Cheatsheet](https://frontarm.com/async-cheatsheet.pdf)
 - [Flavio Copes JavaScript tutorials](https://flaviocopes.com/tags/js/)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
-##### JavaScript features
+#### JavaScript features
 
 - [Modern Javascript: Everything you missed over the last 10 years (ECMAScript 2020)](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
 - [ES6: Default Arguments](https://remysharp.com/2017/10/25/es6-default-arguments)
@@ -263,7 +263,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Property order is predictable in JavaScript objects since ES2015](https://www.stefanjudis.com/today-i-learned/property-order-is-predictable-in-javascript-objects-since-es2015/)
 - [Working With Strings in Modern JavaScript](https://www.baseclass.io/guides/string-handling-modern-js)
 
-##### JavaScript patterns
+#### JavaScript patterns
 
 - [A Beginner’s Guide to Currying in Functional JavaScript](https://www.sitepoint.com/currying-in-functional-javascript/)
 - [Awesome one-liners you might find useful while coding](https://mobile.twitter.com/coderitual/status/1112297299307384833)
@@ -274,13 +274,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Refactoring cascading conditionals in favor of readability](https://blog.logrocket.com/refactoring-cascading-conditionals-favor-readability/)
 - [Naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) - Comprehensive language-agnostic guidelines on variables naming
 
-##### Functional / Declarative programming
+#### Functional / Declarative programming
 
 - [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
 - [JavaScript Without Loops](https://jrsinclair.com/articles/2017/javascript-without-loops/)
 - [How I rediscovered my love for JavaScript after throwing 90% of it in the trash](https://hackernoon.com/how-i-rediscovered-my-love-for-javascript-after-throwing-90-of-it-in-the-trash-f1baed075d1b)
 
-##### Others
+#### Others
 
 - [The increasing nature of frontend complexity](https://blog.logrocket.com/the-increasing-nature-of-frontend-complexity-b73c784c09ae)
 - [Contrarian idea: JS doesn't move too fast](https://mobile.twitter.com/dceddia/status/1036807827547930624) - Twitter thread
@@ -292,14 +292,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How To Use Vibration API In Your Website](https://blog.bibekkakati.me/how-to-use-vibration-api-in-your-website)
 - [Browsers decode images differently](https://bien.ee/image-decoding-differences-between-browsers/)
 
-#### Related tools 🛠️
+### Related tools 🛠️
 
 - [Operator Lookup](https://www.joshwcomeau.com/operator-lookup/) - Enter a JavaScript operator to learn more about it
 - [DOM Events](https://domevents.dev/) - Learn about the DOM Event system through exploration
 - [Does it mutate?](https://doesitmutate.xyz/) - Learn which functions of the language mutate and which do not
 - [Airbnb JavaScript styleguide](https://github.com/airbnb/javascript)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Tippy.js](https://atomiks.github.io/tippyjs/) - A highly customizable vanilla JS tooltip & popover library
 - [NProgress.js](http://ricostacruz.com/nprogress/) - A nanoscopic progress bar. With realistic trickle animations to tell your users that something's happening
@@ -316,20 +316,20 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Zx](https://github.com/google/zx) - A tool for writing better scripts
 - [Elementary](https://www.elementary.audio/) - Finally, write audio apps in JavaScript
 
-#### Games 🎲
+### Games 🎲
 
 - [Yare](https://yare.io/) - Real-Time Strategy game where you control your units by writing JavaScript code
 
-### TypeScript
+## TypeScript
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [TypeScript docs](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [TypeScript Evolution](https://mariusschulz.com/blog/series/typescript-evolution)
 - [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
 - [TypeScript and Babel 7](https://blogs.msdn.microsoft.com/typescript/2018/08/27/typescript-and-babel-7/)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Understanding TypeScript’s type notation](http://2ality.com/2018/04/type-notation-typescript.html)
 - [The TypeScript Tax](https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b) - A Cost vs Benefit Analysis
@@ -337,20 +337,20 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Understanding TypeScript Generics](https://seanbarry.dev/posts/understanding-typescript-generics)
 - [Starting a TypeScript Project in 2021](https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/)
 
-#### Migration stories 📖
+### Migration stories 📖
 
 - [DevTools architecture refresh: migrating DevTools to TypeScript](https://developer.chrome.com/blog/migrating-to-typescript/)
 - [Slow and Steady: Converting Sentry’s Entire Frontend to TypeScript](https://blog.sentry.io/2021/04/12/slow-and-steady-converting-sentrys-entire-frontend-to-typescript)
 - [The continual evolution of Airtable’s codebase: Migrating a million lines of code to TypeScript](https://medium.com/airtable-eng/the-continual-evolution-of-airtables-codebase-migrating-a-million-lines-of-code-to-typescript-612c008baf5c)
 
-#### Related tools 🛠️
+### Related tools 🛠️
 
 - [TypeScript Playground](https://www.typescriptlang.org/play/)
 - [Type challenges](https://github.com/type-challenges/type-challenges)
 - [Typescript-cheatsheet](https://github.com/typescript-cheatsheets/utilities) - A list of typescript helper libraries
 - [New ESLint / TypeScript Configuration](https://calendee.com/2019/04/12/new-eslint-typescript-configuration/)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [React-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform) - Convert React JavaScript code to TypeScript with proper typing
 - [Flow2ts](https://github.com/microsoft/flow2dts) - Flow declarations to TypeScript declarations transpiler
@@ -358,25 +358,25 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Type-fest](https://github.com/sindresorhus/type-fest) - A collection of essential TypeScript types
 - [Ts-pattern](https://github.com/gvergnaud/ts-pattern) - An exhaustive Pattern Matching library for TypeScript, with smart type inference
 
-### Reason
+## Reason
 
 - [ReasonML docs](https://reasonml.github.io/docs/en/installation)
 - [Reason React Playground](https://astrada.github.io/reason-react-playground/?reason=LYewJgrgNgpgBAcQE4xgFwJYDsDmcC8cA3gFBxyxpwDGIwADiFjFlYQEowCGAzk512poAdDzRc0MWDx4BhOo2asAFACJkqTLlUBKANxkK6OMC4BreIWUB9agAsMUMCiw6CAPmKHyw37QZMLGgANN5wLmAwSABccMo8UgBmbvieADwARhBoaEyeygJ8WAJComhI2DgAKiAAorDAQWoAElJQIACEum5pAPRZOXmGAL4GoyQkJWgAIgDyALKcwhFRNfUwjawA6hhodgCSYMppGuiVcL3uwXCq9CgAbhgwAO66ekA)
 
-### HTML
+## HTML
 
-#### Semantics
+### Semantics
 
 - [HTML & CSS is hard](https://internetingishard.com/html-and-css/) - Course to learn HTML & CSS
 - [Understanding why Semantic HTML is important, as told by TypeScript](https://medium.com/@mandy.michael/understanding-why-semantic-html-is-important-as-told-by-typescript-bd71ad41e6c4)
 
-#### HTML accessibility
+### HTML accessibility
 
 - [Practical ARIA Examples](http://heydonworks.com/practical_aria_examples/)
 
-### CSS
+## CSS
 
-#### CSS base features
+### CSS base features
 
 - [Pseudo-classes MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 - [Margin or padding?](https://hackernoon.com/margin-or-padding-f5252562313)
@@ -394,7 +394,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Practical CSS Scroll Snapping](https://css-tricks.com/practical-css-scroll-snapping/)
 - [Easing Gradients](https://larsenwork.com/easing-gradients/)
 
-#### Others
+### Others
 
 - ["last 2 versions" considered harmful](https://jamie.build/last-2-versions)
 - [How to force restart any iOS device with just CSS?](https://mobile.twitter.com/pwnsdx/status/1040944750973595649) - Twitter thread
@@ -403,18 +403,18 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Just in Case Mindset in CSS](https://ishadeed.com/article/the-just-in-case-mindset-css/)
 - [Thoughts on CSS frameworks and stylized component libraries](https://www.joshwcomeau.com/newsletter-issues/012/#thoughts-on-css-frameworks-and-stylized-component-libraries) - From Josh Comeau's newsletter
 
-#### Flexbox
+### Flexbox
 
 - [Flexbox Zombies](https://mastery.games/p/flexbox-zombies) - Free course on flexboxes
 - [Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure) - Free course on flexboxes
 - [Test CSS Flexbox Rules](http://flexbox.help/)
 
-#### Grid
+### Grid
 
 - [Grid critters](http://www.gridcritters.com/) - Free course on grid
 - [CSS Grid Layout Interface](https://www.layoutit.com/grid)
 
-#### Transitions / animations
+### Transitions / animations
 
 - [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
 - [How to create fancy revealing animations with these simple CSS tricks](https://hackernoon.com/how-to-create-fancy-revealing-animations-with-these-simple-css-tricks-5b34614ae69a)
@@ -425,11 +425,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [A whimsical twist on hover transitions](https://www.joshwcomeau.com/react/boop/)
 - [Transition.css](https://github.com/argyleink/transition.css) - Drop-in CSS transitions
 
-#### Data visualization
+### Data visualization
 
 - [Charts.css](https://chartscss.org/) - CSS data visualization framework
 
-#### Cool demos
+### Cool demos
 
 - [Moving letters](http://tobiasahlin.com/moving-letters/)
 - [Single element CSS spinners](https://projects.lukehaas.me/css-loaders/)
@@ -443,18 +443,18 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ui.wtf](https://uiw.tf/)
 - [The Hero Generator](https://hero-generator.netlify.app/) - Hero cover generator
 
-#### SCSS
+### SCSS
 
 - [Advanced SCSS, or, 16 cool things you may not have known your stylesheets could do](https://gist.github.com/jareware/4738651)
 - [Linting SCSS files with settings for orders in logical chunks](https://gist.github.com/samuells/8915a1d32ac93f5c904893663f399218)
 - [Where is the source of Autoprefixer data?](https://mobile.twitter.com/autoprefixer/status/1168232858114244608) - Twitter thread
 
-#### CSS Modules
+### CSS Modules
 
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [CSS Modules - Welcome to the future](https://glenmaddern.com/articles/css-modules)
 
-#### CSS-in-JS
+### CSS-in-JS
 
 - [Stop using CSS in JavaScript for web development](https://medium.com/@gajus/stop-using-css-in-javascript-for-web-development-fa32fb873dcc)
 - [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
@@ -465,35 +465,35 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [vanilla-extract](https://vanilla-extract.style/) - Zero-runtime Stylesheets-in-TypeScript
 - [Sprinkles](https://github.com/seek-oss/vanilla-extract/tree/master/packages/sprinkles) - Zero-runtime atomic CSS framework for vanilla-extract
 
-#### JS-in-CSS (because why not)
+### JS-in-CSS (because why not)
 
 - [React-native-css-modules](https://github.com/kristerkari/react-native-css-modules) - Use CSS modules in React Native
 - [React-native-sass-transformer](https://github.com/kristerkari/react-native-sass-transformer) - Load Sass files to react native style objects
 
-#### Other CSS frameworks
+### Other CSS frameworks
 
 - [Why Tailwind Isn't for Me](https://dev.to/jaredcwhite/why-tailwind-isn-t-for-me-5c90)
 
-#### Common CSS bugs
+### Common CSS bugs
 
 - [Internet Explorer Hacks](https://medium.com/codeart-mk/internet-explorer-hacks-796200e5741c)
 
-## Frameworks
+# Frameworks
 
-### NodeJS
+## NodeJS
 
 - [Node.js](https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine
 - [Node best practices](https://github.com/i0natan/nodebestpractices) - The largest Node.JS best practices list. Curated from the top ranked articles and always updated
 - [Super Simple Start to ESModules in Node.js](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-node-js)
 - [fnm](https://github.com/Schniz/fnm) - Fast and simple Node.js version manager, built in Rust
 
-### Deno
+## Deno
 
 - [Deno](https://deno.land/) - A secure runtime for JavaScript and TypeScript
 
-### React
+## React
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [React docs](https://facebook.github.io/react/docs/hello-world.html)
 - [Behind the Scenes: Improving the Repository Infrastructure](https://reactjs.org/blog/2017/12/15/improving-the-repository-infrastructure.html) - React 16 release retrospective
@@ -505,14 +505,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React 16.x Roadmap](https://reactjs.org/blog/2018/11/27/react-16-roadmap.html)
 - [Building the New facebook.com with React, GraphQL and Relay](https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
-##### React prerequisites
+#### React prerequisites
 
 - [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 - [Typescript-cheatsheets-react](https://github.com/typescript-cheatsheets/react) - Cheatsheets for experienced React developers getting started with TypeScript
 
-##### React functional components & hooks
+#### React functional components & hooks
 
 - [React Stateless Functional Components: Nine Wins You Might Have Overlooked](https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc)
 - [Making Sense of React Hooks](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
@@ -522,7 +522,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
 - [React hook flow diagram](https://github.com/donavon/hook-flow/blob/master/hook-flow.pdf)
 
-##### React patterns
+#### React patterns
 
 - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 - [React-bits](https://github.com/vasanthk/react-bits) - React patterns, techniques, tips and tricks
@@ -544,7 +544,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
 - [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
 
-##### Others
+#### Others
 
 - [What is React: A Visual Introduction For Beginners](https://learnreact.design/posts/what-is-react)
 - [The React Handbook](https://medium.freecodecamp.org/the-react-handbook-b71c27b0a795)
@@ -560,7 +560,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React 18 Alpha is out! Now what?](https://dev.to/cassidoo/react-18-alpha-is-out-now-what-2apj)
 - [Not All Components Are Created Equal](https://formidable.com/blog/2021/react-components/)
 
-#### Related tools 🛠️
+### Related tools 🛠️
 
 - [Lifecycle Simulators](https://reactarmory.com/guides/lifecycle-simulators)
 - [Use React DevTools - Youtube](https://www.youtube.com/watch?v=DQjMiKEwl_E&feature=youtu.be)
@@ -568,7 +568,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-codemod](https://github.com/reactjs/react-codemod) - React codemod scripts
 - [SVGR : The SVG to JSX transformer](https://svgr.now.sh/)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [React components & libraries](https://devarchy.com/react)
 - [JS.coach](https://js.coach/)
@@ -613,7 +613,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-gui](https://ixrvy.sse.codesandbox.io/docs/) - React GUI is designed as the foundation for React design systems and component libraries
 - [React-joyride](https://github.com/gilbarbara/react-joyride) - Create guided tours in your apps
 
-#### Hooks
+### Hooks
 
 - [The-platform](https://github.com/palmerhq/the-platform) - Web API's turned into React Hooks and Suspense-friendly React components
 - [Hooks.guide](https://www.hooks.guide/)
@@ -625,9 +625,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [5 Tips to Help You Avoid React Hooks Pitfalls](https://kentcdodds.com/blog/react-hooks-pitfalls)
 - [React-adaptive-hooks](https://github.com/GoogleChromeLabs/react-adaptive-hooks) - Deliver experiences best suited to a user's device and network constraints
 
-### React Native
+## React Native
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html)
 - [State of React Native 2018](https://facebook.github.io/react-native/blog/2018/06/14/state-of-react-native-2018)
@@ -635,22 +635,22 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Hermes: An open source JavaScript engine optimized for mobile apps, starting with React Native](https://code.fb.com/android/hermes/)
 - [React Native's Many Platform Vision](https://reactnative.dev/blog/2021/08/26/many-platform-vision)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
-##### React Native prerequisites
+#### React Native prerequisites
 
 - [Why Choose React Native?](https://formidable.com/blog/2021/choose-react-native/)
 - [Know React? Try React Native.](https://shift.infinite.red/know-react-try-react-native-48f459f36675)
 - [Typescript-cheatsheets-react-native](https://github.com/typescript-cheatsheets/react-native) - Cheatsheets for experienced React Native developers getting started with TypeScript
 
-##### React Native patterns
+#### React Native patterns
 
 - [React Native Performance: Do and Don't](https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a)
 - [Setup your React Native splash screen in 15 minutes](https://blog.bam.tech/developer-news/set-up-your-react-native-splash-screen-in-15-minutes)
 - [How I improved my React Native app 50x faster](https://blog.inkdrop.info/how-i-improved-my-react-native-app-50x-faster-13d566061e84)
 - [ELI5: Yoga - Cross-Platform Layout Engine](https://developers.facebook.com/blog/post/2021/02/01/eli5-yoga-cross-platform-layout-engine/)
 
-##### Others
+#### Others
 
 - [Awesome React Native](http://www.awesome-react-native.com/) - An awesome style list that curates the best React Native libraries, tools, tutorials, articles and more
 - [Hunting JS memory leaks in React Native apps](https://blog.swmansion.com/hunting-js-memory-leaks-in-react-native-apps-bd73807d0fde?gi=84508c8ef0c7)
@@ -671,13 +671,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Optimizing React Native](https://blog.coinbase.com/optimizing-react-native-7e7bf7ac3a34)
 - [How Discord achieves native iOS performance with React Native](https://blog.discord.com/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502)
 
-#### Migration stories 📖
+### Migration stories 📖
 
 - [React Native at Airbnb](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c)
 - [React Native is the Future of Mobile at Shopify](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify)
 - [Announcing Coinbase’s successful transition to React Native](https://blog.coinbase.com/announcing-coinbases-successful-transition-to-react-native-af4c591df971)
 
-#### Related tools 🛠️
+### Related tools 🛠️
 
 - [Create-react-native-app](https://github.com/react-community/create-react-native-app) - Create a React Native app on any OS with no build config
 - [Flipper](https://fbflipper.com/) - Extensible mobile app debugger
@@ -687,7 +687,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Android-capture](https://github.com/ds300/android-capture) - Capture video and screenshots from Android devices and emulators
 - [Don't kill my app!](https://dontkillmyapp.com/) - Android manufacturers prefer battery life over proper functionality of your apps. See how you can fix it
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [React-native-sideswipe](https://github.com/kkemple/react-native-sideswipe) - Simple React Native carousel with sensible defaults
 - [React-native-fast-image](https://github.com/DylanVann/react-native-fast-image) - FastImage, performant React Native image component
@@ -701,19 +701,19 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Stripe-react-native](https://github.com/stripe/stripe-react-native) - React Native library for Stripe
 - [React-native-mmkv](https://github.com/mrousavy/react-native-mmkv) - ⚡An extremely fast key/value storage library for React Native. ~30x faster than AsyncStorage!
 
-### Native Mobile Development
+## Native Mobile Development
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Litho](https://fblitho.com/) - A declarative UI framework for Android
 - [ComponentKit](https://componentkit.org/) - A React-Inspired View Framework for iOS
 - [Shard](https://shardlib.com/) - Dynamic alerts in mobile apps
 
-## React frameworks
+# React frameworks
 
-### Gatsby.js
+## Gatsby.js
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Gatsby.js docs](https://www.gatsbyjs.com/docs)
 - [Why GraphQL for Gatsby 1.0](https://github.com/gatsbyjs/gatsby/issues/420) - Github issue
@@ -723,7 +723,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Beyond Static: Building Dynamic Apps with Gatsby](https://www.gatsbyjs.org/blog/2018-10-15-beyond-static-intro/)
 - [Gatsby for Apps](https://www.gatsbyjs.org/blog/2018-11-07-gatsby-for-apps/)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Gatsby.js: How to set up and use the React Static Site Generator](https://medium.freecodecamp.org/setting-up-and-getting-used-to-gatsby-1fc27985ae8a)
 - [Practical Gatsby.js](https://blog.scottnonnenberg.com/practical-gatsby-js/)
@@ -733,18 +733,18 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to Talk about Gatsby to Clients and Your Team](https://www.gatsbyjs.org/blog/2019-03-07-sell-gatsby-to-clients/)
 - [Gatsby: Why We Write](https://www.gatsbyjs.org/blog/2019-04-19-gatsby-why-we-write/)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [gatsby-plugin-offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/)
 
-### Next.js
+## Next.js
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Learning Next.js to build server rendered JS web apps with React](https://nextjs.org/learn/)
 - [Vercel raises $102M Series C for its front-end development platform](https://techcrunch.com/2021/06/23/vercel-raises-102m-series-c-for-its-next-js-based-front-end-development-platform/amp/?guccounter=1)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Lessons Learned Building in Next.js](https://medium.com/@diamondgfx/nextjs-lessons-learned-part-1-a5a8d442450f)
 - [Using Feature Flags in Next.js](https://medium.com/frontend-digest/using-feature-flags-in-next-js-c5c8d0795a2)
@@ -765,11 +765,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Migrating a Blog to Next.js from Gatsby](https://blog.eyas.sh/2021/08/gatsby-to-next-js/)
 - [Using the Next.js Image Component with MDX](https://kylepfromer.com/blog/nextjs-image-component-blog)
 
-#### Related tools 🛠️
+### Related tools 🛠️
 
 - [Code elimination preview](https://next-code-elimination.now.sh/) - Understand what parts of your Next.js code will be trimmed before being sent to the client
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Create-react-next-app](https://github.com/segmentio/create-next-app) - Create Next.js apps in one command
 - [Happykit/flags](https://github.com/happykit/flags) - Feature Flags for Next.js
@@ -778,31 +778,31 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Next-optimized-images](https://github.com/cyrilwanner/next-optimized-images) - next-optimized-images automatically optimizes images used in next.js projects (jpeg, png, svg, webp and gif)
 - [Next-apollo](https://github.com/adamsoffer/next-apollo) - React higher-order component for integrating Apollo Client with Next.js
 
-### Astro
+## Astro
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Introduction article](https://astro.build/blog/introducing-astro)
 - [Astro docs](https://github.com/snowpackjs/astro)
 
-### Electron
+## Electron
 
 - [From React to an Electron app ready for production](https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3)
 - [Building Electron Apps with Next.js](https://leo.im/2017/electron-next)
 
-## State management libraries
+# State management libraries
 
 - [React State Management Libraries and How to Choose](https://daveceddia.com/react-state-management/)
 
-### Redux
+## Redux
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Redux docs](https://redux.js.org/introduction/getting-started)
 - [Getting Started with Redux - Course by @dan_abramov @eggheadio](https://app.egghead.io/playlists/fundamentals-of-redux-course-from-dan-abramov-bd5cc867)
 - [Building React Applications with Idiomatic Redux - Course by @dan_abramov @eggheadio](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Idiomatic Redux: The Tao of Redux, Part 1 - Implementation and Intent](http://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/)
 - [Idiomatic Redux: The Tao of Redux, Part 2 - Practice and Philosophy](http://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-2/)
@@ -815,7 +815,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Escaping Redux pitfalls in React Native world](https://blog.swmansion.com/escaping-redux-pitfalls-in-react-native-world-e151c008c97a)
 - [Using Redux DevTools in production](https://medium.com/@zalmoxis/using-redux-devtools-in-production-4c5b56c5600f#.oznhybgta)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Redux-ecosystem-links](https://github.com/markerikson/redux-ecosystem-links) - A categorized list of Redux-related addons, libraries, and utilities
 - [Awesome-redux](https://github.com/xgrommx/awesome-redux) - Awesome list of Redux examples and middlewares
@@ -824,15 +824,15 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Introducing Redux VCR](https://medium.com/@joshuawcomeau/introducing-redux-vcr-cad57b37540a)
 - [Redux-bug-reporter](https://github.com/dtschust/redux-bug-reporter) - A bug reporter and bug playback tool for redux
 
-### Recoil
+## Recoil
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Recoil](https://recoiljs.org/)
 
-### GraphQL
+## GraphQL
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [GraphQL docs](http://graphql.org/learn/)
 - [Apollo Odyssey](https://odyssey.apollographql.com/) - Learn GraphQL with Apollo
@@ -840,25 +840,25 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Series of articles by Marc-André Giroux](https://medium.com/@__xuorig__)
 - [GraphQL Weekly](https://www.graphqlweekly.com/) - A weekly newsletter of the best news, articles and projects about GraphQL
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
-##### Comparisons between GraphQL and REST / other technologies
+#### Comparisons between GraphQL and REST / other technologies
 
 - [Why GraphQL: Advantages, Disadvantages & Alternatives](https://www.robinwieruch.de/why-graphql-advantages-disadvantages-alternatives/)
 - [GraphQL vs REST: Caching](https://philsturgeon.uk/api/2017/01/26/graphql-vs-rest-caching/)
 - [Why not use a JSON DSL instead of GraphQL?](https://blog.hasura.io/why-not-use-a-json-dsl-instead-of-graphql-d29f20cc97d2)
 - [Is GraphQL Still Relevant in an HTTP2 World?](https://medium.com/@__xuorig__/is-graphql-still-relevant-in-an-http2-world-64964f207b8)
 
-##### Type generation with GraphQL
+#### Type generation with GraphQL
 
 - [Generate Javascript static types from GraphQL: TypeScript and Flow](https://medium.com/graphql-mastery/generate-javascript-static-types-from-graphql-typescript-and-flow-4d28b46b8d13)
 
-##### Implementation examples
+#### Implementation examples
 
 - [Adding GraphQL into Existing Express APIs](https://encryption.io/blog/adding-graphql-into-existing-express-apis/)
 - [Building a GraphQL API by Example: Restaurant Reviews](https://medium.com/open-graphql/building-a-graphql-api-by-example-restaurant-reviews-acd80d60ec77)
 
-##### Others
+#### Others
 
 - [Awesome-graphql](https://github.com/chentsulin/awesome-graphql) - Awesome list of GraphQL & Relay
 - [A Front-End Developer's Guide to GraphQL](https://css-tricks.com/front-end-developers-guide-graphql/)
@@ -879,7 +879,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [GraphQL in 2020: What's next?](https://productionreadygraphql.com/graphql-2020/)
 - [gqless or gqlful?](https://medium.com/@__xuorig__/gqless-or-gqlful-ec36fe588a4b)
 
-#### Migration stories 📖
+### Migration stories 📖
 
 - [Reconciling GraphQL and Thrift at Airbnb](https://medium.com/airbnb-engineering/reconciling-graphql-and-thrift-at-airbnb-a97e8d290712)
 - [GraphQL: A success story for PayPal Checkout](https://medium.com/paypal-engineering/graphql-a-success-story-for-paypal-checkout-3482f724fb53)
@@ -889,7 +889,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [A year of large scale GraphQL - the biggest takeaways](https://dev.to/peternycander/a-year-of-large-scale-graphql-the-biggest-takeaways-3d5n)
 - [Scaling GraphQL at PayPal](https://medium.com/paypal-engineering/scaling-graphql-at-paypal-b5b5ac098810)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Sofa — The best way to REST (is GraphQL)](https://medium.com/the-guild/sofa-the-best-way-to-rest-is-graphql-d9da6e8e7693)
 - [Graphql-doctor](https://github.com/cap-collectif/graphql-doctor) - Prevent Breaking Changes in a GraphQL API with GitHub Checks
@@ -897,7 +897,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Gest](https://github.com/mfix22/gest) - A sensible GraphQL testing tool - test your GraphQL schema locally and in the cloud
 - [graphql-request](https://github.com/prisma-labs/graphql-request) - Minimal GraphQL client supporting Node and browsers for scripts or simple apps
 
-#### Related tools 🛠️
+### Related tools 🛠️
 
 - [Try GraphQL](https://trygql.formidable.dev/) - Purpose-built Demo APIs for GraphQL
 - [GraphiQL](http://graphql.org/swapi-graphql/) - In-browser IDE for writing, validating, and testing GraphQL queries
@@ -908,9 +908,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [GraphCDN](https://graphcdn.io/) - The fastest way to cache GraphQL
 - [Envelop](https://www.envelop.dev/) - The missing GraphQL plugin system
 
-### Apollo client
+## Apollo client
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Apollo docs](https://www.apollographql.com/docs/react/index.html)
 - [Apollo Client 2.0: Beyond GraphQL APIs](https://dev-blog.apollodata.com/apollo-client-2-0-beyond-graphql-apis-888807b53afe)
@@ -937,7 +937,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Announcing managed federation](https://blog.apollographql.com/announcing-managed-federation-265c9f0bc88e)
 - [Apollo Client, now with React Hooks](https://blog.apollographql.com/apollo-client-now-with-react-hooks-676d116eeae2)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [React Native with Apollo — Part 1, Apollo Server](https://medium.com/react-native-training/react-native-with-apollo-server-and-client-part-1-efb7d15d2361)
 - [React Native with Apollo — Part 2, Apollo Client](https://medium.com/react-native-training/react-native-with-apollo-part-2-apollo-client-8b4ad4915cf5#.wnfqtzsn6)
@@ -948,7 +948,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [A new approach to mocking GraphQL data](https://medium.freecodecamp.org/a-new-approach-to-mocking-graphql-data-1ef49de3d491)
 - [Basics of Caching Data in GraphQL Apollo React client](https://levelup.gitconnected.com/basics-of-caching-data-in-graphql-7ce9489dac15?gi=b09e71c870ce)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Apollo-client](https://github.com/apollographql/apollo-client) - A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server
 - [Apollo Community Links](https://www.apollographql.com/docs/link/links/community.html)
@@ -956,9 +956,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Apollo-cache-persist](https://github.com/apollographql/apollo-cache-persist) - Simple persistence for all Apollo Cache implementations
 - [Apollo-codegen](https://github.com/apollographql/apollo-tooling) - Generate API code or type annotations based on a GraphQL schema and query documents
 
-### Apollo server
+## Apollo server
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Caching Strategies in a Federated GraphQL Architecture](https://www.apollographql.com/blog/caching-strategies-in-a-federated-graphql-architecture/)
 - [Schema Services: Transitioning Towards a Federated Architecture](https://www.apollographql.com/blog/schema-services-transitioning-towards-a-federated-graphql-architecture/)
@@ -966,81 +966,81 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How Netflix Scales its API with GraphQL Federation (Part 2)](https://netflixtechblog.com/how-netflix-scales-its-api-with-graphql-federation-part-2-bbe71aaec44a)
 - [Securing Your GraphQL API from Malicious Queries](https://www.apollographql.com/blog/securing-your-graphql-api-from-malicious-queries-16130a324a6b/)
 
-### Gqless
+## Gqless
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Gqless docs](https://gqless.com/)
 - [What's new in 2.0](https://gqless.com/intro/new-in-2) - Mutations, subscriptions, hooks, ...
 
-### SWR
+## SWR
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [SWR docs](https://swr.vercel.app/) - React Hooks library for data fetching
 - [Announcing SWR 1.0](https://swr.vercel.app/blog/swr-v1)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Swr-sync-storage](https://github.com/sergiodxa/swr-sync-storage) - Synchronize SWR cache with localStorage or sessionStorage to get offline cache
 
-## Animations libraries
+# Animations libraries
 
-### D3.js
+## D3.js
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [D3.js documentation](https://d3js.org/)
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [How to learn D3.js](https://wattenberger.com/blog/d3)
 - [React + D3.js](https://wattenberger.com/blog/react-and-d3)
 
-### Framer Motion
+## Framer Motion
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Learn Framer Motion in 10 tweets](https://mobile.twitter.com/willjohnsonio/status/1396857844973064202?s=12)
 
-### React-spring
+## React-spring
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [React-spring documentation](https://www.react-spring.io/)
 
-### React-native-reanimated
+## React-native-reanimated
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [React-native-reanimated documentation](https://docs.swmansion.com/react-native-reanimated/)
 - [Animations in React Native: Performance and Reason-about-ability with Reanimated 2](https://formidable.com/blog/2021/reanimated-two/)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [Moti](https://moti.fyi/) - Moti is the universal animation package for React Native (based on react-native-reanimated)
 
-## Code quality
+# Code quality
 
-### Linters
+## Linters
 
-#### Eslint
+### Eslint
 
-##### Useful libraries 💾
+#### Useful libraries 💾
 
 - [Eslint-plugin-import-helpers](https://github.com/Tibfib/eslint-plugin-import-helpers) - ESLint plugin to help with imports
 - [Eslint-plugin-clean-regex](https://github.com/RunDevelopment/eslint-plugin-clean-regex) - ESLint plugin for writing better regular expressions
 
-### Test frameworks
+## Test frameworks
 
-#### Jest
+### Jest
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [Jest docs](https://facebook.github.io/jest/)
 - [Jest 27: New Defaults for Jest, 2021 edition](https://jestjs.io/blog/2021/05/25/jest-27)
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [How to Test React Components Using Jest](https://www.sitepoint.com/test-react-components-jest/)
 - [The Right Way to test React Components](https://medium.freecodecamp.org/the-right-way-to-test-react-components-548a4736ab22#.bjitu9xkf)
@@ -1053,53 +1053,53 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to add testing to an existing project](https://kentcdodds.com/blog/how-to-add-testing-to-an-existing-project)
 - [Make Your Jest Tests up to 20% Faster by Changing a Single Setting](https://ivantanev.com/make-jest-faster/)
 
-##### Useful libraries 💾
+#### Useful libraries 💾
 
 - [Jest-codemods](https://github.com/skovhus/jest-codemods) - Codemods for migrating to Jest
 - [React-fake-props](https://github.com/typicode/react-fake-props) - Automatically generate fake props for your React tests (Jest, Enzyme, ...)
 - [Jest-watch-master](https://github.com/rickhanlonii/jest-watch-master) - Jest watch plugin for checking changes since master
 - [Jest-in-case](https://github.com/atlassian/jest-in-case) - Jest utility for creating variations of the same test
 
-#### Cypress
+### Cypress
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [Cypress](https://www.cypress.io/) - Fast, easy and reliable testing for anything that runs in a browser
 - [We're officially out of beta!](https://www.cypress.io/blog/2018/09/20/cypress-is-officially-out-of-beta/)
 - [Visual testing for Cypress](https://go.percy.io/visual-testing/cypress)
 - [Introducing the Cypress Component Test Runner– new in 7.0.0](https://cypress.io/blog/2021/04/06/introducing-the-cypress-component-test-runner)
 
-#### React-testing-library
+### React-testing-library
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [React Testing Library docs](https://testing-library.com/docs/react-testing-library/intro/)
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
 
-##### Useful libraries 💾
+#### Useful libraries 💾
 
 - [React-native-testing-library](https://github.com/callstack/react-native-testing-library) - Simple React Native testing utilities helping you write better tests with less effort
 
-#### Others
+### Others
 
 - [Sizzy](http://sizzy.co/) - Test your website on different device sizes at once
 - [Stryker](https://stryker-mutator.io/) - Test your tests with mutation testing
 
-## Bundling
+# Bundling
 
-### Bundlers
+## Bundlers
 
-#### Webpack
+### Webpack
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [Webpack docs](https://webpack.js.org/concepts/)
 - [Webpack 4: Code Splitting, chunk graph and the splitChunks optimization](https://medium.com/webpack/webpack-4-code-splitting-chunk-graph-and-the-splitchunks-optimization-be739a861366)
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [Long-term caching of static assets with Webpack](https://medium.com/@okonetchnikov/long-term-caching-of-static-assets-with-webpack-1ecb139adb95)
 - [Why would I use a Webpack?](http://tinselcity.net/whys/packers)
@@ -1108,7 +1108,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to Fully Optimize Webpack 4 Tree Shaking](https://medium.com/@craigmiller160/how-to-fully-optimize-webpack-4-tree-shaking-405e1c76038)
 - [link rel=”prefetch/preload” in webpack](https://medium.com/webpack/link-rel-prefetch-preload-in-webpack-51a52358f84c)
 
-##### Useful libraries 💾
+#### Useful libraries 💾
 
 - [Webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) - Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap
 - [Webpack Visualizer](https://chrisbateman.github.io/webpack-visualizer/) - Visualize your bundles
@@ -1127,55 +1127,55 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Emoji-favicon-webpack-plugin](https://github.com/trevorblades/emoji-favicon-webpack-plugin) - Let webpack generate an emoji favicon for you
 - [Bundlesize](https://github.com/siddharthkp/bundlesize) - Keep your bundle size in check
 
-#### Rollup
+### Rollup
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [Rollup docs](https://rollupjs.org/) - Next-generation ES6 module bundler
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [Introducing Preconstruct 🎁](https://medium.com/the-thinkmill/introducing-preconstruct-26996f23de2a)
 
-#### Parcel
+### Parcel
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [Parcel docs](https://parceljs.org/) - Blazing fast, zero configuration web application bundler
 - [Parcel v1.9.0 — Tree Shaking, 2x faster watcher, and more!](https://medium.com/@devongovett/parcel-v1-9-0-tree-shaking-2x-faster-watcher-and-more-87f2e1a70f79)
 - [Parcel v1.10.0 — Babel 7, Flow, Elm, and more!](https://medium.com/@devongovett/parcel-v1-10-0-babel-7-flow-elm-and-more-c20736553573)
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [ParcelJS: How simple really is it?](https://itnext.io/parceljs-how-simple-really-is-it-679a4feba69d?gi=12888863d7c7)
 - [Switching to Parcel from Webpack](https://logrocket.com/blog/switching-to-parcel-from-webpack/)
 
-#### Others
+### Others
 
 - [Comparing the New Generation of Build Tools](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)
 
-### Transpilers and optimizers
+## Transpilers and optimizers
 
-#### Babel
+### Babel
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [Babel docs](https://babeljs.io/)
 - [Babel 7 released](https://babeljs.io/blog/2018/08/27/7.0.0)
 
-##### Useful libraries 💾
+#### Useful libraries 💾
 
 - [Babel-plugin-macros](https://github.com/kentcdodds/babel-plugin-macros) - Enables zero-config, importable babel plugins
 
-#### Prepack
+### Prepack
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [A Gentle Introduction to Prepack (Part 1)](https://gist.github.com/gaearon/d85dccba72b809f56a9553972e5c33c4)
 
-## Hosting providers
+# Hosting providers
 
-### Netlify
+## Netlify
 
 - [Netlify docs](https://www.netlify.com/docs/)
 - [10 Netlify features to surprise and delight](https://medium.com/netlify/10-netlify-features-to-surprise-and-delight-225e846b7b21)
@@ -1183,123 +1183,123 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Distributed Persistent Rendering (DPR)](https://github.com/jamstack/jamstack.org/discussions/549) - RFC
 - [Faster builds for large sites on Netlify with On-demand Builders: Now in early access](https://www.netlify.com/blog/2021/04/14/faster-builds-for-large-sites-on-netlify-with-on-demand-builders-now-in-early-access/)
 
-### Vercel
+## Vercel
 
 - [Vercel docs](https://vercel.com/home)
 - [Firebase vs. Vercel](https://medium.com/better-programming/firebase-vs-vercel-aka-zeit-now-2020-7f5ab18d865f)
 - [Enable Suspect Commits, Unminify JS, and Track Releases with Vercel and Sentry](https://blog.sentry.io/2020/08/04/enable-suspect-commits-unminify-js-and-track-releases-with-vercel-and-sentry)
 
-### Others
+## Others
 
 - [Fleek](https://fleek.co/)
 
-## Continuous development platforms
+# Continuous development platforms
 
 - [CircleCI](https://circleci.com/)
 - [Drone](https://www.drone.io/)
 - [BuildKite](https://buildkite.com/)
 
-## SaaS useful to front-end developers
+# SaaS useful to front-end developers
 
-### BaaS (Back-end as a service)
+## BaaS (Back-end as a service)
 
-#### AWS Amplify
+### AWS Amplify
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [AWS Amplify docs](https://docs.amplify.aws/)
 - [AWS Amplify Sandbox](https://sandbox.amplifyapp.com/getting-started)
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [How to Design Almost Any Backend and Deploy It to AWS with No Code](https://www.freecodecamp.org/news/design-and-deploy-backend-with-amplify-sandbox/)
 - [Introducing the AWS Amplify Admin UI: Create an Application Backend in Clicks](https://welearncode.com/intro-amplify-admin-ui/)
 - [Next.js-amplify-workshop](https://github.com/dabit3/next.js-amplify-workshop)
 - [Nextjs-aws-dynamodb](https://github.com/leerob/nextjs-aws-dynamodb)
 
-##### Useful libraries 💾
+#### Useful libraries 💾
 
 - [AWS Amplify SDK](https://github.com/aws-amplify/amplify-js)
 
-#### Google Firebase
+### Google Firebase
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [Google Firebase docs](https://firebase.google.com/docs)
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [Authenticated server-side rendering with Next.js and Firebase](https://colinhacks.com/essays/nextjs-firebase-authentication)
 - [Next-firebase-ssr](https://github.com/colinhacks/next-firebase-ssr)
 
-##### Useful libraries 💾
+#### Useful libraries 💾
 
 - [Google Firebase SDK](https://github.com/firebase/firebase-js-sdk)
 
-#### Supabase
+### Supabase
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [Firebase vs. Supabase: Which is better?](https://blog.logrocket.com/firebase-vs-supabase-which-is-better/)
 
-#### Prisma
+### Prisma
 
-##### Documentation / News 📚
+#### Documentation / News 📚
 
 - [Prisma docs](https://www.prisma.io/)
 
-##### Concepts / Articles 💡
+#### Concepts / Articles 💡
 
 - [Productive Development With Prisma’s Zero-Cost Type Safety](https://dev.to/prisma/productive-development-with-prisma-s-zero-cost-type-safety-4od2)
 
-#### Others
+### Others
 
 - [@databases](https://www.atdatabases.org/) - Query SQL Databases using Node.js and TypeScript
 
-### Others
+## Others
 
 - [Magic - Auth simplified](https://magic.link/) - One SDK for passwordless, WebAuthn, and social login - fully customizable
 - [Insights](https://getinsights.io/) - Privacy-Focused Analytics Platform For Developers
 - [Cusdis](https://cusdis.com/) - Lightweight, privacy-first, open-source comment system
 
-## CMS
+# CMS
 
-### Strapi
+## Strapi
 
-#### Documentation / News 📚
+### Documentation / News 📚
 
 - [Strapi docs](https://strapi.io/)
 - [Announcing Strapi v3.6 with Internationalization](https://strapi.io/blog/announcing-content-internationalization-v3-6)
 
-## Website generators
+# Website generators
 
-### Styleguide generators
+## Styleguide generators
 
-#### Styleguidist
+### Styleguidist
 
 - [React Styleguidist docs](https://react-styleguidist.js.org/) - Isolated React component development environment with a living style guide
 
-#### Storybook
+### Storybook
 
 - [Storybook docs](https://storybook.js.org/) - The UI development environment you'll love to use
 - [React Native + Storybook = ❤️](https://medium.com/@erinfoox/react-native-storybook-%EF%B8%8F-f22fa8676333)
 - [Chroma articles](https://blog.hichroma.com/?gi=cd867eb8a58d) - Storybook tutorials by Chroma
 
-#### Others
+### Others
 
 - [Playroom](https://github.com/seek-oss/playroom) - Design with JSX, powered by your own component library
 - [a11y-color-tokens](https://github.com/5t3ph/a11y-color-tokens) - Generate accessible UI colors from your base color tokens
 
-### Documentation generators
+## Documentation generators
 
 - [GitBook](https://www.gitbook.com/) - Documentation your users will love!
 - [Docz](https://www.docz.site/) - It has never been so easy to document your things!
 - [React-docgen](https://github.com/reactjs/react-docgen) - A CLI and toolbox to extract information from React component files for documentation generation purposes
 - [Nextra](https://nextra.vercel.app/) - Nextra is a Next.js based static site generator. 0 lines of code needed.
 
-### Presentation generators
+## Presentation generators
 
-#### Spectacle
+### Spectacle
 
 - [Spectacle docs](https://github.com/FormidableLabs/spectacle)
 - [Spectacle-code-slide](https://github.com/jamiebuilds/spectacle-code-slide)
@@ -1307,16 +1307,16 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Spectacle-image-slide](https://github.com/FezVrasta/spectacle-image-slide)
 - [Presentations With Spectacle — How I Modularize My Deck](https://hackernoon.com/presentations-with-spectacle-how-i-modularize-my-deck-775c082cef08)
 
-#### Others
+### Others
 
 - [MDX](https://mdxjs.com/) - Markdown for the component era
 - [Mdx-deck docs](https://github.com/jxnblk/mdx-deck)
 - [Code-surfer](https://github.com/pomber/code-surfer) - React component for scrolling, zooming and highlighting code
 - [Shiki-twoslash](https://shikijs.github.io/twoslash/) - You take some Shiki, add a hint of TypeScript compiler, and tada! incredible static code samples
 
-## Design systems
+# Design systems
 
-### Concepts / Articles 💡
+## Concepts / Articles 💡
 
 - [Living Design System](https://medium.com/salesforce-ux/living-design-system-3ab1f2280ef7)
 - [Design tokens for dummies](https://uxdesign.cc/design-tokens-for-dummies-8acebf010d71)
@@ -1329,36 +1329,36 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ReactiveConf 2019 - Mark Dalgleish: Rethinking Design Practices](https://www.youtube.com/watch?feature=youtu.be&v=jnV1u67_yVg)
 - [Everything I Know About Style Guides, Design Systems, and Component Libraries](https://leerob.io/blog/style-guides-component-libraries-design-systems)
 
-### Useful libraries 💾
+## Useful libraries 💾
 
 - [Zeroheight](https://zeroheight.com/) - Document your design system, together
 - [Design System Playground](https://design-system-playground.netlify.com/)
 
-### Design Systems in the wild 🌈
+## Design Systems in the wild 🌈
 
 - [Design Systems France](https://www.designsystems.fr/liste-des-designs-systems-francais) - Liste des Design Systems français
 - [Awesome-design-systems](https://github.com/alexpate/awesome-design-systems) - A collection of awesome design systems
 - [Introducing Base Web, Uber’s New Design System for Building Websites in React](https://eng.uber.com/introducing-base-web/)
 - [Braid design system](https://github.com/seek-oss/braid-design-system) - Themeable design system for the SEEK Group
 
-## Advanced concepts
+# Advanced concepts
 
-### State machines
+## State machines
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Welcome to the world of Statecharts](https://statecharts.github.io/)
 - [Implementing a simple state machine library in JavaScript](https://kentcdodds.com/blog/implementing-a-simple-state-machine-library-in-javascript)
 - [The FaceTime Bug and the Dangers of Implicit State Machines](https://medium.com/@DavidKPiano/the-facetime-bug-and-the-dangers-of-implicit-state-machines-a5f0f61bdaa2)
 
-#### Useful libraries 💾
+### Useful libraries 💾
 
 - [XState](https://github.com/davidkpiano/xstate) - State machines and statecharts for the modern web
 - [XState catalogue](https://xstate-catalogue.com/) - Collection of professionally designed state machines you can drop into your projects
 
-### Server Side Rendering
+## Server Side Rendering
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [You might (not) need a Server Side Rendering framework](https://adrien.harnay.me/you-might-not-need-a-server-side-rendering-framework/)
 - [Server-Side Rendering and Code Splitting with React-Router 4 and Webpack 2](https://blog.emilecantin.com/web/react/javascript/2017/05/16/ssr-react-router-4-webpack-code-split.html)
@@ -1372,13 +1372,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Rendering on the Web](https://developers.google.com/web/updates/2019/02/rendering-on-the-web)
 - [Server-Rendering Responsively](https://artsy.github.io/blog/2019/05/24/server-rendering-responsively/)
 
-#### SSR Boilerplates
+### SSR Boilerplates
 
 - [Ssr-starter-pack](https://github.com/Brigad/ssr-starter-pack) - A starter pack to help you implement your handmade solution for SSR
 - [React-redux-universal-hot-example](https://github.com/erikras/react-redux-universal-hot-example) - A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transform
 - [React-isomorphic-render (notes on performances)](https://github.com/catamphetamine/react-isomorphic-render/blob/master/PERFORMANCE.md) - Isomorphic rendering with React, Redux, React-router
 
-#### SSR Frameworks
+### SSR Frameworks
 
 - [Gatsby.js](https://github.com/gatsbyjs/gatsby) - Blazing fast static site generator for React
 - [Razzle](https://github.com/jaredpalmer/razzle) - Create server-rendered universal JavaScript applications with no configuration
@@ -1386,18 +1386,18 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [After.js](https://github.com/jaredpalmer/after.js) - Next.js-like framework for server-rendered React apps built with React Router 4
 - [Next.js vs. Gatsby vs. Create React App](https://leerob.io/blog/nextjs-gatsby-create-react-app)
 
-### Performance
+## Performance
 
 - [Front-end-checklist](https://github.com/thedaviddias/Front-End-Checklist) - The perfect Front-End Checklist for modern websites and meticulous developers
 
-#### Illusion of speed
+### Illusion of speed
 
 - [The Illusion of Speed](https://paulbakaus.com/tutorials/performance/the-illusion-of-speed/)
 - [Designing for the Appearance of Speed](https://medium.com/mobify-design-team/designing-for-the-appearance-of-speed-aaabc7f568c2)
 - [Speed is the killer feature](https://bdickason.com/posts/speed-is-the-killer-feature/)
 - [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
 
-#### Big picture performance
+### Big picture performance
 
 - [Optimising the front end for the browser](https://dev.to/sanjsanj/optimising-the-front-end-for-thebrowser)
 - [The Cost Of JavaScript In 2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)
@@ -1405,7 +1405,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to Convince Your Boss to Care About Speed](https://calibreapp.com/blog/convince-your-boss-about-performance)
 - [Can You Afford It?: Real-world Web Performance Budgets](https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/)
 
-#### Network performance
+### Network performance
 
 - [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 - [The Critical Request](https://css-tricks.com/the-critical-request/)
@@ -1431,7 +1431,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [To push, or not to push?!](https://noti.st/patrickhamann/y2sScd/to-push-or-not-to-push) - A journey of resource loading in the browser
 - [Inline SVG... Cached](https://css-tricks.com/inline-svg-cached/)
 
-#### Images performance
+### Images performance
 
 - [Converting Images To WebP](https://www.smashingmagazine.com/2018/07/converting-images-to-webp/)
 - [How Image Optimization Decreased my Website’s Page Weight by 62%](https://medium.freecodecamp.org/image-optimization-558d9f449e3)
@@ -1446,21 +1446,21 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [AVIF has landed](https://jakearchibald.com/2020/avif-has-landed/)
 - [Time for Next-Gen Codecs to Dethrone JPEG](https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg)
 
-#### Fonts performance
+### Fonts performance
 
 - [How to Load Multiple Google Fonts in One URL Request](https://shellcreeper.com/how-to-load-multiple-google-font-in-one-url-request/)
 - [The Font Loading Checklist](https://www.zachleat.com/web/font-checklist/)
 - [The Fastest Google Fonts](https://csswizardry.com/2020/05/the-fastest-google-fonts/)
 - [The Best Font Loading Strategies and How to Execute Them](https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/)
 
-#### CSS performance
+### CSS performance
 
 - [CSS and Network Performance](https://csswizardry.com/2018/11/css-and-network-performance)
 - [Reducing CSS bundle size 70% by cutting the class names and using scope isolation](https://medium.freecodecamp.org/reducing-css-bundle-size-70-by-cutting-the-class-names-and-using-scope-isolation-625440de600b)
 - [Extract critical CSS](https://web.dev/extract-critical-css?authuser=1)
 - [Improve Page Rendering Speed Using Only CSS](https://blog.bitsrc.io/improve-page-rendering-speed-using-only-css-a61667a16b2)
 
-#### JavaScript performance
+### JavaScript performance
 
 - [Using the Paint Timing API](https://css-tricks.com/paint-timing-api/)
 - [Reduce JavaScript Payloads with Tree Shaking](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/)
@@ -1472,7 +1472,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Are long JavaScript tasks delaying your Time to Interactive?](https://web.dev/long-tasks-devtools/?authuser=1)
 - [Building a Faster Web Experience with the postTask Scheduler](https://medium.com/airbnb-engineering/building-a-faster-web-experience-with-the-posttask-scheduler-276b83454e91)
 
-#### React performance
+### React performance
 
 - [Trim the Fat From Your Bundles Using Webpack Analyzer & React Lazy/Suspense](https://www.wix.engineering/post/trim-the-fat-from-your-bundles-using-webpack-analyzer-react-lazy-suspense)
 - [Performance-tuning a React application](https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2)
@@ -1488,13 +1488,13 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Progressive React](https://houssein.me/progressive-react) - Want to make your React site more performant? Here's a quick checklist
 - [Performance tests between several styling libraries](http://necolas.github.io/react-native-web/benchmarks/)
 
-#### Core Web Vitals
+### Core Web Vitals
 
 - [Google Web Vitals best practices for single-page apps](https://blog.logrocket.com/google-web-vitals-single-page-apps/)
 - [How Core Web Vitals Will Impact Google Rankings in 2021](https://vercel.com/blog/core-web-vitals)
 - [How We Improved Our Core Web Vitals (Case Study)](https://www.smashingmagazine.com/2021/05/core-web-vitals-case-study/)
 
-#### Progressive Web Apps
+### Progressive Web Apps
 
 - [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
 - [How to turn your website into a PWA](https://mxb.at/blog/how-to-turn-your-website-into-a-pwa/)
@@ -1506,7 +1506,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Workerize](https://github.com/developit/workerize) - Run a module in a Web Worker
 - [Workerize-loader](https://github.com/developit/workerize-loader) - Automatically move a module into a Web Worker (Webpack loader)
 
-#### Performance case studies
+### Performance case studies
 
 - [Measuring Wikipedia page load times](https://phabricator.wikimedia.org/phame/live/7/post/83/measuring_wikipedia_page_load_times/)
 - [A Netflix Web Performance Case Study](https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9)
@@ -1521,12 +1521,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Making GitHub’s new homepage fast and performant](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
 - [A React And Preact Progressive Web App Performance Case Study: Treebo](https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299)
 
-#### Related tools 🛠️
+### Related tools 🛠️
 
 - [ImageOptim](https://imageoptim.com/)
 - [ImgBot](https://github.com/marketplace/imgbot)
 
-#### Performance benchmarks 💯
+### Performance benchmarks 💯
 
 - [How To Think About Speed Tools](https://developers.google.com/web/fundamentals/performance/speed-tools/)
 - [Performance features reference](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)
@@ -1546,9 +1546,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Sitespeed](https://www.sitespeed.io/)
 - [Instant Vitals](https://vitals.dev/) - Open source tools to track Web Vitals metrics in the field
 
-### SEO
+## SEO
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Step Your Meta Game Up](https://dev.to/rpalo/step-your-meta-game-up)
 - [How To Use H1-H6 HTML Elements Properly](https://www.hobo-web.co.uk/headers/)
@@ -1558,17 +1558,17 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [SEO component for structured data](https://mobile.twitter.com/signalnerve/status/1098691569362849799)
 - [The End of AMP](https://www.lafoo.com/the-end-of-amp/)
 
-#### SEO benchmarks 💯
+### SEO benchmarks 💯
 
 - [SEO Checker](https://suite.seotesteronline.com/seo-checker)
 - [Hey Meta](http://www.heymeta.com/) - Quickly check & build your meta tags
 - [Checkbot](https://www.checkbot.io/) - Find broken links, duplicate titles, insecure pages, invalid HTML/CSS/JS & more
 
-### Security
+## Security
 
 - [Security checklist](https://securitycheckli.st/) - Be safe on the internet
 
-#### Concepts / Articles 💡
+### Concepts / Articles 💡
 
 - [Please Stop Using Local Storage](https://dev.to/rdegges/please-stop-using-local-storage-1i04)
 - [Third party CSS is not safe](https://jakearchibald.com/2018/third-party-css-is-not-safe/)
@@ -1576,14 +1576,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ScottHelme.uk](https://scotthelme.co.uk/) - Blog about web security
 - [Microsoft security chief: IE is not a browser, so stop using it as your default](https://www.zdnet.com/article/microsoft-security-chief-ie-is-not-a-browser-so-stop-using-it-as-your-default/)
 
-#### Security benchmarks 💯
+### Security benchmarks 💯
 
 - [Security headers](https://securityheaders.com/) - Audit your website for performances
 - [Observatory by Mozilla](https://observatory.mozilla.org/)
 
-## Misc. Tools
+# Misc. Tools
 
-### Images, videos, assets, colors, fonts
+## Images, videos, assets, colors, fonts
 
 - [Unsplash](https://unsplash.com/) - Collection of beautiful, high resolution, free (and free of rights) images
 - [Coverr](https://coverr.co/) - Beautiful Free Stock Video Footage
@@ -1602,69 +1602,69 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) - Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos
 - [Boring avatars](https://boringavatars.com/) - Generates custom, SVG-based, round avatars from any username and color palette
 
-### Productivity
+## Productivity
 
 - [A Soft Murmur](http://asoftmurmur.com/) - Ambient sounds to wash away distraction
 - [Linear](https://linear.app/) - The issue tracking tool you'll enjoy using
 - [Airtable](https://www.airtable.com/) - Excel-like issue tracking tool
 
-### Mock APIs
+## Mock APIs
 
 - [Reqres](https://reqres.in/) - A hosted REST-API ready to respond to your AJAX requests.
 - [Mocky](https://www.mocky.io/) - Easily test your REST-powered web services with an HTTP responses generator
 - [Kanye.rest](https://kanye.rest/) - A free REST API for random Kanye West quotes (Kanye as a Service)
 
-### Regex testers
+## Regex testers
 
 - [Regexr](https://regexr.com/) - Regex validator / tutorials
 - [Regex101](https://regex101.com/) - Regex validator / tutorials
 
-### IDEs
+## IDEs
 
-#### Visual Studio Code
+### Visual Studio Code
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [VSCode Themes](https://vscodethemes.com/)
 - [Snipsnap Templates](https://github.com/snipsnapdev/snipsnap/tree/master/templates) - Manage, share and use code templates with cloud UI and VS Code Extension
 - [GitHub Copilot](https://github.com/github/copilot-preview)
 
-#### Online IDEs
+### Online IDEs
 
 - [Awesome-online-ide](https://github.com/styfle/awesome-online-ide) - A list of awesome online development environments
 - [CodeSandbox](https://codesandbox.io/) - The online code editor for React
 - [Stackblitz](https://stackblitz.com/) - Online VS Code IDE for Modern Web Applications
 - [Demoboard: a live editor with every package on NPM](https://frontarm.com/articles/announcing-demoboard/)
 
-### Design tools
+## Design tools
 
-#### Sketch
+### Sketch
 
 - [Sketching in the Browser](https://medium.com/seek-blog/sketching-in-the-browser-33a7b7aa0526)
 - [React-sketchapp](https://github.com/airbnb/react-sketchapp) - Render React components to Sketch
 - [Html-sketchapp](https://github.com/brainly/html-sketchapp) - HTML to Sketch export solution
 
-#### Framer X
+### Framer X
 
 - [Bringing Design System Components from Production into Framer X](https://blog.prototypr.io/bringing-design-system-components-from-production-into-framer-x-786e89be2250)
 
-#### Others
+### Others
 
 - [ColorBox by Lyft Design](https://www.colorbox.io/)
 - [Visly](https://visly.app/blogposts/visly--build-react-components-visually) - Build React components visually
 
-### Presentation tools
+## Presentation tools
 
 - [Kap](https://getkap.co/) - Capture your screen
 - [KeyCastr](https://github.com/keycastr/keycastr) - An open-source keystroke visualizer
 - [Codetour](https://github.com/microsoft/codetour) - VS Code extension that allows you to record and playback guided tours of codebases, directly within the editor
 
-### File sharing
+## File sharing
 
 - [Transfer.sh](https://transfer.sh/) - Easy file sharing from the command line
 - [Snapdrop](https://snapdrop.net/) - Like Airdrop, but on the web
 - [Wormhole](https://wormhole.app/) - Simple, private file sharing
 
-### Others
+## Others
 
 - [How HTTPS Works](https://howhttps.works/)
 - [How DNS works](https://howdns.works/)
@@ -1674,9 +1674,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [jsonmatic](https://jsonmatic.com/) - Transform a CSV into a JSON
 - [FracturedJson](https://j-brooke.github.io/FracturedJson/) - A JSON formatter that produces human-readable but fairly compact output
 
-## Developer insights
+# Developer insights
 
-### Software insights
+## Software insights
 
 - [Buggy Software, Loyal Users: Why Bug Reporting is Key To User Retention](https://dev.to/itamarst/buggy-software-loyal-users-why-bug-reporting-is-key-to-user-retention)
 - [User Tests Will Make You a Better Developer](https://dev.to/aprilwensel/user-tests-will-make-you-a-better-developer)
@@ -1712,7 +1712,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 - [Managing Complex Waiting Experiences on Web UIs](https://medium.com/@fkadev/managing-complex-waiting-experiences-on-web-uis-29534d2d92a8)
 
-### Product insights
+## Product insights
 
 - [How to Manufacture Design](https://medium.com/behavior-design/how-to-manufacture-desire-3011c82a2b28)
 - [How to Design an Addictive Product](https://medium.com/swlh/how-to-design-an-addicting-product-29b948c427de)
@@ -1745,7 +1745,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Tiny Wins](https://joelcalifa.com/blog/tiny-wins/)
 - [Optimal Placement for Mobile Call to Action Buttons](https://uxmovement.com/mobile/optimal-placement-for-mobile-call-to-action-buttons/)
 
-### Being a developer
+## Being a developer
 
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)
 - [When programming was no longer fun](https://dev.to/carlhembrough/programming-used-to-be-fun)
@@ -1774,7 +1774,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How I Became a Software Engineer (From Designer to Developer)](https://leerob.io/blog/career)
 - [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 
-### Being a staff-plus engineer
+## Being a staff-plus engineer
 
 - [Guides @StaffEng](https://staffeng.com/guides/) - Guides for reaching and succeeding at Staff-plus roles
 - [Stories @StaffEng](https://staffeng.com/stories/) - Folks who have shared their stories of reaching Staff-plus engineer roles
@@ -1788,7 +1788,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What a Senior Staff Software Engineer Actually Does - Part 2: The Mindset and Focus of the Role](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-d55308fcdd41)
 - [On becoming a senior technical leader](https://blog.coinbase.com/on-becoming-a-senior-technical-leader-14106f1383b8)
 
-### Technical decision making
+## Technical decision making
 
 - [Technical Decision Making](https://copyconstruct.medium.com/technical-decision-making-9b2817c18da4)
 - [Technical Research and Preparation](https://keavy.com/work/technical-preparation/)
@@ -1798,7 +1798,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to write a better technical design document](https://www.range.co/blog/better-tech-specs)
 - [Stepping Stones not Milestones](https://medium.com/@jamesacowling/stepping-stones-not-milestones-e6be0073563f)
 
-### Engineering strategies
+## Engineering strategies
 
 - [On Drafting an Engineering Strategy](https://www.paperplanes.de/2020/1/31/on-drafting-an-engineering-strategy.html)
 - [Your first 90 days as CTO or VP Engineering](https://lethain.com/first-ninety-days-cto-vpe/)
@@ -1806,7 +1806,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The difficult teenage years: Setting tech strategy after a launch](https://medium.com/ft-product-technology/the-difficult-teenage-years-setting-tech-strategy-after-a-launch-7f42eb94a424)
 - [Run less software](https://www.intercom.com/blog/run-less-software/)
 
-### Leadership / Mentoring / Teaching
+## Leadership / Mentoring / Teaching
 
 - [11 Best Ways to Improve Your Emotional Intelligence](https://dev.to/lpasqualis/11-best-ways-to-improve-your-emotional-intelligence/)
 - [Onboarding New Developers](https://dev.to/codemouse92/onboarding-new-developers)
@@ -1822,7 +1822,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/)
 - [The Behind-the-scenes Work of Tech Leadership](https://blog.coleadership.com/behind-the-scenes-tech-leadership/)
 
-### Management
+## Management
 
 - [How do you manage underperforming team members?](https://mobile.twitter.com/jamonholmgren/status/1153435334299885569) - Twitter thread
 - [The CEO of \$48 billion Shopify says long hours aren't necessary for success: 'I'm home at 5:30pm every evening'](https://www.businessinsider.fr/us/shopify-ceo-success-long-hours-40-hour-week-2019-12)
@@ -1836,18 +1836,18 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Understanding Project Management Will Improve Your Developer Job](https://blog.danielna.com/understanding-project-management-will-improve-your-developer-job/)
 - [Mission Command: enabling autonomous software teams](https://blog.thepete.net/blog/2019/02/08/mission-command-enabling-autonomous-software-teams/)
 
-### Career ladders
+## Career ladders
 
 - [Progression.fyi](https://www.progression.fyi/)
 - [Rent the Runway career ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
 - [Kickstarter carrer ladder](https://gist.github.com/jamtur01/aef437a79fee5a9cefdc)
 
-### OSS
+## OSS
 
 - [Don't "Push" Your Pull Requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/)
 - [Building the Open Source Community We Want](https://kentcdodds.com/blog/building-the-open-source-community-we-want)
 
-### Remote working
+## Remote working
 
 - [Why (I think) "Cost of Living" pay for remote workers is BS](https://dev.to/sam_ferree/why-i-think-cost-of-living-pay-for-remote-workers-is-bs-5b68)
 - [Tips for a successful switch to a standing desk](https://dev.to/jerodsanto/tips-for-a-successful-switch-to-a-standing-desk-4p8o)
@@ -1856,7 +1856,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Spotify says it's letting employees work from anywhere, while still paying San Francisco and New York salaries](https://www.businessinsider.com/spotify-unveils-new-remote-work-option-for-all-employees-2021-2?r=US&IR=T)
 - [Inclusion in a Distributed World](https://cpojer.net/posts/inclusion-in-a-distributed-world)
 
-### Communicating
+## Communicating
 
 - [Active Listening: The Master Key to Effective Communication](https://www.farnamstreetblog.com/2017/07/active-listening/)
 - [The Work Required To Have An Opinion](https://www.farnamstreetblog.com/2013/04/the-work-required-to-have-an-opinion/)
@@ -1869,11 +1869,11 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The P Rules](https://boz.com/articles/p-rules)
 - [The four layers of communication in a functional team](https://qz.com/work/1468580/the-four-layers-of-communication-in-a-functional-team/)
 
-### Writing articles
+## Writing articles
 
 - [The Two Minutes It Takes To Read This Will Improve Your Writing Forever](https://medium.com/an-idea-for-you/the-two-minutes-it-takes-to-read-this-will-improve-your-writing-forever-82a7d01441d1)
 
-### Speaking at events
+## Speaking at events
 
 - [I’ve spoken at JSConf and so can you!](https://medium.com/@a.sandrina.p/ive-spoken-at-jsconf-and-so-can-you-a9d92c1439a6)
 - [5 Essential Ingredients for an Awesome Tech Talk](https://medium.com/@reverentgeek/5-essential-ingredients-for-an-awesome-tech-talk-2e5778b2cb5a)
@@ -1882,7 +1882,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Twitter thread about speaking in public](https://mobile.twitter.com/housecor/status/1023770060807200768)
 - [Things I recommend for submitting talk idea](https://mobile.twitter.com/kosamari/status/1071160884381261824) - Twitter thread
 
-### Job interviews
+## Job interviews
 
 - [Salary Negotiation: Make More Money, Be More Valued](http://www.kalzumeus.com/2012/01/23/salary-negotiation/)
 - [Tech Screenings: Why The Interview Process Fails Candidates](https://dev.to/techevangelista/tech-screenings-why-the-interview-process-fails-candidates-hc3)
@@ -1890,39 +1890,39 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Salary negotiation thread](https://mobile.twitter.com/sehurlburt/status/1017631027395612672) - by Stephanie Hurlburt
 - [Getting a Gig: A Guide](https://github.com/cassidoo/getting-a-gig) - Guide for getting a gig as a tech student by Cassidy Williams
 
-### Coding interviews
+## Coding interviews
 
 - [How NOT to succeed in your 45-minute coding interview](https://dev.to/fahimulhaq/how-not-to-succeed-in-your-45-minute-coding-interview)
 - [React Interview Questions](https://dev.to/tylermcginnis/react-interview-questions)
 - [Hiring without whiteboards](https://github.com/poteto/hiring-without-whiteboards) - Companies that don't have a broken hiring process
 - [Senior Interviews != Three Junior Interviews in a Trench Coat](https://laurieontech.com/posts/senior-interviews/)
 
-### Resumes
+## Resumes
 
 - [Intermediate to senior dev resume](https://dev.to/mozoobear/intermediate-to-senior-dev-resume-3bh)
 
-### Compensation
+## Compensation
 
 - [Whimsical Guide to Compensation](https://whimsical.com/blog/guide-to-compensation)
 
-### Startups
+## Startups
 
 - [FRENCH - 5 raisons de rejoindre une startup très early stage](https://www.welcometothejungle.co/articles/cinq-raisons-de-rejoindre-une-startup-early-stage)
 - [FRENCH - Pourquoi nous sommes 100% transparents sur les salaires de nos employés](https://www.maddyness.com/finance/2017/06/25/maddyrex-pourquoi-grille-salaire-ouverte/)
 
-### Others
+## Others
 
 - [How to Get Rich (without getting lucky)](https://mobile.twitter.com/naval/status/1002103360646823936) - Twitter thread
 
-## Freelance
+# Freelance
 
-### Freelance advice
+## Freelance advice
 
 - [Pricing Freelance Projects](https://www.tomhirst.com/pricing-freelance-projects/)
 - [How to price yourself $$$ as a freelance developer](https://www.youtube.com/watch?app=desktop&v=_jcyDfqy-f0&feature=youtu.be) - YouTube video
 - [Breaking Into Freelancing & Consulting as a Developer - How I made over $400,000 Per Year](https://www.youtube.com/watch?app=desktop&v=Nz4Ra1uSOAc) 🎥
 
-### Job hunting / Freelance platforms (mainly for French people)
+## Job hunting / Freelance platforms (mainly for French people)
 
 - [Stack Overflow: Calculate your salary](https://stackoverflow.com/jobs/salary)
 - [Crème de la crème](https://cremedelacreme.io/)
@@ -1939,8 +1939,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Relocate.me](https://relocate.me/) - Job relocation made easy. Find tech jobs w/ relocation packages
 - [TypeScript.careers](https://typescript.careers/) - Find a job writing TypeScript
 
-## Personal achievements
+# Personal achievements
 
-### Talks
+## Talks
 
 - [Power your mobile apps with Apollo-client](https://www.facebook.com/abbealbzzz/videos/778190315711576/) - 21'40
