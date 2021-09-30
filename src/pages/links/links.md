@@ -315,10 +315,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [WinBox.js](https://github.com/nextapps-de/winbox) - Professional HTML5 window manager for the web
 - [Zx](https://github.com/google/zx) - A tool for writing better scripts
 - [Elementary](https://www.elementary.audio/) - Finally, write audio apps in JavaScript
-
-### Games 🎲
-
 - [Yare](https://yare.io/) - Real-Time Strategy game where you control your units by writing JavaScript code
+- [Smartcrop.js](https://github.com/jwagner/smartcrop.js) - Content aware image cropping### Games 🎲
 
 ## TypeScript
 
@@ -369,10 +367,15 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [HTML & CSS is hard](https://internetingishard.com/html-and-css/) - Course to learn HTML & CSS
 - [Understanding why Semantic HTML is important, as told by TypeScript](https://medium.com/@mandy.michael/understanding-why-semantic-html-is-important-as-told-by-typescript-bd71ad41e6c4)
+- [On the <dl>](https://benmyers.dev/blog/on-the-dl/)
 
 ### HTML accessibility
 
 - [Practical ARIA Examples](http://heydonworks.com/practical_aria_examples/)
+
+### Others
+
+- [htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
 
 ## CSS
 
@@ -393,6 +396,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [CSS Tips](https://markodenic.com/css-tips/) - CSS tips and tricks you won’t see in most of the tutorials
 - [Practical CSS Scroll Snapping](https://css-tricks.com/practical-css-scroll-snapping/)
 - [Easing Gradients](https://larsenwork.com/easing-gradients/)
+- [You want enabling CSS selectors, not disabling ones](https://www.silvestar.codes/articles/you-want-a-single-enabling-selector-not-the-one-that-disables-the-rule-of-the-previous-one/)
 
 ### Others
 
@@ -448,6 +452,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Advanced SCSS, or, 16 cool things you may not have known your stylesheets could do](https://gist.github.com/jareware/4738651)
 - [Linting SCSS files with settings for orders in logical chunks](https://gist.github.com/samuells/8915a1d32ac93f5c904893663f399218)
 - [Where is the source of Autoprefixer data?](https://mobile.twitter.com/autoprefixer/status/1168232858114244608) - Twitter thread
+- [Sass migrator](https://sass-lang.com/documentation/cli/migrator) - Programatically migrate to the newest SASS patterns
 
 ### CSS Modules
 
@@ -1711,6 +1716,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What I learned from Software Engineering at Google](https://swizec.com/blog/what-i-learned-from-software-engineering-at-google/)
 - [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 - [Managing Complex Waiting Experiences on Web UIs](https://medium.com/@fkadev/managing-complex-waiting-experiences-on-web-uis-29534d2d92a8)
+- [Write tasks not user stories](https://linear.app/method/write-tasks-not-user-stories)
 
 ## Product insights
 
@@ -1744,6 +1750,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a)
 - [Tiny Wins](https://joelcalifa.com/blog/tiny-wins/)
 - [Optimal Placement for Mobile Call to Action Buttons](https://uxmovement.com/mobile/optimal-placement-for-mobile-call-to-action-buttons/)
+- [The Everything is a Giant Project Mentality](https://webdevexplorer.substack.com/p/everything-is-a-giant-project-mentality)
 
 ## Being a developer
 
@@ -1821,6 +1828,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Why it’s worth it to invest in internal docs](https://increment.com/documentation/why-investing-in-internal-docs-is-worth-it/)
 - [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/)
 - [The Behind-the-scenes Work of Tech Leadership](https://blog.coleadership.com/behind-the-scenes-tech-leadership/)
+- [How to Make Good Code Reviews Better](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/)
 
 ## Management
 
@@ -1909,6 +1917,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [FRENCH - 5 raisons de rejoindre une startup très early stage](https://www.welcometothejungle.co/articles/cinq-raisons-de-rejoindre-une-startup-early-stage)
 - [FRENCH - Pourquoi nous sommes 100% transparents sur les salaires de nos employés](https://www.maddyness.com/finance/2017/06/25/maddyrex-pourquoi-grille-salaire-ouverte/)
+- [Equity 101 for Software Engineers at Big Tech and Startups](https://blog.pragmaticengineer.com/equity-for-software-engineers/)
+- [TLDR: Stock options](https://tldroptions.io/) - Roughly estimate what your stock options could be worth
 
 ## Others
 
