@@ -150,6 +150,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
   - [SEO](#seo)
   - [Security](#security)
+  - [Web3](#web3)
 
 - [Misc. tools](#misc-tools)
 
@@ -208,6 +209,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Explainshell](https://explainshell.com/) - Write down a command-line to see the help text that matches each argument
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) - VSCode extension
 - [Shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) - VSCode extension
+- [Cheat](https://github.com/cheat/cheat) - Cheat allows you to create and view interactive cheatsheets on the command-line
 
 ## Git / Github
 
@@ -215,6 +217,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Tell Me When it Closes](https://tellmewhenitcloses.com/) - Get only 1 email when an issue or PR closes
 - [GitHub Contributions Chart Generator](https://github-contributions.now.sh/)
 - [8 Productivity Tips for GitHub](https://dev.to/_darrenburns/8-productivity-tips-for-github-44kn)
+- [Creating the Perfect Commit in Git](https://css-tricks.com/creating-the-perfect-commit-in-git/)
 
 ## Package managers
 
@@ -491,6 +494,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Node best practices](https://github.com/i0natan/nodebestpractices) - The largest Node.JS best practices list. Curated from the top ranked articles and always updated
 - [Super Simple Start to ESModules in Node.js](https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-node-js)
 - [fnm](https://github.com/Schniz/fnm) - Fast and simple Node.js version manager, built in Rust
+- [Corepack](https://nodejs.org/dist/latest-v16.x/docs/api/corepack.html)
 
 ## Deno
 
@@ -509,6 +513,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Versioning Policy](https://reactjs.org/docs/faq-versioning.html)
 - [React 16.x Roadmap](https://reactjs.org/blog/2018/11/27/react-16-roadmap.html)
 - [Building the New facebook.com with React, GraphQL and Relay](https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/)
+- [What's new in react 18?](https://yagmurcetintas.com/journal/whats-new-in-react-18)
 
 ### Concepts / Articles 💡
 
@@ -617,6 +622,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-ux-form](https://github.com/swan-io/react-ux-form) - A simple, fast and opinionated form library for React & React Native focusing on UX
 - [React-gui](https://ixrvy.sse.codesandbox.io/docs/) - React GUI is designed as the foundation for React design systems and component libraries
 - [React-joyride](https://github.com/gilbarbara/react-joyride) - Create guided tours in your apps
+- [Kbar](https://kbar.vercel.app/) - Fully extensible command+k interface for your site
 
 ### Hooks
 
@@ -1586,6 +1592,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Security headers](https://securityheaders.com/) - Audit your website for performances
 - [Observatory by Mozilla](https://observatory.mozilla.org/)
 
+## Web3
+
+- [HERE IS THE ARTICLE YOU CAN SEND TO PEOPLE WHEN THEY SAY “BUT THE ENVIRONMENTAL ISSUES WITH CRYPTOART WILL BE SOLVED SOON, RIGHT?”](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3)
+
 # Misc. Tools
 
 ## Images, videos, assets, colors, fonts
@@ -1717,6 +1727,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 - [Managing Complex Waiting Experiences on Web UIs](https://medium.com/@fkadev/managing-complex-waiting-experiences-on-web-uis-29534d2d92a8)
 - [Write tasks not user stories](https://linear.app/method/write-tasks-not-user-stories)
+- [Stackshare](https://stackshare.io/stacks) - Popular Tech Stacks
 
 ## Product insights
 
@@ -1863,6 +1874,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Basecamp Guide to Internal Communication](https://basecamp.com/guides/how-we-communicate)
 - [Spotify says it's letting employees work from anywhere, while still paying San Francisco and New York salaries](https://www.businessinsider.com/spotify-unveils-new-remote-work-option-for-all-employees-2021-2?r=US&IR=T)
 - [Inclusion in a Distributed World](https://cpojer.net/posts/inclusion-in-a-distributed-world)
+- [Why I Stopped Using Multiple Monitors](https://hackernoon.com/why-i-stopped-using-multiple-monitors-bfd87efa2e5b)
 
 ## Communicating
 
@@ -1912,6 +1924,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ## Compensation
 
 - [Whimsical Guide to Compensation](https://whimsical.com/blog/guide-to-compensation)
+- [TechPays](https://techpays.eu/) - Let's change the information assymetry for compensation
 
 ## Startups
 
