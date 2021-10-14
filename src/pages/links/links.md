@@ -553,6 +553,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Don't Sync State. Derive It!](https://kentcdodds.com/blog/dont-sync-state-derive-it)
 - [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
 - [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
+- [How and when to debounce or throttle in React](https://blog.logrocket.com/how-and-when-to-debounce-or-throttle-in-react/)
 
 #### Others
 
@@ -623,6 +624,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-gui](https://ixrvy.sse.codesandbox.io/docs/) - React GUI is designed as the foundation for React design systems and component libraries
 - [React-joyride](https://github.com/gilbarbara/react-joyride) - Create guided tours in your apps
 - [Kbar](https://kbar.vercel.app/) - Fully extensible command+k interface for your site
+- [Flexbox for react-three-fiber](https://github.com/pmndrs/react-three-flex)
 
 ### Hooks
 
@@ -1791,6 +1793,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Being Glue](https://noidea.dog/glue)
 - [How I Became a Software Engineer (From Designer to Developer)](https://leerob.io/blog/career)
 - [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
+- [Why flow matters more than passion](https://leaddev.com/culture-engagement-motivation/why-flow-matters-more-passion)
 
 ## Being a staff-plus engineer
 
