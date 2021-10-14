@@ -319,7 +319,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Zx](https://github.com/google/zx) - A tool for writing better scripts
 - [Elementary](https://www.elementary.audio/) - Finally, write audio apps in JavaScript
 - [Yare](https://yare.io/) - Real-Time Strategy game where you control your units by writing JavaScript code
-- [Smartcrop.js](https://github.com/jwagner/smartcrop.js) - Content aware image cropping### Games 🎲
+- [Smartcrop.js](https://github.com/jwagner/smartcrop.js) - Content aware image cropping
+- [Xterm.js](https://github.com/xtermjs/xterm.js) - A terminal for the web
 
 ## TypeScript
 
@@ -358,6 +359,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Typedoc](https://github.com/TypeStrong/typedoc) - Documentation generator for TypeScript projects
 - [Type-fest](https://github.com/sindresorhus/type-fest) - A collection of essential TypeScript types
 - [Ts-pattern](https://github.com/gvergnaud/ts-pattern) - An exhaustive Pattern Matching library for TypeScript, with smart type inference
+- [Tsm](https://github.com/lukeed/tsm) - TypeScript Module Loader
 
 ## Reason
 
@@ -371,6 +373,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [HTML & CSS is hard](https://internetingishard.com/html-and-css/) - Course to learn HTML & CSS
 - [Understanding why Semantic HTML is important, as told by TypeScript](https://medium.com/@mandy.michael/understanding-why-semantic-html-is-important-as-told-by-typescript-bd71ad41e6c4)
 - [On the <dl>](https://benmyers.dev/blog/on-the-dl/)
+- [CanInclude](https://caninclude.glitch.me/) - This site helps you understand which tag you can include in another
 
 ### HTML accessibility
 
@@ -554,6 +557,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
 - [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
 - [How and when to debounce or throttle in React](https://blog.logrocket.com/how-and-when-to-debounce-or-throttle-in-react/)
+- [Josh W. Comeau's snippets](https://www.joshwcomeau.com/snippets/) - Short solutions to discrete problems which can be copied and pasted
 
 #### Others
 
