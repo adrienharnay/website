@@ -301,6 +301,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [DOM Events](https://domevents.dev/) - Learn about the DOM Event system through exploration
 - [Does it mutate?](https://doesitmutate.xyz/) - Learn which functions of the language mutate and which do not
 - [Airbnb JavaScript styleguide](https://github.com/airbnb/javascript)
+- [Hasty](https://hasty.dev/) - JS performance measurement tool
 
 ### Useful libraries 💾
 
@@ -338,6 +339,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The unknown Type in TypeScript](https://mariusschulz.com/blog/the-unknown-type-in-typescript)
 - [Understanding TypeScript Generics](https://seanbarry.dev/posts/understanding-typescript-generics)
 - [Starting a TypeScript Project in 2021](https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/)
+- [Covariance and Contravariance in TypeScript](https://dmitripavlutin.com/typescript-covariance-contravariance/)
 
 ### Migration stories 📖
 
@@ -1345,6 +1347,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Everything you need to know about Design Systems](https://medium.com/ideas-by-idean/everything-you-need-to-know-about-design-systems-f6e82982be27)
 - [ReactiveConf 2019 - Mark Dalgleish: Rethinking Design Practices](https://www.youtube.com/watch?feature=youtu.be&v=jnV1u67_yVg)
 - [Everything I Know About Style Guides, Design Systems, and Component Libraries](https://leerob.io/blog/style-guides-component-libraries-design-systems)
+- [Yes, Design Systems Do Improve Developer Efficiency and Design Consistency](https://css-tricks.com/yes-design-systems-do-improve-developer-efficiency-and-design-consistency/)
 
 ## Useful libraries 💾
 
@@ -1574,6 +1577,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Definitive Guide To SEO In 2019](https://backlinko.com/seo-this-year)
 - [SEO component for structured data](https://mobile.twitter.com/signalnerve/status/1098691569362849799)
 - [The End of AMP](https://www.lafoo.com/the-end-of-amp/)
+- [SEO for devs](https://seofordevs.com/) - Learn to grow your developer blog or side project with SEO
 
 ### SEO benchmarks 💯
 
@@ -1647,11 +1651,12 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [VSCode Themes](https://vscodethemes.com/)
 - [Snipsnap Templates](https://github.com/snipsnapdev/snipsnap/tree/master/templates) - Manage, share and use code templates with cloud UI and VS Code Extension
-- [GitHub Copilot](https://github.com/github/copilot-preview)
+- [GitHub Copilot](https://copilot.github.com/)
 
 ### Online IDEs
 
 - [Awesome-online-ide](https://github.com/styfle/awesome-online-ide) - A list of awesome online development environments
+- [Visual Studio Code online](https://vscode.dev/)
 - [CodeSandbox](https://codesandbox.io/) - The online code editor for React
 - [Stackblitz](https://stackblitz.com/) - Online VS Code IDE for Modern Web Applications
 - [Demoboard: a live editor with every package on NPM](https://frontarm.com/articles/announcing-demoboard/)
@@ -1861,6 +1866,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Your Team is Not “Them”](https://css-tricks.com/your-team-is-not-them/)
 - [Understanding Project Management Will Improve Your Developer Job](https://blog.danielna.com/understanding-project-management-will-improve-your-developer-job/)
 - [Mission Command: enabling autonomous software teams](https://blog.thepete.net/blog/2019/02/08/mission-command-enabling-autonomous-software-teams/)
+- [Distributing Challenge: On Building Highly Engaged Teams](https://theworst.dev/pyramid-of-challenge)
+- [What Silicon Valley "Gets" about Software Engineers that Traditional Companies Do Not](https://blog.pragmaticengineer.com/what-silicon-valley-gets-right-on-software-engineers/)
 
 ## Career ladders
 
