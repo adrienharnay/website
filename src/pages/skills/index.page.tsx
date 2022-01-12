@@ -16,7 +16,7 @@ const SkillsPage: FunctionComponent = () => {
   return (
     <>
       <MetaTitle title="Skills • Adrien Harnay" />
-      <MetaDescription description="6 years as a JavaScript developer. 5 years with React. 3 years with React Native. Lead Front-End Engineer for 3,5 years. I am available for contract work!" />
+      <MetaDescription description="7 years as a JavaScript developer. 6 years with React and React Native. Lead / Staff Frontend Engineer for 4 years. I am available for contract work!" />
       <MetaImage src="/images/posts/laptop-code.jpeg" />
       <MainLayout>
         <div className={styles.container}>
