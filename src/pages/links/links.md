@@ -10,7 +10,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Developer toolbox](#developer-toolbox)
 
   - [Shell](#shell)
-  - [Git / Github](#git--github)
+  - [Git / GitHub](#git--github)
   - [Package managers](#package-managers)
   - [Web development tools](#web-development-tools)
 
@@ -211,13 +211,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) - VSCode extension
 - [Cheat](https://github.com/cheat/cheat) - Cheat allows you to create and view interactive cheatsheets on the command-line
 
-## Git / Github
+## Git / GitHub
 
 - [Git flight rules](https://github.com/k88hudson/git-flight-rules) - Flight rules for git
 - [Tell Me When it Closes](https://tellmewhenitcloses.com/) - Get only 1 email when an issue or PR closes
 - [GitHub Contributions Chart Generator](https://github-contributions.now.sh/)
 - [8 Productivity Tips for GitHub](https://dev.to/_darrenburns/8-productivity-tips-for-github-44kn)
 - [Creating the Perfect Commit in Git](https://css-tricks.com/creating-the-perfect-commit-in-git/)
+- [GitHub code search](https://cs.github.com/)
 
 ## Package managers
 
@@ -454,6 +455,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Cube Life](https://codepen.io/vasighm/full/QWdvrKb) - The game of life on a cube
 - [ui.wtf](https://uiw.tf/)
 - [The Hero Generator](https://hero-generator.netlify.app/) - Hero cover generator
+- [CSS Separator Generator](https://wweb.dev/resources/css-separator-generator/)
 
 ### SCSS
 
@@ -631,6 +633,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React-joyride](https://github.com/gilbarbara/react-joyride) - Create guided tours in your apps
 - [Kbar](https://kbar.vercel.app/) - Fully extensible command+k interface for your site
 - [Flexbox for react-three-fiber](https://github.com/pmndrs/react-three-flex)
+- [@artsy/fresnel](https://github.com/artsy/fresnel) - An SSR compatible approach to CSS media query based responsive layouts for React
 
 ### Hooks
 
@@ -735,7 +738,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ### Documentation / News 📚
 
 - [Gatsby.js docs](https://www.gatsbyjs.com/docs)
-- [Why GraphQL for Gatsby 1.0](https://github.com/gatsbyjs/gatsby/issues/420) - Github issue
+- [Why GraphQL for Gatsby 1.0](https://github.com/gatsbyjs/gatsby/issues/420) - GitHub issue
 - [Gatsby + Contentful + Netlify (and Algolia)](https://www.gatsbyjs.org/blog/2017-12-06-gatsby-plus-contentful-plus-netlify/)
 - [Announcing Gatsby 2.0.0](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/)
 - [Web Performance 102: Keeping Gatsby Sites Blazing Fast](https://www.gatsbyjs.org/blog/2019-10-03-gatsby-perf/)
@@ -1605,6 +1608,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ## Web3
 
 - [HERE IS THE ARTICLE YOU CAN SEND TO PEOPLE WHEN THEY SAY “BUT THE ENVIRONMENTAL ISSUES WITH CRYPTOART WILL BE SOLVED SOON, RIGHT?”](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3)
+- [Web3 is doing just great](https://web3isgoinggreat.com/) - ...and is definitely not an enormous grift that's pouring lighter fluid on our already-smoldering planet.
 
 # Misc. Tools
 
@@ -1626,6 +1630,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Iconic](https://iconic.app/) - Free, “do wtf you want with” pixel-perfect icons
 - [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) - Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos
 - [Boring avatars](https://boringavatars.com/) - Generates custom, SVG-based, round avatars from any username and color palette
+- [Free Illustrations](https://lukaszadam.com/illustrations)
 
 ## Productivity
 
@@ -1694,6 +1699,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [How HTTPS Works](https://howhttps.works/)
 - [How DNS works](https://howdns.works/)
+- [Mess with DNS](https://messwithdns.net/) - Try experimenting with DNS
 - [Flycut](https://github.com/TermiT/Flycut) - Clean and simple clipboard manager for developers
 - [IFTTT](https://ifttt.com/) - Applets linked to the services you love
 - [ConferCal](https://www.confercal.com/calendars/code) - A conference calendar for developers and other people in tech
@@ -1874,6 +1880,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Progression.fyi](https://www.progression.fyi/)
 - [Rent the Runway career ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
 - [Kickstarter carrer ladder](https://gist.github.com/jamtur01/aef437a79fee5a9cefdc)
+- [On eng ladders, promotions, glue work & success](https://rmurphey.medium.com/on-eng-ladders-promotions-glue-work-success-1bf230d44b3a)
 
 ## OSS
 
