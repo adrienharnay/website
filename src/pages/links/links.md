@@ -219,16 +219,30 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [8 Productivity Tips for GitHub](https://dev.to/_darrenburns/8-productivity-tips-for-github-44kn)
 - [Creating the Perfect Commit in Git](https://css-tricks.com/creating-the-perfect-commit-in-git/)
 - [GitHub code search](https://cs.github.com/)
+- [Oh Shit, Git!?!](https://ohshitgit.com/)
 
 ## Package managers
 
-### Yarn
+### Principles
+
+- [The Basics of Package.json](https://nodesource.com/blog/the-basics-of-package-json)
+- [Dependency Managers Don’t Manage Your Dependencies](https://cpojer.net/posts/dependency-managers-dont-manage-your-dependencies)
+- [monorepo.tools](https://monorepo.tools/) - Everything you need to know about monorepos, and the tools to build them.
+
+### Yarn 1
 
 - [Running Yarn offline](https://yarnpkg.com/blog/2016/11/24/offline-mirror/)
 - [Welcome to JS Dependency Hell](https://medium.com/swlh/welcome-to-dependency-hell-754a896f0440)
 - [Creating a Monorepo with Lerna & Yarn Workspaces](https://leerob.io/blog/monorepo-lerna-yarn-workspaces)
 - [Yarn-deduplicate](https://github.com/atlassian/yarn-deduplicate) - Cleans up yarn.lock by removing duplicates
 - [Yarn Lock Changes](https://github.com/Simek/yarn-lock-changes) - Creates a comment inside Pull Request with the human-readable summary of changes to the Yarn lock file
+
+### Yarn 3
+
+- [Migration to Yarn 3](https://yarnpkg.com/getting-started/migration)
+- [Yarn 3.1: Corepack, ESM, pnpm, Optional Packages, ...](https://dev.to/arcanis/yarn-31-corepack-esm-pnpm-optional-packages--3hak)
+- [Yarn Plug'n'Play](https://yarnpkg.com/features/pnp)
+- [Yarn patch-commit](https://yarnpkg.com/cli/patch-commit) - Patch-package built into Yarn 3
 
 ### Tools
 
@@ -239,6 +253,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [pkg](https://github.com/vercel/pkg) - Package your Node.js project into an executable
 - [Bundlephobia](https://bundlephobia.com/) - Find the cost of adding a npm package to your bundle
 - [Packagephobia](https://packagephobia.com/) - Find the cost of adding a new dev dependency to your project
+- [Depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies
 
 ## Web development tools
 
@@ -341,6 +356,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Understanding TypeScript Generics](https://seanbarry.dev/posts/understanding-typescript-generics)
 - [Starting a TypeScript Project in 2021](https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/)
 - [Covariance and Contravariance in TypeScript](https://dmitripavlutin.com/typescript-covariance-contravariance/)
+- [6 ways to narrow types in TypeScript](https://www.carlrippon.com/6-ways-to-narrow-types-in-typescript/)
 
 ### Migration stories 📖
 
@@ -456,6 +472,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ui.wtf](https://uiw.tf/)
 - [The Hero Generator](https://hero-generator.netlify.app/) - Hero cover generator
 - [CSS Separator Generator](https://wweb.dev/resources/css-separator-generator/)
+- [Awwwards](https://www.awwwards.com/) - The awards of design, creativity and innovation on the internet
 
 ### SCSS
 
@@ -562,6 +579,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Latest Ref Pattern in React](https://epicreact.dev/the-latest-ref-pattern-in-react/)
 - [How and when to debounce or throttle in React](https://blog.logrocket.com/how-and-when-to-debounce-or-throttle-in-react/)
 - [Josh W. Comeau's snippets](https://www.joshwcomeau.com/snippets/) - Short solutions to discrete problems which can be copied and pasted
+- [Good advice on JSX conditionals](https://thoughtspile.github.io/2022/01/17/jsx-conditionals/)
+- [When to break up a component into multiple components](https://kentcdodds.com/blog/when-to-break-up-a-component-into-multiple-components)
+- [React Children: The misunderstood prop](https://www.netlify.com/blog/2020/12/17/react-children-the-misunderstood-prop/)
 
 #### Others
 
@@ -900,6 +920,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Handling GraphQL errors like a champ with unions and interfaces](https://blog.logrocket.com/handling-graphql-errors-like-a-champ-with-unions-and-interfaces/)
 - [GraphQL in 2020: What's next?](https://productionreadygraphql.com/graphql-2020/)
 - [gqless or gqlful?](https://medium.com/@__xuorig__/gqless-or-gqlful-ec36fe588a4b)
+- [Unlimited free requests for developers on GraphCDN](https://graphcdn.io/blog/unlimited-free-requests-for-developers)
 
 ### Migration stories 📖
 
@@ -1823,6 +1844,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What a Senior Staff Software Engineer Actually Does - Part 1: The Role and My Tasks](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-f3fc140d5f33)
 - [What a Senior Staff Software Engineer Actually Does - Part 2: The Mindset and Focus of the Role](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-d55308fcdd41)
 - [On becoming a senior technical leader](https://blog.coinbase.com/on-becoming-a-senior-technical-leader-14106f1383b8)
+- [Staff eng archetypes](https://leebyron.com/til/staff-eng-archetypes/)
 
 ## Technical decision making
 
