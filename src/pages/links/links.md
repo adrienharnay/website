@@ -338,6 +338,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Yare](https://yare.io/) - Real-Time Strategy game where you control your units by writing JavaScript code
 - [Smartcrop.js](https://github.com/jwagner/smartcrop.js) - Content aware image cropping
 - [Xterm.js](https://github.com/xtermjs/xterm.js) - A terminal for the web
+- [Lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed) - A faster youtube embed
+- [Lax.js](https://github.com/alexfoxy/lax.js) - Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll
 
 ## TypeScript
 
@@ -598,6 +600,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Memoization and React](https://epicreact.dev/memoization-and-react/)
 - [React 18 Alpha is out! Now what?](https://dev.to/cassidoo/react-18-alpha-is-out-now-what-2apj)
 - [Not All Components Are Created Equal](https://formidable.com/blog/2021/react-components/)
+- [When is onChange not the same as onChange?](https://dev.to/_ezell_/when-is-onchange-is-not-the-same-as-onchange-3i3e)
 
 ### Related tools 🛠️
 
@@ -654,6 +657,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Kbar](https://kbar.vercel.app/) - Fully extensible command+k interface for your site
 - [Flexbox for react-three-fiber](https://github.com/pmndrs/react-three-flex)
 - [@artsy/fresnel](https://github.com/artsy/fresnel) - An SSR compatible approach to CSS media query based responsive layouts for React
+- [React-lite-youtube-embed](https://github.com/ibrahimcesar/react-lite-youtube-embed) - A private by default, faster and cleaner YouTube embed component for React applications
+- [React-live](https://github.com/FormidableLabs/react-live) - A flexible playground for live editing React components
 
 ### Hooks
 
@@ -806,6 +811,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How we reduced Next.js page size by 3.5x and achieved a 98 Lighthouse score](https://papyrus.dev/@PapyrusBlog/how-we-reduced-next.js-page-size-by-3.5x-and-achieved-a-98-lighthouse-score)
 - [Migrating a Blog to Next.js from Gatsby](https://blog.eyas.sh/2021/08/gatsby-to-next-js/)
 - [Using the Next.js Image Component with MDX](https://kylepfromer.com/blog/nextjs-image-component-blog)
+- [Optimizing third-party script loading in Next.js](https://web.dev/script-component/)
 
 ### Related tools 🛠️
 
@@ -819,6 +825,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Next-stripe](https://github.com/ynnoj/next-stripe) - Simplified server-side Stripe workflows in Next.js
 - [Next-optimized-images](https://github.com/cyrilwanner/next-optimized-images) - next-optimized-images automatically optimizes images used in next.js projects (jpeg, png, svg, webp and gif)
 - [Next-apollo](https://github.com/adamsoffer/next-apollo) - React higher-order component for integrating Apollo Client with Next.js
+- [Solito](https://github.com/nandorojo/solito) - React Native + Next.js, unified
 
 ## Astro
 
