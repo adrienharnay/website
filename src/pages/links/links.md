@@ -210,6 +210,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) - VSCode extension
 - [Shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) - VSCode extension
 - [Cheat](https://github.com/cheat/cheat) - Cheat allows you to create and view interactive cheatsheets on the command-line
+- [Crontab guru](https://crontab.guru/) - The quick and simple editor for cron schedule expressions
 
 ## Git / GitHub
 
@@ -239,6 +240,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ### Yarn 3
 
+- [Migrating our Monorepo to Yarn 2](https://www.dolthub.com/blog/2022-03-18-migrating-to-yarn-2/)
 - [Migration to Yarn 3](https://yarnpkg.com/getting-started/migration)
 - [Yarn 3.1: Corepack, ESM, pnpm, Optional Packages, ...](https://dev.to/arcanis/yarn-31-corepack-esm-pnpm-optional-packages--3hak)
 - [Yarn Plug'n'Play](https://yarnpkg.com/features/pnp)
@@ -540,6 +542,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React 16.x Roadmap](https://reactjs.org/blog/2018/11/27/react-16-roadmap.html)
 - [Building the New facebook.com with React, GraphQL and Relay](https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/)
 - [What's new in react 18?](https://yagmurcetintas.com/journal/whats-new-in-react-18)
+- [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html)
 
 ### Concepts / Articles 💡
 
@@ -750,6 +753,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ## Native Mobile Development
 
+### Related tools 🛠️
+
+- [Flinto](https://www.flinto.com/strike) - Easily test iOS icon designs on your home screen
+
 ### Useful libraries 💾
 
 - [Litho](https://fblitho.com/) - A declarative UI framework for Android
@@ -946,6 +953,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) - Check your GraphQL query strings against a schema
 - [Gest](https://github.com/mfix22/gest) - A sensible GraphQL testing tool - test your GraphQL schema locally and in the cloud
 - [graphql-request](https://github.com/prisma-labs/graphql-request) - Minimal GraphQL client supporting Node and browsers for scripts or simple apps
+- [JSON2SDL](https://www.json2sdl.com/) - Convert JSON to Schema Definition Language (SDL)
 
 ### Related tools 🛠️
 
@@ -1659,6 +1667,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [SuperTinyIcons](https://github.com/edent/SuperTinyIcons) - Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos
 - [Boring avatars](https://boringavatars.com/) - Generates custom, SVG-based, round avatars from any username and color palette
 - [Free Illustrations](https://lukaszadam.com/illustrations)
+- [Fluent Icons](https://fluenticons.co/) - Open source icons by Microsoft
 
 ## Productivity
 
