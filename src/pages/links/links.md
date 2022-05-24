@@ -1668,6 +1668,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Boring avatars](https://boringavatars.com/) - Generates custom, SVG-based, round avatars from any username and color palette
 - [Free Illustrations](https://lukaszadam.com/illustrations)
 - [Fluent Icons](https://fluenticons.co/) - Open source icons by Microsoft
+- [Lorem Picsum](https://picsum.photos/) - The Lorem Ipsum for photos
 
 ## Productivity
 
@@ -1742,6 +1743,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ConferCal](https://www.confercal.com/calendars/code) - A conference calendar for developers and other people in tech
 - [jsonmatic](https://jsonmatic.com/) - Transform a CSV into a JSON
 - [FracturedJson](https://j-brooke.github.io/FracturedJson/) - A JSON formatter that produces human-readable but fairly compact output
+- [Curl converter](https://curlconverter.com/) - Convert curl commands to Python, JavaScript, PHP, R, Go, Rust, Elixir, Java, MATLAB, Dart, CFML, Ansible URI, Strest or JSON
 
 # Developer insights
 
