@@ -262,6 +262,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How to Simulate Mobile Devices with Device Mode in Chrome](https://www.sitepoint.com/how-to-simulate-mobile-devices-with-device-mode-in-chrome/)
 - [Eruda](https://eruda.liriliri.io/) - Console for Mobile Browsers
 - [OutFrontJS](https://github.com/paanSinghCoder/OutFrontJS) - Console for mobile browsers
+- [Browserslist](https://browserslist.dev/) - A page to display compatible browsers from browserslist string
 
 # Programming languages
 
@@ -283,6 +284,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Taming the asynchronous beast with ES7](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html)
 - [Property order is predictable in JavaScript objects since ES2015](https://www.stefanjudis.com/today-i-learned/property-order-is-predictable-in-javascript-objects-since-es2015/)
 - [Working With Strings in Modern JavaScript](https://www.baseclass.io/guides/string-handling-modern-js)
+- [The triple dot syntax (...) in JavaScript: rest vs. spread](https://2ality.com/2022/05/rest-vs-spread.html)
 
 #### JavaScript patterns
 
@@ -312,6 +314,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
 - [How To Use Vibration API In Your Website](https://blog.bibekkakati.me/how-to-use-vibration-api-in-your-website)
 - [Browsers decode images differently](https://bien.ee/image-decoding-differences-between-browsers/)
+- [A Proposal For Type Syntax in JavaScript](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/)
 
 ### Related tools 🛠️
 
@@ -361,12 +364,25 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Starting a TypeScript Project in 2021](https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/)
 - [Covariance and Contravariance in TypeScript](https://dmitripavlutin.com/typescript-covariance-contravariance/)
 - [6 ways to narrow types in TypeScript](https://www.carlrippon.com/6-ways-to-narrow-types-in-typescript/)
+- [A Complete Guide To TypeScript’s Never Type](https://www.zhenghao.io/posts/ts-never)
+- [How not to learn TypeScript](https://fettblog.eu/how-not-to-learn-typescript/)
+- [TypeScript: Array.includes on narrow types](https://fettblog.eu/typescript-array-includes/)
+- [TypeScript: Low maintenance types](https://fettblog.eu/low-maintenance-types-typescript/)
+- [Tidy TypeScript: Prefer type aliases over interfaces](https://fettblog.eu/tidy-typescript-prefer-type-aliases/)
+- [TypeScript: Improving Object.keys](https://fettblog.eu/typescript-better-object-keys/)
+- [TypeScript: Type predicates](https://fettblog.eu/typescript-type-predicates/)
+- [TypeScript: Match the exact object shape](https://fettblog.eu/typescript-match-the-exact-object-shape/)
+- [Notes on Advanced TypeScript: Transforming Types](https://dev.to/busypeoples/notes-on-advanced-typescript-transforming-types-3icc)
+- [Notes on Advanced TypeScript: Runtime Validations](https://dev.to/busypeoples/notes-on-advanced-typescript-runtime-validations-5b)
+- [How to convert an array into string literal union type in TypeScript?](https://melvingeorge.me/blog/convert-array-into-string-literal-union-type-typescript)
 
 ### Migration stories 📖
 
 - [DevTools architecture refresh: migrating DevTools to TypeScript](https://developer.chrome.com/blog/migrating-to-typescript/)
 - [Slow and Steady: Converting Sentry’s Entire Frontend to TypeScript](https://blog.sentry.io/2021/04/12/slow-and-steady-converting-sentrys-entire-frontend-to-typescript)
 - [The continual evolution of Airtable’s codebase: Migrating a million lines of code to TypeScript](https://medium.com/airtable-eng/the-continual-evolution-of-airtables-codebase-migrating-a-million-lines-of-code-to-typescript-612c008baf5c)
+- [Etsy’s Journey to TypeScript](https://www.etsy.com/codeascraft/etsys-journey-to-typescript/)
+- [Migrating millions of lines of code to TypeScript](https://stripe.com/blog/migrating-to-typescript)
 
 ### Related tools 🛠️
 
@@ -383,6 +399,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Type-fest](https://github.com/sindresorhus/type-fest) - A collection of essential TypeScript types
 - [Ts-pattern](https://github.com/gvergnaud/ts-pattern) - An exhaustive Pattern Matching library for TypeScript, with smart type inference
 - [Tsm](https://github.com/lukeed/tsm) - TypeScript Module Loader
+- [Ts-toolbelt](https://github.com/millsp/ts-toolbelt) - TypeScript's largest type utility library
 
 ## Reason
 
@@ -736,6 +753,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React Native Upgrade Helper](https://react-native-community.github.io/upgrade-helper/)
 - [Android-capture](https://github.com/ds300/android-capture) - Capture video and screenshots from Android devices and emulators
 - [Don't kill my app!](https://dontkillmyapp.com/) - Android manufacturers prefer battery life over proper functionality of your apps. See how you can fix it
+- [React Native Developer Tools](https://microsoft.github.io/rnx-kit/) - Modern, scalable tools. Exceptional developer experience.
 
 ### Useful libraries 💾
 
@@ -1313,6 +1331,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ### Others
 
 - [@databases](https://www.atdatabases.org/) - Query SQL Databases using Node.js and TypeScript
+- [JavaScriptDB](https://javascriptdb.com/) - The easiest to use javascript database
 
 ## Others
 
@@ -1354,6 +1373,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Docz](https://www.docz.site/) - It has never been so easy to document your things!
 - [React-docgen](https://github.com/reactjs/react-docgen) - A CLI and toolbox to extract information from React component files for documentation generation purposes
 - [Nextra](https://nextra.vercel.app/) - Nextra is a Next.js based static site generator. 0 lines of code needed.
+- [Markdoc](https://markdoc.io/) - Markdoc is a powerful, flexible, Markdown-based authoring framework.
 
 ## Presentation generators
 
@@ -1669,6 +1689,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Free Illustrations](https://lukaszadam.com/illustrations)
 - [Fluent Icons](https://fluenticons.co/) - Open source icons by Microsoft
 - [Lorem Picsum](https://picsum.photos/) - The Lorem Ipsum for photos
+- [Reasonable Colors](https://reasonable.work/colors/) - Open-source color system for building accessible, nice-looking color palettes
 
 ## Productivity
 
@@ -1744,6 +1765,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [jsonmatic](https://jsonmatic.com/) - Transform a CSV into a JSON
 - [FracturedJson](https://j-brooke.github.io/FracturedJson/) - A JSON formatter that produces human-readable but fairly compact output
 - [Curl converter](https://curlconverter.com/) - Convert curl commands to Python, JavaScript, PHP, R, Go, Rust, Elixir, Java, MATLAB, Dart, CFML, Ansible URI, Strest or JSON
+- [Terms of Service Didn't Read](https://tosdr.org/) - Transparent retranscriptions of the terms of service of major web actors
 
 # Developer insights
 
