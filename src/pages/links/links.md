@@ -52,6 +52,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [Next.js](#nextjs)
   - [Astro](#astro)
   - [Electron](#electron)
+  - [Browser extensions](#browser-extensions)
 
 - [State management libraries](#state-management-libraries)
 
@@ -185,6 +186,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
   - [OSS](#oss)
   - [Remote working](#remote-working)
   - [Communicating](#communicating)
+  - [Writing documentation](#writing-documentation)
   - [Writing articles](#writing-articles)
   - [Speaking at events](#speaking-at-events)
   - [Job interviews](#job-interviews)
@@ -200,6 +202,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Personal achievements](#personal-achievements)
 
   - [Talks](#talks)
+
+- [Personal links](#personal-links)
 
 # Developer toolbox
 
@@ -229,6 +233,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Basics of Package.json](https://nodesource.com/blog/the-basics-of-package-json)
 - [Dependency Managers Don’t Manage Your Dependencies](https://cpojer.net/posts/dependency-managers-dont-manage-your-dependencies)
 - [monorepo.tools](https://monorepo.tools/) - Everything you need to know about monorepos, and the tools to build them.
+- [Monorepos in JavaScript & TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
 
 ### Yarn 1
 
@@ -285,6 +290,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Property order is predictable in JavaScript objects since ES2015](https://www.stefanjudis.com/today-i-learned/property-order-is-predictable-in-javascript-objects-since-es2015/)
 - [Working With Strings in Modern JavaScript](https://www.baseclass.io/guides/string-handling-modern-js)
 - [The triple dot syntax (...) in JavaScript: rest vs. spread](https://2ality.com/2022/05/rest-vs-spread.html)
+- [When You Should Prefer Map Over Object In JavaScript](https://www.zhenghao.io/posts/object-vs-map)
 
 #### JavaScript patterns
 
@@ -621,6 +627,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [React 18 Alpha is out! Now what?](https://dev.to/cassidoo/react-18-alpha-is-out-now-what-2apj)
 - [Not All Components Are Created Equal](https://formidable.com/blog/2021/react-components/)
 - [When is onChange not the same as onChange?](https://dev.to/_ezell_/when-is-onchange-is-not-the-same-as-onchange-3i3e)
+- [Virtual DOM is pure overhead](https://svelte.dev/blog/virtual-dom-is-pure-overhead)
 
 ### Related tools 🛠️
 
@@ -863,6 +870,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [From React to an Electron app ready for production](https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3)
 - [Building Electron Apps with Next.js](https://leo.im/2017/electron-next)
+
+## Browser extensions
+
+- [Plasmo](https://github.com/PlasmoHQ/plasmo) - The browser extension framework
 
 # State management libraries
 
@@ -1550,6 +1561,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Things that should not end up in production clientside code](https://mobile.twitter.com/henrikjoreteg/status/1032879748387459072) - Twitter thread
 - [Are long JavaScript tasks delaying your Time to Interactive?](https://web.dev/long-tasks-devtools/?authuser=1)
 - [Building a Faster Web Experience with the postTask Scheduler](https://medium.com/airbnb-engineering/building-a-faster-web-experience-with-the-posttask-scheduler-276b83454e91)
+- [Don’t Sink Your Website With Third Parties](https://www.smashingmagazine.com/2022/06/dont-sink-website-third-parties/)
 
 ### React performance
 
@@ -1806,6 +1818,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Managing Complex Waiting Experiences on Web UIs](https://medium.com/@fkadev/managing-complex-waiting-experiences-on-web-uis-29534d2d92a8)
 - [Write tasks not user stories](https://linear.app/method/write-tasks-not-user-stories)
 - [Stackshare](https://stackshare.io/stacks) - Popular Tech Stacks
+- [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
 
 ## Product insights
 
@@ -1916,10 +1929,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How I Teach](https://kentcdodds.com/blog/how-i-teach)
 - [Why mentorship in tech is important](https://blog.logrocket.com/why-mentorship-is-important-in-tech/)
 - [Lessons from training teams to use React Native](https://blog.coinbase.com/lessons-from-training-teams-to-use-react-native-67ec78b9ab7a)
-- [Why it’s worth it to invest in internal docs](https://increment.com/documentation/why-investing-in-internal-docs-is-worth-it/)
 - [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/)
 - [The Behind-the-scenes Work of Tech Leadership](https://blog.coleadership.com/behind-the-scenes-tech-leadership/)
 - [How to Make Good Code Reviews Better](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/)
+- [Servant leadership: why being a servant leader is worth the work](https://nesslabs.com/servant-leadership)
 
 ## Management
 
@@ -1936,6 +1949,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Mission Command: enabling autonomous software teams](https://blog.thepete.net/blog/2019/02/08/mission-command-enabling-autonomous-software-teams/)
 - [Distributing Challenge: On Building Highly Engaged Teams](https://theworst.dev/pyramid-of-challenge)
 - [What Silicon Valley "Gets" about Software Engineers that Traditional Companies Do Not](https://blog.pragmaticengineer.com/what-silicon-valley-gets-right-on-software-engineers/)
+- [What To Do When Your Feedback Doesn't Land](https://larahogan.me/blog/feedback-doesnt-land/)
 
 ## Career ladders
 
@@ -1943,6 +1957,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Rent the Runway career ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
 - [Kickstarter carrer ladder](https://gist.github.com/jamtur01/aef437a79fee5a9cefdc)
 - [On eng ladders, promotions, glue work & success](https://rmurphey.medium.com/on-eng-ladders-promotions-glue-work-success-1bf230d44b3a)
+- [Malt career ladder](https://docs.google.com/document/d/e/2PACX-1vTZGJWF1EUx0CG8s005Ge7ui2hYr5hGE_6HXK9O-CHEAHZj2NDIgomLbkJhs_i60x_cAASTvCPXqtQe/pub)
 
 ## OSS
 
@@ -1971,10 +1986,17 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The Art of the Awkward 1:1](https://medium.com/@mrabkin/the-art-of-the-awkward-1-1-f4e1dcbd1c5c)
 - [The P Rules](https://boz.com/articles/p-rules)
 - [The four layers of communication in a functional team](https://qz.com/work/1468580/the-four-layers-of-communication-in-a-functional-team/)
+- [The Skill of Naming What's Happening in the Room](https://larahogan.me/blog/skill-naming-whats-happening/)
+
+## Writing documentation
+
+- [Why it’s worth it to invest in internal docs](https://increment.com/documentation/why-investing-in-internal-docs-is-worth-it/)
+- [Docs for Everyone!](https://meganesulli.com/blog/docs-for-everyone/)
 
 ## Writing articles
 
 - [The Two Minutes It Takes To Read This Will Improve Your Writing Forever](https://medium.com/an-idea-for-you/the-two-minutes-it-takes-to-read-this-will-improve-your-writing-forever-82a7d01441d1)
+- [How to Write Concisely](https://hbr.org/2022/06/how-to-write-concisely)
 
 ## Speaking at events
 
@@ -1992,6 +2014,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Twitter thread on interview questions before joining a startup](https://mobile.twitter.com/jensenharris/status/988967889330819072)
 - [Salary negotiation thread](https://mobile.twitter.com/sehurlburt/status/1017631027395612672) - by Stephanie Hurlburt
 - [Getting a Gig: A Guide](https://github.com/cassidoo/getting-a-gig) - Guide for getting a gig as a tech student by Cassidy Williams
+- [Interview the interviewer](https://github.com/readme/guides/technical-interviews)
 
 ## Coding interviews
 
@@ -2050,3 +2073,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ## Talks
 
 - [Power your mobile apps with Apollo-client](https://www.facebook.com/abbealbzzz/videos/778190315711576/) - 21'40
+
+# Personal links
+
+- [Mechanical Watch](https://ciechanow.ski/mechanical-watch/)
+- [Once In A Lifetime](https://www.collaborativefund.com/blog/once-in-a-lifetime/)
