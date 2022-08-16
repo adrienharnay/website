@@ -225,6 +225,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Creating the Perfect Commit in Git](https://css-tricks.com/creating-the-perfect-commit-in-git/)
 - [GitHub code search](https://cs.github.com/)
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
+- [Ignoring mass reformatting commits with git blame](https://akrabat.com/ignoring-revisions-with-git-blame/)
 
 ## Package managers
 
@@ -261,6 +262,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Bundlephobia](https://bundlephobia.com/) - Find the cost of adding a npm package to your bundle
 - [Packagephobia](https://packagephobia.com/) - Find the cost of adding a new dev dependency to your project
 - [Depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies
+- [Release](https://github.com/ossjs/release) - Minimalistic, opinionated, and predictable release automation tool
 
 ## Web development tools
 
@@ -396,6 +398,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Type challenges](https://github.com/type-challenges/type-challenges)
 - [Typescript-cheatsheet](https://github.com/typescript-cheatsheets/utilities) - A list of typescript helper libraries
 - [New ESLint / TypeScript Configuration](https://calendee.com/2019/04/12/new-eslint-typescript-configuration/)
+- [TypeScript errors and how to fix them](https://typescript.tv/errors/)
 
 ### Useful libraries 💾
 
@@ -610,6 +613,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Good advice on JSX conditionals](https://thoughtspile.github.io/2022/01/17/jsx-conditionals/)
 - [When to break up a component into multiple components](https://kentcdodds.com/blog/when-to-break-up-a-component-into-multiple-components)
 - [React Children: The misunderstood prop](https://www.netlify.com/blog/2020/12/17/react-children-the-misunderstood-prop/)
+- [Avoiding useEffect with callback refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
 
 #### Others
 
@@ -744,6 +748,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Coinbase’s animated TabBar in React Native](https://blog.coinbase.com/coinbases-animated-tabbar-in-react-native-4b3fdd4473e)
 - [Optimizing React Native](https://blog.coinbase.com/optimizing-react-native-7e7bf7ac3a34)
 - [How Discord achieves native iOS performance with React Native](https://blog.discord.com/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502)
+- [How to implement over the air updates with expo-updates in React Native](https://shift.infinite.red/how-to-implement-over-the-air-updates-with-expo-updates-in-react-native-c26787d4a3cf)
 
 ### Migration stories 📖
 
@@ -1240,6 +1245,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 ### Others
 
 - [Comparing the New Generation of Build Tools](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)
+- [Faster JavaScript Builds with Metro](https://medium.com/airbnb-engineering/faster-javascript-builds-with-metro-cfc46d617a1f)
 
 ## Transpilers and optimizers
 
