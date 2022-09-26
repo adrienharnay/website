@@ -263,6 +263,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Packagephobia](https://packagephobia.com/) - Find the cost of adding a new dev dependency to your project
 - [Depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies
 - [Release](https://github.com/ossjs/release) - Minimalistic, opinionated, and predictable release automation tool
+- [The Perfect Development Environment](https://cpojer.net/posts/the-perfect-development-environment) - by Christoph Nakazawa
 
 ## Web development tools
 
@@ -304,6 +305,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [9 single-statement JS algorithms for common data transformations](https://www.benmvp.com/blog/9-single-statement-javascript-algorithms-common-data-transformations/)
 - [Refactoring cascading conditionals in favor of readability](https://blog.logrocket.com/refactoring-cascading-conditionals-favor-readability/)
 - [Naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet) - Comprehensive language-agnostic guidelines on variables naming
+- [A Visual Guide to References in JavaScript](https://daveceddia.com/javascript-references/)
 
 #### Functional / Declarative programming
 
@@ -461,6 +463,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Avoiding jagged edges on gradients](https://medium.com/pixel-and-ink/avoiding-jagged-edges-on-gradients-f485cc7401f5)
 - [The Just in Case Mindset in CSS](https://ishadeed.com/article/the-just-in-case-mindset-css/)
 - [Thoughts on CSS frameworks and stylized component libraries](https://www.joshwcomeau.com/newsletter-issues/012/#thoughts-on-css-frameworks-and-stylized-component-libraries) - From Josh Comeau's newsletter
+- [Lightning CSS](https://lightningcss.dev/) - An extremely fast CSS parser, transformer, bundler, and minifier
 
 ### Flexbox
 
@@ -614,6 +617,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [When to break up a component into multiple components](https://kentcdodds.com/blog/when-to-break-up-a-component-into-multiple-components)
 - [React Children: The misunderstood prop](https://www.netlify.com/blog/2020/12/17/react-children-the-misunderstood-prop/)
 - [Avoiding useEffect with callback refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
+- [Why React Re-Renders](https://www.joshwcomeau.com/react/why-react-re-renders/)
+- [Understanding useMemo and useCallback](https://www.joshwcomeau.com/react/usememo-and-usecallback/)
 
 #### Others
 
@@ -1436,6 +1441,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Awesome-design-systems](https://github.com/alexpate/awesome-design-systems) - A collection of awesome design systems
 - [Introducing Base Web, Uber’s New Design System for Building Websites in React](https://eng.uber.com/introducing-base-web/)
 - [Braid design system](https://github.com/seek-oss/braid-design-system) - Themeable design system for the SEEK Group
+- [Druids](https://druids.datadoghq.com/) - Datadog's design system
 
 # Advanced concepts
 
@@ -1889,6 +1895,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How I Became a Software Engineer (From Designer to Developer)](https://leerob.io/blog/career)
 - [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 - [Why flow matters more than passion](https://leaddev.com/culture-engagement-motivation/why-flow-matters-more-passion)
+- [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 
 ## Being a staff-plus engineer
 
