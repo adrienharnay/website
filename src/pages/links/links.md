@@ -355,6 +355,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Xterm.js](https://github.com/xtermjs/xterm.js) - A terminal for the web
 - [Lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed) - A faster youtube embed
 - [Lax.js](https://github.com/alexfoxy/lax.js) - Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll
+- [magicast](https://github.com/unjs/magicast) - Programmatically modify JavaScript and TypeScript source codes with a simplified, elegant and familiar syntax powered by recast and babel
 
 ## TypeScript
 
@@ -385,6 +386,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Notes on Advanced TypeScript: Transforming Types](https://dev.to/busypeoples/notes-on-advanced-typescript-transforming-types-3icc)
 - [Notes on Advanced TypeScript: Runtime Validations](https://dev.to/busypeoples/notes-on-advanced-typescript-runtime-validations-5b)
 - [How to convert an array into string literal union type in TypeScript?](https://melvingeorge.me/blog/convert-array-into-string-literal-union-type-typescript)
+- [Better Configuration in TypeScript with the `satisfies` Operator](https://www.builder.io/blog/satisfies-operator)
+- [TypeScript Discriminated Unions for Frontend Developers](https://www.totaltypescript.com/discriminated-unions-are-a-devs-best-friend)
+- [Typescripting the technical interview](https://www.richard-towers.com/2023/03/11/typescripting-the-technical-interview.html)
 
 ### Migration stories 📖
 
@@ -425,6 +429,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Understanding why Semantic HTML is important, as told by TypeScript](https://medium.com/@mandy.michael/understanding-why-semantic-html-is-important-as-told-by-typescript-bd71ad41e6c4)
 - [On the <dl>](https://benmyers.dev/blog/on-the-dl/)
 - [CanInclude](https://caninclude.glitch.me/) - This site helps you understand which tag you can include in another
+- [6 Common SVG Fails (and How to Fix Them)](https://css-tricks.com/6-common-svg-fails-and-how-to-fix-them/)
 
 ### HTML accessibility
 
@@ -454,6 +459,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Practical CSS Scroll Snapping](https://css-tricks.com/practical-css-scroll-snapping/)
 - [Easing Gradients](https://larsenwork.com/easing-gradients/)
 - [You want enabling CSS selectors, not disabling ones](https://www.silvestar.codes/articles/you-want-a-single-enabling-selector-not-the-one-that-disables-the-rule-of-the-previous-one/)
+- [The truth about CSS selector performance](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)
 
 ### Others
 
@@ -572,6 +578,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Building the New facebook.com with React, GraphQL and Relay](https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/)
 - [What's new in react 18?](https://yagmurcetintas.com/journal/whats-new-in-react-18)
 - [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html)
+- [How React 18 Improves Application Performance](https://vercel.com/blog/how-react-18-improves-application-performance)
 
 ### Concepts / Articles 💡
 
@@ -619,6 +626,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Avoiding useEffect with callback refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
 - [Why React Re-Renders](https://www.joshwcomeau.com/react/why-react-re-renders/)
 - [Understanding useMemo and useCallback](https://www.joshwcomeau.com/react/usememo-and-usecallback/)
+- [The Interactive Guide to Rendering in React](https://ui.dev/why-react-renders)
+- [Understanding React Server Components](https://vercel.com/blog/understanding-react-server-components)
 
 #### Others
 
@@ -717,6 +726,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Open Source Roadmap](http://facebook.github.io/react-native/blog/2018/11/01/oss-roadmap)
 - [Hermes: An open source JavaScript engine optimized for mobile apps, starting with React Native](https://code.fb.com/android/hermes/)
 - [React Native's Many Platform Vision](https://reactnative.dev/blog/2021/08/26/many-platform-vision)
+- [React Native Performance Issues Catalogue](https://spangled-split-858.notion.site/React-Native-Performance-Issues-Catalogue-9338979a2a5648e883331ef2050e963c)
 
 ### Concepts / Articles 💡
 
@@ -1429,6 +1439,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [ReactiveConf 2019 - Mark Dalgleish: Rethinking Design Practices](https://www.youtube.com/watch?feature=youtu.be&v=jnV1u67_yVg)
 - [Everything I Know About Style Guides, Design Systems, and Component Libraries](https://leerob.io/blog/style-guides-component-libraries-design-systems)
 - [Yes, Design Systems Do Improve Developer Efficiency and Design Consistency](https://css-tricks.com/yes-design-systems-do-improve-developer-efficiency-and-design-consistency/)
+- [The Key To Good Component Design Is Selfishness](https://www.smashingmagazine.com/2023/01/key-good-component-design-selfishness/)
 
 ## Useful libraries 💾
 
@@ -1831,6 +1842,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Write tasks not user stories](https://linear.app/method/write-tasks-not-user-stories)
 - [Stackshare](https://stackshare.io/stacks) - Popular Tech Stacks
 - [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
+- [The 25 Percent Rule for Tackling Technical Debt](https://shopify.engineering/technical-debt-25-percent-rule)
+- [DevEx: What Actually Drives Productivity](https://queue.acm.org/detail.cfm?id=3595878)
+- [Readability: Google's Temple to Engineering Excellence](https://www.moderndescartes.com/essays/readability/)
 
 ## Product insights
 
@@ -1865,6 +1879,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Tiny Wins](https://joelcalifa.com/blog/tiny-wins/)
 - [Optimal Placement for Mobile Call to Action Buttons](https://uxmovement.com/mobile/optimal-placement-for-mobile-call-to-action-buttons/)
 - [The Everything is a Giant Project Mentality](https://webdevexplorer.substack.com/p/everything-is-a-giant-project-mentality)
+- [Advanced techniques for writing good interfaces](https://uxdesign.cc/advanced-techniques-for-writing-good-interfaces-c030ae60150)
+- [The problem with disabled buttons and what to do instead](https://adamsilver.io/blog/the-problem-with-disabled-buttons-and-what-to-do-instead/)
+- [Laws of UX](https://lawsofux.com/)
 
 ## Being a developer
 
@@ -1896,6 +1913,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 - [Why flow matters more than passion](https://leaddev.com/culture-engagement-motivation/why-flow-matters-more-passion)
 - [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
+- [5 Tips to creating a (good) pull request](https://www.danijelavrzan.com/posts/2023/02/create-pull-request/)
 
 ## Being a staff-plus engineer
 
