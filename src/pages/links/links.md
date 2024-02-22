@@ -1740,6 +1740,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 ## Regex testers
 
+- [Cyrilex](https://extendsclass.com/regex-tester.html) - Regex validator / visualizer
 - [Regexr](https://regexr.com/) - Regex validator / tutorials
 - [Regex101](https://regex101.com/) - Regex validator / tutorials
 
