@@ -128,6 +128,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 - [Advanced concepts](#advanced-concepts)
 
+  - [Feature flags](#feature-flags)
   - [State machines](#state-machines)
   - [Server Side Rendering](#server-side-rendering)
 
@@ -151,6 +152,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
   - [SEO](#seo)
   - [Security](#security)
+  - [AI](#ai)
   - [Web3](#web3)
 
 - [Misc. tools](#misc-tools)
@@ -389,6 +391,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Better Configuration in TypeScript with the `satisfies` Operator](https://www.builder.io/blog/satisfies-operator)
 - [TypeScript Discriminated Unions for Frontend Developers](https://www.totaltypescript.com/discriminated-unions-are-a-devs-best-friend)
 - [Typescripting the technical interview](https://www.richard-towers.com/2023/03/11/typescripting-the-technical-interview.html)
+- [One Thing Nobody Explained To You About TypeScript](https://kettanaito.com/blog/one-thing-nobody-explained-to-you-about-typescript)
 
 ### Migration stories 📖
 
@@ -430,6 +433,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [On the <dl>](https://benmyers.dev/blog/on-the-dl/)
 - [CanInclude](https://caninclude.glitch.me/) - This site helps you understand which tag you can include in another
 - [6 Common SVG Fails (and How to Fix Them)](https://css-tricks.com/6-common-svg-fails-and-how-to-fix-them/)
+- [How to Favicon in 2024: Six files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 
 ### HTML accessibility
 
@@ -1456,6 +1460,21 @@ Everytime I find a new resource and think I might need it in the future, it gets
 
 # Advanced concepts
 
+## Feature flags
+
+### Concepts / Articles 💡
+
+- [Why use feature flags? Benefits, types and use cases, explained](https://posthog.com/product-engineers/feature-flag-benefits-use-cases)
+- [How, when, and where to run your first A/B test](https://posthog.com/product-engineers/how-to-do-ab-testing)
+- [10 things we've learned about A/B testing for startups](https://posthog.com/newsletter/what-we've-learned-about-ab-testing)
+- [8 annoying A/B testing mistakes every engineer should know](https://posthog.com/product-engineers/ab-testing-mistakes)
+- [9 essential feature flag best practices (with code examples)](https://posthog.com/product-engineers/feature-flag-best-practices)
+- [Multivariate testing, explained (with examples)](https://posthog.com/product-engineers/what-is-multivariate-testing-examples)
+- [When and how to run group-targeted A/B tests](https://posthog.com/product-engineers/running-group-targeted-ab-tests)
+- [Metrics that cannot even be measured in retrospect](https://longform.asmartbear.com/unmeasurable-metrics)
+- [What you can learn from how GitHub and GitLab use feature flags](https://posthog.com/product-engineers/github-gitlab-feature-flags)
+- [How YC's biggest startups run A/B tests (with examples)](https://posthog.com/product-engineers/ab-testing-examples)
+
 ## State machines
 
 ### Concepts / Articles 💡
@@ -1696,6 +1715,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Security headers](https://securityheaders.com/) - Audit your website for performances
 - [Observatory by Mozilla](https://observatory.mozilla.org/)
 
+## AI
+
+- [Should you have an AI strategy? Here's ours - by Posthog](https://posthog.com/posts/should-you-have-an-ai-strategy-here-s-ours)
+
 ## Web3
 
 - [HERE IS THE ARTICLE YOU CAN SEND TO PEOPLE WHEN THEY SAY “BUT THE ENVIRONMENTAL ISSUES WITH CRYPTOART WILL BE SOLVED SOON, RIGHT?”](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3)
@@ -1845,6 +1868,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The 25 Percent Rule for Tackling Technical Debt](https://shopify.engineering/technical-debt-25-percent-rule)
 - [DevEx: What Actually Drives Productivity](https://queue.acm.org/detail.cfm?id=3595878)
 - [Readability: Google's Temple to Engineering Excellence](https://www.moderndescartes.com/essays/readability/)
+- [9 Ways to Improve How You Ship Software](https://www.flightcontrol.dev/blog/9-ways-to-improve-how-you-ship-software)
 
 ## Product insights
 
@@ -1882,6 +1906,14 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Advanced techniques for writing good interfaces](https://uxdesign.cc/advanced-techniques-for-writing-good-interfaces-c030ae60150)
 - [The problem with disabled buttons and what to do instead](https://adamsilver.io/blog/the-problem-with-disabled-buttons-and-what-to-do-instead/)
 - [Laws of UX](https://lawsofux.com/)
+- [12 Signs You’re Working in a Feature Factory](https://cutle.fish/blog/12-signs-youre-working-in-a-feature-factory)
+- [How we build features users love (really fast) - by Posthog](https://posthog.com/product-engineers/measuring-feature-success)
+- [How we designed our company for speed - by Posthog](https://posthog.com/founders/how-come-we-ship-so-much)
+- [The First 15 Seconds](https://medium.com/positiveslope/the-first-15-seconds-9590d7dabc#.hl08au3yw)
+- [Crafting The First Mile Of Product](https://medium.com/positiveslope/crafting-the-first-mile-of-product-7ed25e8f1027#.751hpkf8k)
+- [Why Onboarding is the Most Crucial Part of Your Growth Strategy](https://caseyaccidental.com/startup-onboarding)
+- [Feature/Product Fit](https://caseyaccidental.com/feature-product-fit/)
+- [Five Ways to Address Complexity In Your Product](https://caseyaccidental.com/product-complexity)
 
 ## Being a developer
 
@@ -1914,6 +1946,10 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Why flow matters more than passion](https://leaddev.com/culture-engagement-motivation/why-flow-matters-more-passion)
 - [How To Learn Stuff Quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 - [5 Tips to creating a (good) pull request](https://www.danijelavrzan.com/posts/2023/02/create-pull-request/)
+- [The Making of a Senior Engineer](https://careercutler.substack.com/p/the-making-of-a-senior-engineer-guest)
+- [What Distinguishes Great Software Engineers?](https://newsletter.getdx.com/p/great-engineers)
+- [Traits I Value - by boz.](https://boz.com/articles/traits)
+- [Beyond the 10x engineer](https://newsletter.posthog.com/p/beyond-the-10x-engineer)
 
 ## Being a staff-plus engineer
 
@@ -1929,6 +1965,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [What a Senior Staff Software Engineer Actually Does - Part 2: The Mindset and Focus of the Role](https://medium.com/box-tech-blog/what-a-senior-staff-software-engineer-actually-does-d55308fcdd41)
 - [On becoming a senior technical leader](https://blog.coinbase.com/on-becoming-a-senior-technical-leader-14106f1383b8)
 - [Staff eng archetypes](https://leebyron.com/til/staff-eng-archetypes/)
+- [The Principal Engineer's Handbook](https://ilya.grigorik.com/the-principal-engineers-handbook/)
+- [How to put the plus in ‘staff+’ engineer](https://github.com/readme/guides/staff-engineers)
 
 ## Technical decision making
 
@@ -1939,6 +1977,8 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
 - [How to write a better technical design document](https://www.range.co/blog/better-tech-specs)
 - [Stepping Stones not Milestones](https://medium.com/@jamesacowling/stepping-stones-not-milestones-e6be0073563f)
+- [5 Mistakes That Made My Documents Terrible](https://newsletter.techleadmentor.com/p/5-mistakes-that-made-my-documents)
+- [The importance of forming opinions in the engineering industry](https://newsletter.eng-leadership.com/p/the-importance-of-forming-opinions)
 
 ## Engineering strategies
 
@@ -1981,6 +2021,9 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Distributing Challenge: On Building Highly Engaged Teams](https://theworst.dev/pyramid-of-challenge)
 - [What Silicon Valley "Gets" about Software Engineers that Traditional Companies Do Not](https://blog.pragmaticengineer.com/what-silicon-valley-gets-right-on-software-engineers/)
 - [What To Do When Your Feedback Doesn't Land](https://larahogan.me/blog/feedback-doesnt-land/)
+- [How a startup loses its spark](https://blog.johnqian.com/startup-spark)
+- [You are hurting your team without even noticing](https://zaidesanton.substack.com/p/when-engineering-managers-become)
+- [Everything we've learned about hiring for startups (so far)](https://newsletter.posthog.com/p/everything-weve-learned-about-hiring)
 
 ## Career ladders
 
@@ -1989,6 +2032,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [Kickstarter carrer ladder](https://gist.github.com/jamtur01/aef437a79fee5a9cefdc)
 - [On eng ladders, promotions, glue work & success](https://rmurphey.medium.com/on-eng-ladders-promotions-glue-work-success-1bf230d44b3a)
 - [Malt career ladder](https://docs.google.com/document/d/e/2PACX-1vTZGJWF1EUx0CG8s005Ge7ui2hYr5hGE_6HXK9O-CHEAHZj2NDIgomLbkJhs_i60x_cAASTvCPXqtQe/pub)
+- [A new iteration of our engineering career path at Alan](https://medium.com/alan/a-new-iteration-of-our-engineering-career-path-at-alan-f46f7b229b2d)
 
 ## OSS
 
@@ -2018,6 +2062,7 @@ Everytime I find a new resource and think I might need it in the future, it gets
 - [The P Rules](https://boz.com/articles/p-rules)
 - [The four layers of communication in a functional team](https://qz.com/work/1468580/the-four-layers-of-communication-in-a-functional-team/)
 - [The Skill of Naming What's Happening in the Room](https://larahogan.me/blog/skill-naming-whats-happening/)
+- [7 types of difficult coworkers and how to deal with them](https://careercutler.substack.com/p/7-types-of-difficult-coworkers-and)
 
 ## Writing documentation
 
